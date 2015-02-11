@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Hevletica Neue", Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -64,20 +64,19 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #519fbd;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #35748c; }
   a:hover {
-    color: #111;
-    text-decoration: underline; }
+    color: #111; }
 
 /**
  * Blockquotes
  */
 blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
+  color: #2b5464;
+  border-left: 4px solid #8dbcce;
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
@@ -91,7 +90,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #8dbcce;
   border-radius: 3px;
   background-color: #eef; }
 
@@ -110,16 +109,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(850px - (30px * 2));
+  max-width: calc(850px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 850px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
+      max-width: -webkit-calc(850px - (30px));
+      max-width: calc(850px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -140,14 +139,13 @@ pre {
   height: 16px;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #828282; }
+    fill: #2b5464; }
 
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #8dbcce;
   min-height: 56px;
   position: relative; }
 
@@ -156,9 +154,10 @@ pre {
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left; }
+  float: left;
+  font-weight: 400; }
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: #05090b; }
 
 .site-nav {
   float: right;
@@ -166,17 +165,19 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #519fbd;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
+  .site-nav .page-link:hover {
+    color: #111; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
       top: 9px;
       right: 30px;
       background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
+      border: 1px solid #8dbcce;
       border-radius: 5px;
       text-align: right; }
       .site-nav .menu-icon {
@@ -191,7 +192,7 @@ pre {
           width: 18px;
           height: 15px; }
           .site-nav .menu-icon > svg path {
-            fill: #424242; }
+            fill: #05090b; }
       .site-nav .trigger {
         clear: both;
         display: none; }
@@ -206,49 +207,41 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
-  padding: 30px 0; }
-
-.footer-heading {
-  font-size: 18px;
-  margin-bottom: 15px; }
+  border-top: 1px solid #8dbcce; }
 
 .contact-list,
 .social-media-list {
   list-style: none;
-  margin-left: 0; }
+  margin-left: 0;
+  float: right; }
+
+.social-media-list li {
+  display: inline-block;
+  margin-left: 10px; }
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #828282;
-  margin-left: -15px; }
+  color: #2b5464;
+  margin-left: -15px;
+  padding-top: 15px; }
 
 .footer-col {
   float: left;
-  margin-bottom: 15px;
   padding-left: 15px; }
 
 .footer-col-1 {
+  width: -webkit-calc(65% - (30px / 2));
+  width: calc(65% - (30px / 2)); }
+
+.footer-col-2 {
   width: -webkit-calc(35% - (30px / 2));
   width: calc(35% - (30px / 2)); }
 
-.footer-col-2 {
-  width: -webkit-calc(20% - (30px / 2));
-  width: calc(20% - (30px / 2)); }
-
-.footer-col-3 {
-  width: -webkit-calc(45% - (30px / 2));
-  width: calc(45% - (30px / 2)); }
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (30px / 2));
-    width: calc(50% - (30px / 2)); }
-
-  .footer-col-3 {
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
+    width: calc(50% - (30px / 2)); } }
 @media screen and (max-width: 600px) {
   .footer-col {
     float: none;
@@ -266,16 +259,27 @@ pre {
 .post-list {
   margin-left: 0;
   list-style: none; }
-  .post-list > li {
+  .post-list > div {
     margin-bottom: 30px; }
+
+.post-float {
+  float: left;
+  max-width: 30%; }
+
+.post-float:nth-of-type(3n+2) {
+  margin-right: 5%;
+  margin-left: 5%; }
 
 .post-meta {
   font-size: 14px;
-  color: #828282; }
+  color: #2b5464; }
 
 .post-link {
   display: block;
   font-size: 24px; }
+
+.post-link:hover {
+  font-weight: bold; }
 
 /**
  * Posts
@@ -287,7 +291,7 @@ pre {
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 850px) {
     .post-title {
       font-size: 36px; } }
 
@@ -295,19 +299,37 @@ pre {
   margin-bottom: 30px; }
   .post-content h2 {
     font-size: 32px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 850px) {
       .post-content h2 {
         font-size: 28px; } }
   .post-content h3 {
     font-size: 26px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 850px) {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
     font-size: 20px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 850px) {
       .post-content h4 {
         font-size: 18px; } }
+
+/***about***/
+.main-about {
+  width: 70%;
+  margin-right: 5%;
+  float: left; }
+  .main-about h1 {
+    font-size: 1.75em; }
+  .main-about h4 {
+    text-decoration: underline; }
+
+.about-image {
+  width: 20%;
+  margin-left: 5%;
+  float: left; }
+
+.profile-picture {
+  border-radius: 50%; }
 
 /**
  * Syntax highlighting styles
