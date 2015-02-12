@@ -9,7 +9,7 @@ layout: default
 
   <article class="post-content">
     {{ content }}
-    <h5>{{ page.categories }}</h5>
+    <h5>Categories: {{ page.categories | join: ', ' }}</h5>
   </article>
 
 </div>

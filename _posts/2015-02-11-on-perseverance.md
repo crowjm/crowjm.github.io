@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On Perseverance"
-date:   2015-02-10 13:03:50
+date:   2015-02-11 13:03:50
 categories: tiydesign Iron-Yard design
 excerpt: Attending The Iron Yard is one of the most demanding, challenging, inspiring, and rewarding experiences I've ever had. I'm just over two weeks in and I'm amazed by how much I've learned, and how much more I'll learn in the next two and a half months.
 ---
