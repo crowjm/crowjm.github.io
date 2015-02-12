@@ -1,10 +1,10 @@
 # Site settings
 title: Jesse Crow
-email: jessemcrow@gmail.com
+email: jessemcrow [at] gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Portfolio site for Austin-based designer, Jesse Crow.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://crowjm.github.io" # the base hostname & protocol for your site
 twitter_username: crowjm
 github_username: crowjm
 

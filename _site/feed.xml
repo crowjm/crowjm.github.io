@@ -4,11 +4,34 @@
     <title>Jesse Crow</title>
     <description>Portfolio site for Austin-based designer, Jesse Crow.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Feb 2015 19:26:25 -0600</pubDate>
-    <lastBuildDate>Wed, 11 Feb 2015 19:26:25 -0600</lastBuildDate>
+    <link>http://crowjm.github.io/</link>
+    <atom:link href="http://crowjm.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 12 Feb 2015 15:53:45 -0600</pubDate>
+    <lastBuildDate>Thu, 12 Feb 2015 15:53:45 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Sketches and Perfectionism</title>
+        <description>&lt;h2 id=&quot;sketches-and-perfectionism&quot;&gt;Sketches and Perfectionism&lt;/h2&gt;
+
+&lt;p&gt;Our first website sketching assignment sent me into a state of panic. I had to fight my inner perfectionist and accept some major flaws in my work (and consequently share work I wasn’t proud of).&lt;/p&gt;
+
+&lt;p&gt;We were assigned ten websites that we had to sketch on a grid. And we had to use pen. PEN. I knew I would make mistakes and there would be nothing I could do to correct them and that’s when the panic began. &lt;/p&gt;
+
+&lt;p&gt;My instructor, Sam, talked about how sketches don’t have to be perfect, how they shouldn’t be perfect. They’re an important first step in the design process and they should be done quickly to get ideas down on the page.&lt;/p&gt;
+
+&lt;p&gt;That sounded great until I started drawing crooked lines and divs in the wrong place. Even though I knew my sketches shouldn’t be perfect, I put pressure on myself to make them so. I felt like they couldn’t be used because they had mistakes.&lt;/p&gt;
+
+&lt;p&gt;We had to share our worst sketch the next day in class. I was terrified at first, but then I realized we all had mistakes. Lines weren’t straight, proportions were off, etc. What I had built up to be horrendous mistakes &lt;em&gt;weren’t mistakes at all&lt;/em&gt;. The layouts of the sites were still conveyed and we could understand what the others had sketched. And that’s the whole point.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/first-sketches.JPG&quot; alt=&quot;A couple of my first sketches.&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://crowjm.github.io/2015/02/12/sketches-and-perfectionism.html</link>
+        <guid isPermaLink="true">http://crowjm.github.io/2015/02/12/sketches-and-perfectionism.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>On Perseverance</title>
@@ -28,16 +51,10 @@
 
 &lt;p&gt;The best thing about The Iron Yard is that no one has to go it alone. If I’m stumped, I have plenty of people around me who I can ask for help, who can be a sounding board, and who can point me in the right direction. When I figure out a challenging concept, I have people to high five. Persevering is a lot easier with a supportive community, and I’m thankful to be part of this one. &lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Feb 2015 07:03:50 -0600</pubDate>
-        <link>http://yourdomain.com/tiydesign/iron-yard/design/2015/02/11/on-perseverance.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/tiydesign/iron-yard/design/2015/02/11/on-perseverance.html</guid>
+        <pubDate>Wed, 11 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://crowjm.github.io/2015/02/11/on-perseverance.html</link>
+        <guid isPermaLink="true">http://crowjm.github.io/2015/02/11/on-perseverance.html</guid>
         
-        
-        <category>tiydesign</category>
-        
-        <category>iron-yard</category>
-        
-        <category>design</category>
         
       </item>
     
@@ -56,14 +73,10 @@
 
 &lt;p&gt;Web design is more than just making things look pretty. You have to think critically and creatively and solve problems while building your site. You also have to consider the messages of your site. I’m excited to do all of these things.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 Feb 2015 07:03:50 -0600</pubDate>
-        <link>http://yourdomain.com/design/communication-studies/2015/02/10/why-web-design.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/design/communication-studies/2015/02/10/why-web-design.html</guid>
+        <pubDate>Tue, 10 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://crowjm.github.io/2015/02/10/why-web-design.html</link>
+        <guid isPermaLink="true">http://crowjm.github.io/2015/02/10/why-web-design.html</guid>
         
-        
-        <category>design</category>
-        
-        <category>communication-studies</category>
         
       </item>
     
