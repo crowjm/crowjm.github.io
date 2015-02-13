@@ -3,12 +3,12 @@ layout: post
 title:  "Sketches and Perfectionism"
 date:   2015-02-12
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: Our first website sketching assignment sent me into a state of panic. I had to fight my inner perfectionist and accept some major flaws in my work (and consequently share work I wasn't proud of).
+excerpt: Our first website sketching assignment sent me into a state of panic. I had to fight my inner perfectionist and accept having what I considered major flaws in my work (and consequently share work I wasn't proud of).
 ---
 
 ##Sketches and Perfectionism
 
-Our first website sketching assignment sent me into a state of panic. I had to fight my inner perfectionist and accept some major flaws in my work (and consequently share work I wasn't proud of).
+Our first website sketching assignment sent me into a state of panic. I had to fight my inner perfectionist and accept having what I considered major flaws in my work (and consequently share work I wasn't proud of).
 
 We were assigned ten websites that we had to sketch on a grid. And we had to use pen. PEN. I knew I would make mistakes and there would be nothing I could do to correct them and that's when the panic began. 
 
