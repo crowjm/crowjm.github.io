@@ -6,9 +6,39 @@
 </description>
     <link>http://crowjm.github.io/</link>
     <atom:link href="http://crowjm.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Feb 2015 13:23:07 -0600</pubDate>
-    <lastBuildDate>Fri, 13 Feb 2015 13:23:07 -0600</lastBuildDate>
+    <pubDate>Sun, 15 Feb 2015 19:33:03 -0600</pubDate>
+    <lastBuildDate>Sun, 15 Feb 2015 19:33:03 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Basic Responsive Codepens</title>
+        <description>&lt;h2&gt;Basic Responsive Codepens&lt;/h2&gt;
+
+&lt;p&gt;We had our first Responsive Web Design (RWD) lecture on Friday. RWD means designing for all sorts of devices and screens. RWD means being inclusive and inclusiveness is my jam.&lt;/p&gt;
+
+&lt;p&gt;Over the weekend, we had a few homework assignments to get used to RWD where we had to use percentages, media queries, and breakpoints. RWD is oddly comforting to me and makes me feel like I have more control over my code and therefore more control over the user’s experience. &lt;/p&gt;
+
+&lt;p&gt;Here are the Codepens I created with this weekend’s homework. If you click on the “Edit on Codepen” link in the upper right hand of each, they’ll open in a new tab and you’ll be able to resize the browser window to see all of their responsive glory.&lt;/p&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;raJqOP&quot; data-default-tab=&quot;result&quot; data-user=&quot;crowjm&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/raJqOP/&quot;&gt;Responsive #1&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;emVPzx&quot; data-default-tab=&quot;result&quot; data-user=&quot;crowjm&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/emVPzx/&quot;&gt;Responsive #1&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;ogEazj&quot; data-default-tab=&quot;result&quot; data-user=&quot;crowjm&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/ogEazj/&quot;&gt;Responsive #1&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;GgQYNW&quot; data-default-tab=&quot;result&quot; data-user=&quot;crowjm&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/GgQYNW/&quot;&gt;Responsive #2&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 15 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://crowjm.github.io/2015/02/15/basic-responsive-codepens.html</link>
+        <guid isPermaLink="true">http://crowjm.github.io/2015/02/15/basic-responsive-codepens.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Sketches and Perfectionism</title>
