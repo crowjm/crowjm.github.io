@@ -1,0 +1,88 @@
+/***footer realign***/
+@media screen and (min-width: 31.25em) {
+
+footer {
+    padding-bottom: 1.5em;
+}
+
+.footer-col-1, .footer-col-2 {
+    width: 50%;
+    float: left;
+}
+
+.footer-col-1 {
+    text-align: left;
+}
+
+.footer-col-2 {
+    text-align: right;
+}
+}
+
+/***medium sized media query***/
+@media screen and (min-width: 45em) {
+
+
+/***blog posts main view (currently index.html)***/
+.post-float {
+    width: 48%;
+    float: left;
+}	
+
+.post-float:nth-of-type(odd) {
+    margin-right: 4%;
+}
+
+
+/***about***/
+.main-about {
+	width: 70%;
+    margin-right: 5%;
+    float: left;
+    margin-bottom: 3em;
+    h1 {
+        text-align: left;
+    }
+}
+
+.bottom-prof-pic {
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+    float: left;
+}
+
+.profile-picture-bottom {
+	border-radius: 50%;
+}
+
+.top-prof-pic {
+	display: none;
+}
+
+
+/***footer***/
+footer {
+    clear: both;
+}
+}
+
+
+/***large sized media query***/
+@media screen and (min-width: 56.25em) {
+/***blog posts main view (currently index.html)***/
+.post-float {
+    width: 30%;
+    float: left;
+}   
+
+.post-float:nth-of-type(odd) {
+    margin-right: 0;
+}
+
+.post-float:nth-of-type(3n+2) {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+}

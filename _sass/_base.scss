@@ -1,18 +1,5 @@
-/**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
-}
+/***global CSS***/
 
-
-
-/**
- * Basic styling
- */
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
@@ -20,74 +7,18 @@ body {
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
 }
 
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+.wrapper {
+    width: 90%;
+    max-width: 50em;
+    margin: 0 auto;
 }
 
-
-
-/**
- * Images
- */
 img {
     max-width: 100%;
-    vertical-align: middle;
 }
 
-
-
-/**
- * Figures
- */
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $small-font-size;
-}
-
-
-
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $spacing-unit;
-}
-
-li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
-}
-
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
-}
-
-
-
-/**
- * Links
- */
 a {
     color: $brand-color;
     text-decoration: none;
@@ -102,42 +33,209 @@ a {
 }
 
 
+/***header***/
+.site-header {
+    border-bottom: 0.0625em solid $teal-color-light;
+    min-height: 3em;
+}
 
-/**
- * Blockquotes
- */
-blockquote {
-    color: $teal-color;
-    border-left: 4px solid $teal-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
+.site-title {
+    font-size: 1.5em;
+    line-height: 2em;
+    float: left;
+    font-weight: 400;
 
-    > :last-child {
-        margin-bottom: 0;
+    &,
+    &:visited {
+        color: $teal-color-dark;
+    }
+}
+
+.site-nav {
+    float: right;
+    line-height: 3em;
+    .page-link {
+        color: $brand-color;
+        line-height: $base-line-height;
+    }
+     .page-link:hover {
+        color: $text-color;
     }
 }
 
 
+/***footer***/
+.site-footer {
+    border-top: 0.0625em solid $teal-color-light;
+}
 
-/**
- * Code formatting
- */
+.contact-list,
+.social-media-list {
+    list-style: none;
+}
+
+.social-media-list li {
+    display: inline-block;
+    margin-left: 0.625em;
+}
+
+.social-media-list li:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    font-size: 1em;
+    color: $teal-color;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/***about***/
+.main-about {
+    width: 90%;
+    margin: 0 auto;
+    p {
+        margin-top: 1em;
+    }
+    h1 {
+        font-size: 1.75em;
+        text-align: center;
+    }
+    h4 {
+        text-decoration: underline;
+    }
+}
+
+.currently {
+    p {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    h4 {
+        margin-top: 0.5em;
+    }
+}
+
+
+em {
+    font-style: italic;
+}
+
+.top-prof-pic {
+    margin: 0 auto;
+}
+
+.profile-picture-top {
+    border-radius: 50%;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+.bottom-prof-pic {
+    display: none;
+}
+
+
+/***page content***/
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 1.25em;
+}
+
+
+/***blog posts main view (currently index.html)***/
+.post-list {
+    margin-left: 0;
+    list-style: none;
+    > div {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-float {
+    margin: 0 auto;
+    max-width: 32.9375em;
+    h2 {
+        text-decoration: underline;
+        margin-bottom: 1em;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $teal-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 1.5em;
+}
+
+.post-link:hover {
+    font-weight: 400;
+    margin: 0;
+}
+
+/***Posts***/
+.post-header {
+    margin-bottom: calc(#{$spacing-unit}/2);
+}
+
+.post-title {
+    font-size: 2.5em;
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+    p {
+        margin-bottom: calc(#{$spacing-unit}/2);
+    }
+    h2 {
+        font-size: 2em;
+        margin-bottom: calc(#{$spacing-unit}/2);
+        }
+    h3 {
+        font-size: 1.625em;
+    }
+    h4 {
+        font-size: 1.25em;
+    }
+}
+
+
+/***things that were included in the original that I don't understand/want to mess up***/
+/*only change is converting px to em*/
+/***figures***/
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+/***code formatting***/
 pre,
 code {
-    font-size: 15px;
-    border: 1px solid $teal-color-light;
-    border-radius: 3px;
+    font-size: 1em;
+    border: 0.0625em solid $teal-color-light;
+    border-radius: 0.1875em;
     background-color: #eef;
 }
 
 code {
-    padding: 1px 5px;
+    padding: 0.0625em 0.3125em;
 }
 
 pre {
-    padding: 8px 12px;
+    padding: 0.5em 0.75em;
     overflow-x: scroll;
 
     > code {
@@ -147,53 +245,13 @@ pre {
     }
 }
 
-
-
-/**
- * Wrapper
- */
-.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}
-
-
-
-/**
- * Clearfix
- */
-%clearfix {
-
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-
-
-/**
- * Icons
- */
+/***icons***/
 .icon {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 1em;
+        height: 1em;
         vertical-align: middle;
 
         path {
