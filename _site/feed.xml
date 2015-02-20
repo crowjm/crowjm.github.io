@@ -6,9 +6,59 @@
 </description>
     <link>http://crowjm.github.io/</link>
     <atom:link href="http://crowjm.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Feb 2015 17:41:30 -0600</pubDate>
-    <lastBuildDate>Tue, 17 Feb 2015 17:41:30 -0600</lastBuildDate>
+    <pubDate>Thu, 19 Feb 2015 22:45:07 -0600</pubDate>
+    <lastBuildDate>Thu, 19 Feb 2015 22:45:07 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Responsive Sketches</title>
+        <description>&lt;h2&gt;Responsive Sketches&lt;/h2&gt;
+
+&lt;p&gt;We&#39;re diving head first into RWD (from a global-first approach) and it is fascinating. RWD isn&#39;t magically going to tackle all of the challenges web designers face, but I think it&#39;s brilliant that there is a design approach that requires us as designers to think about accessibility and inclusiveness from the get go.&lt;/p&gt;
+
+&lt;p&gt;To practice what we&#39;re learning, we were assigned fixed-width websites of five local businesses to create responsive sketches for. When sketching, we couldn&#39;t just take the same larger site and scale it down; we had to consider different content needs for each breakpoint. A couple days later, we had to create another set of responsive sketches for the same sites. I really liked iterating the sketching process and thinking of new ideas for the same content.&lt;/p&gt;
+
+&lt;h4&gt;PTerry&#39;s:&lt;/h4&gt;
+&lt;div class=&quot;post-float-container&quot;&gt;
+	&lt;img src=&quot;/img/PTerrys1.JPG&quot; alt=&quot;Sketch of PTerrys responsive website&quot; class=&quot;post-float-image&quot; /&gt;
+	&lt;img src=&quot;/img/PTerrys2.JPG&quot; alt=&quot;Sketch of PTerrys responsive website&quot; class=&quot;post-float-image&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;I decided that the focus on the smallest screen should be the menu and nutritional/allergy information. You&#39;re on the run and want to see if PTerry&#39;s has anything that you want to/can eat. On the first sketch, I included the story of how they began that&#39;s prominent on their current homepage. Because of its positioning, I could tell it was very important content to them and I wanted to be respectful of that. On the second sketch of the smallest screen, I ditched it and replaced it with a map of their locations and contact information.&lt;/p&gt;
+
+&lt;h4&gt;Salt Lick:&lt;/h4&gt;
+&lt;div class=&quot;post-float-container&quot;&gt;
+	&lt;img src=&quot;/img/SaltLick1.JPG&quot; alt=&quot;Sketch of Salt Lick responsive website&quot; class=&quot;post-float-image&quot; /&gt;
+	&lt;img src=&quot;/img/SaltLick2.JPG&quot; alt=&quot;Sketch of Salt Lick responsive website&quot; class=&quot;post-float-image&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;Salt Lick&#39;s current website feels very busy and the content feels lost because of that. On both of the sketches I did for their site, I made the content more prominent by using white space and simplifying the layout. On the second sketch, I brought in a carousel of images for the medium and largest size screens. This way, they can showcase various parts of their business, like the barbeque itself and their wedding catering. Keeping it contained to one spot on the page feels a lot less cluttered and gives the other content more of a chance to stand out and be noticed.&lt;/p&gt;
+
+&lt;h4&gt;Tarka:&lt;/h4&gt;
+&lt;div class=&quot;post-float-container&quot;&gt;
+	&lt;img src=&quot;/img/Tarka1.JPG&quot; alt=&quot;Sketch of Tarka responsive website&quot; class=&quot;post-float-image&quot; /&gt;
+	&lt;img src=&quot;/img/Tarka2.JPG&quot; alt=&quot;Sketch of Tarka responsive website&quot; class=&quot;post-float-image&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;There wasn&#39;t much that I changed about the current Tarka site on my first round of sketches. It&#39;s a simple grid system with colors that make you hungry, which is great for a menu page of a restaurant&#39;s website. I changed the layout and introduced more pictures in the largest breakpoint of the second sketch. I thought good quality and well shot photos of their food would be a great addition.&lt;/p&gt;
+
+&lt;h4&gt;Fair Bean Coffee:&lt;/h4&gt;
+&lt;div class=&quot;post-float-container&quot;&gt;
+	&lt;img src=&quot;/img/FairBean1.JPG&quot; alt=&quot;Sketch of Fair Bean responsive website&quot; class=&quot;post-float-image&quot; /&gt;
+	&lt;img src=&quot;/img/FairBean2.JPG&quot; alt=&quot;Sketch of Fair Bean responsive website&quot; class=&quot;post-float-image&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;In the first sketch, I thought that the main content across all breakpoints should be the coffee and their business ethics/philosophy. I wanted to make everything bigger and include a full width image with their name and tagline on it. I was so set on this idea, I didn&#39;t consider different content for different screen sizes. In the second sketches, I added their coffee and tea menus and location to the smallest screen size. I also added space for more photos to the medium and largest size screens.&lt;/p&gt;
+
+&lt;h4&gt;ABGB:&lt;/h4&gt;
+&lt;div class=&quot;post-float-container&quot;&gt;
+	&lt;img src=&quot;/img/ABGB1.JPG&quot; alt=&quot;Sketch of AGBG responsive website&quot; class=&quot;post-float-image&quot; /&gt;
+	&lt;img src=&quot;/img/ABGB2.JPG&quot; alt=&quot;Sketch of AGBG responsive website&quot; class=&quot;post-float-image&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;I kept the layout similar to their existing website in my first set of sketches. The only major difference was I gave more prominence to the location and hours and took away the Twitter feed and archive. In the second set of sketches, I decided priority should be give to news and their beer and food menus.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://crowjm.github.io/2015/02/18/responsive-sketches.html</link>
+        <guid isPermaLink="true">http://crowjm.github.io/2015/02/18/responsive-sketches.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Basic Responsive Codepens</title>

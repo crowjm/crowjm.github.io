@@ -110,18 +110,12 @@ a {
 }
 
 .currently {
-    p {
-        margin-bottom: 0;
-        margin-top: 0;
-    }
     h4 {
         margin-top: 0.5em;
     }
-}
-
-
-em {
-    font-style: italic;
+    span {
+        font-style: italic;
+    }
 }
 
 .top-prof-pic {
@@ -186,6 +180,9 @@ em {
 /***Posts***/
 .post-header {
     margin-bottom: calc(#{$spacing-unit}/2);
+    max-width: 43.75em;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .post-title {
@@ -194,6 +191,9 @@ em {
 
 .post-content {
     margin-bottom: $spacing-unit;
+    max-width: 43.75em;
+    margin-right: auto;
+    margin-left: auto;
     p {
         margin-bottom: calc(#{$spacing-unit}/2);
     }
@@ -206,6 +206,14 @@ em {
     }
     h4 {
         font-size: 1.25em;
+    }
+}
+
+.post-float-container {
+    .post-float-image {
+        width: 100%;
+    }
+    .post-float-image:nth-of-type(even) {
     }
 }
 

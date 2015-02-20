@@ -61,6 +61,19 @@ footer {
 }
 
 
+/***post images***/
+.post-float-container {
+    overflow: hidden;
+    .post-float-image {
+        width: 48%;
+        float: left;
+        margin-right: 4%;
+    }
+    .post-float-image:nth-of-type(even) {
+        margin-right: 0;
+    }
+}
+
 /***footer***/
 footer {
     clear: both;

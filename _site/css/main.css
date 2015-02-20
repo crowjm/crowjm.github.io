@@ -127,13 +127,9 @@ a {
   .main-about h4 {
     text-decoration: underline; }
 
-.currently p {
-  margin-bottom: 0;
-  margin-top: 0; }
 .currently h4 {
   margin-top: 0.5em; }
-
-em {
+.currently span {
   font-style: italic; }
 
 .top-prof-pic {
@@ -183,13 +179,19 @@ em {
 
 /***Posts***/
 .post-header {
-  margin-bottom: calc(1.875em/2); }
+  margin-bottom: calc(1.875em/2);
+  max-width: 43.75em;
+  margin-right: auto;
+  margin-left: auto; }
 
 .post-title {
   font-size: 2.5em; }
 
 .post-content {
-  margin-bottom: 1.875em; }
+  margin-bottom: 1.875em;
+  max-width: 43.75em;
+  margin-right: auto;
+  margin-left: auto; }
   .post-content p {
     margin-bottom: calc(1.875em/2); }
   .post-content h2 {
@@ -199,6 +201,9 @@ em {
     font-size: 1.625em; }
   .post-content h4 {
     font-size: 1.25em; }
+
+.post-float-container .post-float-image {
+  width: 100%; }
 
 /***things that were included in the original that I don't understand/want to mess up***/
 /*only change is converting px to em*/
@@ -281,6 +286,16 @@ pre {
 
   .top-prof-pic {
     display: none; }
+
+  /***post images***/
+  .post-float-container {
+    overflow: hidden; }
+    .post-float-container .post-float-image {
+      width: 48%;
+      float: left;
+      margin-right: 4%; }
+    .post-float-container .post-float-image:nth-of-type(even) {
+      margin-right: 0; }
 
   /***footer***/
   footer {
