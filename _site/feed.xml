@@ -6,9 +6,37 @@
 </description>
     <link>http://crowjm.github.io/</link>
     <atom:link href="http://crowjm.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Feb 2015 22:45:07 -0600</pubDate>
-    <lastBuildDate>Thu, 19 Feb 2015 22:45:07 -0600</lastBuildDate>
+    <pubDate>Thu, 19 Feb 2015 23:52:11 -0600</pubDate>
+    <lastBuildDate>Thu, 19 Feb 2015 23:52:11 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Web Typography Codepens</title>
+        <description>&lt;p&gt;Today we started talking about typography and I loved every second of it. I&#39;ve been interested in typography for a while and I&#39;m so pumped to be nerding out about it and learning as much about it as we are.&lt;/p&gt;
+&lt;p&gt;To start the day off, we watched Helvetica, a documentary about the ubiquitous font and how it&#39;s shaped decades of typography. While watching the film, it became very clear to me that I&#39;m a modernist. Minimal, organized, sturdy. I&#39;m glad to have some perspective and focus on that now and can&#39;t wait to design something of my own.&lt;/p&gt;
+&lt;p&gt;Part of tonight&#39;s homework was to find inspiration in &lt;a href=&quot;http://www.designishistory.com/&quot;&gt;Design Is History&lt;/a&gt; and create Codepens based on our inspiration. Notice a trend?&lt;/p&gt;
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;vERVbg&quot; data-default-tab=&quot;result&quot; data-user=&quot;crowjm&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/vERVbg/&quot;&gt;Typography 1&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;ZYxqPZ&quot; data-default-tab=&quot;result&quot; data-user=&quot;crowjm&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/ZYxqPZ/&quot;&gt;Typography 2&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;radqbE&quot; data-default-tab=&quot;result&quot; data-user=&quot;crowjm&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/radqbE/&quot;&gt;Typography 3&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;XJExvr&quot; data-default-tab=&quot;result&quot; data-user=&quot;crowjm&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/XJExvr/&quot;&gt;Typography 4&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;JoLejX&quot; data-default-tab=&quot;result&quot; data-user=&quot;crowjm&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/JoLejX/&quot;&gt;JoLejX&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Thu, 19 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://crowjm.github.io/2015/02/19/web-typography-codepens.html</link>
+        <guid isPermaLink="true">http://crowjm.github.io/2015/02/19/web-typography-codepens.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Responsive Sketches</title>
@@ -141,7 +169,7 @@
       <item>
         <title>Why Web Design?</title>
         <description>&lt;h2 id=&quot;why-web-design&quot;&gt;Why Web Design?&lt;/h2&gt;
-&lt;p&gt;I moved to Austin in March 2014 in search of new opportunities. I worked in retail, office management, and social media marketing before and couldn’t see myself making a career in any of those fields. I was very lost in terms of job direction and itching to find something I enjoy doing that I could turn into a career.  &lt;/p&gt;
+&lt;p&gt;I moved to Austin in search of new opportunities. I worked in retail, office management, and social media marketing before and couldn’t see myself making a career in any of those fields. I was very lost in terms of job direction and itching to find something I enjoy doing that I could turn into a career.  &lt;/p&gt;
 
 &lt;p&gt;Enter web design.  &lt;/p&gt;
 
