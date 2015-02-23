@@ -10,8 +10,8 @@ body {
 }
 
 .wrapper {
-    width: 90%;
-    max-width: 50em;
+    width: 95%;
+    max-width: 56.25em; /*900px*/
     margin: 0 auto;
 }
 
@@ -37,6 +37,7 @@ a {
 .site-header {
     border-bottom: 0.0625em solid $teal-color-light;
     min-height: 3em;
+    max-width: 100%;
 }
 
 .site-title {
@@ -67,6 +68,7 @@ a {
 /***footer***/
 .site-footer {
     border-top: 0.0625em solid $teal-color-light;
+    max-width: 100%;
 }
 
 .contact-list,
@@ -95,7 +97,7 @@ a {
 
 /***about***/
 .main-about {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     p {
         margin-top: 1em;
@@ -155,7 +157,7 @@ a {
 
 .post-float {
     margin: 0 auto;
-    max-width: 32.9375em;
+    max-width: 100%;
     h2 {
         text-decoration: underline;
         margin-bottom: 1em;
@@ -183,6 +185,9 @@ a {
     max-width: 43.75em;
     margin-right: auto;
     margin-left: auto;
+    h3 {
+        font-size: 1.75em;
+    }
 }
 
 .post-title {
@@ -207,11 +212,18 @@ a {
     h4 {
         font-size: 1.25em;
     }
+    .half-size-image {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 }
 
 .post-float-container {
     .post-float-image {
         width: 100%;
+        margin: 0 auto;
     }
     .post-float-image:nth-of-type(even) {
     }

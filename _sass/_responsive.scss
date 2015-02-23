@@ -27,6 +27,7 @@ footer {
 .post-float {
     width: 48%;
     float: left;
+    min-height: 13.5em;
 }	
 
 .post-float:nth-of-type(odd) {
@@ -87,6 +88,7 @@ footer {
 .post-float {
     width: 30%;
     float: left;
+    min-height: 18em;
 }   
 
 .post-float:nth-of-type(odd) {

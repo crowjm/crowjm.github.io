@@ -3,7 +3,7 @@ layout: post
 title:  "Web Typography Codepens"
 date:   2015-02-19
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: Today we started talking about typography and I loved every second of it.
+excerpt: Today we started talking about typography and I loved every second of it. I've been interested in typography for a while and I'm so pumped to be nerding out about it and learning as much about it as we are.
 ---
 
 <p>Today we started talking about typography and I loved every second of it. I've been interested in typography for a while and I'm so pumped to be nerding out about it and learning as much about it as we are.</p>

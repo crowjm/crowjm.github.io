@@ -55,8 +55,9 @@ body {
   background-color: #fdfdfd; }
 
 .wrapper {
-  width: 90%;
-  max-width: 50em;
+  width: 95%;
+  max-width: 56.25em;
+  /*900px*/
   margin: 0 auto; }
 
 img {
@@ -73,7 +74,8 @@ a {
 /***header***/
 .site-header {
   border-bottom: 0.0625em solid #8dbcce;
-  min-height: 3em; }
+  min-height: 3em;
+  max-width: 100%; }
 
 .site-title {
   font-size: 1.5em;
@@ -94,7 +96,8 @@ a {
 
 /***footer***/
 .site-footer {
-  border-top: 0.0625em solid #8dbcce; }
+  border-top: 0.0625em solid #8dbcce;
+  max-width: 100%; }
 
 .contact-list,
 .social-media-list {
@@ -117,7 +120,7 @@ a {
 
 /***about***/
 .main-about {
-  width: 90%;
+  width: 95%;
   margin: 0 auto; }
   .main-about p {
     margin-top: 1em; }
@@ -160,7 +163,7 @@ a {
 
 .post-float {
   margin: 0 auto;
-  max-width: 32.9375em; }
+  max-width: 100%; }
   .post-float h2 {
     text-decoration: underline;
     margin-bottom: 1em; }
@@ -183,6 +186,8 @@ a {
   max-width: 43.75em;
   margin-right: auto;
   margin-left: auto; }
+  .post-header h3 {
+    font-size: 1.75em; }
 
 .post-title {
   font-size: 2.5em; }
@@ -201,9 +206,15 @@ a {
     font-size: 1.625em; }
   .post-content h4 {
     font-size: 1.25em; }
+  .post-content .half-size-image {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
 
 .post-float-container .post-float-image {
-  width: 100%; }
+  width: 100%;
+  margin: 0 auto; }
 
 /***things that were included in the original that I don't understand/want to mess up***/
 /*only change is converting px to em*/
@@ -261,7 +272,8 @@ pre {
   /***blog posts main view (currently index.html)***/
   .post-float {
     width: 48%;
-    float: left; }
+    float: left;
+    min-height: 13.5em; }
 
   .post-float:nth-of-type(odd) {
     margin-right: 4%; }
@@ -305,7 +317,8 @@ pre {
   /***blog posts main view (currently index.html)***/
   .post-float {
     width: 30%;
-    float: left; }
+    float: left;
+    min-height: 18em; }
 
   .post-float:nth-of-type(odd) {
     margin-right: 0; }

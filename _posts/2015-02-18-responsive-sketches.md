@@ -3,7 +3,7 @@ layout: post
 title:  "Responsive Sketches"
 date:   2015-02-18
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: I think it's brilliant that there is a design approach that requires us as designers to think about accessibility and inclusiveness from the get go. 
+excerpt: RWD isn't magically going to tackle all of the challenges web designers face, but I think it's brilliant that there is a design approach that requires us as designers to think about accessibility and inclusiveness from the get go. 
 ---
 
 <h2>Responsive Sketches</h2>
