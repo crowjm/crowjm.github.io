@@ -230,6 +230,9 @@ a {
 }
 
 
+
+
+
 /***things that were included in the original that I don't understand/want to mess up***/
 /*only change is converting px to em*/
 /***figures***/
@@ -278,4 +281,15 @@ pre {
             fill: $teal-color;
         }
     }
+}
+
+
+
+
+/***styling for individual post elements***/
+.carrots {
+    width: 30%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }

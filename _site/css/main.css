@@ -253,6 +253,13 @@ pre {
   .icon > svg path {
     fill: #2b5464; }
 
+/***styling for individual post elements***/
+.carrots {
+  width: 30%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto; }
+
 /***footer realign***/
 @media screen and (min-width: 31.25em) {
   footer {
