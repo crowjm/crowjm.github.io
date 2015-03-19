@@ -20,6 +20,9 @@
 			a {
 				text-decoration: none;
 			}
+			a:hover {
+				border-bottom: 2px solid $blue;
+			}
 		}
 		li:nth-of-type(1) {
 			margin-left: 0;
@@ -31,20 +34,25 @@
 footer {
 	li {
 		display: inline-block;
+		margin-left: 2rem;
+		a:hover {
+			border-bottom: 2px solid $blue;
+		}
 		.twitter {
 			width: 0.75rem;
 			display: inline-block;
-			margin-left: 2rem;
 		}
 		.icon {
 			width: 1rem;
 			display: inline-block;
-			margin-left: 2rem;
 		}
 		.username {
 			display: inline-block;
 			margin-left: 0.25rem;
 		}
+	}
+	li:nth-of-type(1) {
+		margin-left: 0;
 	}
 }
 
