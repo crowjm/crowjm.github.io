@@ -1,0 +1,18 @@
+$font-family: 'adelle', serif;
+
+p, li {
+	line-height: 1.8;
+}
+
+p {
+	font-family: $font-family;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+li {
+	font-family: $font-family;
+	font-weight: 600;
+	font-style: italic;
+	font-style: 1rem;
+}

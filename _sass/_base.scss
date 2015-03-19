@@ -1,0 +1,54 @@
+/***global scss for smallest devices***/
+
+/***general***/
+.wrapper {
+	width: 90%;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/***header--move to MQ and place responsive nav here***/
+.header-nav {
+	margin-right: auto;
+	margin-left: auto;
+	ul {
+		text-align: center;
+		li {
+			display: inline-block;
+			margin-left: 3.5em;
+			a {
+				text-decoration: none;
+			}
+		}
+		li:nth-of-type(1) {
+			margin-left: 0;
+		}
+	}
+}
+
+/***footer***/
+footer {
+	li {
+		display: inline-block;
+		.twitter {
+			width: 0.75rem;
+			display: inline-block;
+			margin-left: 2rem;
+		}
+		.icon {
+			width: 1rem;
+			display: inline-block;
+			margin-left: 2rem;
+		}
+		.username {
+			display: inline-block;
+			margin-left: 0.25rem;
+		}
+	}
+}
+
+.footer-paragraph, .footer-social {
+	float: left;
+	width: 50%;
+}
