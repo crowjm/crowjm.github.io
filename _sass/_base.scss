@@ -235,17 +235,10 @@ a {
 
 
 /***things that were included in the original that I don't understand/want to mess up***/
-/*only change is converting px to em*/
-/***figures***/
-figure > img {
-    display: block;
-}
 
-figcaption {
-    font-size: $small-font-size;
-}
 
 /***code formatting***/
+/***for code snippets***/
 pre,
 code {
     font-size: 1em;
@@ -270,6 +263,7 @@ pre {
 }
 
 /***icons***/
+/***icons at the bottom, path changes the color of them***/
 .icon {
 
     > svg {
