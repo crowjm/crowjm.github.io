@@ -249,6 +249,12 @@ footer li:nth-of-type(even) {
   .about-main-text .about-intro {
     line-height: 1.8rem; }
 
+/***portfolio page***/
+.coming-soon {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {
   /***blog index***/
