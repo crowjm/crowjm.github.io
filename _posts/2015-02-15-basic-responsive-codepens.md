@@ -6,8 +6,6 @@ date:   2015-02-15
 excerpt: We had our first Responsive Web Design (RWD) lecture on Friday. RWD means designing for all sorts of devices and screens. RWD means being inclusive and inclusiveness is my jam.
 ---
 
-<h2>Basic Responsive Codepens</h2>
-
 We had our first Responsive Web Design (RWD) lecture on Friday. RWD means designing for all sorts of devices and screens. RWD means being inclusive and inclusiveness is my jam.
 
 Over the weekend, we had a few homework assignments to get used to RWD where we had to use percentages, media queries, and breakpoints. RWD is oddly comforting to me and makes me feel like I have more control over my code and therefore more control over the user's experience. 

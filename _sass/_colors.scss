@@ -1,10 +1,31 @@
 $grey: #6d767e; /*p*/
 $blue: #4398b5; /*a*/
+$seafoam: #83c0c5; /*h2, h3*/
+$yellow: #f1d564; /*h1*/
+
 
 p {
 	color: $grey;
 }
 
 a {
+	color: $blue;
+}
+
+h2 {
+	a {
+		color: $seafoam;
+	}
+}
+
+h2, h3, .about-intro {
+	color: $seafoam;
+}
+
+h1 {
+	color: $yellow;
+}
+
+h4 {
 	color: $blue;
 }

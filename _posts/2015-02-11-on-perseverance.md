@@ -6,8 +6,6 @@ date:   2015-02-11
 excerpt: Attending The Iron Yard is one of the most demanding, challenging, inspiring, and rewarding experiences I've ever had. I'm just over two weeks in and I'm amazed by how much I've learned, and how much more I'll learn in the next two and a half months.
 ---
 
-##On Perseverance
-
 Attending The Iron Yard is one of the most demanding, challenging, inspiring, and rewarding experiences I've ever had. I'm just over two weeks in and I'm amazed by how much I've learned, and how much more I'll learn in the next two and a half months. The days can be long and the assignments push the limits of what I know. It's all worth it. 
 
 One thing I quickly realized is that perseverance is key to getting the most out of this experience. Giving up on a hard problem or concept is not an option. New material gets introduced every day and builds on what we've already learned&mdash;to say class moves quickly is an understatement. 

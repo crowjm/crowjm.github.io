@@ -1,0 +1,78 @@
+/***change hero/banner image padding and footer layout***/
+@media screen and (min-width: 620px) {
+
+/***blog index***/
+.blog-banner {
+	h1 {
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+	}
+}
+
+/***footer***/
+footer {
+	li {
+		width: 25%;
+		margin-top: 0.25rem;
+	}
+	li:nth-of-type(odd) {
+		margin-left: 0%;
+	}
+	li:nth-of-type(even) {
+		margin-right: 0%;
+	}
+}
+}
+
+
+
+/***media query for largest screens***/
+@media screen and (min-width: 900px) {
+/***blog index***/
+.blog-banner {
+	h1 {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+}
+
+.post-float {
+	@include grid(5.5);
+}
+.post-float:nth-of-type(odd) {
+	margin-right: $col;
+}
+
+
+
+
+/***footer***/
+footer {
+	p {
+		text-align: left;
+	}
+	li {
+		margin-top: 0;
+	}
+}
+
+.footer-paragraph {
+	float: left;
+	width: 35%;
+}
+
+.footer-social {
+	float: left;
+	width: 65%;
+}
+
+
+
+
+
+
+
+
+
+
+}

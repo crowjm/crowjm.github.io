@@ -6,6 +6,24 @@
 	max-width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+}
+
+.site-header {
+	background-color: lighten($yellow, 25%);
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+footer {
+	clear: both;
+	background-color: lighten($yellow, 25%);
+	overflow: hidden;
+	padding-top: 1rem;
 }
 
 /***header--move to MQ and place responsive nav here***/
@@ -32,9 +50,14 @@
 
 /***footer***/
 footer {
+	p {
+		text-align: center;
+	}
 	li {
-		display: inline-block;
-		margin-left: 2rem;
+		float: left;
+		width: 35%;
+		text-align: center;
+		margin-bottom: 0.5rem;
 		a:hover {
 			border-bottom: 2px solid $blue;
 		}
@@ -51,12 +74,98 @@ footer {
 			margin-left: 0.25rem;
 		}
 	}
-	li:nth-of-type(1) {
-		margin-left: 0;
+	li:nth-of-type(odd) {
+		margin-left: 15%;
+	}
+	li:nth-of-type(even) {
+		margin-right: 15%;
 	}
 }
 
-.footer-paragraph, .footer-social {
-	float: left;
+/***blog index***/
+.blog-banner {
+	background-image: url(/img/hero-banner/blogzone.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 3rem;
+	h1 {
+		padding-top: 1.75rem;
+		padding-bottom: 1.75rem;
+		text-align: center;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+}
+
+.post-list {
+	margin-bottom: 4rem;	
+}
+
+.post-float {
+	margin-bottom: 3rem;
+	max-width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	h2 {
+		a {
+			text-decoration: none;
+		}
+		a:hover {
+			border-bottom: 2px solid $seafoam;
+		}
+	}
+}
+
+/***blog page***/
+.post-header, .post-content {
+	max-width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.post-header {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	text-align: center;
+	h1 {
+		margin-bottom: 1rem;
+	}
+}
+
+.post-content {
+	margin-bottom: 3rem;
+	p {
+		margin-bottom: 0.5rem;
+	}
+	img {
+		margin-bottom: 0.75rem;
+		margin-top: 0.75rem;
+	}
+}
+
+.post-float-container {
+	overflow: hidden;
+	.post-float-image {
+		width: 50%;
+		float: left;
+	}
+}
+
+/***about page***/ 
+.prof-pic {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
 	width: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 3rem;
+}
+
+.about-main-text {
+	margin-bottom: 3rem;
+	.about-intro {
+		line-height: 1.8rem;
+	}
 }
