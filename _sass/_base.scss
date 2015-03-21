@@ -165,8 +165,15 @@ footer {
 
 .about-main-text {
 	margin-bottom: 3rem;
+	max-width: 650px;
+	margin-right: auto;
+	margin-left: auto;
 	.about-intro {
 		line-height: 1.8rem;
+		margin-bottom: 2rem;
+	}
+	p {
+		margin-bottom: 2rem;
 	}
 }
 

@@ -245,9 +245,15 @@ footer li:nth-of-type(even) {
   margin-bottom: 3rem; }
 
 .about-main-text {
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto; }
   .about-main-text .about-intro {
-    line-height: 1.8rem; }
+    line-height: 1.8rem;
+    margin-bottom: 2rem; }
+  .about-main-text p {
+    margin-bottom: 2rem; }
 
 /***portfolio page***/
 .coming-soon {
@@ -269,7 +275,11 @@ footer li:nth-of-type(even) {
   footer li:nth-of-type(odd) {
     margin-left: 0%; }
   footer li:nth-of-type(even) {
-    margin-right: 0%; } }
+    margin-right: 0%; }
+
+  /***photo in about***/
+  .prof-pic {
+    width: 40%; } }
 /***media query for largest screens***/
 @media screen and (min-width: 900px) {
   /***blog index***/
@@ -296,4 +306,8 @@ footer li:nth-of-type(even) {
 
   .footer-social {
     float: left;
-    width: 65%; } }
+    width: 65%; }
+
+  /***about***/
+  .prof-pic {
+    width: 30%; } }
