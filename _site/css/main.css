@@ -310,4 +310,10 @@ footer li:nth-of-type(even) {
 
   /***about***/
   .prof-pic {
-    width: 30%; } }
+    width: 24.999%;
+    float: left;
+    margin-right: 16.666%; }
+
+  .about-main-text {
+    width: 58.331%;
+    float: left; } }

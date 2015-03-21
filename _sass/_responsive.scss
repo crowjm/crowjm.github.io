@@ -70,7 +70,12 @@ footer {
 
 /***about***/
 .prof-pic {
-	width: 30%;
+	@include grid(3);
+	margin-right: ($col * 2);
+}
+
+.about-main-text {
+	@include grid(7);
 }
 
 
