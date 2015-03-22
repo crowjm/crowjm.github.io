@@ -379,6 +379,19 @@ footer li:nth-of-type(even) {
     margin-bottom: 0.75rem;
     margin-top: 0.75rem; }
 
+/***contact***/
+.contact-description, .typeform {
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.contact-description {
+  margin-bottom: 2rem; }
+
+.typeform {
+  text-align: center;
+  margin-bottom: 4rem; }
+
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {
   /***blog index***/
