@@ -324,6 +324,10 @@ footer li:nth-of-type(even) {
   .about-main-text p {
     margin-bottom: 0.5rem; }
 
+.skills {
+  overflow: hidden;
+  clear: both; }
+
 /***portfolio index page***/
 .portfolio-index-header {
   background-image: url(/img/hero-banner/blogzone.JPG);
@@ -470,12 +474,7 @@ footer li:nth-of-type(even) {
       padding-bottom: 95px;
       padding-left: 2rem;
       padding-right: 2rem;
-      box-sizing: border-box;
-      background-color: #f4f5f6; }
-      .portfolio-item:nth-of-type(odd) .portfolio-snippet-info .info {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%); }
+      box-sizing: border-box; }
 
   .portfolio-item:nth-of-type(even) {
     margin-bottom: 9rem; }
@@ -490,8 +489,5 @@ footer li:nth-of-type(even) {
       text-align: right;
       padding-left: 2rem;
       padding-right: 2rem;
-      background-color: #ebf5f6; }
-      .portfolio-item:nth-of-type(even) .portfolio-snippet-info .info {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%); } }
+      padding-top: 95px;
+      padding-bottom: 95px; } }

@@ -14,10 +14,8 @@ title: portfolio
 				<img src="../img/portfolio-snippets/restaurant-redesign.jpg">
 			</div>
 			<div class="portfolio-snippet-info">
-				<div class="info">
 					<h2>Restaurant Redesign</h2>
 					<p>class project</p>
-				</div>
 			</div>
 		</a>
 	</div>

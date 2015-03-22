@@ -101,12 +101,6 @@ footer {
 		padding-left: 2rem;
 		padding-right: 2rem;
 		box-sizing: border-box;
-		background-color: lighten($grey, 50%);
-		.info {
-			 position: relative;
-  			 top: 50%;
-  			 transform: translateY(-50%);
-		}
 	}
 }
 
@@ -123,12 +117,8 @@ footer {
 		text-align: right;
 		padding-left: 2rem;
 		padding-right: 2rem;
-		background-color: lighten($seafoam, 30%);
-		.info {
-			 position: relative;
-  			 top: 50%;
-  			 transform: translateY(-50%);
-		}
+		padding-top: 95px;
+		padding-bottom: 95px;
 	}
 }
 
