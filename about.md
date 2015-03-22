@@ -48,7 +48,7 @@ title: about
 			</div>
 			<div class="skill">
 				<div class="skill-icon"><img src="../img/icons/design-icon.svg" alt="design icon"></div>
-				<div class="skill-name"><p>Color Theory &amp; Design Principles</div>	
+				<div class="skill-name"><p>Color Theory &amp; Design Principles</p></div>	
 			</div>
 		</div>
 		<div class="skill-list-3">

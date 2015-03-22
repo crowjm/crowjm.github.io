@@ -326,6 +326,8 @@ footer li:nth-of-type(even) {
 
 .skills {
   clear: both; }
+  .skills h2 {
+    margin-bottom: 2rem; }
   .skills .skill {
     overflow: hidden;
     margin-bottom: 1rem; }
