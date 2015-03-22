@@ -45,7 +45,7 @@
   user-select: none;
   color: white;
   font-size: 1.25rem;
-  padding: 1.5rem;
+  padding: 0.75rem;
   text-align: center;
   letter-spacing: 0.03rem;
   text-decoration: none;
@@ -54,3 +54,35 @@
   display: block;
   text-align: center;
 }
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+
+    .nav-collapse ul {
+   text-align: center;
+ }
+  
+
+   .nav-collapse li {
+     display: inline-block;
+     margin-left: 3.5em;
+     a {
+       text-decoration: none;
+     }
+     a:hover {
+       border-bottom: 2px solid $blue;
+     }
+   }
+   .nav-collapse li:nth-of-type(1) {
+     margin-left: 0;
+   }
+
+  }

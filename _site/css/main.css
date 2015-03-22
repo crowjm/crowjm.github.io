@@ -119,7 +119,8 @@ h4 {
 
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .small-nav {
-  float: right; }
+  float: right;
+  width: 30%; }
 
 .nav-collapse ul {
   margin: 0;
@@ -156,16 +157,38 @@ h4 {
   user-select: none;
   color: white;
   font-size: 1.25rem;
-  padding: 1.5rem;
+  padding: 0.75rem;
   text-align: center;
   letter-spacing: 0.03rem;
   text-decoration: none;
   border-radius: 2rem;
   background-color: #2e697d;
   display: block;
-  width: 30%;
   text-align: center; }
 
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative; }
+
+  .js .nav-collapse.closed {
+    max-height: none; }
+
+  .nav-toggle {
+    display: none; }
+
+  .nav-collapse ul {
+    text-align: center; }
+
+  .nav-collapse li {
+    display: inline-block;
+    margin-left: 3.5em; }
+    .nav-collapse li a {
+      text-decoration: none; }
+    .nav-collapse li a:hover {
+      border-bottom: 2px solid #4398b5; }
+
+  .nav-collapse li:nth-of-type(1) {
+    margin-left: 0; } }
 /***global scss for smallest devices***/
 /***general***/
 .wrapper {
@@ -316,25 +339,6 @@ footer li:nth-of-type(even) {
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {
   /***header***/
-  .small-nav {
-    display: none; }
-
-  .header-nav {
-    display: block;
-    margin-right: auto;
-    margin-left: auto; }
-    .header-nav ul {
-      text-align: center; }
-      .header-nav ul li {
-        display: inline-block;
-        margin-left: 3.5em; }
-        .header-nav ul li a {
-          text-decoration: none; }
-        .header-nav ul li a:hover {
-          border-bottom: 2px solid #4398b5; }
-      .header-nav ul li:nth-of-type(1) {
-        margin-left: 0; }
-
   /***blog index***/
   .blog-banner h1 {
     padding-top: 2.5rem;
