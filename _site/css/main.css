@@ -147,7 +147,7 @@ h4 {
   zoom: 1; }
 
 .nav-collapse.opened {
-  max-height: 300px;
+  max-height: 500px;
   position: relative; }
 
 .nav-toggle {
