@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
+	<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>blog</title>
   <meta name="description" content="Portfolio site for Austin-based designer, Jesse Crow.
 ">
-
+  <link rel="stylesheet" href="responsive-nav.css">
+  <script src="/js/responsive-nav.js"></script>
   <link rel="stylesheet" href="/css/main.css">
   <script src="//use.typekit.net/ndy5gmv.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
@@ -17,27 +16,31 @@
   <link rel="alternate" type="application/rss+xml" title="Jesse Crow" href="http://crowjm.github.io/feed.xml" />
 </head>
 
-
-  <body>
-
-    <header class="site-header">
-
+	<body>
+		<header class="site-header">
   <div class="wrapper">
-    <nav class="header-nav">
+    <div class="small-nav"> <!--global nav-->
+      <nav class="nav-collapse"> 
       <ul>
         <li><a href="/index.html">portfolio</a></li>
         <li><a href="/blog.html">blog</a></li>
-        <li><!--logo here-->.</li>
         <li><a href="/about.html">about</a></li>
         <li><a href="/contact.html">contact</a></li>
       </ul>
     </nav>
   </div>
-
+  <nav class="header-nav"><!--larger nav-->
+  <ul>
+    <li><a href="/index.html">portfolio</a></li>
+    <li><a href="/blog.html">blog</a></li>
+    <li><!--logo here-->.</li>
+    <li><a href="/about.html">about</a></li>
+    <li><a href="/contact.html">contact</a></li>
+  </ul>
+</nav>
+</div>
 </header>
-
-
-        <div class="blog-banner">
+		<div class="blog-banner">
   <h1>blog</h1>
 </div>
 <div class="wrapper">
@@ -135,8 +138,7 @@
   <!--   <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p> -->
 </div>
 
-
-    <footer>
+		<footer>
   <div class="wrapper">
     <div class="footer-paragraph">
       <p>Made with love by Jesse Crow.</p>
@@ -200,7 +202,8 @@
       </div>
     </div>
   </footer>
-
-  </body>
-
+		<script>
+		var nav = responsiveNav(".nav-collapse");
+		</script>
+	</body>
 </html>

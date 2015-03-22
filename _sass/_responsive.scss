@@ -1,6 +1,34 @@
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {
 
+
+/***header***/
+.small-nav {
+	display: none;
+}
+
+.header-nav{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	ul {
+		text-align: center;
+		li {
+			display: inline-block;
+			margin-left: 3.5em;
+			a {
+				text-decoration: none;
+			}
+			a:hover {
+				border-bottom: 2px solid $blue;
+			}
+		}
+		li:nth-of-type(1) {
+			margin-left: 0;
+		}
+	}
+}
+
 /***blog index***/
 .blog-banner {
 	h1 {

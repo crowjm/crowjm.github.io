@@ -117,6 +117,57 @@ h1 {
 h4 {
   color: #4398b5; }
 
+/*! responsive-nav.js 1.0.34 by @viljamis */
+.small-nav {
+  float: right;
+  background-color: #2e697d;
+  width: 30%;
+  text-align: center;
+  border-radius: 1rem; }
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+  background-color: #fcf5d9; }
+
+.nav-collapse li {
+  width: 100%;
+  display: block;
+  text-align: left; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 300px;
+  position: relative; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: white;
+  font-size: 1.25rem;
+  padding: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.03rem;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
 /***global scss for smallest devices***/
 /***general***/
 .wrapper {
@@ -142,19 +193,7 @@ footer {
 
 /***header--move to MQ and place responsive nav here***/
 .header-nav {
-  margin-right: auto;
-  margin-left: auto; }
-  .header-nav ul {
-    text-align: center; }
-    .header-nav ul li {
-      display: inline-block;
-      margin-left: 3.5em; }
-      .header-nav ul li a {
-        text-decoration: none; }
-      .header-nav ul li a:hover {
-        border-bottom: 2px solid #4398b5; }
-    .header-nav ul li:nth-of-type(1) {
-      margin-left: 0; }
+  display: none; }
 
 /***footer***/
 footer p {
@@ -263,6 +302,26 @@ footer li:nth-of-type(even) {
 
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {
+  /***header***/
+  .small-nav {
+    display: none; }
+
+  .header-nav {
+    display: block;
+    margin-right: auto;
+    margin-left: auto; }
+    .header-nav ul {
+      text-align: center; }
+      .header-nav ul li {
+        display: inline-block;
+        margin-left: 3.5em; }
+        .header-nav ul li a {
+          text-decoration: none; }
+        .header-nav ul li a:hover {
+          border-bottom: 2px solid #4398b5; }
+      .header-nav ul li:nth-of-type(1) {
+        margin-left: 0; }
+
   /***blog index***/
   .blog-banner h1 {
     padding-top: 2.5rem;

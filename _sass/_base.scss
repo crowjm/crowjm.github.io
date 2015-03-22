@@ -28,24 +28,7 @@ footer {
 
 /***header--move to MQ and place responsive nav here***/
 .header-nav {
-	margin-right: auto;
-	margin-left: auto;
-	ul {
-		text-align: center;
-		li {
-			display: inline-block;
-			margin-left: 3.5em;
-			a {
-				text-decoration: none;
-			}
-			a:hover {
-				border-bottom: 2px solid $blue;
-			}
-		}
-		li:nth-of-type(1) {
-			margin-left: 0;
-		}
-	}
+	display: none;
 }
 
 /***footer***/
