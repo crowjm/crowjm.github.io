@@ -290,15 +290,13 @@ footer li:nth-of-type(even) {
   margin-left: auto; }
   .about-main-text .about-intro {
     line-height: 1.8rem;
-    margin-bottom: 2rem; }
+    margin-bottom: 0.5rem; }
   .about-main-text p {
-    margin-bottom: 2rem; }
+    margin-bottom: 0.5rem; }
 
 /***portfolio page***/
-.coming-soon {
-  text-align: center;
-  padding-top: 4rem;
-  padding-bottom: 4rem; }
+.portfolio-item {
+  margin-bottom: 4rem; }
 
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {

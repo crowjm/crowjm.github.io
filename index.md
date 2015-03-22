@@ -2,7 +2,55 @@
 layout: default
 title: portfolio
 ---
-
+<div class="blog-banner">
+	<h1>portfolio</h1>
+</div>
 <div class="wrapper">
-	<h2 class="coming-soon">Portfolio coming soon!</h2>
+	<div class="portfolio-item">
+		<a href="http://www.crowjm.github.io/_projects/restaurant-redesign.html">
+			<div class="portfolio-snippet">
+				<img src="../img/portfolio-snippets/restaurant-redesign.jpg">
+			</div>
+		</a>
+		<div class="portfolio-snippet-info">
+			<h2>Restaurant Redesign</h2>
+			<p>class project</p>
+		</div>
+	</div>
+	<div class="portfolio-item">
+		<div class="portfolio-snippet">
+			<img src="../img/portfolio-snippets/restaurant-redesign.jpg">
+		</div>
+		<div class="portfolio-snippet-info">
+			<h2>project name</h2>
+			<p>project type</p>
+		</div>
+	</div>
+	<div class="portfolio-item">
+		<div class="portfolio-snippet">
+			<img src="../img/portfolio-snippets/restaurant-redesign.jpg">
+		</div>
+		<div class="portfolio-snippet-info">
+			<h2>project name</h2>
+			<p>project type</p>
+		</div>
+	</div>
+	<div class="portfolio-item">
+		<div class="portfolio-snippet">
+			<img src="../img/portfolio-snippets/restaurant-redesign.jpg">
+		</div>
+		<div class="portfolio-snippet-info">
+			<h2>project name</h2>
+			<p>project type</p>
+		</div>
+	</div>
+	<div class="portfolio-item">
+		<div class="portfolio-snippet">
+			<img src="../img/portfolio-snippets/restaurant-redesign.jpg">
+		</div>
+		<div class="portfolio-snippet-info">
+			<h2>project name</h2>
+			<p>project type</p>
+		</div>
+	</div>
 </div>
