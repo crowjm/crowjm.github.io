@@ -36,7 +36,16 @@ footer {
 		float: left;
 	}
 }
+
+/***about***/
+.skill-list-1, .skill-list-2, .skill-list-3 {
+	@include grid(5.5);
 }
+.skill-list-1, .skill-list-3 {
+	margin-right: $col;
+}
+}
+
 
 
 
@@ -122,11 +131,11 @@ footer {
 	}
 }
 
-
-
-
-
-
-
-
+/***about***/
+.skill-list-1, .skill-list-2, .skill-list-3 {
+	@include grid(3);
+}
+.skill-list-1, .skill-list-2 {
+	margin-right: ($col * 1.5);
+}
 }

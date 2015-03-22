@@ -325,8 +325,22 @@ footer li:nth-of-type(even) {
     margin-bottom: 0.5rem; }
 
 .skills {
-  overflow: hidden;
   clear: both; }
+  .skills .skill {
+    overflow: hidden;
+    margin-bottom: 1rem; }
+    .skills .skill .skill-icon {
+      width: 30%;
+      margin-right: 10%;
+      float: left; }
+    .skills .skill .skill-name {
+      width: 60%;
+      float: left;
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem; }
+
+.skill-list-1, .skill-list-2, .skill-list-3 {
+  overflow: hidden; }
 
 /***portfolio index page***/
 .portfolio-index-header {
@@ -349,7 +363,6 @@ footer li:nth-of-type(even) {
   .portfolio-item .portfolio-snippet {
     max-width: 650px;
     margin-bottom: 0.5rem;
-    max-width: 650px;
     margin-right: auto;
     margin-left: auto; }
   .portfolio-item .portfolio-snippet-info {
@@ -421,7 +434,15 @@ footer li:nth-of-type(even) {
     overflow: hidden; }
     .project-float-container .project-float-image {
       width: 50%;
-      float: left; } }
+      float: left; }
+
+  /***about***/
+  .skill-list-1, .skill-list-2, .skill-list-3 {
+    width: 45.8315%;
+    float: left; }
+
+  .skill-list-1, .skill-list-3 {
+    margin-right: 8.333%; } }
 /***media query for largest screens***/
 @media screen and (min-width: 900px) {
   /***blog index***/
@@ -490,4 +511,12 @@ footer li:nth-of-type(even) {
       padding-left: 2rem;
       padding-right: 2rem;
       padding-top: 95px;
-      padding-bottom: 95px; } }
+      padding-bottom: 95px; }
+
+  /***about***/
+  .skill-list-1, .skill-list-2, .skill-list-3 {
+    width: 24.999%;
+    float: left; }
+
+  .skill-list-1, .skill-list-2 {
+    margin-right: 12.4995%; } }

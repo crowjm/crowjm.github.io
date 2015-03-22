@@ -156,9 +156,26 @@ footer {
 }
 
 .skills {
-	overflow: hidden;
 	clear: both;
-	
+		.skill {
+			overflow: hidden;
+			margin-bottom: 1rem;
+		.skill-icon {
+			width: 30%;
+			margin-right: 10%;
+			float: left;
+		}	
+		.skill-name {
+			width: 60%;
+			float: left;
+			padding-top: 2.5rem;
+			padding-bottom: 2.5rem; 	
+		}
+	}
+}
+
+.skill-list-1, .skill-list-2, .skill-list-3 {
+	overflow: hidden;
 }
 
 /***portfolio index page***/
@@ -185,7 +202,6 @@ footer {
 	.portfolio-snippet {
 		max-width: 650px;
 		margin-bottom: 0.5rem;
-		max-width: 650px;
 		margin-right: auto;
 		margin-left: auto;
 	}
