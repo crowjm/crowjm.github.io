@@ -2,8 +2,10 @@
 layout: default
 title: portfolio
 ---
-<div class="blog-banner">
-	<h1>portfolio</h1>
+<div class="portfolio-index-header">
+	<h1>Jesse Crow</h1>
+	<h2>UI &amp; Web Designer</h2>
+	<h2>Austin, Texas</h2>
 </div>
 <div class="wrapper">
 	<div class="portfolio-item">

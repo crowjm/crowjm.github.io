@@ -194,7 +194,7 @@ h4 {
 
   .nav-collapse li, .logo {
     display: inline-block;
-    margin-left: 3.5em; }
+    margin-left: 4.5em; }
     .nav-collapse li a, .logo a {
       text-decoration: none; }
     .nav-collapse li a:hover, .logo a:hover {
@@ -324,7 +324,18 @@ footer li:nth-of-type(even) {
   .about-main-text p {
     margin-bottom: 0.5rem; }
 
-/***portfolio page***/
+/***portfolio index page***/
+.portfolio-index-header {
+  background-image: url(/img/hero-banner/blogzone.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  margin-bottom: 3rem; }
+  .portfolio-index-header h2 {
+    color: #f1d564; }
+
 .portfolio-item {
   overflow: hidden;
   margin-bottom: 6rem; }
@@ -345,6 +356,29 @@ footer li:nth-of-type(even) {
       border-bottom: 2px solid #83c0c5;
       display: inline-block; }
 
+/***project page***/
+.project-header, .project-content {
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.project-header {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+  .project-header h1 {
+    margin-bottom: 1rem; }
+
+.project-content {
+  margin-bottom: 3rem; }
+  .project-content .project-links {
+    text-align: center; }
+  .project-content p {
+    margin-bottom: 1.5rem; }
+  .project-content img {
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem; }
+
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {
   /***blog index***/
@@ -363,7 +397,14 @@ footer li:nth-of-type(even) {
 
   /***photo in about***/
   .prof-pic {
-    width: 40%; } }
+    width: 40%; }
+
+  /***project page***/
+  .project-float-container {
+    overflow: hidden; }
+    .project-float-container .project-float-image {
+      width: 50%;
+      float: left; } }
 /***media query for largest screens***/
 @media screen and (min-width: 900px) {
   /***blog index***/
