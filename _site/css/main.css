@@ -119,8 +119,7 @@ h4 {
 
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .small-nav {
-  float: right;
-  width: 30%; }
+  float: right; }
 
 .nav-collapse ul {
   margin: 0;
@@ -128,12 +127,17 @@ h4 {
   width: 100%;
   display: block;
   list-style: none;
-  background-color: #fcf5d9; }
+  background-color: #fcf5d9;
+  overflow: hidden; }
 
 .nav-collapse li {
-  width: 100%;
-  display: block;
   text-align: left; }
+
+.nav-collapse a {
+  font-weight: 600;
+  font-size: 1rem;
+  font-style: italic;
+  color: #4398b5; }
 
 .js .nav-collapse {
   clip: rect(0 0 0 0);
@@ -157,16 +161,22 @@ h4 {
   user-select: none;
   color: white;
   font-size: 1.25rem;
-  padding: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   text-align: center;
   letter-spacing: 0.03rem;
   text-decoration: none;
   border-radius: 2rem;
-  background-color: #2e697d;
+  background-color: #357990;
   display: block;
-  text-align: center; }
+  width: 50%; }
 
-@media screen and (min-width: 40em) {
+.logo {
+  display: none; }
+
+@media screen and (min-width: 620px) {
   .js .nav-collapse {
     position: relative; }
 
@@ -179,12 +189,15 @@ h4 {
   .nav-collapse ul {
     text-align: center; }
 
-  .nav-collapse li {
+  .small-nav {
+    float: none; }
+
+  .nav-collapse li, .logo {
     display: inline-block;
     margin-left: 3.5em; }
-    .nav-collapse li a {
+    .nav-collapse li a, .logo a {
       text-decoration: none; }
-    .nav-collapse li a:hover {
+    .nav-collapse li a:hover, .logo a:hover {
       border-bottom: 2px solid #4398b5; }
 
   .nav-collapse li:nth-of-type(1) {
@@ -211,10 +224,6 @@ footer {
   background-color: #fcf5d9;
   overflow: hidden;
   padding-top: 1rem; }
-
-/***header***/
-.header-nav {
-  display: none; }
 
 /***footer***/
 footer p {
@@ -338,7 +347,6 @@ footer li:nth-of-type(even) {
 
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {
-  /***header***/
   /***blog index***/
   .blog-banner h1 {
     padding-top: 2.5rem;

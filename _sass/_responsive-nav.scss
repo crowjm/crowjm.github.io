@@ -2,7 +2,6 @@
 
 .small-nav {
   float: right;  
-  width: 30%;
 }
 
 .nav-collapse ul {
@@ -12,13 +11,18 @@
   display: block;
   list-style: none;
   background-color: lighten($yellow, 25%);
-
+  overflow: hidden;
 }
 
 .nav-collapse li {
-  width: 100%;
-  display: block;
   text-align: left;
+}
+
+.nav-collapse a {
+  font-weight: 600;
+  font-size: 1rem;
+  font-style: italic;
+  color: $blue;
 }
 
 .js .nav-collapse {
@@ -45,17 +49,24 @@
   user-select: none;
   color: white;
   font-size: 1.25rem;
-  padding: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   text-align: center;
   letter-spacing: 0.03rem;
   text-decoration: none;
   border-radius: 2rem;
-  background-color: darken($blue, 15%);
+  background-color: darken($blue, 10%);
   display: block;
-  text-align: center;
+  width: 50%;
 }
 
-@media screen and (min-width: 40em) {
+.logo {
+  display: none;
+}
+
+@media screen and (min-width: 620px) {
   .js .nav-collapse {
     position: relative;
   }
@@ -65,24 +76,24 @@
   .nav-toggle {
     display: none;
   }
-
-    .nav-collapse ul {
+ .nav-collapse ul {
    text-align: center;
  }
-  
-
-   .nav-collapse li {
-     display: inline-block;
-     margin-left: 3.5em;
-     a {
-       text-decoration: none;
-     }
-     a:hover {
-       border-bottom: 2px solid $blue;
-     }
+ .small-nav {
+  float: none;
+}
+.nav-collapse li, .logo {
+   display: inline-block;
+   margin-left: 3.5em;
+   a {
+     text-decoration: none;
    }
-   .nav-collapse li:nth-of-type(1) {
-     margin-left: 0;
+   a:hover {
+     border-bottom: 2px solid $blue;
    }
+ }
+ .nav-collapse li:nth-of-type(1) {
+   margin-left: 0;
+}
 
   }
