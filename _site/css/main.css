@@ -119,11 +119,7 @@ h4 {
 
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .small-nav {
-  float: right;
-  background-color: #2e697d;
-  width: 30%;
-  text-align: center;
-  border-radius: 1rem; }
+  float: right; }
 
 .nav-collapse ul {
   margin: 0;
@@ -164,9 +160,11 @@ h4 {
   text-align: center;
   letter-spacing: 0.03rem;
   text-decoration: none;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box; }
+  border-radius: 2rem;
+  background-color: #2e697d;
+  display: block;
+  width: 30%;
+  text-align: center; }
 
 /***global scss for smallest devices***/
 /***general***/
@@ -191,7 +189,7 @@ footer {
   overflow: hidden;
   padding-top: 1rem; }
 
-/***header--move to MQ and place responsive nav here***/
+/***header***/
 .header-nav {
   display: none; }
 
@@ -296,7 +294,24 @@ footer li:nth-of-type(even) {
 
 /***portfolio page***/
 .portfolio-item {
-  margin-bottom: 4rem; }
+  overflow: hidden;
+  margin-bottom: 6rem; }
+  .portfolio-item a {
+    text-decoration: none;
+    font-style: normal; }
+  .portfolio-item .portfolio-snippet {
+    max-width: 650px;
+    margin-bottom: 0.5rem;
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto; }
+  .portfolio-item .portfolio-snippet-info {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto; }
+    .portfolio-item .portfolio-snippet-info h2 {
+      border-bottom: 2px solid #83c0c5;
+      display: inline-block; }
 
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {
@@ -373,4 +388,44 @@ footer li:nth-of-type(even) {
 
   .about-main-text {
     width: 58.331%;
-    float: left; } }
+    float: left; }
+
+  /***portfolio index page***/
+  .portfolio-item:nth-of-type(odd) {
+    margin-bottom: 9rem; }
+    .portfolio-item:nth-of-type(odd) .portfolio-snippet {
+      width: 49.998%;
+      float: left;
+      margin-right: 8.333%; }
+    .portfolio-item:nth-of-type(odd) .portfolio-snippet-info {
+      width: 41.665%;
+      float: left;
+      padding-top: 95px;
+      padding-bottom: 95px;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      box-sizing: border-box;
+      background-color: #f4f5f6; }
+      .portfolio-item:nth-of-type(odd) .portfolio-snippet-info .info {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%); }
+
+  .portfolio-item:nth-of-type(even) {
+    margin-bottom: 9rem; }
+    .portfolio-item:nth-of-type(even) .portfolio-snippet {
+      float: right;
+      width: 49.998%;
+      margin-left: 8.333%; }
+    .portfolio-item:nth-of-type(even) .portfolio-snippet-info {
+      width: 41.665%;
+      float: left;
+      box-sizing: border-box;
+      text-align: right;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      background-color: #ebf5f6; }
+      .portfolio-item:nth-of-type(even) .portfolio-snippet-info .info {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%); } }

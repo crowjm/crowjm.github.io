@@ -55,6 +55,8 @@ footer {
 .prof-pic {
 	width: 40%;
 }
+
+
 }
 
 
@@ -104,6 +106,51 @@ footer {
 
 .about-main-text {
 	@include grid(7);
+}
+
+/***portfolio index page***/
+.portfolio-item:nth-of-type(odd){
+	margin-bottom: 9rem;
+	.portfolio-snippet {
+		@include grid(6);
+		margin-right: $col;
+	}
+	.portfolio-snippet-info {
+		@include grid(5);
+		padding-top: 95px;
+		padding-bottom: 95px;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		box-sizing: border-box;
+		background-color: lighten($grey, 50%);
+		.info {
+			 position: relative;
+  			 top: 50%;
+  			 transform: translateY(-50%);
+		}
+	}
+}
+
+.portfolio-item:nth-of-type(even){
+	margin-bottom: 9rem;
+	.portfolio-snippet {
+		float: right;
+		width: ($col * 6);
+		margin-left: $col;
+	}
+	.portfolio-snippet-info {
+		@include grid (5);
+		box-sizing: border-box;
+		text-align: right;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		background-color: lighten($seafoam, 30%);
+		.info {
+			 position: relative;
+  			 top: 50%;
+  			 transform: translateY(-50%);
+		}
+	}
 }
 
 

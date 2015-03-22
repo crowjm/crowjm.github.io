@@ -1,11 +1,7 @@
 /*! responsive-nav.js 1.0.34 by @viljamis */
 
 .small-nav {
-  float: right;
-  background-color: darken($blue, 15%);
-  width: 30%;
-  text-align: center;
-  border-radius: 1rem;
+  float: right;  
 }
 
 .nav-collapse ul {
@@ -52,7 +48,9 @@
   text-align: center;
   letter-spacing: 0.03rem;
   text-decoration: none;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  border-radius: 2rem;
+  background-color: darken($blue, 15%);
+  display: block;
+  width: 30%;
+  text-align: center;
 }

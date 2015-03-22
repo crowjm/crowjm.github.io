@@ -7,15 +7,17 @@ title: portfolio
 </div>
 <div class="wrapper">
 	<div class="portfolio-item">
-		<a href="http://www.crowjm.github.io/_projects/restaurant-redesign.html">
+		<a href="/projects/restaurant-redesign.html">
 			<div class="portfolio-snippet">
 				<img src="../img/portfolio-snippets/restaurant-redesign.jpg">
 			</div>
+			<div class="portfolio-snippet-info">
+				<div class="info">
+					<h2>Restaurant Redesign</h2>
+					<p>class project</p>
+				</div>
+			</div>
 		</a>
-		<div class="portfolio-snippet-info">
-			<h2>Restaurant Redesign</h2>
-			<p>class project</p>
-		</div>
 	</div>
 	<div class="portfolio-item">
 		<div class="portfolio-snippet">

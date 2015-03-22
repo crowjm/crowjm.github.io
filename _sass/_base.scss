@@ -26,7 +26,7 @@ footer {
 	padding-top: 1rem;
 }
 
-/***header--move to MQ and place responsive nav here***/
+/***header***/
 .header-nav {
 	display: none;
 }
@@ -162,5 +162,26 @@ footer {
 
 /***portfolio page***/
 .portfolio-item {
-	margin-bottom: 4rem;
+	overflow: hidden;
+	margin-bottom: 6rem;
+	a {
+		text-decoration: none;
+		font-style: normal;
+	}
+	.portfolio-snippet {
+		max-width: 650px;
+		margin-bottom: 0.5rem;
+		max-width: 650px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.portfolio-snippet-info {
+		max-width: 650px;
+		margin-right: auto;
+		margin-left: auto;
+		h2 {
+			border-bottom: 2px solid $seafoam;
+			display: inline-block;
+		}
+	}
 }
