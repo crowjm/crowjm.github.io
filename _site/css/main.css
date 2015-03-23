@@ -341,8 +341,28 @@ footer li:nth-of-type(even) {
       padding-top: 2.5rem;
       padding-bottom: 2.5rem; }
 
-.skill-list-1, .skill-list-2, .skill-list-3 {
+.skill-list {
   overflow: hidden; }
+
+.currentlys {
+  clear: both;
+  overflow: hidden;
+  margin-top: 2rem;
+  margin-bottom: 6rem; }
+  .currentlys h2 {
+    margin-bottom: 2rem; }
+  .currentlys .currently {
+    overflow: hidden;
+    margin-bottom: 1rem; }
+    .currentlys .currently .currently-icon {
+      width: 30%;
+      margin-right: 10%;
+      float: left; }
+    .currentlys .currently .currently-name {
+      width: 60%;
+      float: left;
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem; }
 
 /***portfolio index page***/
 .portfolio-index-header {
@@ -439,11 +459,34 @@ footer li:nth-of-type(even) {
       float: left; }
 
   /***about***/
-  .skill-list-1, .skill-list-2, .skill-list-3 {
+  .skill-list {
     width: 45.8315%;
-    float: left; }
+    float: left;
+    background-color: #daecee;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1.5rem; }
 
-  .skill-list-1, .skill-list-3 {
+  .skill-list:nth-of-type(odd) {
+    margin-right: 8.333%; }
+
+  .skill-list:nth-of-type(1) {
+    margin-bottom: 2rem; }
+
+  .skill-list:nth-of-type(3) {
+    margin-bottom: 4rem; }
+
+  .currently {
+    width: 45.8315%;
+    float: left;
+    background-color: #9dcbdb;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1.5rem; }
+
+  .currently:nth-of-type(odd) {
     margin-right: 8.333%; } }
 /***media query for largest screens***/
 @media screen and (min-width: 900px) {
@@ -516,9 +559,22 @@ footer li:nth-of-type(even) {
       padding-bottom: 95px; }
 
   /***about***/
-  .skill-list-1, .skill-list-2, .skill-list-3 {
-    width: 24.999%;
+  .skill-list {
+    width: 29.1655%;
     float: left; }
 
-  .skill-list-1, .skill-list-2 {
-    margin-right: 12.4995%; } }
+  .skill-list:nth-of-type(1), .skill-list:nth-of-type(2) {
+    margin-right: 6.24975%; }
+
+  .skill-list:nth-of-type(3) {
+    margin-right: 0; }
+
+  .currently {
+    width: 22.91575%;
+    float: left; }
+
+  .currently:nth-of-type(odd) {
+    margin-right: 2.77489%; }
+
+  .currently:nth-of-type(2) {
+    margin-right: 2.77489%; } }

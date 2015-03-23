@@ -177,8 +177,33 @@ footer {
 	}
 }
 
-.skill-list-1, .skill-list-2, .skill-list-3 {
+.skill-list {
 	overflow: hidden;
+}
+
+.currentlys {
+	clear: both;
+	overflow: hidden;
+	margin-top: 2rem;
+	margin-bottom: 6rem;
+	h2 {
+		margin-bottom: 2rem;
+	}
+	.currently {
+		overflow: hidden;
+		margin-bottom: 1rem;
+	.currently-icon {
+		width: 30%;
+		margin-right: 10%;
+		float: left;
+	}	
+	.currently-name {
+		width: 60%;
+		float: left;
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem; 	
+	}
+}
 }
 
 /***portfolio index page***/
