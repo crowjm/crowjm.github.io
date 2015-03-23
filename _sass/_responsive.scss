@@ -45,6 +45,7 @@ footer {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 1.5rem;
+	height: 575px;
 }
 .skill-list:nth-of-type(odd) {
 	margin-right: $col;
@@ -56,13 +57,30 @@ footer {
 	margin-bottom: 4rem;
 }
 
-.currently {
+
+.currentlys {
+	.currently {
 	@include grid (5.5);
 	background-color: lighten($blue, 25%);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 1.5rem;
+	height: 250px;
+	.currently-icon {
+		float: none;
+		width: 40%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.currently-name {
+		text-align: center;
+		width: 100%;
+		float: none;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
 }
 
 .currently:nth-of-type(odd) {
@@ -169,8 +187,14 @@ footer {
 	margin-right: 0;
 }
 
-.currently {
-	@include grid (2.75);
+
+.currentlys {
+	.currently {
+		@include grid (2.75);
+		.currently-icon {
+			width: 60%;
+		}
+	}
 }
 
 .currently:nth-of-type(odd) {
