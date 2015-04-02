@@ -1,0 +1,35 @@
+---
+layout: default
+title: blog
+---
+<div class="blog-banner">
+  <h1>blog</h1>
+</div>
+<div class="wrapper">
+  <section class="post-list"> <!--list of all blog posts with titles and excerpts-->
+    {% for post in site.posts %}
+      <div class="post-float"> <!--individual blog post-->
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <h2>
+        <a class="post-link" href="/blog/{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    {% endfor %}
+  </section>
+  <!--   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+</div>
+
+<nav class="pagination" role="pagination">
+   {% if paginator.previous_page %}
+       {% if paginator.previous_page == 1 %}
+           <a class="newer-posts" href="/blog/" title="Previous Page">&laquo; Newer Posts</a>
+       {% else %}
+           <a class="newer-posts" href="/blog/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Newer Posts</a>
+     {% endif %}
+   {% endif %}
+   <span class="page-number"> Page {{paginator.page}} of {{paginator.total_pages}} </span>
+   {% if paginator.next_page %} 
+       <a class="older-posts" href="/blog/page{{ paginator.next_page }}/" title="Next Page">Older Posts &raquo;</a>
+   {% endif %} 
+</nav>
