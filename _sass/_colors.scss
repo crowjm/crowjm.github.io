@@ -4,12 +4,21 @@ $seafoam: #83c0c5; /*h2, h3*/
 $yellow: #f1d564; /*h1*/
 
 
-p {
+p, q {
 	color: $grey;
 }
 
 a {
 	color: $blue;
+}
+
+.pagination {
+	.page-number{
+		color: $yellow;
+	}
+	a {
+		color: white;
+	}
 }
 
 h2 {
@@ -18,7 +27,7 @@ h2 {
 	}
 }
 
-h2, h3, .about-intro {
+h2, h3, .about-intro, {
 	color: $seafoam;
 }
 

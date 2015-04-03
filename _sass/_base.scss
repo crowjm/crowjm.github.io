@@ -24,6 +24,11 @@ footer {
 	background-color: lighten($yellow, 25%);
 	overflow: hidden;
 	padding-top: 1rem;
+	z-index: 9999;
+}
+
+header {
+	z-index: 9999;
 }
 
 /***footer***/
@@ -91,6 +96,26 @@ footer {
 		a:hover {
 			border-bottom: 2px solid $seafoam;
 		}
+	}
+}
+
+.pagination {
+	background-color: $blue;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	margin-bottom: 4em;
+	.page-number {
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	.older-posts, .newer-posts {
+		text-decoration: none;
+	}
+	.older-posts {
+		float: left;
+	}
+	.newer-posts {
+		float: right;
 	}
 }
 
@@ -238,8 +263,10 @@ footer {
 		margin-right: auto;
 		margin-left: auto;
 		h2 {
-			border-bottom: 2px solid $seafoam;
 			display: inline-block;
+		}
+		h2:hover {
+			border-bottom: 2px solid $seafoam;
 		}
 	}
 }
@@ -275,16 +302,16 @@ footer {
 }
 
 /***contact***/
-.contact-description, .typeform {
-	max-width: 650px;
+.quote, .typeform {
+	max-width: 750px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom: 2em;
 }
 
-.contact-description {
-	margin-bottom: 2rem;
-}
 .typeform {
-	text-align: center;
-	margin-bottom: 4rem;
+	height: 400px;
+	iframe {
+		border: 0;
+	}
 }

@@ -45,13 +45,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-p, li, a, span {
+p, li, a, span, .page-number, q {
   line-height: 1.8; }
 
 h1, h2, h3, h4 {
   line-height: 1.3; }
 
-p {
+p, .page-number, q {
   font-family: "adelle", serif;
   font-weight: 400;
   font-size: 1rem; }
@@ -99,11 +99,16 @@ h1 {
 /*a*/
 /*h2, h3*/
 /*h1*/
-p {
+p, q {
   color: #6d767e; }
 
 a {
   color: #4398b5; }
+
+.pagination .page-number {
+  color: #f1d564; }
+.pagination a {
+  color: white; }
 
 h2 a {
   color: #83c0c5; }
@@ -223,7 +228,11 @@ footer {
   clear: both;
   background-color: #fcf5d9;
   overflow: hidden;
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  z-index: 9999; }
+
+header {
+  z-index: 9999; }
 
 /***footer***/
 footer p {
@@ -274,6 +283,21 @@ footer li:nth-of-type(even) {
     text-decoration: none; }
   .post-float h2 a:hover {
     border-bottom: 2px solid #83c0c5; }
+
+.pagination {
+  background-color: #4398b5;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-bottom: 4em; }
+  .pagination .page-number {
+    margin-right: 10%;
+    margin-left: 10%; }
+  .pagination .older-posts, .pagination .newer-posts {
+    text-decoration: none; }
+  .pagination .older-posts {
+    float: left; }
+  .pagination .newer-posts {
+    float: right; }
 
 /***blog page***/
 .post-header, .post-content {
@@ -392,8 +416,9 @@ footer li:nth-of-type(even) {
     margin-right: auto;
     margin-left: auto; }
     .portfolio-item .portfolio-snippet-info h2 {
-      border-bottom: 2px solid #83c0c5;
       display: inline-block; }
+    .portfolio-item .portfolio-snippet-info h2:hover {
+      border-bottom: 2px solid #83c0c5; }
 
 /***project page***/
 .project-header, .project-content {
@@ -419,17 +444,16 @@ footer li:nth-of-type(even) {
     margin-top: 0.75rem; }
 
 /***contact***/
-.contact-description, .typeform {
-  max-width: 650px;
+.quote, .typeform {
+  max-width: 750px;
   margin-right: auto;
-  margin-left: auto; }
-
-.contact-description {
-  margin-bottom: 2rem; }
+  margin-left: auto;
+  margin-bottom: 2em; }
 
 .typeform {
-  text-align: center;
-  margin-bottom: 4rem; }
+  height: 400px; }
+  .typeform iframe {
+    border: 0; }
 
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {
