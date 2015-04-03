@@ -32,3 +32,8 @@ excerpt: Our big homework assignment over the weekend was to create ten differen
 <!-- <p>As quirky as Bouldin is, none of it is an act. It's a place where you can be who you are. I chose Montserrat for the typeface for h elements. It's based on old posters and signs found in the Montserrat neighborhood in Buenos Aires and is an eclectic typeface without being over the top. For the rest of the elements, I chose Open Sans. It pairs well with Montserrat and since it is a humanistic sans-serif, it feels real and authentic. For colors, I chose a deep teal background (both quirky and friendly/inviting) and used many of the colors from concept 8.</p> -->
 <h5><a href="http://typecast.com/LztJHqWh7X/share/2543348512b36c635eb40e24dc8cc1d0424d81c76gwb">Bouldin 10: Quintessential Family/Friends/Date Night Spot</a></h5>
 <!-- <p>Bouldin was the first place I ate in Austin, my favorite date spot, and the place I take all of my out of town guests. I chose Freight Sans Pro for the typeface. It feels friendly, inviting, and fun. I used many of the same cozy colors I did in concepts 2 and 4. I added in a pink because one of the words that came up a lot was "love" and I felt it important to incorporate that in this concept.</p> -->
+
+<div>
+	<a class="previous-entry" href="http://jessecrow.com/2015/02/19/web-typography-codepens.html">&laquo; Previous Entry</a>
+	<a class="next-entry" href="http://jessecrow.com/2015/03/02/TIY-Hackathon.html">Next Entry &raquo;</a>
+</div>

@@ -17,3 +17,8 @@ That sounded great until I started drawing crooked lines and divs in the wrong p
 We had to share our worst sketch the next day in class. I was terrified at first, but then I realized we all had mistakes. Lines weren't straight, proportions were off, etc. What I had built up to be horrendous mistakes _weren't mistakes at all_. The layouts of the sites were still conveyed and we could understand what the others had sketched. And that's the whole point.
 
 ![A couple of my first sketches.](/img/blog/first-sketches.JPG)
+
+<div>
+	<a class="previous-entry" href="http://jessecrow.com/2015/02/11/on-perseverance.html">&laquo; Previous Entry</a>
+	<a class="next-entry" href="http://jessecrow.com/2015/02/15/basic-responsive-codepens.html">Next Entry &raquo;</a>
+</div>

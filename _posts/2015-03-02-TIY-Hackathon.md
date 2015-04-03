@@ -121,3 +121,8 @@ Sunday afternoon I went to campus to meet with my teammates and get help from Sa
 This morning, we presented our projects. It was a relief and was so neat to see what everyone else had worked on.
 
 If you'd like to check out GreenThumb, you can find it <a href="https://greenthumbapp.herokuapp.com/">here</a>. Some of the features are still in the works. I'll be iterating the design in the coming weeks, so stay tuned for updates!
+
+<div>
+	<a class="previous-entry" href="http://jessecrow.com/2015/02/22/exploring-typography.html">&laquo; Previous Entry</a>
+	<a class="next-entry" href="http://jessecrow.com/2015/03/03/restaurant-redesign.html">Next Entry &raquo;</a>
+</div>

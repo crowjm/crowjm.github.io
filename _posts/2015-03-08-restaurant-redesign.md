@@ -13,3 +13,8 @@ Last week and over the weekend, we had to take our projects from 3 sets of sketc
 I hit a rut when designing the home page. I felt like none of the ideas I tried matched the whacky and wonderful personality of the restaurant I'm working on. After looking at some ideas on [Site Inspire](http://www.siteinspire.com/), I found one concept that worked: big and bold color blocks. I'm not sure if it's the most effective way to present the information, but it's a good starting point for iteration. If you'd like to see what I've created thus far, you can find it [here](http://crowjm.github.io/tiy_assignments/day_29/bouldin_redesign/index.html). 
 
 We got feedback on our designs from our classmates and from Sam and will be revising soon. This week we're jumping into the world of logo design and also working on [CSS Zen Garden](http://www.csszengarden.com/). I'm excited to be working on two very different projects at the same time.
+
+<div>
+	<a class="previous-entry" href="http://jessecrow.com/2015/03/03/TIY-Hackathon.html">&laquo; Previous Entry</a>
+	<a class="next-entry" href="http://jessecrow.com/2015/03/10/on-iteration.html">Next Entry &raquo;</a>
+</div>
