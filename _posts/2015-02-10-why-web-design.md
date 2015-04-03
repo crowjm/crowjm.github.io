@@ -17,3 +17,7 @@ I graduated from Millsaps College with a B.A. in [Communication Studies](http://
 The Communication Studies tie in became very apparent with an article we read early in the second week of class. In the forward to [_Practical Typography_](http://practicaltypography.com/foreword.html), Erik Spiek­er­mann writes, "If you fail to consider the effect of your message on the recipient, you may inadvertently communicate that you do not care how your message may be received." Effect, message, recipient, received&mdash;these words brought me right back to college lectures. 
 
 Web design is more than just making things look pretty. You have to think critically and creatively and solve problems while building your site. You also have to consider the messages of your site. I'm excited to do all of these things.
+
+<div>
+	<a class="next-entry">Next Entry &raquo;</a>
+</div>

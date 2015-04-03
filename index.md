@@ -1,6 +1,6 @@
 ---
 layout: default
-title: portfolio
+title: Jesse Crow | Designer | Austin, Texas
 ---
 <div class="portfolio-index-header">
 	<h1>Jesse Crow</h1>

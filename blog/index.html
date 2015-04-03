@@ -11,7 +11,7 @@ title: blog
       <div class="post-float"> <!--individual blog post-->
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
         <h2>
-        <a class="post-link" href="/blog/{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <p>{{ post.excerpt }}</p>
       </div>
