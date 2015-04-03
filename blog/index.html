@@ -7,7 +7,7 @@ title: blog
 </div>
 <div class="wrapper">
   <section class="post-list"> <!--list of all blog posts with titles and excerpts-->
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <div class="post-float"> <!--individual blog post-->
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
         <h2>
