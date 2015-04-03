@@ -19,5 +19,5 @@ The Communication Studies tie in became very apparent with an article we read ea
 Web design is more than just making things look pretty. You have to think critically and creatively and solve problems while building your site. You also have to consider the messages of your site. I'm excited to do all of these things.
 
 <div>
-	<a class="next-entry">Next Entry &raquo;</a>
+	<a class="next-entry" href="http://jessecrow.com/2015/02/11/on-perseverance.html">Next Entry &raquo;</a>
 </div>

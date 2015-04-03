@@ -19,3 +19,8 @@ Dig deep into the code. If something isn't working, I have to take a break so th
 And I have to dig deep into myself. I know I can do this. I know that I know more than I think I do. Keeping this at the forefront can be difficult at times, but having a self-defeating attitude creates a doomsday spiral no one wants to go down.
 
 The best thing about The Iron Yard is that no one has to go it alone. If I'm stumped, I have plenty of people around me who I can ask for help, who can be a sounding board, and who can point me in the right direction. When I figure out a challenging concept, I have people to high five. Persevering is a lot easier with a supportive community, and I'm thankful to be part of this one. 
+
+<div>
+	<a class="previous-entry" href="http://jessecrow.com/2015/02/10/why-web-design.html">&laquo; Previous Entry</a>
+	<a class="next-entry" href="http://jessecrow.com/2015/02/12/sketches-and-perfectionism.html">Next Entry &raquo;</a>
+</div>
