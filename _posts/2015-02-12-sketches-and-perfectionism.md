@@ -18,7 +18,3 @@ We had to share our worst sketch the next day in class. I was terrified at first
 
 ![A couple of my first sketches.](/img/blog/first-sketches.JPG)
 
-<div>
-	<a class="previous-entry" href="http://jessecrow.com/2015/02/11/on-perseverance.html">&laquo; Previous Entry</a>
-	<a class="next-entry" href="http://jessecrow.com/2015/02/15/basic-responsive-codepens.html">Next Entry &raquo;</a>
-</div>

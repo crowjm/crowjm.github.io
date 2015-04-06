@@ -14,7 +14,3 @@ I hit a rut when designing the home page. I felt like none of the ideas I tried 
 
 We got feedback on our designs from our classmates and from Sam and will be revising soon. This week we're jumping into the world of logo design and also working on [CSS Zen Garden](http://www.csszengarden.com/). I'm excited to be working on two very different projects at the same time.
 
-<div>
-	<a class="previous-entry" href="http://jessecrow.com/2015/03/03/TIY-Hackathon.html">&laquo; Previous Entry</a>
-	<a class="next-entry" href="http://jessecrow.com/2015/03/10/on-iteration.html">Next Entry &raquo;</a>
-</div>

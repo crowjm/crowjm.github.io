@@ -19,8 +19,3 @@ Rejection happens for a reason.
 Getting rejected from speaking at a conference might not have the same life changing effect as choosing where to go to college, but there's a reason. Maybe it'll prepare me for rejection as I start my job search in a couple of weeks. Maybe I'll get tickets to a private Bonnie Prince Billy show on the same day. Maybe I'll _still_ be napping and recovering from the twelve most intense weeks of my life. Who knows. 
 
 Rejection isn't the important part. How you handle rejection is what's important. Rejection is awful and it can really drag you down-but you don't have to let it. It's okay to be sad for a little while, but then channel that sadness into something bigger and better. I'm not going to let this discourage me from putting myself out there. I'm only going to put myself out there more and dream bigger. 
-
-<div>
-	<a class="previous-entry" href="http://jessecrow.com/2015/03/17/logo-challenge.html">&laquo; Previous Entry</a>
-	<!-- <a class="next-entry" href="http://jessecrow.com/2015/02/19/web-typography-codepens.html">Next Entry &raquo;</a> -->
-</div>

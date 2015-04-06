@@ -24,8 +24,3 @@ The challenge wasn't over when we moved into Illustrator. We had to create 10 di
 <br>
 
 I had a blast with this assignment. It very much felt like a summer camp activity and it was a really fun way to get comfortable with not editing in my head. I learned that putting down the obvious, just getting it out of my system, helps me move past it and onto better design. 
-
-<div>
-	<a class="previous-entry" href="http://jessecrow.com/2015/03/10/on-iteration.html">&laquo; Previous Entry</a>
-	<a class="next-entry" href="http://jessecrow.com/2015/03/25/on-rejection.html">Next Entry &raquo;</a>
-</div>

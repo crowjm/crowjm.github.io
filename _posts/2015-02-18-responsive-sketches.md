@@ -43,8 +43,3 @@ excerpt: RWD isn't magically going to tackle all of the challenges web designers
 	<img src="/img/blog/ABGB2.JPG" alt="Sketch of AGBG responsive website" class="post-float-image">
 </div>
 <p>I kept the layout similar to their existing website in my first set of sketches. The only major difference was I gave more prominence to the location and hours and took away the Twitter feed and archive. In the second set of sketches, I decided priority should be give to news and their beer and food menus.</p>
-
-<div>
-	<a class="previous-entry" href="http://jessecrow.com/2015/02/15/basic-responsive-codepens.html">&laquo; Previous Entry</a>
-	<a class="next-entry" href="http://jessecrow.com/2015/02/19/web-typography-codepens.html">Next Entry &raquo;</a>
-</div>

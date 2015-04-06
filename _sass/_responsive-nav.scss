@@ -10,7 +10,7 @@
   width: 100%;
   display: block;
   list-style: none;
-  background-color: lighten($yellow, 25%);
+  // background-color: lighten($yellow, 25%);
   overflow: hidden;
 }
 
@@ -22,7 +22,9 @@
   font-weight: 600;
   font-size: 1rem;
   font-style: italic;
-  color: $blue;
+  color: white;
+  letter-spacing: 0.02rem;
+  font-size: 1.15rem;
 }
 
 .js .nav-collapse {
@@ -66,7 +68,7 @@
   display: none;
 }
 
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 660px) {
   .js .nav-collapse {
     position: relative;
   }
@@ -89,7 +91,7 @@
      text-decoration: none;
    }
    a:hover {
-     border-bottom: 2px solid $blue;
+     border-bottom: 2px solid white;
    }
  }
  .nav-collapse li:nth-of-type(1) {

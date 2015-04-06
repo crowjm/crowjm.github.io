@@ -14,17 +14,18 @@ img {
 }
 
 .site-header {
-	background-color: lighten($yellow, 25%);
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+	background-color: $blue;
 }
 
 footer {
 	clear: both;
-	background-color: lighten($yellow, 25%);
 	overflow: hidden;
-	padding-top: 1rem;
+	padding-top: 1.75rem;
+	padding-bottom: 1.5rem;
 	z-index: 9999;
+	background-color: $blue;
 }
 
 header {
@@ -42,7 +43,7 @@ footer {
 		text-align: center;
 		margin-bottom: 0.5rem;
 		a:hover {
-			border-bottom: 2px solid $blue;
+			border-bottom: 2px solid white;
 		}
 		.twitter {
 			width: 0.75rem;
@@ -94,22 +95,25 @@ footer {
 			text-decoration: none;
 		}
 		a:hover {
-			border-bottom: 2px solid $seafoam;
+			border-bottom: 2px solid $green;
 		}
 	}
 }
 
 .pagination {
-	background-color: $blue;
+	background-color: lighten($yellow, 10%);
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
-	margin-bottom: 4em;
+	margin-top: 1rem;
 	.page-number {
 		margin-right: 10%;
 		margin-left: 10%;
 	}
 	.older-posts, .newer-posts {
 		text-decoration: none;
+	}
+	.older-posts:hover, .newer-posts:hover {
+		border-bottom: 2px solid darken($blue, 10%);
 	}
 	.older-posts {
 		float: left;
@@ -154,6 +158,27 @@ footer {
 	}
 }
 
+.blog-nav {
+	background-color: lighten($yellow, 10%);
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: 3em;
+	overflow: hidden;
+	.previous-entry, .next-entry {
+		text-decoration: none;
+		color: darken($blue, 10%);
+	}
+	.previous-entry:hover, .next-entry:hover {
+		border-bottom: 2px solid darken($blue, 10%);
+	}
+	.previous-entry {
+		float: left;
+	}
+	.next-entry {
+		float: right;
+	}
+}
+
 /***about page***/ 
 .prof-pic {
 	border-radius: 50%;
@@ -176,7 +201,12 @@ footer {
 		margin-bottom: 0.5rem;
 	}
 	p {
-		margin-bottom: 0.5rem;
+		margin-bottom: 1rem;
+		font-size: 1.1rem;
+	}
+	q {
+		margin-bottom: 1rem;
+		font-size: 1.1rem;
 	}
 }
 
@@ -266,7 +296,7 @@ footer {
 			display: inline-block;
 		}
 		h2:hover {
-			border-bottom: 2px solid $seafoam;
+			border-bottom: 2px solid $green;
 		}
 	}
 }
