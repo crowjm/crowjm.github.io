@@ -2,11 +2,11 @@
 layout: default
 title: about
 ---
-<div class="blog-banner">
+<div class="about-banner">
 	<h1>howdy, y'all!</h1>
 </div>
 <div class="wrapper">
-	<img src="/img/jesse.png" alt="photo of Jesse Crow" class="prof-pic">
+	<img src="/img/jesse.jpg" alt="photo of Jesse Crow" class="prof-pic">
 	<div class="about-main-text">
 		<p><span class="about-intro">I'm Jesse.</span> I'm a UI design student at <a href="http://theironyard.com/courses/ui-design/">The Iron Yard</a>. Jumping into UI design is a natural progression of my love of making and communication. You can read more about how I got into design <a href="http://crowjm.github.io/2015/02/10/why-web-design.html">here</a>.</p>
 		<p>I was born and raised in the Deep South&mdash;Mississippi, humid summer nights, and "y'all" have a special place in my heart. I currently live in beautiful Austin, Texas with my fella and our two dogs.</p>

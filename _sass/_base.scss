@@ -34,9 +34,7 @@ header {
 
 /***header***/
 .logo {
-	img {
-		width: 25%;
-	}
+	width: 40px;
 }
 
 
@@ -187,10 +185,20 @@ footer {
 }
 
 /***about page***/ 
+.about-banner {
+	background-image: url(/img/hero-banner/about-banner.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 3rem;
+	h1 {
+		padding-top: 1.75rem;
+		padding-bottom: 1.75rem;
+		text-align: center;
+		letter-spacing: 2px;
+	}
+}
+
 .prof-pic {
-	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
 	width: 50%;
 	display: block;
 	margin-right: auto;
