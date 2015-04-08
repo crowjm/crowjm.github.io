@@ -149,9 +149,6 @@ h4 {
   list-style: none;
   overflow: hidden; }
 
-.nav-collapse li {
-  text-align: left; }
-
 .nav-collapse a {
   font-weight: 600;
   font-size: 1rem;
@@ -250,6 +247,10 @@ footer {
 
 header {
   z-index: 9999; }
+
+/***header***/
+.logo img {
+  width: 25%; }
 
 /***footer***/
 footer p {
