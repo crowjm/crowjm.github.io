@@ -87,7 +87,7 @@ h2 a {
 h1 {
   font-family: "adelle", serif;
   font-weight: 700;
-  font-size: 3em; }
+  font-size: 3.5rem; }
 
 .about-intro {
   font-family: "adelle", serif;
@@ -278,15 +278,17 @@ footer li:nth-of-type(even) {
 
 /***blog index***/
 .blog-banner {
-  background-image: url(/img/hero-banner/blogzone.JPG);
+  background-image: url(/img/hero-banner/blog-sketching.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 3rem; }
+  margin-bottom: 4.5rem;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem; }
   .blog-banner h1 {
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
     text-align: center;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 10px black; }
 
 .post-list {
   margin-bottom: 4rem; }
@@ -364,14 +366,16 @@ footer li:nth-of-type(even) {
 /***about page***/
 .about-banner {
   background-image: url(/img/hero-banner/about-banner.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 3rem; }
+  padding-bottom: 3.5rem;
+  padding-top: 3.5rem;
+  margin-bottom: 4.5rem; }
   .about-banner h1 {
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
     text-align: center;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 10px black; }
 
 .prof-pic {
   width: 50%;
@@ -437,15 +441,18 @@ footer li:nth-of-type(even) {
 
 /***portfolio index page***/
 .portfolio-index-header {
-  background-image: url(/img/hero-banner/blogzone.JPG);
+  background-image: url(/img/hero-banner/home-setup.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   text-align: center;
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-  margin-bottom: 3rem; }
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  margin-bottom: 4.5rem; }
   .portfolio-index-header h2 {
     color: #f8c153; }
+  .portfolio-index-header h1, .portfolio-index-header h2 {
+    text-shadow: 0px 0px 10px black; }
 
 .portfolio-item {
   overflow: hidden;
@@ -491,6 +498,19 @@ footer li:nth-of-type(even) {
     margin-top: 0.75rem; }
 
 /***contact***/
+.contact-banner {
+  background-image: url(/img/hero-banner/contact-banner.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 4.5rem;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem; }
+  .contact-banner h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 10px black; }
+
 .quote, .typeform {
   max-width: 750px;
   margin-right: auto;
@@ -504,11 +524,6 @@ footer li:nth-of-type(even) {
 
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {
-  /***blog index***/
-  .blog-banner h1 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem; }
-
   /***footer***/
   footer li {
     width: 25%;
@@ -574,11 +589,7 @@ footer li:nth-of-type(even) {
     margin-right: 8.333%; } }
 /***media query for largest screens***/
 @media screen and (min-width: 900px) {
-  /***blog index***/
-  .blog-banner h1 {
-    padding-top: 4rem;
-    padding-bottom: 4rem; }
-
+  /***blog***/
   .post-float {
     width: 45.8315%;
     float: left; }

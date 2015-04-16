@@ -3,7 +3,7 @@ layout: default
 title: contact
 ---
 
-<div class="blog-banner">
+<div class="contact-banner">
   <h1>say hello</h1>
 </div>
 <div class="wrapper">

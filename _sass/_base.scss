@@ -74,15 +74,17 @@ footer {
 
 /***blog index***/
 .blog-banner {
-	background-image: url(/img/hero-banner/blogzone.JPG);
+	background-image: url(/img/hero-banner/blog-sketching.jpg);
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-bottom: 3rem;
+	margin-bottom: 4.5rem;
+	padding-top: 3.5rem;
+	padding-bottom: 3.5rem;
 	h1 {
-		padding-top: 1.75rem;
-		padding-bottom: 1.75rem;
 		text-align: center;
 		letter-spacing: 2px;
+		text-shadow: 0px 0px 10px black;
 	}
 }
 
@@ -187,14 +189,16 @@ footer {
 /***about page***/ 
 .about-banner {
 	background-image: url(/img/hero-banner/about-banner.jpg);
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-bottom: 3rem;
+	padding-bottom: 3.5rem;
+	padding-top: 3.5rem;
+	margin-bottom: 4.5rem;
 	h1 {
-		padding-top: 1.75rem;
-		padding-bottom: 1.75rem;
 		text-align: center;
 		letter-spacing: 2px;
+		text-shadow: 0px 0px 10px black;
 	}
 }
 
@@ -278,15 +282,19 @@ footer {
 
 /***portfolio index page***/
 .portfolio-index-header {
-	background-image: url(/img/hero-banner/blogzone.JPG);
+	background-image: url(/img/hero-banner/home-setup.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	text-align: center;
-	padding-top: 1.75rem;
-	padding-bottom: 1.75rem;
-	margin-bottom: 3rem;
+	padding-top: 3.5rem;
+	padding-bottom: 3.5rem;
+	margin-bottom: 4.5rem;
 	h2 {
 		color: $yellow;
+	}
+	h1, h2 {
+		text-shadow: 0px 0px 10px black;
 	}
 }
 
@@ -347,6 +355,21 @@ footer {
 }
 
 /***contact***/
+.contact-banner {
+	background-image: url(/img/hero-banner/contact-banner.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 4.5rem;
+	padding-top: 3.5rem;
+	padding-bottom: 3.5rem;
+	h1 {
+		text-align: center;
+		letter-spacing: 2px;
+		text-shadow: 0px 0px 10px black;
+	}
+}
+
 .quote, .typeform {
 	max-width: 750px;
 	margin-right: auto;

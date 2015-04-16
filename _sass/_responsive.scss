@@ -1,14 +1,5 @@
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {
-
-/***blog index***/
-.blog-banner {
-	h1 {
-		padding-top: 2.5rem;
-		padding-bottom: 2.5rem;
-	}
-}
-
 /***footer***/
 footer {
 	li {
@@ -95,13 +86,7 @@ footer {
 
 /***media query for largest screens***/
 @media screen and (min-width: 900px) {
-/***blog index***/
-.blog-banner {
-	h1 {
-		padding-top: 4rem;
-		padding-bottom: 4rem;
-	}
-}
+/***blog***/
 
 .post-float {
 	@include grid(5.5);
