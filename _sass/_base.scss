@@ -39,6 +39,7 @@ header {
 
 .small-logo {
 	width: 40px;
+	float: left;
 }
 
 
@@ -102,8 +103,10 @@ footer {
 	margin-right: auto;
 	margin-left: auto;
 	h2 {
+		border-bottom: 2px solid white;
 		a {
 			text-decoration: none;
+			border-bottom: 2px solid white;
 		}
 		a:hover {
 			border-bottom: 2px solid $green;

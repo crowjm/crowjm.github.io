@@ -160,7 +160,8 @@ h4 {
   font-style: italic;
   color: white;
   letter-spacing: 0.02rem;
-  font-size: 1.15rem; }
+  font-size: 1.15rem;
+  text-decoration: none; }
 
 .js .nav-collapse {
   clip: rect(0 0 0 0);
@@ -170,7 +171,9 @@ h4 {
   overflow: hidden;
   zoom: 1;
   width: 60%;
-  float: right; }
+  float: right;
+  clear: both;
+  margin-top: -2rem; }
 
 .nav-collapse.opened {
   max-height: 500px;
@@ -189,12 +192,16 @@ h4 {
   letter-spacing: 0.03rem;
   text-decoration: none;
   display: block;
-  width: 50px;
+  width: 56px;
   float: right; }
 
 @media screen and (min-width: 660px) {
   .js .nav-collapse {
-    position: relative; }
+    position: relative;
+    margin-top: 0;
+    float: none;
+    margin: 0 auto;
+    width: 100%; }
 
   .js .nav-collapse.closed {
     max-height: none; }
@@ -208,8 +215,6 @@ h4 {
   .nav-collapse li, .big-logo {
     display: inline-block;
     margin-left: 4.5em; }
-    .nav-collapse li a, .big-logo a {
-      text-decoration: none; }
     .nav-collapse li a:hover, .big-logo a:hover {
       border-bottom: 2px solid white; }
 
@@ -217,7 +222,7 @@ h4 {
     margin-left: 0; }
 
   .nav-collapse li:nth-of-type(3) {
-    display: block; } }
+    display: inline-block; } }
 /***global scss for smallest devices***/
 /***general***/
 .wrapper {
@@ -251,7 +256,8 @@ header {
   display: none; }
 
 .small-logo {
-  width: 40px; }
+  width: 40px;
+  float: left; }
 
 /***footer***/
 footer p {
@@ -299,10 +305,13 @@ footer li:nth-of-type(even) {
   max-width: 500px;
   margin-right: auto;
   margin-left: auto; }
-  .post-float h2 a {
-    text-decoration: none; }
-  .post-float h2 a:hover {
-    border-bottom: 2px solid #28856e; }
+  .post-float h2 {
+    border-bottom: 2px solid white; }
+    .post-float h2 a {
+      text-decoration: none;
+      border-bottom: 2px solid white; }
+    .post-float h2 a:hover {
+      border-bottom: 2px solid #28856e; }
 
 .pagination {
   background-color: #fad384;

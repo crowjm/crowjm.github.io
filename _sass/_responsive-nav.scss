@@ -25,6 +25,7 @@
   color: white;
   letter-spacing: 0.02rem;
   font-size: 1.15rem;
+  text-decoration: none;
 }
 
 .js .nav-collapse {
@@ -36,6 +37,8 @@
   zoom: 1;
   width: 60%;
   float: right;
+  clear: both;
+  margin-top: -2rem;
 }
 
 .nav-collapse.opened {
@@ -56,13 +59,17 @@
   letter-spacing: 0.03rem;
   text-decoration: none;
   display: block;
-  width: 50px;
+  width: 56px;
   float: right;
 }
 
 @media screen and (min-width: 660px) {
   .js .nav-collapse {
     position: relative;
+    margin-top: 0;
+    float: none;
+    margin: 0 auto;
+    width: 100%;
   }
   .js .nav-collapse.closed {
     max-height: none;
@@ -76,9 +83,6 @@
 .nav-collapse li, .big-logo {
    display: inline-block;
    margin-left: 4.5em;
-   a {
-     text-decoration: none;
-   }
    a:hover {
      border-bottom: 2px solid white;
    }
@@ -87,7 +91,7 @@
    margin-left: 0;
 }
 .nav-collapse li:nth-of-type(3) {
-  display: block;
+  display: inline-block;
 }
 
 

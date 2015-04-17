@@ -9,9 +9,31 @@ title: Jesse Crow | Designer | Austin, Texas
 </div>
 <div class="wrapper">
 	<div class="portfolio-item">
+		<a href="/projects/nationalparks.html">
+			<div class="portfolio-snippet">
+				<img src="../img/portfolio-pages/smokies-hero.jpg">
+			</div>
+			<div class="portfolio-snippet-info">
+					<h2>National Park Service Redesign</h2>
+					<p>final project</p>
+			</div>
+		</a>
+	</div>
+	<div class="portfolio-item">
+		<a href="/projects/css-zen.html">
+			<div class="portfolio-snippet">
+				<img src="../img/portfolio-pages/css-zen.jpg">
+			</div>
+			<div class="portfolio-snippet-info">
+					<h2>CSS Zen Garden</h2>
+					<p>class project</p>
+			</div>
+		</a>
+	</div>
+	<div class="portfolio-item">
 		<a href="/projects/precious-pitbulls.html">
 			<div class="portfolio-snippet">
-				<img src="../img/portfolio-snippets/pitbull-blogposts.jpg">
+				<img src="../img/portfolio-pages/pitbull.jpg">
 			</div>
 			<div class="portfolio-snippet-info">
 					<h2>Precious Pit Bulls</h2>
