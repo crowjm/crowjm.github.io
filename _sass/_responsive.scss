@@ -82,6 +82,18 @@ footer {
 }
 
 
+/***header change***/
+@media screen and (min-width: 660px) {
+.big-logo {
+	display: block;
+	width: 40px;
+}
+
+.small-logo {
+	display: none;
+}
+}
+
 
 
 /***media query for largest screens***/

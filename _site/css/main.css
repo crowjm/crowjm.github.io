@@ -138,16 +138,21 @@ h4 {
   font-size: 1.1rem; }
 
 /*! responsive-nav.js 1.0.34 by @viljamis */
-.small-nav {
-  float: right; }
-
 .nav-collapse ul {
   margin: 0;
   padding: 0;
   width: 100%;
   display: block;
   list-style: none;
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: right; }
+
+.nav-collapse li {
+  text-align: right;
+  display: block; }
+
+.nav-collapse li:nth-of-type(3) {
+  display: none; }
 
 .nav-collapse a {
   font-weight: 600;
@@ -163,7 +168,9 @@ h4 {
   position: absolute;
   display: block;
   overflow: hidden;
-  zoom: 1; }
+  zoom: 1;
+  width: 60%;
+  float: right; }
 
 .nav-collapse.opened {
   max-height: 500px;
@@ -179,20 +186,11 @@ h4 {
   user-select: none;
   color: white;
   font-size: 1.25rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  text-align: center;
   letter-spacing: 0.03rem;
   text-decoration: none;
-  border-radius: 2rem;
-  background-color: #274d73;
   display: block;
-  width: 50%; }
-
-.logo {
-  display: none; }
+  width: 50px;
+  float: right; }
 
 @media screen and (min-width: 660px) {
   .js .nav-collapse {
@@ -207,19 +205,19 @@ h4 {
   .nav-collapse ul {
     text-align: center; }
 
-  .small-nav {
-    float: none; }
-
-  .nav-collapse li, .logo {
+  .nav-collapse li, .big-logo {
     display: inline-block;
     margin-left: 4.5em; }
-    .nav-collapse li a, .logo a {
+    .nav-collapse li a, .big-logo a {
       text-decoration: none; }
-    .nav-collapse li a:hover, .logo a:hover {
+    .nav-collapse li a:hover, .big-logo a:hover {
       border-bottom: 2px solid white; }
 
   .nav-collapse li:nth-of-type(1) {
-    margin-left: 0; } }
+    margin-left: 0; }
+
+  .nav-collapse li:nth-of-type(3) {
+    display: block; } }
 /***global scss for smallest devices***/
 /***general***/
 .wrapper {
@@ -249,7 +247,10 @@ header {
   z-index: 9999; }
 
 /***header***/
-.logo {
+.big-logo {
+  display: none; }
+
+.small-logo {
   width: 40px; }
 
 /***footer***/
@@ -587,6 +588,14 @@ footer li:nth-of-type(even) {
 
   .currently:nth-of-type(odd) {
     margin-right: 8.333%; } }
+/***header change***/
+@media screen and (min-width: 660px) {
+  .big-logo {
+    display: block;
+    width: 40px; }
+
+  .small-logo {
+    display: none; } }
 /***media query for largest screens***/
 @media screen and (min-width: 900px) {
   /***blog***/
