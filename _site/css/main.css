@@ -51,7 +51,7 @@ p, a, span, li, .page-number, q {
 h1, h2, h3, h4 {
   line-height: 1.3; }
 
-p, .page-number, q {
+p, .page-number, q, li {
   font-family: "adelle", serif;
   font-weight: 400;
   font-size: 1rem; }
@@ -98,7 +98,7 @@ h1 {
 /*a*/
 /*h2, h3*/
 /*h1*/
-p, q {
+p, q, li {
   color: #6d767e; }
 
 a {
@@ -322,7 +322,8 @@ footer li:nth-of-type(even) {
     margin-right: 10%;
     margin-left: 10%; }
   .pagination .older-posts, .pagination .newer-posts {
-    text-decoration: none; }
+    text-decoration: none;
+    border-bottom: 2px solid #fad384; }
   .pagination .older-posts:hover, .pagination .newer-posts:hover {
     border-bottom: 2px solid #274d73; }
   .pagination .older-posts {
@@ -365,7 +366,8 @@ footer li:nth-of-type(even) {
   overflow: hidden; }
   .blog-nav .previous-entry, .blog-nav .next-entry {
     text-decoration: none;
-    color: #274d73; }
+    color: #274d73;
+    border-bottom: 2px solid #fad384; }
   .blog-nav .previous-entry:hover, .blog-nav .next-entry:hover {
     border-bottom: 2px solid #274d73; }
   .blog-nav .previous-entry {
@@ -480,7 +482,8 @@ footer li:nth-of-type(even) {
     margin-right: auto;
     margin-left: auto; }
     .portfolio-item .portfolio-snippet-info h2 {
-      display: inline-block; }
+      display: inline-block;
+      border-bottom: 2px solid white; }
     .portfolio-item .portfolio-snippet-info h2:hover {
       border-bottom: 2px solid #28856e; }
 
@@ -501,8 +504,10 @@ footer li:nth-of-type(even) {
   margin-bottom: 3rem; }
   .project-content .project-links {
     text-align: center; }
-  .project-content p {
+  .project-content p, .project-content ul {
     margin-bottom: 1.5rem; }
+  .project-content ul {
+    list-style-type: disc; }
   .project-content img {
     margin-bottom: 0.75rem;
     margin-top: 0.75rem; }
