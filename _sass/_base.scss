@@ -240,52 +240,49 @@ footer {
 
 .skills {
 	clear: both;
+	overflow: hidden;
 	h2 {
 		margin-bottom: 2rem;
 	}
 		.skill {
-			overflow: hidden;
-			margin-bottom: 1rem;
-		.skill-icon {
-			width: 30%;
-			margin-right: 10%;
+			margin-bottom: 2rem;
+			width: 45%;
 			float: left;
+		.skill-icon {
+			width: 40%;
+			margin: 0 auto;
 		}	
 		.skill-name {
-			width: 60%;
-			float: left;
-			padding-top: 2.5rem;
-			padding-bottom: 2.5rem; 	
+			text-align: center;	
+			line-height: 1.2;
 		}
 	}
-}
-
-.skill-list {
-	overflow: hidden;
+	.skill:nth-of-type(odd) {
+			margin-right: 10%;
+		}
 }
 
 .currentlys {
 	clear: both;
 	overflow: hidden;
-	margin-top: 2rem;
-	margin-bottom: 6rem;
 	h2 {
 		margin-bottom: 2rem;
 	}
 	.currently {
-		overflow: hidden;
-		margin-bottom: 1rem;
-	.currently-icon {
-		width: 30%;
-		margin-right: 10%;
+		width: 45%;
 		float: left;
+		margin-bottom: 2rem;
+	.currently-icon {
+		width: 40%;
+		margin: 0 auto;
 	}	
 	.currently-name {
-		width: 60%;
-		float: left;
-		padding-top: 2.5rem;
-		padding-bottom: 2.5rem; 	
+		text-align: center;
+		line-height: 1.2;	
 	}
+}
+.currently:nth-of-type(odd) {
+	margin-right: 10%;
 }
 }
 

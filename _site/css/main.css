@@ -412,44 +412,40 @@ footer li:nth-of-type(even) {
     font-size: 1.1rem; }
 
 .skills {
-  clear: both; }
+  clear: both;
+  overflow: hidden; }
   .skills h2 {
     margin-bottom: 2rem; }
   .skills .skill {
-    overflow: hidden;
-    margin-bottom: 1rem; }
+    margin-bottom: 2rem;
+    width: 45%;
+    float: left; }
     .skills .skill .skill-icon {
-      width: 30%;
-      margin-right: 10%;
-      float: left; }
+      width: 40%;
+      margin: 0 auto; }
     .skills .skill .skill-name {
-      width: 60%;
-      float: left;
-      padding-top: 2.5rem;
-      padding-bottom: 2.5rem; }
-
-.skill-list {
-  overflow: hidden; }
+      text-align: center;
+      line-height: 1.2; }
+  .skills .skill:nth-of-type(odd) {
+    margin-right: 10%; }
 
 .currentlys {
   clear: both;
-  overflow: hidden;
-  margin-top: 2rem;
-  margin-bottom: 6rem; }
+  overflow: hidden; }
   .currentlys h2 {
     margin-bottom: 2rem; }
   .currentlys .currently {
-    overflow: hidden;
-    margin-bottom: 1rem; }
+    width: 45%;
+    float: left;
+    margin-bottom: 2rem; }
     .currentlys .currently .currently-icon {
-      width: 30%;
-      margin-right: 10%;
-      float: left; }
+      width: 40%;
+      margin: 0 auto; }
     .currentlys .currently .currently-name {
-      width: 60%;
-      float: left;
-      padding-top: 2.5rem;
-      padding-bottom: 2.5rem; }
+      text-align: center;
+      line-height: 1.2; }
+  .currentlys .currently:nth-of-type(odd) {
+    margin-right: 10%; }
 
 /***portfolio index page***/
 .portfolio-index-header {
@@ -560,48 +556,21 @@ footer li:nth-of-type(even) {
       float: left; }
 
   /***about***/
-  .skill-list {
-    width: 45.8315%;
+  .skills .skill {
+    width: 30%;
     float: left;
-    background-color: #c7d9ec;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 1.5rem;
-    height: 575px; }
-
-  .skill-list:nth-of-type(odd) {
-    margin-right: 8.333%; }
-
-  .skill-list:nth-of-type(1) {
-    margin-bottom: 2rem; }
-
-  .skill-list:nth-of-type(3) {
-    margin-bottom: 4rem; }
-
-  .currentlys .currently {
-    width: 45.8315%;
-    float: left;
-    background-color: #c7d9ec;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 1.5rem;
-    height: 250px; }
-    .currentlys .currently .currently-icon {
-      float: none;
+    margin-right: 5%; }
+    .skills .skill .skill-icon {
       width: 40%;
-      margin-right: auto;
-      margin-left: auto; }
-    .currentlys .currently .currently-name {
-      text-align: center;
-      width: 100%;
-      float: none;
-      padding-top: 0;
-      padding-bottom: 0; }
+      margin: 0 auto; }
+  .skills .skill:nth-of-type(odd) {
+    margin-right: 5%; }
+  .skills .skill:nth-of-type(3n+3) {
+    margin-right: 0; }
 
-  .currently:nth-of-type(odd) {
-    margin-right: 8.333%; } }
+  .currentlys .currently .currently-icon {
+    width: 30%;
+    margin: 0 auto; } }
 /***header change***/
 @media screen and (min-width: 660px) {
   .big-logo {
@@ -611,7 +580,7 @@ footer li:nth-of-type(even) {
   .small-logo {
     display: none; } }
 /***media query for largest screens***/
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 958px) {
   /***blog***/
   .post-float {
     width: 45.8315%;
@@ -653,27 +622,31 @@ footer li:nth-of-type(even) {
     margin-right: 8.333%; }
 
   /***about***/
-  .skill-list {
-    width: 29.1655%;
-    float: left; }
-
-  .skill-list:nth-of-type(1), .skill-list:nth-of-type(2) {
-    margin-right: 6.24975%; }
-
-  .skill-list:nth-of-type(3) {
+  .skills .skill {
+    width: 22%;
+    float: left;
+    margin-right: 4%; }
+    .skills .skill .skill-icon {
+      width: 40%;
+      margin: 0 auto; }
+  .skills .skill:nth-of-type(odd) {
+    margin-right: 4%; }
+  .skills .skill:nth-of-type(3n+3) {
+    margin-right: 4%; }
+  .skills .skill:nth-of-type(4n+4) {
     margin-right: 0; }
 
   .currentlys .currently {
-    width: 22.91575%;
-    float: left; }
+    width: 22%;
+    float: left;
+    margin-right: 4%; }
     .currentlys .currently .currently-icon {
-      width: 60%; }
-
-  .currently:nth-of-type(odd) {
-    margin-right: 2.77489%; }
-
-  .currently:nth-of-type(2) {
-    margin-right: 2.77489%; }
+      width: 40%;
+      margin: 0 auto; }
+  .currentlys .currently:nth-of-type(odd) {
+    margin-right: 4%; }
+  .currentlys .currently:nth-of-type(4n+4) {
+    margin-right: 0; }
 
   /***footer***/
   footer li {

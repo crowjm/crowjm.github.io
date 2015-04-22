@@ -15,7 +15,6 @@ title: about
 	</div>
 	<div class="skills">
 		<h2>Skills</h2>
-		<div class="skill-list">
 			<div class="skill">
 				<div class="skill-icon"><img src="../img/icons/html-icon.svg" alt="HTML icon"></div>
 				<div class="skill-name"><p>HTML</p></div>
@@ -29,36 +28,32 @@ title: about
 				<div class="skill-name"><p>Responsive Web Design</p></div>
 			</div>
 			<div class="skill">
-				<div class="skill-icon"><img src="../img/icons/design-icon.svg" alt="design icon"></div>
-				<div class="skill-name"><p>Color Theory &amp; Design Principles</p></div>	
-			</div>
-		</div>
-		<div class="skill-list">
-			<div class="skill">
-				<div class="skill-icon"><img src="../img/icons/grid-icon.svg" alt="Grids icon"></div>
-				<div class="skill-name"><p>Grid Systems</p></div>
-			</div>
-			<div class="skill">
 				<div class="skill-icon"><img src="../img/icons/octocat-icon.svg" alt="octocat icon"></div>
 				<div class="skill-name"><p>Github &amp; Command Line</p></div>
+			</div>
+			<div class="skill">
+				<div class="skill-icon"><img src="../img/icons/design-icon.svg" alt="design icon"></div>
+				<div class="skill-name"><p>Design Principles</p></div>	
 			</div>
 			<div class="skill">
 				<div class="skill-icon"><img src="../img/icons/sketch-icon.svg" alt="sketch icon"></div>
 				<div class="skill-name"><p>Sketching &amp; Wireframing</p></div>
 			</div>
-			<div class="skill">
-				<div class="skill-icon"><img src="../img/icons/typography-icon.svg" alt="typography icon"></div>
-				<div class="skill-name"><p>Typography</p></div>
-			</div>
-		</div>
-		<div class="skill-list">
-			<div class="skill">
+				<div class="skill">
 				<div class="skill-icon"><img src="../img/icons/photoshop-icon.svg" alt="Photoshop icon"></div>
 				<div class="skill-name"><p>Photoshop</p></div>
 			</div>
 			<div class="skill">
 				<div class="skill-icon"><img src="../img/icons/illustrator-icon.svg" alt="Illustrator icon"></div>
 				<div class="skill-name"><p>Illustrator</p></div>
+			</div>
+			<div class="skill">
+				<div class="skill-icon"><img src="../img/icons/grid-icon.svg" alt="Grids icon"></div>
+				<div class="skill-name"><p>Grid Systems</p></div>
+			</div>
+			<div class="skill">
+				<div class="skill-icon"><img src="../img/icons/typography-icon.svg" alt="typography icon"></div>
+				<div class="skill-name"><p>Typography</p></div>
 			</div>
 			<div class="skill">
 				<div class="skill-icon"><img src="../img/icons/hat-icon.svg" alt="hat icon"></div>
@@ -69,7 +64,6 @@ title: about
 				<div class="skill-name"><p>Vast Knowledge of Parks &amp; Rec</p></div>	
 			</div>	
 		</div>
-	</div>
 	<div class="currentlys">
 		<h2>Currently</h2>
 		<div class="currently">
