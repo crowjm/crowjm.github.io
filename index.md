@@ -15,11 +15,22 @@ title: Jesse Crow | Designer | Austin, Texas
 			</div>
 			<div class="portfolio-snippet-info">
 					<h2>National Park Service Redesign</h2>
-					<p>final project</p>
+					<p>website / RWD / animation / JS</p>
 			</div>
 		</a>
 	</div>
-	<div class="portfolio-item">
+		<div class="portfolio-item">
+		<a href="/projects/greenthumb.html">
+			<div class="portfolio-snippet">
+				<img src="../img/portfolio-pages/greenthumb.jpg">
+			</div>
+			<div class="portfolio-snippet-info">
+					<h2>GreenThumb</h2>
+					<p>web app design / RWD / JS</p>
+			</div>
+		</a>
+	</div>
+<!-- 	<div class="portfolio-item">
 		<a href="/projects/css-zen.html">
 			<div class="portfolio-snippet">
 				<img src="../img/portfolio-pages/css-zen.jpg">
@@ -29,7 +40,7 @@ title: Jesse Crow | Designer | Austin, Texas
 					<p>class project</p>
 			</div>
 		</a>
-	</div>
+	</div> -->
 	<div class="portfolio-item">
 		<a href="/projects/precious-pitbulls.html">
 			<div class="portfolio-snippet">
@@ -37,7 +48,7 @@ title: Jesse Crow | Designer | Austin, Texas
 			</div>
 			<div class="portfolio-snippet-info">
 					<h2>Precious Pit Bulls</h2>
-					<p>class project</p>
+					<p>editorial article design / RWD / Sass</p>
 			</div>
 		</a>
 	</div>
