@@ -30,17 +30,17 @@ title: Jesse Crow | Designer | Austin, Texas
 			</div>
 		</a>
 	</div>
-<!-- 	<div class="portfolio-item">
+	<div class="portfolio-item">
 		<a href="/projects/css-zen.html">
 			<div class="portfolio-snippet">
 				<img src="../img/portfolio-pages/css-zen.jpg">
 			</div>
 			<div class="portfolio-snippet-info">
 					<h2>CSS Zen Garden</h2>
-					<p>class project</p>
+					<p>website / RWD / animation</p>
 			</div>
 		</a>
-	</div> -->
+	</div>
 	<div class="portfolio-item">
 		<a href="/projects/precious-pitbulls.html">
 			<div class="portfolio-snippet">
