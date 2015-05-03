@@ -1,6 +1,10 @@
 /***global scss for smallest devices***/
 
 /***general***/
+h1 {
+	font-size: 3rem;
+}
+
 .wrapper {
 	width: 90%;
 	max-width: 1200px;
@@ -378,6 +382,12 @@ footer {
 		letter-spacing: 2px;
 		text-shadow: 0px 0px 10px black;
 	}
+}
+
+.contact-intro {
+	max-width: 650px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .quote, .typeform {

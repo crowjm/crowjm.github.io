@@ -86,8 +86,7 @@ h2 a {
 /***for blog tiles in blog index***/
 h1 {
   font-family: "adelle", serif;
-  font-weight: 700;
-  font-size: 3.5rem; }
+  font-weight: 700; }
 
 .about-intro {
   font-family: "adelle", serif;
@@ -225,6 +224,9 @@ h4 {
     display: inline-block; } }
 /***global scss for smallest devices***/
 /***general***/
+h1 {
+  font-size: 3rem; }
+
 .wrapper {
   width: 90%;
   max-width: 1200px;
@@ -522,6 +524,11 @@ footer li:nth-of-type(even) {
     letter-spacing: 2px;
     text-shadow: 0px 0px 10px black; }
 
+.contact-intro {
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto; }
+
 .quote, .typeform {
   max-width: 750px;
   margin-right: auto;
@@ -535,14 +542,23 @@ footer li:nth-of-type(even) {
 
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {
+  /***general***/
+  h1 {
+    font-size: 3.5rem; }
+
   /***footer***/
-  footer li {
-    width: 25%;
-    margin-top: 0.25rem; }
-  footer li:nth-of-type(odd) {
-    margin-left: 0%; }
-  footer li:nth-of-type(even) {
-    margin-right: 0%; }
+  footer ul {
+    overflow: hidden; }
+    footer ul li {
+      width: 25%;
+      margin: 0; }
+    footer ul li:nth-of-type(odd) {
+      margin-left: 0%; }
+    footer ul li:nth-of-type(even) {
+      margin-right: 0%; }
+
+  .footer-social {
+    overflow: hidden; }
 
   /***photo in about***/
   .prof-pic {
