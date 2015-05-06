@@ -6,9 +6,42 @@
 </description>
     <link>http://www.jessecrow.com/blog/</link>
     <atom:link href="http://www.jessecrow.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 May 2015 16:02:07 -0500</pubDate>
-    <lastBuildDate>Sun, 03 May 2015 16:02:07 -0500</lastBuildDate>
+    <pubDate>Tue, 05 May 2015 21:55:09 -0500</pubDate>
+    <lastBuildDate>Tue, 05 May 2015 21:55:09 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Starting Final Projects</title>
+        <description>&lt;p&gt;Y’all, somehow the time has flown by and I’m starting my final project. This is not a drill.&lt;/p&gt;
+
+&lt;p&gt;I’m feeling excited and inspired and a little overwhelmed about just how much work I have to get done in the next two weeks. I know I’m capable and armed with a fantastic schedule to stick with, but sometimes the size and importance of this project gets the best of me. Mostly I’m trying to shush the thoughts of “you only have ___ days left here” that have become more frequent.&lt;/p&gt;
+
+&lt;p&gt;For my final project, I’m going to redesign the home page of the National Park Service website and four pages from Great Smoky Mountains National Park’s website. So far I’ve done my research, created a word list, done brand/reputation, competitor, and SWOT analyses, considered the audience, come up with a list of potential concepts, and done sketches based on the strongest three concepts. Seems like a lot (and it is), but it’s only a small drop compared to what’s to come. &lt;/p&gt;
+
+&lt;p&gt;I just need to keep in mind this mantra from Leslie Knope:
+&lt;img src=&quot;/img/blog/doit.gif&quot; alt=&quot;Inspirational Leslie Knope gif&quot; class=&quot;blog-gif&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Apr 2015 00:00:00 -0500</pubDate>
+        <link>http://www.jessecrow.com/blog/2015/04/01/starting-final-projects.html</link>
+        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/04/01/starting-final-projects.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Front End &amp;amp; Rails Demo Day</title>
+        <description>&lt;p&gt;Today the Front End and Rails classes had their demo day—I can’t believe 12 weeks has already gone by!&lt;/p&gt;
+
+&lt;p&gt;Seeing a demo day first hand was a really awesome experience (and it helped calm my already happening jitters about my demo day in three weeks). It was set up science fair style, so everyone had a station set up with a big monitor displaying their final project, business cards, a name tag, etc. People could then move from station to station and I think there was a lot less pressure on the students since (at least from what I could see) presentations were very conversational. &lt;/p&gt;
+
+&lt;p&gt;I’m so amazed and impressed with what my classmates and friends created in two weeks and how much they’ve learned in twelve! If they’re the future of engineering, it’s in &lt;em&gt;very&lt;/em&gt; good hands.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 27 Mar 2015 00:00:00 -0500</pubDate>
+        <link>http://www.jessecrow.com/blog/2015/03/27/fee-and-ror-demo-day.html</link>
+        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/03/27/fee-and-ror-demo-day.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>On Rejection</title>
@@ -335,56 +368,6 @@
         <pubDate>Wed, 18 Feb 2015 00:00:00 -0600</pubDate>
         <link>http://www.jessecrow.com/blog/2015/02/18/responsive-sketches.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/02/18/responsive-sketches.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Basic Responsive Codepens</title>
-        <description>&lt;p&gt;We had our first Responsive Web Design (RWD) lecture on Friday. RWD means designing for all sorts of devices and screens. RWD means being inclusive and inclusiveness is my jam.&lt;/p&gt;
-
-&lt;p&gt;Over the weekend, we had a few homework assignments to get used to RWD where we had to use percentages, media queries, and breakpoints. RWD is oddly comforting to me and makes me feel like I have more control over my code and therefore more control over the user’s experience. &lt;/p&gt;
-
-&lt;p&gt;Here are the Codepens I created with this weekend’s homework. If you click on the “Edit on Codepen” link in the upper right hand of each, they’ll open in a new tab and you’ll be able to resize the browser window to see all of their responsive glory.&lt;/p&gt;
-
-&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;raJqOP&quot; data-default-tab=&quot;result&quot; data-user=&quot;crowjm&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/raJqOP/&quot;&gt;Responsive #1&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;emVPzx&quot; data-default-tab=&quot;result&quot; data-user=&quot;crowjm&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/emVPzx/&quot;&gt;Responsive #1&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;ogEazj&quot; data-default-tab=&quot;result&quot; data-user=&quot;crowjm&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/ogEazj/&quot;&gt;Responsive #1&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;GgQYNW&quot; data-default-tab=&quot;result&quot; data-user=&quot;crowjm&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/GgQYNW/&quot;&gt;Responsive #2&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-</description>
-        <pubDate>Sun, 15 Feb 2015 00:00:00 -0600</pubDate>
-        <link>http://www.jessecrow.com/blog/2015/02/15/basic-responsive-codepens.html</link>
-        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/02/15/basic-responsive-codepens.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Sketches and Perfectionism</title>
-        <description>&lt;p&gt;Our first website sketching assignment sent me into a state of panic. I had to fight my inner perfectionist and accept having what I considered major flaws in my work (and consequently share work I wasn’t proud of).&lt;/p&gt;
-
-&lt;p&gt;We were assigned ten websites that we had to sketch on a grid. And we had to use pen. PEN. I knew I would make mistakes and there would be nothing I could do to correct them and that’s when the panic began. &lt;/p&gt;
-
-&lt;p&gt;My instructor, Sam, talked about how sketches don’t have to be perfect, how they shouldn’t be perfect. They’re an important first step in the design process and they should be done quickly to get ideas down on the page.&lt;/p&gt;
-
-&lt;p&gt;That sounded great until I started drawing crooked lines and divs in the wrong place. Even though I knew my sketches shouldn’t be perfect, I put pressure on myself to make them so. I felt like they couldn’t be used because they had mistakes.&lt;/p&gt;
-
-&lt;p&gt;We had to share our worst sketch the next day in class. I was terrified at first, but then I realized we all had mistakes. Lines weren’t straight, proportions were off, etc. What I had built up to be horrendous mistakes &lt;em&gt;weren’t mistakes at all&lt;/em&gt;. The layouts of the sites were still conveyed and we could understand what the others had sketched. And that’s the whole point.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/blog/first-sketches.JPG&quot; alt=&quot;A couple of my first sketches.&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 12 Feb 2015 00:00:00 -0600</pubDate>
-        <link>http://www.jessecrow.com/blog/2015/02/12/sketches-and-perfectionism.html</link>
-        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/02/12/sketches-and-perfectionism.html</guid>
         
         
       </item>

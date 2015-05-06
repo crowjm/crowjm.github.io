@@ -56,6 +56,10 @@ p, .page-number, q, li {
   font-weight: 400;
   font-size: 1rem; }
 
+.project-links {
+  font-family: "adelle", serif;
+  font-size: 1.5rem; }
+
 a {
   font-family: "adelle", serif;
   font-weight: 600;
@@ -72,6 +76,11 @@ h3 {
   font-family: "adelle", serif;
   font-weight: 700;
   font-size: 1.25rem; }
+
+.project-page-header {
+  font-family: "adelle", serif;
+  font-weight: 400;
+  font-size: 1.3rem; }
 
 h2 {
   font-family: "adelle", serif;
@@ -92,6 +101,9 @@ h1 {
   font-family: "adelle", serif;
   font-weight: 400;
   font-size: 1.6rem; }
+
+em {
+  font-style: italic; }
 
 /*p*/
 /*a*/
@@ -135,6 +147,11 @@ h4 {
 .footer-paragraph p {
   color: white;
   font-size: 1.1rem; }
+
+.project-links {
+  color: #28856e; }
+  .project-links a {
+    color: #f8c153; }
 
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .nav-collapse ul {
@@ -377,6 +394,12 @@ footer li:nth-of-type(even) {
   .blog-nav .next-entry {
     float: right; }
 
+.blog-gif {
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto; }
+
 /***about page***/
 .about-banner {
   background-image: url(/img/hero-banner/about-banner.jpg);
@@ -544,7 +567,7 @@ footer li:nth-of-type(even) {
 @media screen and (min-width: 620px) {
   /***general***/
   h1 {
-    font-size: 3.5rem; }
+    font-size: 3rem; }
 
   /***footer***/
   footer ul {
