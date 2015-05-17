@@ -365,7 +365,7 @@ footer li:nth-of-type(even) {
 
 .post-content {
   margin-bottom: 3rem; }
-  .post-content p {
+  .post-content p, .post-content ul {
     margin-bottom: 0.5rem; }
   .post-content img {
     margin-bottom: 0.75rem;
@@ -397,6 +397,13 @@ footer li:nth-of-type(even) {
 .blog-gif {
   display: block;
   width: 50%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.blog-logo {
+  width: 200px;
+  height: 200px;
+  display: block;
   margin-right: auto;
   margin-left: auto; }
 
