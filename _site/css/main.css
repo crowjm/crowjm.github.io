@@ -455,6 +455,11 @@ footer li:nth-of-type(even) {
     .skills .skill .skill-icon {
       width: 40%;
       margin: 0 auto; }
+      .skills .skill .skill-icon img {
+        max-width: 50px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto; }
     .skills .skill .skill-name {
       text-align: center;
       line-height: 1.2; }
@@ -473,6 +478,11 @@ footer li:nth-of-type(even) {
     .currentlys .currently .currently-icon {
       width: 40%;
       margin: 0 auto; }
+      .currentlys .currently .currently-icon img {
+        max-width: 50px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto; }
     .currentlys .currently .currently-name {
       text-align: center;
       line-height: 1.2; }
@@ -672,9 +682,9 @@ footer li:nth-of-type(even) {
     width: 22%;
     float: left;
     margin-right: 4%; }
-    .skills .skill .skill-icon {
-      width: 40%;
-      margin: 0 auto; }
+  .skills .skill-icon {
+    width: 40%;
+    margin: 0 auto; }
   .skills .skill:nth-of-type(odd) {
     margin-right: 4%; }
   .skills .skill:nth-of-type(3n+3) {

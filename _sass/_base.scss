@@ -270,6 +270,12 @@ footer {
 		.skill-icon {
 			width: 40%;
 			margin: 0 auto;
+			img {
+				max-width: 50px;
+				display: block;
+				margin-right: auto;
+				margin-left: auto;
+			}
 		}	
 		.skill-name {
 			text-align: center;	
@@ -294,6 +300,12 @@ footer {
 	.currently-icon {
 		width: 40%;
 		margin: 0 auto;
+		img {
+				max-width: 50px;
+				display: block;
+				margin-right: auto;
+				margin-left: auto;
+			}
 	}	
 	.currently-name {
 		text-align: center;
