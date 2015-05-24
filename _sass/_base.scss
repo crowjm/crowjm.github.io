@@ -52,6 +52,12 @@ footer {
 	p {
 		text-align: center;
 	}
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		border-bottom: 2px solid white;
+	}
 	li {
 		float: left;
 		width: 35%;

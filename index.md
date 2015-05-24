@@ -20,6 +20,17 @@ title: Jesse Crow | Designer | Austin, Texas
 		</a>
 	</div>
 		<div class="portfolio-item">
+		<a href="/projects/goodreads.html">
+			<div class="portfolio-snippet">
+				<img src="../img/portfolio-pages/goodreads.jpg">
+			</div>
+			<div class="portfolio-snippet-info">
+					<h2>GoodReads</h2>
+					<p>logo redesign / Illustrator</p>
+			</div>
+		</a>
+	</div>
+		<div class="portfolio-item">
 		<a href="/projects/greenthumb.html">
 			<div class="portfolio-snippet">
 				<img src="../img/portfolio-pages/greenthumb.jpg">
