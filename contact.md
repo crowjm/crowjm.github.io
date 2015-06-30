@@ -2,10 +2,6 @@
 layout: default
 title: contact
 ---
-
-<div class="contact-banner">
-  <h1>say hello</h1>
-</div>
 <div class="wrapper">
   <h3 class="contact-intro">Interested in working together? Just want to say hi? Get in touch using the form below.</h3>
 	<div class="typeform">

@@ -241,10 +241,13 @@ h4 {
     display: inline-block; } }
 /***global scss for smallest devices***/
 /***general***/
+html {
+  height: 100%; }
+
 h1 {
   font-size: 2.75rem; }
 
-.wrapper {
+.wrapper, .head-wrapper {
   width: 90%;
   max-width: 1200px;
   margin-right: auto;
@@ -269,6 +272,14 @@ footer {
 
 header {
   z-index: 9999; }
+  header .small-logo {
+    float: left; }
+  header .name {
+    margin-left: 20px;
+    float: left;
+    padding-top: 19px; }
+    header .name p {
+      color: white; }
 
 /***header***/
 .big-logo {
@@ -638,7 +649,19 @@ footer li:nth-of-type(even) {
     width: 40px; }
 
   .small-logo {
-    display: none; } }
+    display: none; }
+
+  header {
+    float: left;
+    height: 100%;
+    width: 250px;
+    position: absolute; }
+
+  .wrapper {
+    width: calc(100% - 250px);
+    margin: 0 auto;
+    padding-left: 280px;
+    padding-right: 30px; } }
 /***media query for largest screens***/
 @media screen and (min-width: 958px) {
   /***blog***/

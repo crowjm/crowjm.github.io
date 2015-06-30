@@ -2,9 +2,6 @@
 layout: default
 title: about
 ---
-<div class="about-banner">
-	<h1>howdy, y'all!</h1>
-</div>
 <div class="wrapper">
 	<img src="/img/jesse.jpg" alt="photo of Jesse Crow" class="prof-pic">
 	<div class="about-main-text">

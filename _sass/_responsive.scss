@@ -82,6 +82,20 @@ footer {
 .small-logo {
 	display: none;
 }
+
+header {
+	float: left;
+	height: 100%;
+	width: 250px;
+	position: absolute;
+}
+
+.wrapper {
+	width: calc(100% - 250px);
+	margin: 0 auto;
+	padding-left: 280px;
+	padding-right: 30px;
+}
 }
 
 
