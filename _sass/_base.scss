@@ -62,14 +62,12 @@ header {
 	}
 	.logo-and-name {
 		overflow: hidden;
+		width: 60%;
+		margin: 0;
 	}
 }
 
 /***header***/
-.big-logo {
-	display: none;
-}
-
 .small-logo {
 	width: 40px;
 	float: left;

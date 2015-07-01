@@ -293,12 +293,11 @@ header {
   header .side-nav-info, header .side-nav-links {
     display: none; }
   header .logo-and-name {
-    overflow: hidden; }
+    overflow: hidden;
+    width: 60%;
+    margin: 0; }
 
 /***header***/
-.big-logo {
-  display: none; }
-
 .small-logo {
   width: 40px;
   float: left; }
