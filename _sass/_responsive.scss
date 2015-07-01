@@ -103,6 +103,9 @@ header {
 			}
 		}
 	}
+	.logo-and-name {
+		width: 100%;
+	}
 }
 
 .wrapper {
@@ -118,6 +121,12 @@ header {
 footer {
 	display: none;
 }
+
+.skills {
+	.skill {
+		height: 110px;
+	}
+}
 }
 
 
@@ -132,17 +141,6 @@ footer {
 }
 .post-float:nth-of-type(odd) {
 	margin-right: $col;
-}
-
-
-/***about***/
-.prof-pic {
-	@include grid(3);
-	margin-right: ($col * 2);
-}
-
-.about-main-text {
-	@include grid(7);
 }
 
 

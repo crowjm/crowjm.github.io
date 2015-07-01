@@ -3,11 +3,12 @@ layout: default
 title: about
 ---
 <div class="wrapper">
+	<h1>howdy, y'all</h1>
 	<img src="/img/jesse.jpg" alt="photo of Jesse Crow" class="prof-pic">
 	<div class="about-main-text">
 		<p><span class="about-intro">I'm Jesse.</span> I'm a UI &amp; Web Designer and a graduate of <a href="http://theironyard.com/courses/ui-design/">The Iron Yard</a>. Jumping into UI design is a natural progression of my love of making and communication. You can read more about how I got into design <a href="http://crowjm.github.io/2015/02/10/why-web-design.html">here</a>.</p>
 		<p>I was born and raised in the Deep South&mdash;Mississippi, humid summer nights, and "y'all" have a special place in my heart. I currently live in beautiful Austin, Texas with my fella and our two dogs.</p>
-		<p>This year, I'd like to improve my Illustrator and Photoshop skills, learn JavaScript, improve my Spanish, travel to at least one National Park, and learn how to play the banjo.</p>
+		<p>This year, I'd like to improve my lettering and banjo skills, learn JavaScript, improve my Spanish, and travel to at least one National Park.</p>
 		<div class="quote"><q cite="http://thinkprogress.org/alyssa/2013/10/09/2752501/amy-poehler-worldwide-orphans/">"I want to be around people that do things. I don't want to be around people any more that judge or talk about what people do. I want to be around people who dream, and support, and do things." &mdash;Amy Poehler</q></div>
 	</div>
 	<div class="skills">

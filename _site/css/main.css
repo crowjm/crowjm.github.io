@@ -133,7 +133,7 @@ h2, h3, .about-intro {
   color: #28856e; }
 
 h1 {
-  color: #f8c153; }
+  color: #346699; }
 
 .project-header h1, .post-header h1 {
   color: #2e5986; }
@@ -248,7 +248,12 @@ html {
   height: 100%; }
 
 h1 {
-  font-size: 2.75rem; }
+  font-size: 2.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-decoration: underline; }
 
 .wrapper, .head-wrapper {
   width: 90%;
@@ -678,6 +683,8 @@ footer li:nth-of-type(even) {
         float: left; }
       header .side-nav-links .icon img {
         width: 30px; }
+    header .logo-and-name {
+      width: 100%; }
 
   .wrapper {
     width: 55%;
@@ -688,7 +695,10 @@ footer li:nth-of-type(even) {
     width: 85%; }
 
   footer {
-    display: none; } }
+    display: none; }
+
+  .skills .skill {
+    height: 110px; } }
 /***media query for largest screens***/
 @media screen and (min-width: 958px) {
   /***blog***/
@@ -698,16 +708,6 @@ footer li:nth-of-type(even) {
 
   .post-float:nth-of-type(odd) {
     margin-right: 8.333%; }
-
-  /***about***/
-  .prof-pic {
-    width: 24.999%;
-    float: left;
-    margin-right: 16.666%; }
-
-  .about-main-text {
-    width: 58.331%;
-    float: left; }
 
   /***about***/
   .skills .skill {

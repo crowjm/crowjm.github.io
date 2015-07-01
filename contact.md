@@ -3,6 +3,7 @@ layout: default
 title: contact
 ---
 <div class="wrapper">
+  <h1>say hello</h1>
   <h3 class="contact-intro">Interested in working together? Just want to say hi? Get in touch using the form below.</h3>
 	<div class="typeform">
 		<iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://jessecrow.typeform.com/to/HdSxwF"></iframe>

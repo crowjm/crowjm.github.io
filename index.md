@@ -3,6 +3,7 @@ layout: default
 title: Jesse Crow | Designer | Austin, Texas
 ---
 <div class="wrapper">
+	<h1>portfolio</h1>
 	<div class="portfolio-item">
 		<a href="/projects/nationalparks.html">
 			<div class="portfolio-snippet">
