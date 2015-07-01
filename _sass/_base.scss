@@ -57,9 +57,14 @@ header {
 	.name {
 		margin-left: 20px;
 		float: left;
-		padding-top: 19px;
+		padding-top: 13px;
 		p {
 			color: white;
+			font-size: 1.1rem;
+			line-height: 1.5;
+		}
+		.my-name {
+			font-size: 1.4rem;
 		}
 	}
 	.side-nav-info, .side-nav-links {
@@ -67,7 +72,8 @@ header {
 	}
 	.logo-and-name {
 		overflow: hidden;
-		width: 60%;
+		float: left;
+		width: 70%;
 		margin: 0;
 	}
 }

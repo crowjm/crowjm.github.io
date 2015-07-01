@@ -167,9 +167,6 @@ h4 {
   text-align: right;
   display: block; }
 
-.nav-collapse li:nth-of-type(3) {
-  display: none; }
-
 .nav-collapse a {
   font-weight: 600;
   font-size: 1rem;
@@ -188,8 +185,7 @@ h4 {
   zoom: 1;
   width: 60%;
   float: right;
-  clear: both;
-  margin-top: -2rem; }
+  clear: both; }
 
 .nav-collapse.opened {
   max-height: 500px;
@@ -204,12 +200,12 @@ h4 {
   -o-user-select: none;
   user-select: none;
   color: white;
-  font-size: 1.25rem;
-  letter-spacing: 0.03rem;
+  font-size: 2.5rem;
   text-decoration: none;
   display: block;
-  width: 56px;
-  float: right; }
+  float: right;
+  font-style: normal;
+  margin-top: 15px; }
 
 @media screen and (min-width: 660px) {
   .js .nav-collapse {
@@ -292,14 +288,19 @@ header {
   header .name {
     margin-left: 20px;
     float: left;
-    padding-top: 19px; }
+    padding-top: 13px; }
     header .name p {
-      color: white; }
+      color: white;
+      font-size: 1.1rem;
+      line-height: 1.5; }
+    header .name .my-name {
+      font-size: 1.4rem; }
   header .side-nav-info, header .side-nav-links {
     display: none; }
   header .logo-and-name {
     overflow: hidden;
-    width: 60%;
+    float: left;
+    width: 70%;
     margin: 0; }
 
 /***header***/
@@ -685,6 +686,9 @@ footer li:nth-of-type(even) {
         width: 30px; }
     header .logo-and-name {
       width: 100%; }
+      header .logo-and-name .name {
+        float: none;
+        margin-left: 57px; }
 
   .wrapper {
     width: 55%;

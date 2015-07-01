@@ -105,6 +105,10 @@ header {
 	}
 	.logo-and-name {
 		width: 100%;
+		.name {
+			float: none;
+			margin-left: 57px;
+		}
 	}
 }
 
