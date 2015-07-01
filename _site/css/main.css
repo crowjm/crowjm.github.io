@@ -228,14 +228,17 @@ h4 {
   .nav-collapse ul {
     text-align: center; }
 
-  .nav-collapse li, .big-logo {
+  .nav-collapse li {
     display: inline-block;
-    margin-left: 4.5em; }
-    .nav-collapse li a:hover, .big-logo a:hover {
+    margin-left: 0em;
+    width: 100%;
+    text-align: left; }
+    .nav-collapse li a:hover {
       border-bottom: 2px solid white; }
 
   .nav-collapse li:nth-of-type(1) {
-    margin-left: 0; }
+    margin-left: 0;
+    margin-top: 3em; }
 
   .nav-collapse li:nth-of-type(3) {
     display: inline-block; } }
@@ -248,6 +251,13 @@ h1 {
   font-size: 2.75rem; }
 
 .wrapper, .head-wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden; }
+
+.head-wrapper {
   width: 90%;
   max-width: 1200px;
   margin-right: auto;
@@ -280,6 +290,10 @@ header {
     padding-top: 19px; }
     header .name p {
       color: white; }
+  header .side-nav-info, header .side-nav-links {
+    display: none; }
+  header .logo-and-name {
+    overflow: hidden; }
 
 /***header***/
 .big-logo {
@@ -644,24 +658,38 @@ footer li:nth-of-type(even) {
     margin: 0 auto; } }
 /***header change***/
 @media screen and (min-width: 660px) {
-  .big-logo {
-    display: block;
-    width: 40px; }
-
-  .small-logo {
-    display: none; }
-
   header {
-    float: left;
     height: 100%;
     width: 250px;
-    position: absolute; }
+    position: fixed; }
+    header .side-nav-info {
+      display: block; }
+      header .side-nav-info p {
+        color: white;
+        margin-top: 3em; }
+      header .side-nav-info a {
+        color: white; }
+    header .side-nav-links {
+      display: block;
+      margin-top: 3rem;
+      margin-left: auto;
+      margin-right: auto; }
+      header .side-nav-links li {
+        width: 25%;
+        float: left; }
+      header .side-nav-links .icon img {
+        width: 30px; }
 
   .wrapper {
-    width: calc(100% - 250px);
+    width: 55%;
     margin: 0 auto;
-    padding-left: 280px;
-    padding-right: 30px; } }
+    padding-left: 250px; }
+
+  .head-wrapper {
+    width: 85%; }
+
+  footer {
+    display: none; } }
 /***media query for largest screens***/
 @media screen and (min-width: 958px) {
   /***blog***/
@@ -672,20 +700,6 @@ footer li:nth-of-type(even) {
   .post-float:nth-of-type(odd) {
     margin-right: 8.333%; }
 
-  /***footer***/
-  footer p {
-    text-align: left; }
-  footer li {
-    margin-top: 0; }
-
-  .footer-paragraph {
-    float: left;
-    width: 35%; }
-
-  .footer-social {
-    float: left;
-    width: 65%; }
-
   /***about***/
   .prof-pic {
     width: 24.999%;
@@ -695,14 +709,6 @@ footer li:nth-of-type(even) {
   .about-main-text {
     width: 58.331%;
     float: left; }
-
-  /***portfolio index page***/
-  .portfolio-item {
-    width: 45.8315%;
-    float: left; }
-
-  .portfolio-item:nth-of-type(odd) {
-    margin-right: 8.333%; }
 
   /***about***/
   .skills .skill {
@@ -729,8 +735,4 @@ footer li:nth-of-type(even) {
   .currentlys .currently:nth-of-type(odd) {
     margin-right: 4%; }
   .currentlys .currently:nth-of-type(4n+4) {
-    margin-right: 0; }
-
-  /***footer***/
-  footer li {
-    text-align: right; } }
+    margin-right: 0; } }

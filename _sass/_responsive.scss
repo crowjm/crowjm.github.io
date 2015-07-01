@@ -74,27 +74,49 @@ footer {
 
 /***header change***/
 @media screen and (min-width: 660px) {
-.big-logo {
-	display: block;
-	width: 40px;
-}
-
-.small-logo {
-	display: none;
-}
-
 header {
-	float: left;
 	height: 100%;
 	width: 250px;
-	position: absolute;
+	position: fixed;
+	.side-nav-info {
+		display: block;
+		p {
+			color: white;
+			margin-top: 3em;
+		}
+		a {
+			color: white;
+		}
+	}
+	.side-nav-links {
+		display: block;
+		margin-top: 3rem;
+		margin-left: auto;
+		margin-right: auto;
+		li {
+			width: 25%;
+			float: left;
+		}
+		.icon {
+			img {
+				width: 30px;
+			}
+		}
+	}
 }
 
 .wrapper {
-	width: calc(100% - 250px);
+	width: 55%;
 	margin: 0 auto;
-	padding-left: 280px;
-	padding-right: 30px;
+	padding-left: 250px;
+}
+
+.head-wrapper {
+	width: 85%;
+}
+
+footer {
+	display: none;
 }
 }
 
@@ -102,6 +124,7 @@ header {
 
 /***media query for largest screens***/
 @media screen and (min-width: 958px) {
+
 /***blog***/
 
 .post-float {
@@ -111,25 +134,6 @@ header {
 	margin-right: $col;
 }
 
-/***footer***/
-footer {
-	p {
-		text-align: left;
-	}
-	li {
-		margin-top: 0;
-	}
-}
-
-.footer-paragraph {
-	float: left;
-	width: 35%;
-}
-
-.footer-social {
-	float: left;
-	width: 65%;
-}
 
 /***about***/
 .prof-pic {
@@ -141,14 +145,6 @@ footer {
 	@include grid(7);
 }
 
-/***portfolio index page***/
-.portfolio-item {
-	@include grid(5.5);
-}
-
-.portfolio-item:nth-of-type(odd) {
-	margin-right: $col;
-}
 
 /***about***/
 .skills {
@@ -187,14 +183,6 @@ footer {
 		}
 	.currently:nth-of-type(4n+4) {
 		margin-right: 0;
-	}
-}
-
-
-/***footer***/
-footer {
-	li {
-		text-align: right;
 	}
 }
 
