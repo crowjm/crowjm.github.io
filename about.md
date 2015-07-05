@@ -66,19 +66,19 @@ title: about
 		<h2>Currently</h2>
 		<div class="currently">
 			<div class="currently-icon"><img src="../img/icons/listening-icon.png" alt="listening icon"></div>
-			<div class="currently-name"><p>The Milk Eyed Mender by Joanna Newsom</p></div>
+			<div class="currently-name"><p>I Love You, Honeybear by Father John Misty</p></div>
 		</div>
 		<div class="currently">
 			<div class="currently-icon"><img src="../img/icons/reading-icon.png" alt="reading icon"></div>
-			<div class="currently-name"><p>The 3AM Epiphany by Brian Kiteley</p></div>
+			<div class="currently-name"><p>Dress Your Family in Corduroy and Denim by David Sedaris</p></div>
 		</div>
 		<div class="currently">
 			<div class="currently-icon"><img src="../img/icons/watching-icon.png" alt="watching icon"></div>
-			<div class="currently-name"><p>The Mindy Project</p></div>
+			<div class="currently-name"><p>Parks &amp; Rec (always)</p></div>
 		</div>
 		<div class="currently">
 			<div class="currently-icon"><img src="../img/icons/crafting-icon.png" alt="crafting icon"></div>
-			<div class="currently-name"><p>Embroidering</p></div>
+			<div class="currently-name"><p>Hand Lettering</p></div>
 		</div>
 	</div>
 

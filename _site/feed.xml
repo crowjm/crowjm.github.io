@@ -6,9 +6,31 @@
 </description>
     <link>http://www.jessecrow.com/blog/</link>
     <atom:link href="http://www.jessecrow.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Jul 2015 10:01:25 -0500</pubDate>
-    <lastBuildDate>Wed, 01 Jul 2015 10:01:25 -0500</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2015 17:59:18 -0500</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2015 17:59:18 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Ch-Ch-Ch-Ch-Changes</title>
+        <description>&lt;p&gt;The past almost three months since I graduated from The Iron Yard have been full of change. So much so that I’ve neglected this blog. However, that also changes starting today.&lt;/p&gt;
+
+&lt;p&gt;Change can be scary and hard but also refreshing and inspiring. I’m a person of habit—I like having a schedule and knowing what to expect, so change can be hard for me in that regard. I’ve spent a lot of time focusing on adjusting to newness the past few months, and have a new routine established. I feel fulfilled and proud and grateful for all that’s happened.&lt;/p&gt;
+
+&lt;p&gt;Changes include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Getting my first design job! A week after graduation, I started freelancing for &lt;a href=&quot;https://favordelivery.com/&quot;&gt;Favor&lt;/a&gt;. In less than a month, I was on the team full time. I work very closely with the other designer on the team and have learned a lot about print design in the process. I also am much more confident in my Illustrator and Photoshop abilities. I&#39;m currently working on their style guide and am very excited to get my hands dirty with code again.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Redesigning my portfolio. My week 11-12 Iron Yard self did a great job of the first design, while simultaneously completing my &lt;a href=&quot;http://jessecrow.com/nps/&quot;&gt;final project&lt;/a&gt;, but I grew increasingly unhappy with the design. I was glad to take a step back, think more about the messages I want to convey, and have a site that I&#39;m very happy with. Of course, I&#39;m always open for feedback! If you have any, you can send it my way &lt;a href=&quot;http://jessecrow.com/contact.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Enjoying all the things I was looking forward to while in school. Spend more quality time with my fella and dogs? Check. Start taking banjo lessons? Check. Find a type of working out I enjoy and stick with it? Check. Spend more time in the sun? Check.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These changes have been good, y’all, and I am so excited about all that’s happened and what’s to come.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Jul 2015 00:00:00 -0500</pubDate>
+        <link>http://www.jessecrow.com/blog/2015/07/05/on-change.html</link>
+        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/07/05/on-change.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Meeting My Design Hero</title>
@@ -203,129 +225,6 @@
         <pubDate>Sun, 08 Mar 2015 00:00:00 -0600</pubDate>
         <link>http://www.jessecrow.com/blog/2015/03/08/restaurant-redesign.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/03/08/restaurant-redesign.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>TIY Hackathon</title>
-        <description>&lt;p&gt;Today marked the end of the TIY Austin Hackathon. The past four days have been some of the most demanding and challenging yet. It was our first big project to design everything on our own (and our first group project). I can’t believe we’re finally at this point!&lt;/p&gt;
-
-&lt;p&gt;Our hackathon started Thursday afternoon with idea pitches. I pitched a couple of ideas, but my favorite was for an app that would help you plan your garden. After pitches, the instructors picked the ideas that were realistic to get done in such a short amount of time. From there, we split into teams. Each team had one Ruby on Rails developer, one front end developer, and one designer (or front end student acting as designer). &lt;/p&gt;
-
-&lt;p&gt;My garden app idea (which one of my teammates, Drew, thought to call GreenThumb) ended up being what my team worked on and I was over the moon to bring it from concept to reality!  &lt;/p&gt;
-
-&lt;p&gt;Thursday afternoon was spent planning. I sketched out different layout ideas, made wireframes for the final version and worked on design research. I was feeling very stuck in terms of design. I could hear my instructor, Sam, saying “good design moves past the obvious” over and over in my head, but all I could think of were greens, yellows, blues, and garden beds. Too obvious!&lt;/p&gt;
-
-&lt;p&gt;Friday morning, my teammate Alex and I pair programmed the html and basic framework for the app. It was refreshing to work with someone else and to be coding in a new environment (inside a Rails app structure, not just a regular, static html page). When we were done, I started thinking of design concepts again, and that’s when it hit me: Victory Garden posters! Historical references, creating a feeling of responsibility, patriotism, and pride, and beautiful color palettes to choose from.&lt;/p&gt;
-
-&lt;p&gt;I spent the rest of Friday creating a &lt;a href=&quot;https://github.com/crowjm/GreenThumb-Design-Planning/blob/master/GreenThumb_StyleTile.psd&quot;&gt;style tile&lt;/a&gt; and getting basic design done. Our apps had to be responsive, so I wanted to get the basic flow of elements done before I went too deep into the design elements. I was able to get most things wrapped up by Saturday afternoon and then I worked on the design. Saturday evening rolled around, and I just wasn’t happy with what I had done. It felt bland and lacking personality. I jumped into Photoshop and made a hero image to replace what was then green text on a blue background. I still felt like it wasn’t enough. So, I ventured into Illustrator and made some carrots (which I am SO proud of, y’all). I wasn’t sure how I was going to incorporate them, but I knew they were the missing piece. &lt;/p&gt;
-
-&lt;svg class=&quot;carrots&quot; version=&quot;1.1&quot; id=&quot;Layer_1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; x=&quot;0px&quot; y=&quot;0px&quot; viewbox=&quot;0 0 100 100&quot; enable-background=&quot;new 0 0 100 100&quot; xml:space=&quot;preserve&quot;&gt;
-&lt;g id=&quot;XMLID_2_&quot;&gt;
-	&lt;g&gt;
-		&lt;path fill=&quot;#F59E42&quot; d=&quot;M43.9,85.8c0,0-0.1-8.3-0.1-18.2l1.5,0.4l2.1,0.3l1.1,0.3C46,78,43.9,85.8,43.9,85.8z&quot; /&gt;
-		&lt;path fill=&quot;#F59E42&quot; d=&quot;M48.5,68.6l-1.1-0.3L45.3,68l-1.5-0.4c0-0.9,0-1.9,0-2.9l1.6,0.3l2.5,0l1.4,0.5
-			C49.1,66.5,48.8,67.6,48.5,68.6z&quot; /&gt;
-		&lt;path fill=&quot;#F59E42&quot; d=&quot;M43.8,64.7C43.9,51.2,44.1,35.9,45,34c1.6-3.5,8.8-1.9,10.6,1c1,1.6-2.7,17.1-6.2,30.5L47.9,65l-2.5,0
-			L43.8,64.7z&quot; /&gt;
-	&lt;/g&gt;
-	&lt;g&gt;
-		&lt;path fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; d=&quot;M48.5,68.6C46,78,43.9,85.8,43.9,85.8s-0.1-8.3-0.1-18.2
-			c0-0.9,0-1.9,0-2.9C43.9,51.2,44.1,35.9,45,34c1.6-3.5,8.8-1.9,10.6,1c1,1.6-2.7,17.1-6.2,30.5C49.1,66.5,48.8,67.6,48.5,68.6z&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;46.3&quot; y1=&quot;35.9&quot; x2=&quot;53.7&quot; y2=&quot;36.8&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;46.9&quot; y1=&quot;40&quot; x2=&quot;51.9&quot; y2=&quot;40.7&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;47.7&quot; y1=&quot;44.2&quot; x2=&quot;52.1&quot; y2=&quot;44.8&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;45.9&quot; y1=&quot;48.3&quot; x2=&quot;50.5&quot; y2=&quot;48.4&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;46.4&quot; y1=&quot;52.4&quot; x2=&quot;50.3&quot; y2=&quot;52.9&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;45.6&quot; y1=&quot;55.8&quot; x2=&quot;48.8&quot; y2=&quot;56.3&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;45.5&quot; y1=&quot;59.9&quot; x2=&quot;48.2&quot; y2=&quot;60.2&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;45.4&quot; y1=&quot;65.1&quot; x2=&quot;47.9&quot; y2=&quot;65&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;46.2&quot; y1=&quot;63.1&quot; x2=&quot;48&quot; y2=&quot;63.2&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;45.3&quot; y1=&quot;68&quot; x2=&quot;47.4&quot; y2=&quot;68.3&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;45.1&quot; y1=&quot;71.3&quot; x2=&quot;46.9&quot; y2=&quot;71.3&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;45.2&quot; y1=&quot;74.1&quot; x2=&quot;45.7&quot; y2=&quot;73.9&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;44.5&quot; y1=&quot;76.6&quot; x2=&quot;45.4&quot; y2=&quot;76.7&quot; /&gt;
-	&lt;/g&gt;
-&lt;/g&gt;
-&lt;g id=&quot;XMLID_3_&quot;&gt;
-	&lt;g&gt;
-		&lt;path fill=&quot;#F59E42&quot; d=&quot;M30.4,82.1c0,0,1.4-8.2,3.2-18l1.4,0.7l2,0.7l1.1,0.5C33.9,74.9,30.4,82.1,30.4,82.1z&quot; /&gt;
-		&lt;path fill=&quot;#F59E42&quot; d=&quot;M38.1,66L37,65.5l-2-0.7l-1.4-0.7c0.2-0.9,0.3-1.9,0.5-2.8l1.5,0.6l2.5,0.4l1.3,0.7
-			C39,64.1,38.5,65.1,38.1,66z&quot; /&gt;
-		&lt;path fill=&quot;#F59E42&quot; d=&quot;M34.1,61.4c2.5-13.3,5.5-28.3,6.7-30c2.2-3.2,9-0.3,10.3,2.8c0.7,1.8-5.8,16.3-11.6,28.9l-1.3-0.7L35.6,62
-			L34.1,61.4z&quot; /&gt;
-	&lt;/g&gt;
-	&lt;g&gt;
-		&lt;path fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; d=&quot;M38.1,66c-4.2,8.9-7.7,16.1-7.7,16.1s1.4-8.2,3.2-18
-			c0.2-0.9,0.3-1.9,0.5-2.8c2.5-13.3,5.5-28.3,6.7-30c2.2-3.2,9-0.3,10.3,2.8c0.7,1.8-5.8,16.3-11.6,28.9C39,64.1,38.5,65.1,38.1,66
-			z&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;41.8&quot; y1=&quot;33.4&quot; x2=&quot;48.8&quot; y2=&quot;35.7&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;41.6&quot; y1=&quot;37.6&quot; x2=&quot;46.5&quot; y2=&quot;39.2&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;41.6&quot; y1=&quot;41.9&quot; x2=&quot;45.9&quot; y2=&quot;43.2&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;39.1&quot; y1=&quot;45.6&quot; x2=&quot;43.6&quot; y2=&quot;46.6&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;38.9&quot; y1=&quot;49.7&quot; x2=&quot;42.6&quot; y2=&quot;50.9&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;37.5&quot; y1=&quot;52.9&quot; x2=&quot;40.5&quot; y2=&quot;54&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;36.6&quot; y1=&quot;56.9&quot; x2=&quot;39.2&quot; y2=&quot;57.7&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;35.6&quot; y1=&quot;62&quot; x2=&quot;38.1&quot; y2=&quot;62.4&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;36.8&quot; y1=&quot;60.2&quot; x2=&quot;38.5&quot; y2=&quot;60.6&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;35&quot; y1=&quot;64.8&quot; x2=&quot;37&quot; y2=&quot;65.5&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;34.2&quot; y1=&quot;68.1&quot; x2=&quot;36&quot; y2=&quot;68.4&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;33.8&quot; y1=&quot;70.9&quot; x2=&quot;34.3&quot; y2=&quot;70.8&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;32.6&quot; y1=&quot;73.2&quot; x2=&quot;33.5&quot; y2=&quot;73.5&quot; /&gt;
-	&lt;/g&gt;
-&lt;/g&gt;
-&lt;g id=&quot;XMLID_1_&quot;&gt;
-	&lt;g&gt;
-		&lt;path fill=&quot;#F59E42&quot; d=&quot;M65.4,76.3c0,0-3-6.5-6.5-14.4l1.3-0.2l1.7-0.5l1-0.2C64.4,69.4,65.4,76.3,65.4,76.3z&quot; /&gt;
-		&lt;path fill=&quot;#F59E42&quot; d=&quot;M63,61l-1,0.2l-1.7,0.5l-1.3,0.2c-0.3-0.7-0.7-1.5-1-2.3l1.4-0.3l2-0.9l1.3-0.1C62.7,59.2,62.9,60.1,63,61
-			z&quot; /&gt;
-		&lt;path fill=&quot;#F59E42&quot; d=&quot;M57.9,59.6C53.2,49,48,36.8,48,35c0-3.3,6.3-4.6,8.7-3c1.3,0.9,3.9,14.4,5.9,26.3l-1.3,0.1l-2,0.9
-			L57.9,59.6z&quot; /&gt;
-	&lt;/g&gt;
-	&lt;g&gt;
-		&lt;path fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; d=&quot;M63,61c1.4,8.4,2.4,15.2,2.4,15.2s-3-6.5-6.5-14.4
-			c-0.3-0.7-0.7-1.5-1-2.3C53.2,49,48,36.8,48,35c0-3.3,6.3-4.6,8.7-3c1.3,0.9,3.9,14.4,5.9,26.3C62.7,59.2,62.9,60.1,63,61z&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;49.8&quot; y1=&quot;36&quot; x2=&quot;55.9&quot; y2=&quot;34.2&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;51.7&quot; y1=&quot;39.1&quot; x2=&quot;55.9&quot; y2=&quot;37.8&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;53.8&quot; y1=&quot;42.1&quot; x2=&quot;57.5&quot; y2=&quot;41&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;53.8&quot; y1=&quot;45.9&quot; x2=&quot;57.5&quot; y2=&quot;44.4&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;55.6&quot; y1=&quot;49&quot; x2=&quot;58.9&quot; y2=&quot;48&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;56.2&quot; y1=&quot;52&quot; x2=&quot;58.9&quot; y2=&quot;51.2&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;57.6&quot; y1=&quot;55.2&quot; x2=&quot;59.8&quot; y2=&quot;54.5&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;59.3&quot; y1=&quot;59.4&quot; x2=&quot;61.3&quot; y2=&quot;58.4&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;59.3&quot; y1=&quot;57.5&quot; x2=&quot;60.7&quot; y2=&quot;57&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;60.3&quot; y1=&quot;61.7&quot; x2=&quot;62&quot; y2=&quot;61.2&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;61.3&quot; y1=&quot;64.4&quot; x2=&quot;62.7&quot; y2=&quot;63.8&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;62.4&quot; y1=&quot;66.6&quot; x2=&quot;62.7&quot; y2=&quot;66.2&quot; /&gt;
-		&lt;line fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; x1=&quot;62.7&quot; y1=&quot;68.8&quot; x2=&quot;63.4&quot; y2=&quot;68.6&quot; /&gt;
-	&lt;/g&gt;
-&lt;/g&gt;
-&lt;polyline fill=&quot;#A3AE79&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; points=&quot;45.2,30.9 47.1,19.4 48.8,20.4 46.8,30.9 &quot; /&gt;
-&lt;polyline fill=&quot;#A3AE79&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; points=&quot;52.5,32.4 52.6,20.7 54.4,21.5 54.1,32.2 &quot; /&gt;
-&lt;polyline fill=&quot;#A3AE79&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; points=&quot;46.1,28.3 41.2,24 42.5,22.5 45.7,27.2 40.6,17.9 
-	42.5,17.9 45.8,25.9 43.3,15.2 44.8,15.2 46.7,24.9 &quot; /&gt;
-&lt;polyline fill=&quot;#A3AE79&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; points=&quot;53.5,29.4 48.7,25.1 49.9,23.7 53.2,28.3 48,19.1 
-	49.9,19.1 53.3,27 50.8,16.4 52.3,16.4 54.1,26.1 &quot; /&gt;
-&lt;polyline fill=&quot;#A3AE79&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; points=&quot;49.4,33.4 46.8,27.4 48.6,26.7 49.6,32.2 48.8,21.7 
-	50.5,22.5 50.2,31.1 52.4,20.4 53.7,21 51.4,30.6 &quot; /&gt;
-&lt;polyline fill=&quot;#A3AE79&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; points=&quot;48.2,27 53.3,23.1 52.2,21.5 48.6,26 54.4,17.1 52.5,17 
-	48.6,24.7 51.8,14.2 50.3,14.1 47.8,23.6 &quot; /&gt;
-&lt;polyline fill=&quot;#A3AE79&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; points=&quot;45.9,23.9 51,20 49.9,18.4 46.3,22.9 52.1,14 50.2,13.8 
-	46.3,21.6 49.5,11.1 48,11 45.5,20.5 &quot; /&gt;
-&lt;polyline fill=&quot;#A3AE79&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; points=&quot;54.4,30.9 59.5,27 58.3,25.5 54.8,29.9 60.5,21 
-	58.6,20.9 54.8,28.6 57.9,18.1 56.5,18 54,27.6 &quot; /&gt;
-&lt;/svg&gt;
-
-&lt;p&gt;Sunday afternoon I went to campus to meet with my teammates and get help from Sam with an nth-of-type issue I had. I was lucky enough to also get a design critique. Critiques used to terrify me, but I got over it after realizing how much of a valuable tool in the design process. People can steer you in the right direction if you get off track, point out things you might not realize, and/or let you know that you’re on the right path.&lt;/p&gt;
-
-&lt;p&gt;This morning, we presented our projects. It was a relief and was so neat to see what everyone else had worked on.&lt;/p&gt;
-
-&lt;p&gt;If you’d like to check out GreenThumb, you can find it &lt;a href=&quot;https://greenthumbapp.herokuapp.com/&quot;&gt;here&lt;/a&gt;. Some of the features are still in the works. I’ll be iterating the design in the coming weeks, so stay tuned for updates!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 02 Mar 2015 00:00:00 -0600</pubDate>
-        <link>http://www.jessecrow.com/blog/2015/03/02/TIY-Hackathon.html</link>
-        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/03/02/TIY-Hackathon.html</guid>
         
         
       </item>

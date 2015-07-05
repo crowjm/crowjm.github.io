@@ -1,4 +1,5 @@
 $font-family: 'adelle', serif;
+$header-font: "adelle-sans", sans-serif;
 
 p, a, span, li, .page-number, q {
 	line-height: 1.8;
@@ -20,46 +21,45 @@ p, .page-number, q, li {
 }
 
 a {
-	font-family: $font-family;
+	font-family: $header-font;
 	font-weight: 600;
-	font-style: italic;
+	text-decoration: underline;
 }
 
 h4 {
-	font-family: $font-family;
-	font-weight: 700;
+	font-family: $header-font;
+	font-weight: 500;
 	font-size: 1.1rem;
 	margin-top: 2rem; /***for where it's used in responsive sketches blog post***/
 }
 
 h3 {
-	font-family: $font-family;
-	font-weight: 700;
+	font-family: $header-font;
+	font-weight: 500;
 	font-size: 1.25rem;
 }
 
 .project-page-header {
-	font-family: $font-family;
-	font-weight: 400;
+	font-family: $header-font;
+	font-weight: 500;
 	font-size: 1.3rem;
 }
 
 h2 {
-	font-family: $font-family;
-	font-weight: 700;
+	font-family: $header-font;
+	font-weight: 500;
 	font-size: 1.6rem;
+	a {
+		font-family: $header-font;
+		font-weight: 500;
+		font-size: 1.5rem;
+		font-style: normal;
+	}
 }
 
-h2 {
-	a {
-		font-family: $font-family;
-		font-weight: 700;
-		font-size: 1.6rem;
-	}
-} /***for blog tiles in blog index***/
 
 h1 {
-	font-family: $font-family;
+	font-family: $header-font;
 	font-weight: 700;
 }
 
@@ -67,8 +67,4 @@ h1 {
 	font-family: $font-family;
 	font-weight: 400;
 	font-size: 1.6rem;
-}
-
-em {
-	font-style: italic;
 }
