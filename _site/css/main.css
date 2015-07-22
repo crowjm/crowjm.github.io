@@ -270,7 +270,7 @@ header {
   header .small-logo {
     float: left; }
   header .name {
-    margin-left: 20px;
+    margin-left: 8px;
     float: left;
     padding-top: 13px; }
     header .name p {
@@ -278,7 +278,7 @@ header {
       font-size: 1.1rem;
       line-height: 1.5; }
     header .name .my-name {
-      font-size: 1.4rem; }
+      font-size: 1.2rem; }
   header .side-nav-info, header .side-nav-links {
     display: none; }
   header .logo-and-name {
