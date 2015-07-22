@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "100 Days of Making"
-date:   2015-07-05
+date:   2015-07-22
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
 excerpt: Spoiler alert, self, the only way I'm going to get better at anything is to do the thing, make the thing, pick up the tools and create and revise and create some more. 
 ---
