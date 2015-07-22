@@ -43,6 +43,11 @@ footer {
 
 header {
 	z-index: 9999;
+	.logo-and-name {
+		overflow: hidden;
+		float: left;
+		width: 75%;
+		margin: 0;
 	.small-logo {
 		float: left;
 	}
@@ -59,14 +64,9 @@ header {
 			font-size: 1.2rem;
 		}
 	}
+}
 	.side-nav-info, .side-nav-links {
 		display: none;
-	}
-	.logo-and-name {
-		overflow: hidden;
-		float: left;
-		width: 70%;
-		margin: 0;
 	}
 }
 
