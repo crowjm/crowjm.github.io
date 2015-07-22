@@ -200,7 +200,7 @@ h4 {
   display: block;
   float: right;
   font-style: normal;
-  margin-top: 15px; }
+  margin-top: 10px; }
 
 @media screen and (min-width: 660px) {
   .js .nav-collapse {
@@ -599,6 +599,11 @@ footer li:nth-of-type(even) {
     border: 0; }
 
 /***100 days project page***/
+.intro-text {
+  text-align: center;
+  margin-top: -2.5rem;
+  margin-bottom: 3rem; }
+
 .day {
   margin-bottom: 6rem; }
   .day .day-image {
