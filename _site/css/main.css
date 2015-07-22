@@ -598,6 +598,16 @@ footer li:nth-of-type(even) {
   .typeform iframe {
     border: 0; }
 
+/***100 days project page***/
+.day {
+  margin-bottom: 6rem; }
+  .day .day-image {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto; }
+  .day h3 {
+    margin-bottom: 0.5rem; }
+
 /***change hero/banner image padding and footer layout***/
 @media screen and (min-width: 620px) {
   /***general***/
