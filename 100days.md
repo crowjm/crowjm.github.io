@@ -4,6 +4,7 @@ title: 100 Days Project
 ---
 <div class="wrapper">
   <h1>100 days project</h1>
+  <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
     <h2>Day 1</h2>
     <h3>July 21, 2015</h3>
