@@ -6,19 +6,24 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
    <div class="day">
+    <h2>Day 4</h2>
+    <h3>July 24, 2015</h3>
+    <img src="../img/100days/day4-handletteringpractice.jpg" class="day-image" alt="image of a sketchbook with handlettering surrounded by brush markers and watercolors.">
+  </div>
+   <div class="day">
     <h2>Day 3</h2>
     <h3>July 23, 2015</h3>
-    <img src="../img/100days/day3-punksinthebeerlight.jpg" class="day-image">
+    <img src="../img/100days/day3-punksinthebeerlight.jpg" class="day-image" alt="typography practice reading 'i always loved you to the max'">
   </div>
    <div class="day">
     <h2>Day 2</h2>
     <h3>July 22, 2015</h3>
-    <img src="../img/100days/day2-stamps.jpg" class="day-image">
+    <img src="../img/100days/day2-stamps.jpg" class="day-image" alt="illustration of 4 stamps, one for each season, featuring flowers, a popsicle, a coffee mug, and a mitten">
   </div>
   <div class="day">
     <h2>Day 1</h2>
     <h3>July 21, 2015</h3>
-    <img src="../img/100days/day1-scarlett.jpg" class="day-image">
+    <img src="../img/100days/day1-scarlett.jpg" class="day-image" alt="an illustration of a very adorable and wiggly pit bull">
   </div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
