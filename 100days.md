@@ -5,6 +5,13 @@ title: 100 Days Project
 <div class="wrapper">
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
+ <div class="day">
+    <h2>Day 7</h2>
+    <h3>July 27, 2015</h3>
+    <p class="day-image" data-height="268" data-theme-id="12329" data-slug-hash="vOQONM" data-default-tab="result" data-user="crowjm" class='codepen'>See the Pen <a href='http://codepen.io/crowjm/pen/vOQONM/'>vOQONM</a> by Jesse Crow (<a href='http://codepen.io/crowjm'>@crowjm</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+  </div>
     <div class="day">
     <h2>Day 6</h2>
     <h3>July 26, 2015</h3>
