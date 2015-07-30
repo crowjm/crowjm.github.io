@@ -5,6 +5,11 @@ title: 100 Days Project
 <div class="wrapper">
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
+   <div class="day">
+    <h2>Day 9</h2>
+    <h3>July 29, 2015</h3>
+    <img src="../img/100days/day9-troutking.jpg" class="day-image" alt="an illustration of a trout with a crown.">
+  </div>
     <div class="day">
     <h2>Day 8</h2>
     <h3>July 28, 2015</h3>
