@@ -6,11 +6,17 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
-    <div class="day">
-      <h2>Day 11, Part 2</h2>
-      <h3>July 31, 2015</h3>
-      <img src="../img/100days/day11-winetime.jpg" class="day-image" alt="an illustration of a trout with a crown.">
-    </div>
+    <h2>Day 12</h2>
+    <h3>August 1, 2015</h3>
+    <img src="../img/100days/day12-earlypermutosketches.jpg" class="day-image" alt="rough sketches for an app.">
+    <p>Very early stage sketches for a side project I'm working on.</p>
+  </div>
+  <div class="day">
+    <h2>Day 11, Part 2</h2>
+    <h3>July 31, 2015</h3>
+    <img src="../img/100days/day11-winetime.jpg" class="day-image" alt="an illustration of a wine glass.">
+  </div>
+  <div class="day">
     <h2>Day 11</h2>
     <h3>July 31, 2015</h3>
     <p data-height="302" data-theme-id="12329" data-slug-hash="RPqZjJ" data-default-tab="result" data-user="crowjm" class='codepen'>See the Pen <a href='http://codepen.io/crowjm/pen/RPqZjJ/'>Whitman SVG animation - filled in</a> by Jesse Crow (<a href='http://codepen.io/crowjm'>@crowjm</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
