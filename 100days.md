@@ -5,6 +5,12 @@ title: 100 Days Project
 <div class="wrapper">
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
+  <div class="day">
+    <h2>Day 19</h2>
+    <h3>August 8, 2015</h3>
+    <img src="../img/100days/day19-sunshine.jpg" class="day-image" alt="hand lettering of you are my sunshine with a sun in the background">
+    <p>Today I completed Brit + Co's hand lettering Skillshare. Practice'll make perfect.</p>
+  </div>
    <div class="day">
     <h2>Day 18</h2>
     <h3>August 7, 2015</h3>
