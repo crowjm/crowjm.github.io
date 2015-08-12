@@ -6,6 +6,11 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 22</h2>
+    <h3>August 11, 2015</h3>
+    <img src="../img/100days/day22-huntericons.jpg" class="day-image" alt="icon set containing a ruby, a beer glass, and the great state of Texas">
+  </div>
+  <div class="day">
     <h2>Day 21</h2>
     <h3>August 10, 2015</h3>
     <img src="../img/100days/day21-patterns.jpg" class="day-image" alt="six different Swiss Design inspired patterns">
