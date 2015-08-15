@@ -6,6 +6,16 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 26</h2>
+    <h3>August 15, 2015</h3>
+    <img src="../img/100days/day26-muir.jpg" class="day-image" alt="photo of the Blue Ridge Mountains with a John Muir quote lettered on top">
+  </div>
+   <div class="day">
+    <h2>Day 25</h2>
+    <h3>August 14, 2015</h3>
+    <img src="../img/100days/day25-donut.jpg" class="day-image" alt="illustration of a delicious chocolate sprinkle donut">
+  </div>
+  <div class="day">
     <h2>Day 24</h2>
     <h3>August 13, 2015</h3>
     <img src="../img/100days/day24-o-dropcap.jpg" class="day-image" alt="Damien Rice O inspired dropcap.">
