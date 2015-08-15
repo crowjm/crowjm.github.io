@@ -6,6 +6,12 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 24</h2>
+    <h3>August 13, 2015</h3>
+    <img src="../img/100days/day24-o-dropcap.jpg" class="day-image" alt="Damien Rice O inspired dropcap.">
+    <p>Seeing Damien Rice tonight(!!!).</p>
+  </div>
+  <div class="day">
     <h2>Day 23</h2>
     <h3>August 12, 2015</h3>
     <img src="../img/100days/day23-tomhaverford-baller.gif" class="day-image" alt="gif of a quote from the humble Tom Haverford">
