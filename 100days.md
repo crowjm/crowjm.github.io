@@ -5,6 +5,11 @@ title: 100 Days Project
 <div class="wrapper">
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
+    <div class="day">
+    <h2>Day 27</h2>
+    <h3>August 16, 2015</h3>
+    <img src="../img/100days/day27-hunterlogo.jpg" class="day-image" alt="60s nature inspired logo">
+  </div>
   <div class="day">
     <h2>Day 26</h2>
     <h3>August 15, 2015</h3>
