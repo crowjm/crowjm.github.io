@@ -6,6 +6,12 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 30</h2>
+    <h3>August 19, 2015</h3>
+    <img src="../img/100days/day30-mantrareg.jpg" class="day-image" alt="hand lettered mantra reading start each day with a grateful heart">
+    <img src="../img/100days/day30-mantrascript.jpg" class="day-image" alt="hand lettered mantra reading start each day with a grateful heart">
+  </div>
+  <div class="day">
     <h2>Day 29</h2>
     <h3>August 18, 2015</h3>
     <img src="../img/100days/day29-beyonce.gif" class="day-image" alt="beyonce lyric gif">
