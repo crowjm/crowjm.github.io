@@ -6,12 +6,17 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 32</h2>
+    <h3>August 21, 2015</h3>
+    <img src="../img/100days/day32-adventure.jpg" class="day-image" alt="hand lettered adventure is out there with a balloon">
+  </div>
   <div class="day">
     <h2>Day 31</h2>
     <h3>August 20, 2015</h3>
     <img src="../img/100days/day31-rain.gif" class="day-image" alt="gif of rain">
     <p>A rare Texas treat!</p>
   </div>
+  <div class="day">
     <h2>Day 30</h2>
     <h3>August 19, 2015</h3>
     <img src="../img/100days/day30-mantrareg.jpg" class="day-image" alt="hand lettered mantra reading start each day with a grateful heart">
@@ -27,7 +32,7 @@ title: 100 Days Project
     <h3>August 17, 2015</h3>
     <img src="../img/100days/day28-about.png" class="day-image" alt="about section of a portfolio">
   </div>
-    <div class="day">
+  <div class="day">
     <h2>Day 27</h2>
     <h3>August 16, 2015</h3>
     <img src="../img/100days/day27-hunterlogo.jpg" class="day-image" alt="60s nature inspired logo">
@@ -37,7 +42,7 @@ title: 100 Days Project
     <h3>August 15, 2015</h3>
     <img src="../img/100days/day26-muir.jpg" class="day-image" alt="photo of the Blue Ridge Mountains with a John Muir quote lettered on top">
   </div>
-   <div class="day">
+  <div class="day">
     <h2>Day 25</h2>
     <h3>August 14, 2015</h3>
     <img src="../img/100days/day25-donut.jpg" class="day-image" alt="illustration of a delicious chocolate sprinkle donut">
@@ -74,7 +79,7 @@ title: 100 Days Project
     <img src="../img/100days/day19-sunshine.jpg" class="day-image" alt="hand lettering of you are my sunshine with a sun in the background">
     <p>Today I completed Brit + Co's hand lettering Skillshare. Practice'll make perfect.</p>
   </div>
-   <div class="day">
+  <div class="day">
     <h2>Day 18</h2>
     <h3>August 7, 2015</h3>
     <img src="../img/100days/day18-texaslettering.jpg" class="day-image" alt="hand lettering of the stars at night are big and bright">
