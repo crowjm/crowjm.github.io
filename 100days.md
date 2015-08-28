@@ -5,10 +5,26 @@ title: 100 Days Project
 <div class="wrapper">
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
+    <div class="day">
+    <h2>Day 38</h2>
+    <h3>August 27, 2015</h3>
+    <img src="../img/100days/day38-granola.jpg" class="day-image" alt="homemade granola">
+    <p>The best homemade granola. <a href="http://minimalistbaker.com/banana-bread-granola/">Recipe.</a></p>
+  </div>
+  <div class="day">
+    <h2>Day 37</h2>
+    <h3>August 26, 2015</h3>
+    <p>More JS! Find it on Codepen <a href="http://codepen.io/crowjm/pen/jbNYzW?">here</a>. (Not embedding because prompts).</p>
+  </div>
+  <div class="day">
+    <h2>Day 36</h2>
+    <h3>August 25, 2015</h3>
+    <img src="../img/100days/day36-weaving.jpg" class="day-image" alt="weaving with a moon in it">
+  </div>
   <div class="day">
     <h2>Day 35</h2>
     <h3>August 24, 2015</h3>
-    <p>Getting my brain back into JS mode by refreshing and learning concepts. Check out a Codepen <a href="http://codepen.io/crowjm/pen/GJVOWQ">here</a> to see some of what I did today! (Don't want to link directly because prompts.)</p>
+    <p>Getting my brain back into JS mode by refreshing and learning concepts. Check out a Codepen <a href="http://codepen.io/crowjm/pen/GJVOWQ">here</a> to see some of what I did today! (Don't want to embed because prompts.)</p>
     <p>Also made <a href="http://minimalistbaker.com/cashew-less-vegan-queso/">this</a> eggplant queso. SO GOOD. So didn't last long enough to snap a picture. Oops.</p>
   </div>
   <div class="day">
