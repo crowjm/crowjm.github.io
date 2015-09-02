@@ -6,6 +6,11 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 43</h2>
+    <h3>September 1, 2015</h3>
+    <img src="../img/100days/day43-lonestaricon.png" class="day-image" alt="icon of a burnt orange lone star">
+  </div>
+  <div class="day">
     <h2>Day 42</h2>
     <h3>August 31, 2015</h3>
     <img src="../img/100days/day42-h.jpg" class="day-image" alt="hand painted letter h on a piece of wood on a bookshelf">
