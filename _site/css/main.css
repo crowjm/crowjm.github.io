@@ -425,6 +425,11 @@ footer li:nth-of-type(even) {
   margin-right: auto;
   margin-left: auto; }
 
+.blog-list {
+  list-style-type: disc; }
+  .blog-list li {
+    margin-bottom: 0.75rem; }
+
 /***about page***/
 .about-banner {
   background-image: url(/img/hero-banner/about-banner.jpg);

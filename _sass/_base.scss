@@ -250,6 +250,13 @@ footer {
 	margin-left: auto;
 }
 
+.blog-list {
+	list-style-type: disc; 
+	li {
+		margin-bottom: 0.75rem;
+	}
+}
+
 /***about page***/ 
 .about-banner {
 	background-image: url(/img/hero-banner/about-banner.jpg);
