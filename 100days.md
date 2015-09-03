@@ -6,6 +6,11 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 45</h2>
+    <h3>September 3, 2015</h3>
+    <img src="../img/100days/day45-grackle.png" class="day-image" alt="illustration of a grackle">
+  </div>
+  <div class="day">
     <h2>Day 44</h2>
     <h3>September 2, 2015</h3>
     <img src="../img/100days/day44-frosticon.png" class="day-image" alt="icon of the Frost tower, downtown Austin">
@@ -23,8 +28,7 @@ title: 100 Days Project
   <div class="day">
     <h2>Day 41</h2>
     <h3>August 30, 2015</h3>
-    <img src="../img/100days/day41-springrolls.jpg" class="day-image" alt="spring rolls">
-    <p>These spring rolls were so good, I almost forgot to take a picture! Red lettuce, red bell pepper, carrots, cucumber, avocado and vermicelli noodles.</p>
+    <img src="../img/100days/day41-texasmoon.jpg" class="day-image" alt="handlettered lyrics on a canvas">
   </div>
   <div class="day">
     <h2>Day 40</h2>
