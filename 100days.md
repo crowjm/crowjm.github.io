@@ -6,6 +6,11 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 47</h2>
+    <h3>September 5, 2015</h3>
+    <img src="../img/100days/day47-pawneejournal.png" class="day-image" alt="typeset article from the Pawnee Journal">
+  </div>
+  <div class="day">
     <h2>Day 46</h2>
     <h3>September 4, 2015</h3>
     <img src="../img/100days/day46-sun.jpg" class="day-image" alt="illustration of the sun">
