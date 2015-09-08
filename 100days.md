@@ -16,11 +16,6 @@ title: 100 Days Project
     <img src="../img/100days/day48-bat.png" class="day-image" alt="bat icon">
   </div>
   <div class="day">
-    <h2>Day 48</h2>
-    <h3>September 6, 2015</h3>
-    <img src="../img/100days/day48-bat.png" class="day-image" alt="bat icon">
-  </div>
-  <div class="day">
     <h2>Day 47</h2>
     <h3>September 5, 2015</h3>
     <img src="../img/100days/day47-pawneejournal.png" class="day-image" alt="typeset article from the Pawnee Journal">
