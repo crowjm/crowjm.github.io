@@ -6,11 +6,35 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
    <div class="day">
+    <h2>Day 53</h2>
+    <h3>September 17, 2015</h3>
+    <img src="../img/100days/day53-loveandlike.png" class="day-image" alt="i love you and i like you">
+  </div>
+    <div class="day">
+    <h2>Day 52</h2>
+    <h3>September 16, 2015</h3>
+    <img src="../img/100days/day52-kites.png" class="day-image" alt="an illustrated quote from Winston Churchill">
+  </div>
+   <div class="day">
+    <h2>Day 51</h2>
+    <h3>September 15, 2015</h3>
+    <img src="../img/100days/day51-weaving.jpg" class="day-image" alt="a weaving">
+  </div>
+  <div class="day">
+    <h2>Day 50</h2>
+    <h3>September 14, 2015</h3>
+    <img src="../img/100days/day50-newyear.jpg" class="day-image" alt="a new year greeting">
+  </div>
+  <div class="day">
+    <h2>A Hiatus</h2>
+    <p>In pursuit of a <em>huge</em> opportunity. Realizing that I'm human and can't stretch myself too thin so I'm focusing my energy on chasing my dream for the next week. I'll be back to this project soon!</p>
+  </div>
+  <div class="day">
     <h2>Day 49</h2>
     <h3>September 7, 2015</h3>
     <img src="../img/100days/day49-taco.png" class="day-image" alt="taco icon">
   </div>
-   <div class="day">
+  <div class="day">
     <h2>Day 48</h2>
     <h3>September 6, 2015</h3>
     <img src="../img/100days/day48-bat.png" class="day-image" alt="bat icon">
@@ -62,7 +86,7 @@ title: 100 Days Project
     <img src="../img/100days/day39-belle.jpg" class="day-image" alt="handlettered belle and sebastian lyrics">
     <p>Going to see Belle and Sebastian tonight!</p>
   </div>
-    <div class="day">
+  <div class="day">
     <h2>Day 38</h2>
     <h3>August 27, 2015</h3>
     <img src="../img/100days/day38-granola.jpg" class="day-image" alt="homemade granola">
