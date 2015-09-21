@@ -6,6 +6,12 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 57</h2>
+    <h3>September 21, 2015</h3>
+    <img src="../img/100days/day57-card.jpg" class="day-image" alt="hand lettered card with stripes that says hello">
+    <p>Experiment with brush pen.</p>
+  </div>
+  <div class="day">
     <h2>Day 56</h2>
     <h3>September 20, 2015</h3>
     <img src="../img/100days/day56-logos.jpg" class="day-image" alt="logo concepts for ssyra jr">
