@@ -6,6 +6,11 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 66</h2>
+    <h3>September 30, 2015</h3>
+    <img src="../img/100days/day66-tinplatebanner.png" class="day-image" alt="tin plate vintage banner for etsy shop">
+  </div>
+  <div class="day">
     <h2>Day 65</h2>
     <h3>September 29, 2015</h3>
     <img src="../img/100days/day65-kaleapples.jpg" class="day-image" alt="sauteed kale and apples">
