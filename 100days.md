@@ -6,6 +6,26 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 71</h2>
+    <h3>October 5, 2015</h3>
+    <img src="../img/100days/day71-annperkins.png" class="day-image" alt="illustration of ann perkins">
+  </div>
+  <div class="day">
+    <h2>Day 70</h2>
+    <h3>October 4, 2015</h3>
+    <img src="../img/100days/day70-donna.png" class="day-image" alt="illustration of donna meagle">
+  </div>
+  <div class="day">
+    <h2>Day 69</h2>
+    <h3>October 3, 2015</h3>
+    <img src="../img/100days/day69-jeanralphio.png" class="day-image" alt="illustration of jean ralphio saperstein">
+  </div>
+  <div class="day">
+    <h2>Day 68</h2>
+    <h3>October 2, 2015</h3>
+    <img src="../img/100days/day68-leslieknope.png" class="day-image" alt="illustration of leslie knope">
+  </div>
+  <div class="day">
     <h2>Day 67</h2>
     <h3>October 1, 2015</h3>
     <img src="../img/100days/day67-octobers.jpg" class="day-image" alt="hand lettered anne of green gables quote">
@@ -36,23 +56,23 @@ title: 100 Days Project
     <h3>September 26, 2015</h3>
     <img src="../img/100days/day62-beer.png" class="day-image" alt="beer icon">
   </div>
-   <div class="day">
+  <div class="day">
     <h2>Day 61</h2>
     <h3>September 25, 2015</h3>
     <img src="../img/100days/day61-yall.png" class="day-image" alt="handlettered yall">
     <p>This is clearly my favorite word.</p>
   </div>
-   <div class="day">
+  <div class="day">
     <h2>Day 60</h2>
     <h3>September 24, 2015</h3>
     <img src="../img/100days/day60-flawless.png" class="day-image" alt="handlettered flawless">
   </div>
-   <div class="day">
+  <div class="day">
     <h2>Day 59</h2>
     <h3>September 23, 2015</h3>
     <img src="../img/100days/day59-canines.jpg" class="day-image" alt="handlettered mother of canines with puppies">
   </div>
-   <div class="day">
+  <div class="day">
     <h2>Day 58</h2>
     <h3>September 22, 2015</h3>
     <img src="../img/100days/day58-world.png" class="day-image" alt="space background with a planet, moon, rocket, and hand lettered you're out of this world">
@@ -78,17 +98,17 @@ title: 100 Days Project
     <h3>September 18, 2015</h3>
     <img src="../img/100days/day54-yall.jpg" class="day-image" alt="hand lettered yall">
   </div>
-   <div class="day">
+  <div class="day">
     <h2>Day 53</h2>
     <h3>September 17, 2015</h3>
     <img src="../img/100days/day53-loveandlike.png" class="day-image" alt="i love you and i like you">
   </div>
-    <div class="day">
+  <div class="day">
     <h2>Day 52</h2>
     <h3>September 16, 2015</h3>
     <img src="../img/100days/day52-kites.png" class="day-image" alt="an illustrated quote from Winston Churchill">
   </div>
-   <div class="day">
+  <div class="day">
     <h2>Day 51</h2>
     <h3>September 15, 2015</h3>
     <img src="../img/100days/day51-weaving.jpg" class="day-image" alt="a weaving">
