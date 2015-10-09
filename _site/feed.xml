@@ -6,8 +6,13 @@
 </description>
     <link>http://www.jessecrow.com/blog/</link>
     <atom:link href="http://www.jessecrow.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
     <pubDate>Fri, 09 Oct 2015 17:35:06 -0500</pubDate>
     <lastBuildDate>Fri, 09 Oct 2015 17:35:06 -0500</lastBuildDate>
+=======
+    <pubDate>Thu, 08 Oct 2015 18:51:17 -0500</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2015 18:51:17 -0500</lastBuildDate>
+>>>>>>> be53a32496ab9bef94e1ce29bebb9a9f0e5277dc
     <generator>Jekyll v2.4.0</generator>
     
       <item>
