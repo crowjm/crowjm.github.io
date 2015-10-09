@@ -6,6 +6,21 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 75</h2>
+    <h3>October 9, 2015</h3>
+    <img src="../img/100days/day75-sketchnotes.jpg" class="day-image" alt="sketchnotes from a talk with Etham Marcotte">
+  </div>
+  <div class="day">
+    <h2>Day 74</h2>
+    <h3>October 8, 2015</h3>
+    <img src="../img/100days/day74-monalisa.png" class="day-image" alt="illustration of mona lisa saperstein">
+  </div>
+<div class="day">
+    <h2>Day 73</h2>
+    <h3>October 7, 2015</h3>
+    <img src="../img/100days/day73-ronswanson.png" class="day-image" alt="illustration of ron swanson">
+  </div>
+  <div class="day">
     <h2>Day 72</h2>
     <h3>October 6, 2015</h3>
     <img src="../img/100days/day72-aprilludgate.png" class="day-image" alt="illustration of april ludgate">
