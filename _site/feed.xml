@@ -6,14 +6,22 @@
 </description>
     <link>http://www.jessecrow.com/blog/</link>
     <atom:link href="http://www.jessecrow.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Fri, 09 Oct 2015 17:35:06 -0500</pubDate>
-    <lastBuildDate>Fri, 09 Oct 2015 17:35:06 -0500</lastBuildDate>
-=======
-    <pubDate>Thu, 08 Oct 2015 18:51:17 -0500</pubDate>
-    <lastBuildDate>Thu, 08 Oct 2015 18:51:17 -0500</lastBuildDate>
->>>>>>> be53a32496ab9bef94e1ce29bebb9a9f0e5277dc
+    <pubDate>Mon, 12 Oct 2015 15:11:13 -0500</pubDate>
+    <lastBuildDate>Mon, 12 Oct 2015 15:11:13 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Sketchnotes: Q&amp;amp;A With Ethan Marcotte</title>
+        <description>&lt;p&gt;Yesterday I sat in on a Q&amp;amp;A session with &lt;a href=&quot;http://ethanmarcotte.com/&quot;&gt;Ethan Marcotte&lt;/a&gt; at The Iron Yard. Ethan is the creator of responsive web design(!), which is the methodology I learned to design websites. I feel very lucky to have been there and to learn first-hand from someone who’s had such an impact on web design. Thanks, Ethan!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/EM-10915-sketchnotes.jpg&quot; alt=&quot;sketchnotes from Ethan Marcotte&#39;s Q&amp;amp;A at The Iron Yard&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Oct 2015 00:00:00 -0500</pubDate>
+        <link>http://www.jessecrow.com/blog/2015/10/10/em-sketchnotes.html</link>
+        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/10/10/em-sketchnotes.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>A New Adventure</title>
@@ -201,21 +209,6 @@
         <pubDate>Wed, 01 Apr 2015 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2015/04/01/starting-final-projects.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/04/01/starting-final-projects.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Front End &amp;amp; Rails Demo Day</title>
-        <description>&lt;p&gt;Today the Front End and Rails classes had their demo day—I can’t believe 12 weeks has already gone by!&lt;/p&gt;
-
-&lt;p&gt;Seeing a demo day first hand was a really awesome experience (and it helped calm my already happening jitters about my demo day in three weeks). It was set up science fair style, so everyone had a station set up with a big monitor displaying their final project, business cards, a name tag, etc. People could then move from station to station and I think there was a lot less pressure on the students since (at least from what I could see) presentations were very conversational. &lt;/p&gt;
-
-&lt;p&gt;I’m so amazed and impressed with what my classmates and friends created in two weeks and how much they’ve learned in twelve! If they’re the future of engineering, it’s in &lt;em&gt;very&lt;/em&gt; good hands.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 27 Mar 2015 00:00:00 -0500</pubDate>
-        <link>http://www.jessecrow.com/blog/2015/03/27/fee-and-ror-demo-day.html</link>
-        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/03/27/fee-and-ror-demo-day.html</guid>
         
         
       </item>
