@@ -1,70 +1,10 @@
-$font-family: 'adelle', serif;
-$header-font: "adelle-sans", sans-serif;
+$body-type: "adelle", serif;
+$header-type: "proxima-nova", sans-serif;
 
-p, a, span, li, .page-number, q {
-	line-height: 1.8;
+a, p {
+	font-family: $body-type;
 }
 
-h1, h2, h3, h4 {
-	line-height: 1.3;
-}
-
-p, .page-number, q, li {
-	font-family: $font-family;
-	font-weight: 400;
-	font-size: 1rem;
-}
-
-.project-links {
-	font-family: $font-family;
-	font-size: 1.5rem;
-}
-
-a {
-	font-family: $header-font;
-	font-weight: 600;
-	text-decoration: underline;
-}
-
-h4 {
-	font-family: $header-font;
-	font-weight: 500;
-	font-size: 1.1rem;
-	margin-top: 2rem; /***for where it's used in responsive sketches blog post***/
-}
-
-h3 {
-	font-family: $header-font;
-	font-weight: 500;
-	font-size: 1.25rem;
-}
-
-.project-page-header {
-	font-family: $header-font;
-	font-weight: 500;
-	font-size: 1.3rem;
-}
-
-h2 {
-	font-family: $header-font;
-	font-weight: 500;
-	font-size: 1.6rem;
-	a {
-		font-family: $header-font;
-		font-weight: 500;
-		font-size: 1.5rem;
-		font-style: normal;
-	}
-}
-
-
-h1 {
-	font-family: $header-font;
-	font-weight: 700;
-}
-
-.about-intro {
-	font-family: $font-family;
-	font-weight: 400;
-	font-size: 1.6rem;
+h1, h2, h3, h4, h5, h6 {
+	font-family: $header-type;
 }

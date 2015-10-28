@@ -1,72 +1,21 @@
-$grey: #6d767e; /*p*/
-$blue: #346699; /*a*/
-$green: #28856e; /*h2, h3*/
-$yellow: #f8c153; /*h1*/
+$type: #6d767e; /*grey*/
+$links: #db6962; /*peach*/
+$primary: #346699; /*blue*/
+$secondary: #db6962; /*peach*/
+$bg: #fafaff; /*off white*/
 
+body {
+	background-color: $bg;
+}
 
-p, q, li {
-	color: $grey;
+p {
+	color: $type;
 }
 
 a {
-	color: $blue;
+	color: $links;
 }
 
-.pagination {
-	.page-number{
-		color: $yellow;
-	}
-	a {
-		color: darken($blue, 10%);
-	}
-}
-
-.blog-nav {
-	a {
-		color: white;
-	}
-}
-
-h2 {
-	a {
-		color: $green;
-	}
-}
-
-nav a {
-	color: white;
-}
-
-h2, h3, .about-intro, {
-	color: $green;
-}
-
-h1 {
-	color: $blue;
-}
-
-.project-header h1, .post-header h1 {
-	color: darken($blue, 5%);
-}
-
-
-h4 {
-	color: $blue;
-}
-
-.footer-social a, .footer-paragraph a {
-	color: lighten($blue, 40%);
-}
-
-.footer-paragraph p {
-	color: white;
-	font-size: 1.1rem;
-}
-
-
-.project-links {
-	color: $green;
-	a {
-		color: $yellow;
-	}
+h1, h2, h3, h4, h5, h6 {
+	color: $primary;
 }
