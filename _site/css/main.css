@@ -77,9 +77,11 @@ h4 {
 /*blue*/
 /*peach*/
 /*off white*/
+/*general*/
 body {
   background-color: #fafaff; }
 
+/*type*/
 p {
   color: #6d767e; }
 
@@ -88,6 +90,10 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   color: #346699; }
+
+/*nav*/
+.nav-collapse, .nav-toggle {
+  background-color: #346699; }
 
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .nav-collapse ul {
@@ -100,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right; }
 
 .nav-collapse li {
-  text-align: right;
+  text-align: center;
   display: block; }
 
 .nav-collapse a {
@@ -118,8 +124,6 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   overflow: hidden;
   zoom: 1;
-  width: 60%;
-  float: right;
   clear: both; }
 
 .nav-collapse.opened {
@@ -135,12 +139,12 @@ h1, h2, h3, h4, h5, h6 {
   -o-user-select: none;
   user-select: none;
   color: white;
-  font-size: 2.5rem;
+  font-size: 1.375rem;
   text-decoration: none;
   display: block;
-  float: right;
   font-style: normal;
-  margin-top: 10px; }
+  margin-top: 10px;
+  text-align: center; }
 
 @media screen and (min-width: 660px) {
   .js .nav-collapse {

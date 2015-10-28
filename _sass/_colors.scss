@@ -4,10 +4,13 @@ $primary: #346699; /*blue*/
 $secondary: #db6962; /*peach*/
 $bg: #fafaff; /*off white*/
 
+
+/*general*/
 body {
 	background-color: $bg;
 }
 
+/*type*/
 p {
 	color: $type;
 }
@@ -18,4 +21,9 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
 	color: $primary;
+}
+
+/*nav*/
+.nav-collapse, .nav-toggle {
+  background-color: $primary;
 }
