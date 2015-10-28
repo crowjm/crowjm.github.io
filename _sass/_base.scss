@@ -7,6 +7,11 @@
 	clear: both;
 }
 
+img {
+	width: 100%;
+	max-width: 650px;
+}
+
 /*header*/
 header {
 	margin-top: 2rem;
@@ -31,4 +36,17 @@ header {
 
 .logo-and-name {
 	overflow: hidden;
+}
+
+/*footer*/
+footer {
+	border-top: 5px solid $primary;
+}
+
+/*portfolio index*/
+.portfolio-item {
+	margin-bottom: 2rem;
+	a {
+		text-decoration: none;
+	}
 }

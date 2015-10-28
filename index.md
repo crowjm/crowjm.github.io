@@ -11,7 +11,6 @@ title: Jesse Crow | Designer | Austin, Texas
 			</div>
 			<div class="portfolio-snippet-info">
 					<h2>National Park Service Redesign</h2>
-					<p>website / RWD / animation / JS</p>
 			</div>
 		</a>
 	</div>
@@ -22,7 +21,6 @@ title: Jesse Crow | Designer | Austin, Texas
 			</div>
 			<div class="portfolio-snippet-info">
 					<h2>GoodReads</h2>
-					<p>logo redesign / Illustrator</p>
 			</div>
 		</a>
 	</div>
@@ -33,7 +31,6 @@ title: Jesse Crow | Designer | Austin, Texas
 			</div>
 			<div class="portfolio-snippet-info">
 					<h2>GreenThumb</h2>
-					<p>web app design / RWD / JS</p>
 			</div>
 		</a>
 	</div>
@@ -44,7 +41,6 @@ title: Jesse Crow | Designer | Austin, Texas
 			</div>
 			<div class="portfolio-snippet-info">
 					<h2>CSS Zen Garden</h2>
-					<p>website / RWD / animation</p>
 			</div>
 		</a>
 	</div>
@@ -55,7 +51,6 @@ title: Jesse Crow | Designer | Austin, Texas
 			</div>
 			<div class="portfolio-snippet-info">
 					<h2>Precious Pit Bulls</h2>
-					<p>editorial article design / RWD / Sass</p>
 			</div>
 		</a>
 	</div>

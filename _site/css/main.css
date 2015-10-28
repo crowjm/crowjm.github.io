@@ -55,7 +55,10 @@ h1, h2, h3, h4 {
   line-height: 1.2; }
 
 h1 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1.5rem; }
 
 h2 {
   font-size: 1.8rem; }
@@ -71,6 +74,9 @@ h4 {
 
 #title {
   font-style: italic; }
+
+.portfolio-item h2 {
+  font-weight: 600; }
 
 /*grey*/
 /*peach*/
@@ -182,6 +188,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: auto;
   clear: both; }
 
+img {
+  width: 100%;
+  max-width: 650px; }
+
 /*header*/
 header {
   margin-top: 2rem;
@@ -201,3 +211,13 @@ header {
 
 .logo-and-name {
   overflow: hidden; }
+
+/*footer*/
+footer {
+  border-top: 5px solid #346699; }
+
+/*portfolio index*/
+.portfolio-item {
+  margin-bottom: 2rem; }
+  .portfolio-item a {
+    text-decoration: none; }
