@@ -6,6 +6,51 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 89</h2>
+    <h3>October 28, 2015</h3>
+    <img src="../img/100days/day89-helloworld.png" class="day-image" alt="hello world typeset and offset">
+  </div>
+  <div class="day">
+    <h2>Day 88</h2>
+    <h3>October 27, 2015</h3>
+    <img src="../img/100days/day88-benwyatt.png" class="day-image" alt="illustration of ben wyatt">
+  </div>
+  <div class="day">
+    <h2>Day 87</h2>
+    <h3>October 26, 2015</h3>
+    <img src="../img/100days/day87-chvrchesleaves.png" class="day-image" alt="photo of fall leaves with a chvrches-style square effect">
+    <p>I wanted to try my hand at recreating the style of Chvrches' latest album cover. Their designer does it much better, but I love all the colors found in the leaves.</p>
+  </div>
+  <div class="day">
+    <h2>Day 86</h2>
+    <h3>October 25, 2015</h3>
+    <img src="../img/100days/day86-bananacake.png" class="day-image" alt="banana cake recipe">
+  </div>
+  <div class="day">
+    <h2>Day 85</h2>
+    <h3>October 24, 2015</h3>
+    <img src="../img/100days/day85-lovecard.jpg" class="day-image" alt="hand lettered card with i love you and watercolor border">
+  </div>
+  <div class="day">
+    <h2>Day 84</h2>
+    <h3>October 23, 2015</h3>
+    <img src="../img/100days/day84-happilycard.jpg" class="day-image" alt="hand lettered card with the saying and they lived happily ever after">
+  </div>
+  <div class="day">
+    <h2>Day 83</h2>
+    <h3>October 22, 2015</h3>
+    <img src="../img/100days/day83-andy.png" class="day-image" alt="an illustration of andy dwyer">
+  </div>
+  <div class="day">
+    <h2>Day 82</h2>
+    <h3>October 21, 2015</h3>
+    <img src="../img/100days/day82-burtmacklin.png" class="day-image" alt="an illustration of burt macklin">
+  </div>
+  <div class="day">
+    <h2>A Hiatus: Part 2</h2>
+    <p>Traveling for a few days. Will pick things up where I left off when I get back to Austin!</p>
+  </div>
+  <div class="day">
     <h2>Day 81</h2>
     <h3>October 15, 2015</h3>
     <img src="../img/100days/day81-bdaycard.jpg" class="day-image" alt="hand lettered happy birthday card with watercolor polka dots">
@@ -15,12 +60,12 @@ title: 100 Days Project
     <h3>October 14, 2015</h3>
     <img src="../img/100days/day80-blogredesign.jpg" class="day-image" alt="redesign of blog post">
   </div>
- <div class="day">
+  <div class="day">
     <h2>Day 79</h2>
     <h3>October 13, 2015</h3>
     <img src="../img/100days/day79-portfolioindexredesign.jpg" class="day-image" alt="redesign of main portfolio project page">
   </div>
- <div class="day">
+  <div class="day">
     <h2>Day 78</h2>
     <h3>October 12, 2015</h3>
     <img src="../img/100days/day78-tpv2.png" class="day-image" alt="splattered tin plate inspired banner">
@@ -46,7 +91,7 @@ title: 100 Days Project
     <h3>October 8, 2015</h3>
     <img src="../img/100days/day74-monalisa.png" class="day-image" alt="illustration of mona lisa saperstein">
   </div>
-<div class="day">
+  <div class="day">
     <h2>Day 73</h2>
     <h3>October 7, 2015</h3>
     <img src="../img/100days/day73-ronswanson.png" class="day-image" alt="illustration of ron swanson">
