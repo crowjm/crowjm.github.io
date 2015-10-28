@@ -66,6 +66,12 @@ h3 {
 h4 {
   font-size: 1.4rem; }
 
+#name {
+  font-family: "adelle", serif; }
+
+#title {
+  font-style: italic; }
+
 /*grey*/
 /*peach*/
 /*blue*/
@@ -164,3 +170,30 @@ h1, h2, h3, h4, h5, h6 {
 
   .nav-collapse li:nth-of-type(3) {
     display: inline-block; } }
+/*general*/
+.wrapper, .head-wrapper {
+  width: 90%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: both; }
+
+/*header*/
+header {
+  margin-top: 1.754%;
+  margin-bottom: 1.754%; }
+
+#logo {
+  max-width: 50px; }
+
+.logo, .name {
+  float: left; }
+
+.logo {
+  margin-right: 1.754%; }
+
+.name {
+  margin-top: 24px; }
+
+.logo-and-name {
+  overflow: hidden; }

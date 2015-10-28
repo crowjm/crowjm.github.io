@@ -1,0 +1,34 @@
+/*general*/
+.wrapper, .head-wrapper {
+	width: 90%;
+	max-width: 1140px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+}
+
+/*header*/
+header {
+	margin-top: $gut;
+	margin-bottom: $gut;
+}
+
+#logo {
+	max-width: 50px;
+}
+
+.logo, .name {
+	float: left;
+}
+
+.logo {
+	margin-right: $gut;
+}
+
+.name {
+	margin-top: 24px;
+}
+
+.logo-and-name {
+	overflow: hidden;
+}
