@@ -43,8 +43,19 @@ footer {
 	border-top: 5px solid $primary;
 }
 
+.footer-social {
+	margin-top: 2rem;
+	overflow: hidden;
+}
+
 .footericon {
 	width: 30px;
+	float: left;
+	margin-right: 1rem;
+}
+
+.colophon {
+	margin-top: 1rem;
 }
 
 /*portfolio index*/
