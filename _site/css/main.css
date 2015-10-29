@@ -107,6 +107,9 @@ h1, h2, h3, h4, h5, h6 {
 .nav-collapse, .nav-toggle {
   background-color: #346699; }
 
+.nav-collapse li:hover {
+  background-color: #db6962; }
+
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .nav-collapse ul {
   margin: 0;
@@ -136,7 +139,8 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   overflow: hidden;
   zoom: 1;
-  clear: both; }
+  clear: both;
+  padding-bottom: 0.5rem; }
 
 .nav-collapse.opened {
   max-height: 500px;
