@@ -216,6 +216,9 @@ header {
 footer {
   border-top: 5px solid #346699; }
 
+.footericon {
+  width: 30px; }
+
 /*portfolio index*/
 .portfolio-item {
   margin-bottom: 2rem; }
