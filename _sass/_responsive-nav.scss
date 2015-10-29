@@ -61,8 +61,9 @@
     position: relative;
     margin-top: 0;
     float: none;
-    margin: 0 auto;
+    margin: 1rem auto 0 auto;
     width: 100%;
+    padding-bottom: 0;
   }
   .js .nav-collapse.closed {
     max-height: none;
@@ -70,22 +71,14 @@
   .nav-toggle {
     display: none;
   }
+  .nav-collapse ul {
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
 .nav-collapse li {
-   display: inline-block;
-   margin-left: 0em;
-   width: 100%;
-   text-align: left;
-   a {
-     border-bottom: 2px solid white;
-   }
- }
- .nav-collapse li:nth-of-type(1) {
-   margin-left: 0;
-   margin-top: 3em;
-}
-.nav-collapse li:nth-of-type(3) {
   display: inline-block;
-}
-
-
+  float: left;
+  padding: 0.5rem 0.75rem;
+ }
   }
