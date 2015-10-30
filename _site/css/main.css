@@ -192,7 +192,8 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
-  clear: both; }
+  clear: both;
+  overflow: hidden; }
 
 img {
   width: 100%;
@@ -221,7 +222,8 @@ header {
 /*footer*/
 footer {
   border-top: 5px solid #346699;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  overflow: hidden; }
 
 .footer-social {
   margin-top: 2rem;
@@ -240,3 +242,29 @@ footer {
   margin-bottom: 2rem; }
   .portfolio-item a {
     text-decoration: none; }
+
+@media screen and (min-width: 660px) {
+  /*footer*/
+  .colophon, .recently {
+    width: 44.8805%; }
+
+  .colophon {
+    margin-right: 3.508%;
+    float: left; }
+
+  .recently {
+    float: right; } }
+@media screen and (min-width: 800px) {
+  .colophon, .recently {
+    width: 35%; }
+
+  .footer-social {
+    width: 23%;
+    margin-top: 1.1rem; }
+
+  .footer-social, .recently {
+    float: left; }
+
+  .colophon {
+    margin-right: 2rem;
+    margin-left: 2rem; } }

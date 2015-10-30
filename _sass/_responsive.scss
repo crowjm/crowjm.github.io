@@ -1,1 +1,35 @@
+@media screen and (min-width: 660px) {
+/*footer*/
+.colophon, .recently {
+	@include grid(5.5);
+}
+.colophon {
+	margin-right: $gut * 2;
+	float: left;
+}
+.recently {
+	float: right;
+}
 
+
+
+
+}
+
+
+@media screen and (min-width: 800px) {
+	.colophon, .recently {
+		width: 35%;
+	}
+	.footer-social {
+		width: 23%;
+		margin-top: 1.1rem;
+	}
+	.footer-social, .recently {
+		float: left;
+	}
+	.colophon {
+		margin-right: 2rem;
+		margin-left: 2rem;
+	}
+}

@@ -5,6 +5,7 @@
 	margin-right: auto;
 	margin-left: auto;
 	clear: both;
+	overflow: hidden;
 }
 
 img {
@@ -42,6 +43,7 @@ header {
 footer {
 	border-top: 5px solid $primary;
 	margin-bottom: 2rem;
+	overflow: hidden;
 }
 
 .footer-social {

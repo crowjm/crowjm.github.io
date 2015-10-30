@@ -3,7 +3,4 @@ $col: 6.725%;
 
 @mixin grid($colnum) {
   width: ($col * $colnum) + ($gut * (($colnum) - 1));
-  margin-right: $gut;
-  margin-bottom: $gut;
-  float: left;
 }
