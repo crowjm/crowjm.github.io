@@ -64,10 +64,10 @@ h2 {
   font-size: 1.8rem; }
 
 h3 {
-  font-size: 1.6rem; }
+  font-size: 1.4rem; }
 
 h4 {
-  font-size: 1.4rem; }
+  font-size: 1.3rem; }
 
 h5 {
   font-size: 1.2rem; }
@@ -77,9 +77,6 @@ h5 {
 
 #title {
   font-style: italic; }
-
-.portfolio-item h2 {
-  font-weight: 600; }
 
 .colophon h5, .recently h5 {
   font-weight: 600; }
@@ -253,7 +250,16 @@ footer {
     float: left; }
 
   .recently {
-    float: right; } }
+    float: right; }
+
+  /*portfolio items on index*/
+  .portfolio-item {
+    width: 47.5%;
+    float: left;
+    min-height: 250px; }
+
+  .portfolio-item:nth-of-type(odd) {
+    margin-right: 5%; } }
 @media screen and (min-width: 800px) {
   .colophon, .recently {
     width: 35%; }
@@ -268,3 +274,15 @@ footer {
   .colophon {
     margin-right: 2rem;
     margin-left: 2rem; } }
+@media screen and (min-width: 1040px) {
+  /*portfolio items on index*/
+  .portfolio-item {
+    width: 30%;
+    float: left; }
+
+  .portfolio-item:nth-of-type(odd) {
+    margin-right: 0%; }
+
+  .portfolio-item:nth-of-type(3n+2) {
+    margin-right: 5%;
+    margin-left: 5%; } }

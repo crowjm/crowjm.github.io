@@ -10,7 +10,7 @@ title: Jesse Crow | Designer | Austin, Texas
 				<img src="../img/portfolio-pages/smokies-hero.jpg">
 			</div>
 			<div class="portfolio-snippet-info">
-					<h2>National Park Service Redesign</h2>
+					<h3>National Park Service Redesign</h3>
 			</div>
 		</a>
 	</div>
@@ -20,7 +20,7 @@ title: Jesse Crow | Designer | Austin, Texas
 				<img src="../img/portfolio-pages/goodreads.jpg">
 			</div>
 			<div class="portfolio-snippet-info">
-					<h2>GoodReads</h2>
+					<h3>GoodReads</h3>
 			</div>
 		</a>
 	</div>
@@ -30,7 +30,7 @@ title: Jesse Crow | Designer | Austin, Texas
 				<img src="../img/portfolio-pages/greenthumb.jpg">
 			</div>
 			<div class="portfolio-snippet-info">
-					<h2>GreenThumb</h2>
+					<h3>GreenThumb</h3>
 			</div>
 		</a>
 	</div>
@@ -40,7 +40,7 @@ title: Jesse Crow | Designer | Austin, Texas
 				<img src="../img/portfolio-pages/css-zen.jpg">
 			</div>
 			<div class="portfolio-snippet-info">
-					<h2>CSS Zen Garden</h2>
+					<h3>CSS Zen Garden</h3>
 			</div>
 		</a>
 	</div>
@@ -50,7 +50,7 @@ title: Jesse Crow | Designer | Austin, Texas
 				<img src="../img/portfolio-pages/pitbull.jpg">
 			</div>
 			<div class="portfolio-snippet-info">
-					<h2>Precious Pit Bulls</h2>
+					<h3>Precious Pit Bulls</h3>
 			</div>
 		</a>
 	</div>
