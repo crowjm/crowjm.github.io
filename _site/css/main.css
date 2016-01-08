@@ -242,13 +242,6 @@ footer {
 
 @media screen and (min-width: 660px) {
   /*footer*/
-  .colophon, .recently {
-    width: 44.8805%; }
-
-  .colophon {
-    margin-right: 3.508%;
-    float: left; }
-
   .recently {
     float: right; }
 

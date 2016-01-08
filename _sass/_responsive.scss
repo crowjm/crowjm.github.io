@@ -1,12 +1,12 @@
 @media screen and (min-width: 660px) {
 /*footer*/
-.colophon, .recently {
-	@include grid(5.5);
-}
-.colophon {
-	margin-right: $gut * 2;
-	float: left;
-}
+// .colophon, .recently {
+// 	@include grid(5.5);
+// }
+// .colophon {
+// 	margin-right: $gut * 2;
+// 	float: left;
+// }
 .recently {
 	float: right;
 }
