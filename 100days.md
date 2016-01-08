@@ -6,6 +6,62 @@ title: 100 Days Project
   <h1>100 days project</h1>
   <h3 class="intro-text">Read why I started <a href="http://jessecrow.com/2015/07/22/starting-100-days.html">here</a>.</h3>
   <div class="day">
+    <h2>Day 100</h2>
+    <h3>November 7, 2015</h3>
+    <img src="../img/100days/day100-100.jpg" class="day-image" alt="pattern of triangles">
+  </div>
+  <div class="day">
+    <h2>Day 99</h2>
+    <h3>November 7, 2015</h3>
+    <img src="../img/100days/day99-motto.jpg" class="day-image" alt="typeset saying of be kind, work hard, stay humble">
+  </div>
+  <div class="day">
+    <h2>Day 98</h2>
+    <h3>November 6, 2015</h3>
+    <img src="../img/100days/day98-patternplay.png" class="day-image" alt="pattern of circles and squares">
+  </div>
+  <div class="day">
+    <h2>Day 97</h2>
+    <h3>November 5, 2015</h3>
+    <img src="../img/100days/day97-lilsebastian.png" class="day-image" alt="illustrator of lil sebastian as david bowie">
+  </div>
+  <div class="day">
+    <h2>Day 96</h2>
+    <h3>November 4, 2015</h3>
+    <img src="../img/100days/day96-tomhaverford.png" class="day-image" alt="illustrator of tom haverford">
+  </div>
+  <div class="day">
+    <h2>Day 95</h2>
+    <h3>November 3, 2015</h3>
+    <img src="../img/100days/day95-christrager.png" class="day-image" alt="illustration of chris trager">
+  </div>
+  <div class="day">
+    <h2>Day 94</h2>
+    <h3>November 2, 2015</h3>
+    <img src="../img/100days/day94-amyquote.png" class="day-image" alt="typeset quote by amy poehler">
+  </div>
+  <div class="day">
+    <h2>Day 93</h2>
+    <h3>November 1, 2015</h3>
+    <img src="../img/100days/day93-cider.jpg" class="day-image" alt="a photo of a cup of homemade apple cider">
+    <p>Homemade apple cider. Finally feels like fall in Austin.</p>
+  </div>
+  <div class="day">
+    <h2>Day 92</h2>
+    <h3>October 31, 2015</h3>
+    <img src="../img/100days/day92-halloween.png" class="day-image" alt="typeset and offset happy halloween">
+  </div>
+    <div class="day">
+    <h2>Day 91</h2>
+    <h3>October 30, 2015</h3>
+    <img src="../img/100days/day91-jerrygergich.png" class="day-image" alt="illustration of parks and rec character jerry gergich">
+  </div>
+  <div class="day">
+    <h2>Day 90</h2>
+    <h3>October 29, 2015</h3>
+    <img src="../img/100days/day90-weaving.jpg" class="day-image" alt="detail shot of a weaving in progress">
+  </div>
+  <div class="day">
     <h2>Day 89</h2>
     <h3>October 28, 2015</h3>
     <img src="../img/100days/day89-helloworld.png" class="day-image" alt="hello world typeset and offset">
