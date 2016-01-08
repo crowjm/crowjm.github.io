@@ -6,9 +6,43 @@
 </description>
     <link>http://www.jessecrow.com/blog/</link>
     <atom:link href="http://www.jessecrow.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Nov 2015 17:58:05 -0600</pubDate>
-    <lastBuildDate>Sun, 15 Nov 2015 17:58:05 -0600</lastBuildDate>
+    <pubDate>Sun, 15 Nov 2015 18:39:03 -0600</pubDate>
+    <lastBuildDate>Sun, 15 Nov 2015 18:39:03 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>First Week Reflections</title>
+        <description>&lt;p&gt;Last week was a monumental week for me-it was my first week as a full time developer! I had no idea what to expect and I haven’t learned so much about coding and myself in a week since my time at The Iron Yard. Here’s a peek at my first week and some things I wish I would have known.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;h5&gt;Community is Critically Important&lt;/h5&gt;
+		&lt;p&gt;I&#39;m a creature of habit, so change is really hard for me-especially when there&#39;s so much new information (technical and otherwise) to learn! I&#39;m thankful to have such kind and patient friends and coworkers and the best fella and dogs around. If I hadn&#39;t been surrounded by the best people, I couldn&#39;t have done this. Full stop. The dev and design work can be a challenging place, learning new things takes time, but it&#39;s much easier to tackle with support.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;h5&gt;Be Flexible&lt;/h5&gt;
+		&lt;p&gt;Sometimes your project&#39;s direction will change and work will get scrapped. It happens and it&#39;s not a big deal. Think about the left-behind code as practice and don&#39;t take it personally.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;h5&gt;Job Titles Don&#39;t Say Much&lt;/h5&gt;
+		&lt;p&gt;At all. Even within IBM Design, &quot;Front End Developer&quot; means a multitude of different things. Sure, you can get a general idea of someone and their skills, but a job title is no where close to the whole picture.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;h5&gt;Where Did All of These Meetings Come From?&lt;/h5&gt;
+		&lt;p&gt;This caught me the most off guard. Some days you&#39;ll be in code-land for most of the day, other days you&#39;re in meeting-land most of the day. So, future devs and designers, prepare yourselfs. Meetings are a thing and they happen on the reg. It&#39;s important to stay in touch with your teammates and make sure everyone is on the same page; I didn&#39;t know just how much of this was done in meetings (as opposed to Slack, for example). Not a bad thing, just something that I was unprepared for.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;h5&gt;Imposter Syndrome...&lt;/h5&gt;
+		&lt;p&gt;Oh, imposter syndrome. I was doing fine until Thursday morning and I&#39;m not sure what clicked, but all of a sudden I felt compltely like a fish out of water, like I didn&#39;t belong, like I didn&#39;t deserve to be there, like I didn&#39;t know what I was doing. Imposter syndrome is like a gremlin in your head that you can&#39;t get to be quiet. This is another instance of why community is so important, not just for adjustment and learning, but for emotional support. I&#39;m thankful to have a &quot;pep talk crew&quot; who I know I can count on for when imposter syndrome shows up.&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 15 Nov 2015 00:00:00 -0600</pubDate>
+        <link>http://www.jessecrow.com/blog/2015/11/15/first-week-reflections.html</link>
+        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/11/15/first-week-reflections.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Desk Dancin&#39; Vol 1</title>
@@ -185,27 +219,6 @@
         <pubDate>Sat, 18 Apr 2015 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2015/04/18/demo-day.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/04/18/demo-day.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Designing For Myself</title>
-        <description>&lt;p&gt;In the midst of final projects, our class also worked on our personal logos and business cards. Designing something for myself is one of the most challenging things I’ve done so far in this class. &lt;/p&gt;
-
-&lt;p&gt;I’ve put so much additional (and probably unnecessary) pressure on myself for my logo to be perfect. Not just design wise, but I’ve also felt like it has to be the perfect representation of myself. This, coupled with just turning twenty-five a couple weeks ago, has led me to feel like I’m in the thick of a quarter life crisis. &lt;/p&gt;
-
-&lt;p&gt;I started by asking family, friends, and Sam what five words and a color they associate with me to get an idea as to how others perceive me. Then our class doing a timed logo challenge like we did earlier in the cohort. From there, I sketched and iterated ideas, brought them into Illustrator, and iterated and iterated and iterated and fussed with pen tool points until I was satisfied.&lt;/p&gt;
-
-&lt;p&gt;My two main concepts were a bird and a mason jar. I ultimately decided to go with the mason jar because it has more depth and goes past the obvious (my last name is Crow, afterall). We got our business cards today and I’m over the moon with how they turned out and still can’t believe I’m getting into a world where I get to have business cards.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/blog/personal-logos-1.jpg&quot; alt=&quot;mason jar and bird logo iterations&quot; /&gt;
-&lt;img src=&quot;/img/blog/personal-logos-v2.jpg&quot; alt=&quot;mason jar and bird logo iterations&quot; /&gt;
-&lt;img src=&quot;/img/blog/bizcards.jpg&quot; alt=&quot;business cards&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 Apr 2015 00:00:00 -0500</pubDate>
-        <link>http://www.jessecrow.com/blog/2015/04/10/personal-logo-design.html</link>
-        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/04/10/personal-logo-design.html</guid>
         
         
       </item>
