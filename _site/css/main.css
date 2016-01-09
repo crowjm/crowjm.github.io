@@ -87,6 +87,9 @@ h5 {
 .colophon h5, .recently h5 {
   font-weight: 600; }
 
+.older-posts, .newer-posts {
+  font-size: 1.1rem; }
+
 /*grey*/
 /*peach*/
 /*blue*/
@@ -248,6 +251,13 @@ footer {
 .post-float {
   margin-bottom: 2rem;
   max-width: 650px; }
+
+.older-posts, .newer-posts {
+  display: block;
+  text-align: center; }
+
+.pagination {
+  margin-bottom: 4rem; }
 
 @media screen and (min-width: 660px) {
   /*footer*/
