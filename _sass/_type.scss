@@ -7,23 +7,27 @@ a, p {
 	font-size: 1rem;
 }
 
-h1, h2, h3, h4, h5 {
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, .post-link {
 	font-family: $header-type;
 	line-height: 1.2;
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 1.6rem;
 	text-align: center;
 	font-weight: bold;
 	margin-bottom: 1.5rem;
 }
 
 h2 {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 }
 
-h3 {
+h3, .post-link {
 	font-size: 1.4rem;
 }
 
@@ -33,6 +37,10 @@ h4 {
 
 h5 {
 	font-size: 1.2rem;
+}
+
+.post-meta {
+	font-size: 0.875rem;
 }
 
 #name {

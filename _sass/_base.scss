@@ -64,7 +64,10 @@ footer {
 /*portfolio index*/
 .portfolio-item {
 	margin-bottom: 2rem;
-	a {
-		text-decoration: none;
-	}
+}
+
+/*blog index*/
+.post-float {
+	margin-bottom: 2rem;
+	max-width: 650px;
 }
