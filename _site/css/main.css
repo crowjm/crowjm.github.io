@@ -343,6 +343,9 @@ footer {
   margin-right: auto;
   margin-left: auto; }
 
+.project-links {
+  margin-bottom: 2rem; }
+
 .project-content p {
   margin-bottom: 1rem; }
 
@@ -350,7 +353,7 @@ footer {
   list-style: circle;
   margin-left: 1.25rem; }
   .project-content ul li {
-    margin-bottom: 1rem; }
+    margin-bottom: 0.25rem; }
 
 .project-image img {
   margin-bottom: 1rem; }
@@ -358,8 +361,11 @@ footer {
 .project-image:first-of-type {
   margin-top: 2rem; }
 
+.project-page-header:first-of-type {
+  margin-top: 0; }
+
 .project-page-header {
-  margin-top: 2rem; }
+  margin-top: 1.5rem; }
 
 @media screen and (min-width: 660px) {
   /*portfolio items on index*/
