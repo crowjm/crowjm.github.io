@@ -65,6 +65,20 @@
 }
 
 
+@media screen and (min-width: 760px) {
+	/*portfolio page*/
+	.project-content {
+		width: 55%;
+		margin-right: 5%;
+		float: left;
+	}
+	.project-image {
+		width: 40%;
+		float: right;
+	}
+}
+
+
 @media screen and (min-width: 1040px) {
 	/*portfolio items on index*/
 	.portfolio-item {
