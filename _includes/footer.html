@@ -1,43 +1,46 @@
 <footer>
   <div class="wrapper">
-    <div class="footer-paragraph">
-      <p>Made with love by Jesse Crow.</p>
-      <p>Powered by <a href="http://www.jekyllrb.com/">Jekyll</a>, <a href="http://www.typekit.com/">Typekit</a>, and lots of tea.</p>
-      <p>Typeset in Adelle and Adelle Sans.</p>
-    </div>
     <div class="footer-social">
       <ul>
         {% if site.twitter_username %}
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="twitter">
-                <img src="http://jessecrow.com/img/footer-icons/twitter-icon.png" alt="twitter icon">
-                </span><!--
-                --><span class="username">{{ site.twitter_username }}</span>
-              </a>
-            </li>
-          {% endif %}
-        {% if site.github_username %}
-          <li>
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="icon">
-                 <img src="http://jessecrow.com/img/footer-icons/github-icon.png" alt="github icon">
-              </span><!--
-              --><span class="username">{{ site.github_username }}</span>
+              <img src="http://jessecrow.com/img/footer-icons/twitter-icon.png" alt="twitter icon" class="footericon">
             </a>
           </li>
         {% endif %}
-          <li><a href="https://dribbble.com/crowjm"><span class="icon">
-             <img src="http://jessecrow.com/img/footer-icons/dribbble-icon.png" alt="dribbble icon">
-          </span><!--
-            --><span class="username">crowjm</span></a>
+        {% if site.github_username %}
+          <li>
+            <a href="https://github.com/{{ site.github_username }}">
+              <img src="http://jessecrow.com/img/footer-icons/github-icon.png" alt="github icon" class="footericon">
+            </a>
           </li>
-          <li><a href="https://codepen.io/crowjm"><span class="icon">
-             <img src="http://jessecrow.com/img/footer-icons/codepen-icon.png" alt="codepen icon">
-          </span><!--
-            --><span class="username">crowjm</span></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+        {% endif %}
+        <li><a href="https://dribbble.com/crowjm">
+          <img src="http://jessecrow.com/img/footer-icons/dribbble-icon.png" alt="dribbble icon" class="footericon">
+        </a>
+      </li>
+      <li><a href="https://codepen.io/crowjm">
+        <img src="http://jessecrow.com/img/footer-icons/codepen-icon.png" alt="codepen icon" class="footericon">
+      </a>
+    </li>
+  </ul>
+<p class="contact">Interested in working together or just want to say hello? <a href="mailto:hello@jessecrow.com">Get in touch!</a></p>
+</div>
+<div class="colophon">
+  <h5>colophon</h5>
+  <p>Made with care by Jesse Crow deep in the heart of Texas. Powered by <a href="http://www.jekyllrb.com/">Jekyll</a>, <a href="http://www.typekit.com/">Typekit</a>, and lots of tea. Typeset in Adelle and Proxima Nova.</p> 
+</div>
+<div class="recently">
+  <h5>recently</h5>
+  <ul>
+    <li><p>On heavy rotation: 1989 by Ryan Adams</p></li>
+    <li><p>Reading: Hunger Makes Me A Modern Girl by Carrie Brownstein</p></li>
+    <li><p>Cooking: Breakfast tacos</p></li>
+    <li><p>Watching: The Mindy Project</p></li>
+    <li><p>Making: Woven wall hangings</p></li>
+  </ul>
+</div>
+</div>
+</div>
+</footer>

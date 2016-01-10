@@ -1,59 +1,21 @@
 <header class="site-header">
   <div class="head-wrapper">
     <div class="logo-and-name">
-      <div class="small-logo">
-        <img src="http://jessecrow.com/img/white-jar-logo.svg">
+      <div class="logo">
+        <img src="http://jessecrow.com/img/bluejarlogo.png" alt="logo of a mason jar with a subtle j in it" id="logo">
       </div>
       <div class="name">
-        <p class="my-name">Jesse Crow</p>
-        <p>UI &amp; Web Designer</p>
+        <h2 id="name">Jesse Crow</h2>
+        <h3 id="title">designer &amp; developer</h3>
       </div>
     </div>
-    <nav class="nav-collapse">
-      <ul>
-        <li><a href="/index.html">portfolio</a></li>
-        <li><a href="/blog/">blog</a></li>
-        <li><a href="/about.html">about</a></li>
-        <li><a href="/100days.html">100 days project</a></li>
-        <li><a href="/contact.html">contact</a></li>
-      </ul>
-    </nav>
-    <div class="side-nav-info">
-      <p>Made with love by Jesse Crow deep in the heart of Texas. Powered by <a href="http://www.jekyllrb.com/">Jekyll</a>, <a href="http://www.typekit.com/">Typekit</a> and lots of tea. Typeset in Adelle and Adelle Sans.</p>
-    </div>
-    <div class="side-nav-links">
-      <ul>
-        {% if site.twitter_username %}
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="icon">
-                <img src="http://jessecrow.com/img/footer-icons/twitter-icon.png" alt="twitter icon">
-              </span><!--
-              --><!-- <span class="username">{{ site.twitter_username }}</span> -->
-            </a>
-          </li>
-        {% endif %}
-        {% if site.github_username %}
-          <li>
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="icon">
-                <img src="http://jessecrow.com/img/footer-icons/github-icon.png" alt="github icon">
-              </span><!--
-              --><!-- <span class="username">{{ site.github_username }}</span> -->
-            </a>
-          </li>
-        {% endif %}
-        <li><a href="https://dribbble.com/crowjm"><span class="icon">
-          <img src="http://jessecrow.com/img/footer-icons/dribbble-icon.png" alt="dribbble icon">
-        </span>
-        <!-- <span class="username">crowjm</span> --></a> 
-      </li>
-      <li><a href="https://codepen.io/crowjm"><span class="icon">
-        <img src="http://jessecrow.com/img/footer-icons/codepen-icon.png" alt="codepen icon">
-      </span>
-    <!--  <span class="username">crowjm</span> --> </a> 
-    </li>
-  </ul>
-</div>
-</div>
+  </div>
+  <nav class="nav-collapse">
+    <ul>
+      <li {% if page.category == 'portfolio' %} class="nav-current" {% endif %}><a href="/index.html">portfolio</a></li>
+      <li {% if page.category == 'blog' %} class="nav-current" {% endif %}><a href="/blog/">blog</a></li>
+      <li {% if page.category == 'about' %} class="nav-current" {% endif %}><a href="/about.html">about</a></li>
+      <li {% if page.category == '100-Days' %} class="nav-current" {% endif %}><a href="/100days.html">100 days project</a></li>
+    </ul>
+  </nav>
 </header>

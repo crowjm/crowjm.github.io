@@ -9,4 +9,4 @@ A few posts back, I mentioned how important the right music is to my process. I'
 
 Today I present Desk Dancin' Vol 1: a collection of songs that gets me moving and in the zone to get stuff done.
 
-<div class="iframecontainer"><iframe src="https://rd.io/i/Rl15y-4vs8CA/" frameborder="0"></iframe></div>
+<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Ajessecrow%3Aplaylist%3A5hc63AvAHoiSAQ71AolWNg" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>

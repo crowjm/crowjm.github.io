@@ -1,196 +1,115 @@
-/***change hero/banner image padding and footer layout***/
-@media screen and (min-width: 620px) {
-/***general***/
-h1 {
-	font-size: 3rem;
-}	
-
-/***footer***/
-footer {
-	ul {
-		overflow: hidden;
-	li {
-		width: 25%;
-		margin: 0;
-	}
-	li:nth-of-type(odd) {
-		margin-left: 0%;
-	}
-	li:nth-of-type(even) {
-		margin-right: 0%;
-	}
-}
-}
-
-.footer-social {
-	overflow: hidden;
-}
-
-/***photo in about***/
-.prof-pic {
-	width: 40%;
-}
-
-/***project page***/
-.project-float-container {
-	overflow: hidden;
-	.project-float-image {
-		width: 50%;
-		float: left;
-	}
-}
-
-/***about***/
-.skills {
-		.skill {
-			width: 30%;
-			float: left;
-			margin-right: 5%;
-		.skill-icon {
-			width: 40%;
-			margin: 0 auto;
-		}	
-	}
-	.skill:nth-of-type(odd) {
-			margin-right: 5%;
-		}
-		.skill:nth-of-type(3n+3) {
-			margin-right: 0;
-		}
-}
-
-.currentlys {
-	.currently {
-	.currently-icon {
-		width: 30%;
-		margin: 0 auto;
-	}
-}
-}
-
-
-}
-
-
-/***header change***/
 @media screen and (min-width: 660px) {
-header {
-	height: auto;
-	width: 250px;
-	position: fixed;
-	top: 0; 
-	bottom: 0;
-	overflow-y: scroll; 
-	.side-nav-info {
-		display: block;
-		margin-top: -1rem;
-		p {
-			color: white;
-			margin-top: 3em;
-		}
-		a {
-			color: white;
-		}
-	}
-	.side-nav-links {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 2rem;
-		li {
-			width: 25%;
-			float: left;
-		}
-		.icon {
-			img {
-				width: 30px;
-			}
-		}
-	}
-	.logo-and-name {
-		width: 100%;
-		margin-bottom: -1rem;
-		.name {
-			float: none;
-			margin-left: 57px;
-		}
-	}
+/*portfolio items on index*/
+.portfolio-item {
+	width: 47.5%;
+	float: left;
+	min-height: 250px;
 }
-
-.wrapper {
-	width: 55%;
-	margin: 0 auto;
-	padding-left: 250px;
-}
-
-.head-wrapper {
-	width: 85%;
-}
-
-footer {
-	display: none;
-}
-
-.skills {
-	.skill {
-		height: 110px;
-	}
-}
+.portfolio-item:nth-of-type(odd) {
+	margin-right: 5%;
 }
 
 
-
-/***media query for largest screens***/
-@media screen and (min-width: 958px) {
-
-/***blog***/
-
+/*blog index*/
 .post-float {
-	@include grid(5.5);
+	width: 47.5%;
+	float: left;
+	min-height: 250px;
 }
 .post-float:nth-of-type(odd) {
-	margin-right: $col;
+	margin-right: 5%;
 }
 
 
-/***about***/
-.skills {
-		.skill {
-			width: 22%;
-			float: left;
-			margin-right: 4%;	
+/*blog post*/
+.post-float-container {
+	overflow: hidden;
+	clear: both;
+}
+
+.post-float-image {
+	width: 50%;
+	float: left;
+	margin-bottom: 1rem;
+}
+
+/*100 days project*/
+.day {
+	width: 47.5%;
+	float: left;
+}
+
+.day:nth-of-type(even) {
+	margin-right: 5%;
+}
+
+}
+
+@media screen and (min-width: 700px) {
+	.footer-social, .colophon, .recently {
+		width: 30%;
+		float: left;
 	}
-	.skill-icon {
-			width: 40%;
-			margin: 0 auto;
-		}	
-	.skill:nth-of-type(odd) {
-			margin-right: 4%;
-		}
-		.skill:nth-of-type(3n+3) {
-			margin-right: 4%;
-		}
-	.skill:nth-of-type(4n+4) {
-		margin-right: 0;
+	.colophon {
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	.footer-social {
+		margin-top: 1rem;
 	}
 }
 
-.currentlys {
-		.currently {
-			width: 22%;
-			float: left;
-			margin-right: 4%;
-		.currently-icon {
-			width: 40%;
-			margin: 0 auto;
-		}	
+
+
+@media screen and (min-width: 760px){
+	/*about*/
+	.prof-pic {
+		float: left;
+		width: 30%;
+		margin-right: 5%;
 	}
-	.currently:nth-of-type(odd) {
-			margin-right: 4%;
-		}
-	.currently:nth-of-type(4n+4) {
-		margin-right: 0;
+	.about-content {
+		float: right;
+		width: 65%;
+	}
+
+	/*portfolio page*/
+	.project-content {
+		width: 55%;
+		margin-right: 5%;
+		float: left;
+	}
+	.project-image {
+		width: 40%;
+		float: right;
 	}
 }
 
+
+@media screen and (min-width: 1040px) {
+	/*portfolio items on index*/
+	.portfolio-item {
+		width: 30%;
+		float: left;
+	}
+	.portfolio-item:nth-of-type(odd) {
+		margin-right: 0%;
+	}
+	.portfolio-item:nth-of-type(3n+2) {
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+
+	/*blog index*/
+	.post-float {
+		width: 30%;
+		float: left;
+	}
+	.post-float:nth-of-type(odd) {
+		margin-right: 0%;
+	}
+	.post-float:nth-of-type(3n+2) {
+		margin-right: 5%;
+		margin-left: 5%;
+	}
 }

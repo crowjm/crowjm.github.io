@@ -1,6 +1,0 @@
-$col: 8.333%;
-
-@mixin grid($colnum) {
-  width: ($col * $colnum);
-  float: left;
-}
