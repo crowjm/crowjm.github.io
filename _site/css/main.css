@@ -124,20 +124,33 @@ p, li, q {
   color: #6d767e; }
 
 a {
-  color: #db6962; }
+  color: #db6962;
+  transition: color 0.3s ease; }
+
+a:hover {
+  color: #d14139; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #346699; }
 
 .portfolio-item h3 {
-  color: #db6962; }
+  color: #db6962;
+  transition: color 0.3s ease; }
+.portfolio-item h3:hover {
+  color: #d14139; }
 
 /*nav*/
 .nav-collapse, .nav-toggle {
   background-color: #346699; }
 
+.nav-collapse li {
+  transition: background-color 0.3s ease; }
+
 .nav-collapse li:hover {
   background-color: #db6962; }
+
+.nav-current {
+  background-color: #e38983; }
 
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .nav-collapse ul {

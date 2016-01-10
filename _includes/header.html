@@ -12,10 +12,10 @@
   </div>
   <nav class="nav-collapse">
     <ul>
-      <li><a href="/index.html">portfolio</a></li>
-      <li><a href="/blog/">blog</a></li>
-      <li><a href="/about.html">about</a></li>
-      <li><a href="/100days.html">100 days project</a></li>
+      <li {% if page.category == 'portfolio' %} class="nav-current" {% endif %}><a href="/index.html">portfolio</a></li>
+      <li {% if page.category == 'blog' %} class="nav-current" {% endif %}><a href="/blog/">blog</a></li>
+      <li {% if page.category == 'about' %} class="nav-current" {% endif %}><a href="/about.html">about</a></li>
+      <li {% if page.category == '100-Days' %} class="nav-current" {% endif %}><a href="/100days.html">100 days project</a></li>
     </ul>
   </nav>
 </header>

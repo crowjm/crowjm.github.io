@@ -1,6 +1,7 @@
 ---
 layout: default
 title: about
+category: about
 ---
 <div class="wrapper">
 	<img src="/img/jesse.jpg" alt="photo of Jesse Crow" class="prof-pic">

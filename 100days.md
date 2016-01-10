@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 100 Days Project
+category: 100-Days
 ---
 <div class="wrapper">
   <div class="intro-text">

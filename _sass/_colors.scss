@@ -17,6 +17,11 @@ p, li, q {
 
 a {
 	color: $links;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: darken($links, 10%);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio-item {
 	h3 {
 		color: $links;
+		transition: color 0.3s ease;
+	}
+	h3:hover {
+		color: darken($links, 10%);
 	}
 }
 
@@ -34,6 +43,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: $primary;
 }
 
+.nav-collapse li {
+	transition: background-color 0.3s ease;
+}
+
 .nav-collapse li:hover {
 	background-color: $secondary;
+}
+
+.nav-current {
+	background-color: lighten($secondary, 8%);
 }

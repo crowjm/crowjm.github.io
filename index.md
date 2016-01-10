@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Jesse Crow | Designer &amp; Developer | Austin, Texas
+category: portfolio
 ---
 <div class="wrapper">
 	<div class="portfolio-item">
