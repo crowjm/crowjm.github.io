@@ -13,6 +13,14 @@ category: portfolio
 		</a>
 	</div>
 	<div class="portfolio-item">
+		<a href="/projects/hetre85.html">
+			<div class="portfolio-snippet">
+				<img src="../img/portfolio-pages/hetre85.png">
+			</div>
+			<h3>hetre85</h3>
+		</a>
+	</div>
+	<div class="portfolio-item">
 		<a href="/projects/goodreads.html">
 			<div class="portfolio-snippet">
 				<img src="../img/portfolio-pages/goodreads.jpg">
