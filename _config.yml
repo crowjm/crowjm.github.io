@@ -1,7 +1,7 @@
 # Site settings
 title: Jesse Crow
 description: > # this means to ignore newlines until "baseurl:"
-  Portfolio site for Austin-based designer, Jesse Crow.
+  Portfolio site for Austin-based designer and developer, Jesse Crow.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.jessecrow.com/blog" # the base hostname & protocol for your site
 twitter_username: crowjm
@@ -11,4 +11,4 @@ paginate_path: "/blog/page:num/"
 
 # Build settings
 markdown: kramdown
-paginate: 8
+paginate: 9

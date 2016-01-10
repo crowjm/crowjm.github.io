@@ -1,7 +1,7 @@
 $body-type: "adelle", serif;
 $header-type: "proxima-nova", sans-serif;
 
-a, p {
+a, p, li {
 	font-family: $body-type;
 	line-height: 1.8;
 	font-size: 1rem;
@@ -33,13 +33,14 @@ h3, .post-link {
 
 h4 {
 	font-size: 1.3rem;
+	margin-bottom: 0.5rem;
 }
 
 h5 {
 	font-size: 1.2rem;
 }
 
-.post-meta {
+.blog-post-meta {
 	font-size: 0.875rem;
 }
 

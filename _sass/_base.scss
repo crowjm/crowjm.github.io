@@ -79,6 +79,7 @@ footer {
 
 .pagination {
 	margin-bottom: 4rem;
+	margin-top: 2rem;
 }
 
 /*blog post*/
@@ -88,12 +89,30 @@ footer {
 	margin-left: auto;
 }
 
-.post-content p, .post-content li {
+.post-content p, .post-content ul {
 	margin-bottom: 1rem;
 }
 
-.post-meta {
+.post-content ul {
+	list-style: circle;
+}
+
+.post-content ul li {
+	margin-bottom: 0.25rem;
+}
+
+.blog-post-meta {
 	text-align: center;
 	margin-bottom: 2rem;
 	margin-top: -1.25rem;
+}
+
+.previous-entry, .next-entry {
+	display: block;
+	text-align: center;
+}
+
+.blog-nav {
+	margin-bottom: 4rem;
+	margin-top: 2rem;
 }
