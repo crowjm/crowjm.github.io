@@ -244,6 +244,7 @@ header {
 footer {
   border-top: 5px solid #346699;
   margin-bottom: 2rem;
+  margin-top: 4rem;
   overflow: hidden; }
 
 .footer-social {
@@ -280,7 +281,6 @@ footer {
   text-align: center; }
 
 .pagination {
-  margin-bottom: 4rem;
   margin-top: 2rem; }
 
 /*blog post*/
@@ -308,7 +308,6 @@ footer {
   text-align: center; }
 
 .blog-nav {
-  margin-bottom: 4rem;
   margin-top: 2rem; }
 
 /*about*/
@@ -331,7 +330,6 @@ footer {
 
 .about-lists {
   overflow: hidden;
-  margin-bottom: 4rem;
   margin-top: 2rem; }
   .about-lists .skills, .about-lists .workingon {
     width: 47.5%;
@@ -359,9 +357,6 @@ footer {
 
 .project-image:first-of-type {
   margin-top: 2rem; }
-
-.project-image:last-of-type {
-  margin-bottom: 4rem; }
 
 .project-page-header {
   margin-top: 2rem; }

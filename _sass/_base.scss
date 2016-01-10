@@ -43,6 +43,7 @@ header {
 footer {
 	border-top: 5px solid $primary;
 	margin-bottom: 2rem;
+	margin-top: 4rem;
 	overflow: hidden;
 }
 
@@ -89,7 +90,6 @@ footer {
 }
 
 .pagination {
-	margin-bottom: 4rem;
 	margin-top: 2rem;
 }
 
@@ -124,7 +124,6 @@ footer {
 }
 
 .blog-nav {
-	margin-bottom: 4rem;
 	margin-top: 2rem;
 }
 
@@ -153,7 +152,6 @@ footer {
 
 .about-lists {
 	overflow: hidden;
-	margin-bottom: 4rem;
 	margin-top: 2rem;
 	.skills, .workingon {
 		width: 47.5%;
@@ -189,10 +187,6 @@ footer {
 
 .project-image:first-of-type {
 	margin-top: 2rem;
-}
-
-.project-image:last-of-type {
-	margin-bottom: 4rem;
 }
 
 .project-page-header {
