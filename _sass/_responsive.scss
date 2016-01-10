@@ -1,8 +1,4 @@
 @media screen and (min-width: 660px) {
-.recently {
-	float: right;
-}
-
 /*portfolio items on index*/
 .portfolio-item {
 	width: 47.5%;
@@ -39,23 +35,20 @@
 
 }
 
-
-@media screen and (min-width: 800px) {
-	.colophon, .recently {
-		width: 35%;
-	}
-	.footer-social {
-		width: 23%;
-		margin-top: 1.1rem;
-	}
-	.footer-social, .recently {
+@media screen and (min-width: 700px) {
+	.footer-social, .colophon, .recently {
+		width: 30%;
 		float: left;
 	}
 	.colophon {
-		margin-right: 2rem;
-		margin-left: 2rem;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	.footer-social {
+		margin-top: 1rem;
 	}
 }
+
 
 
 @media screen and (min-width: 760px){

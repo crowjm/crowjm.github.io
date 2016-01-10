@@ -48,7 +48,9 @@ footer {
 
 .footer-social {
 	margin-top: 2rem;
-	overflow: hidden;
+	ul {
+		overflow: hidden;
+	}
 }
 
 .footericon {
@@ -59,6 +61,15 @@ footer {
 
 .colophon, .recently {
 	margin-top: 1rem;
+}
+
+.contact {
+	margin-top: 0.5rem;
+	display: block;
+}
+
+.recently li {
+	margin-bottom: 0.5rem;
 }
 
 /*portfolio index*/
