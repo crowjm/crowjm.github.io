@@ -116,3 +116,39 @@ footer {
 	margin-bottom: 4rem;
 	margin-top: 2rem;
 }
+
+/*about*/
+.about-content {
+	max-width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.prof-pic {
+	max-width: 300px;
+	display: block;
+	margin: 0 auto 2rem auto;
+}
+
+.about-main-text {
+	margin-bottom: 2rem;
+	p, q {
+		margin-bottom: 1rem;
+	}
+	q {
+		display: block;	
+	}
+}
+
+.about-lists {
+	overflow: hidden;
+	margin-bottom: 4rem;
+	margin-top: 2rem;
+	.skills, .workingon {
+		width: 47.5%;
+		float: left;
+	}
+	.skills {
+		margin-right: 5%;
+	}
+}

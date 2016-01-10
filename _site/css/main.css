@@ -53,15 +53,19 @@ a, p, li {
 a {
   text-decoration: none; }
 
+q {
+  font-family: "adelle", serif;
+  line-height: 1.8;
+  font-style: italic;
+  font-size: 1.1rem; }
+
 h1, h2, h3, h4, h5, .post-link {
   font-family: "proxima-nova", sans-serif;
   line-height: 1.2; }
 
 h1 {
   font-size: 1.6rem;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 1.5rem; }
+  font-weight: bold; }
 
 h2 {
   font-size: 1.5rem; }
@@ -101,7 +105,7 @@ body {
   background-color: #fafaff; }
 
 /*type*/
-p, li {
+p, li, q {
   color: #6d767e; }
 
 a {
@@ -289,8 +293,35 @@ footer {
   margin-bottom: 4rem;
   margin-top: 2rem; }
 
+/*about*/
+.about-content {
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.prof-pic {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto 2rem auto; }
+
+.about-main-text {
+  margin-bottom: 2rem; }
+  .about-main-text p, .about-main-text q {
+    margin-bottom: 1rem; }
+  .about-main-text q {
+    display: block; }
+
+.about-lists {
+  overflow: hidden;
+  margin-bottom: 4rem;
+  margin-top: 2rem; }
+  .about-lists .skills, .about-lists .workingon {
+    width: 47.5%;
+    float: left; }
+  .about-lists .skills {
+    margin-right: 5%; }
+
 @media screen and (min-width: 660px) {
-  /*footer*/
   .recently {
     float: right; }
 
@@ -335,6 +366,16 @@ footer {
   .colophon {
     margin-right: 2rem;
     margin-left: 2rem; } }
+@media screen and (min-width: 760px) {
+  /*about*/
+  .prof-pic {
+    float: left;
+    width: 30%;
+    margin-right: 5%; }
+
+  .about-content {
+    float: right;
+    width: 65%; } }
 @media screen and (min-width: 1040px) {
   /*portfolio items on index*/
   .portfolio-item {

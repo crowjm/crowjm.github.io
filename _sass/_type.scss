@@ -11,6 +11,13 @@ a {
 	text-decoration: none;
 }
 
+q {
+	font-family: $body-type;
+	line-height: 1.8;
+	font-style: italic;
+	font-size: 1.1rem;
+}
+
 h1, h2, h3, h4, h5, .post-link {
 	font-family: $header-type;
 	line-height: 1.2;
@@ -18,9 +25,9 @@ h1, h2, h3, h4, h5, .post-link {
 
 h1 {
 	font-size: 1.6rem;
-	text-align: center;
+	// text-align: center;
 	font-weight: bold;
-	margin-bottom: 1.5rem;
+	// margin-bottom: 1.5rem;
 }
 
 h2 {

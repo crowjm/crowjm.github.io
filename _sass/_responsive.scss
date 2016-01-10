@@ -1,12 +1,4 @@
 @media screen and (min-width: 660px) {
-/*footer*/
-// .colophon, .recently {
-// 	@include grid(5.5);
-// }
-// .colophon {
-// 	margin-right: $gut * 2;
-// 	float: left;
-// }
 .recently {
 	float: right;
 }
@@ -65,6 +57,19 @@
 	}
 }
 
+
+@media screen and (min-width: 760px){
+	/*about*/
+	.prof-pic {
+		float: left;
+		width: 30%;
+		margin-right: 5%;
+	}
+	.about-content {
+		float: right;
+		width: 65%;
+	}
+}
 
 
 @media screen and (min-width: 1040px) {
