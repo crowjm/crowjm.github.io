@@ -1,4 +1,4 @@
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 41.25rem) {
 /*portfolio items on index*/
 .portfolio-item {
 	width: 47.5%;
@@ -14,7 +14,7 @@
 .post-float {
 	width: 47.5%;
 	float: left;
-	min-height: 250px;
+	min-height: 15.625rem;
 }
 .post-float:nth-of-type(odd) {
 	margin-right: 5%;
@@ -45,7 +45,7 @@
 
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 43.75rem) {
 	.footer-social, .colophon, .recently {
 		width: 30%;
 		float: left;
@@ -61,7 +61,7 @@
 
 
 
-@media screen and (min-width: 760px){
+@media screen and (min-width: 47.5rem){
 	/*about*/
 	.prof-pic {
 		float: left;
@@ -86,7 +86,7 @@
 }
 
 
-@media screen and (min-width: 1040px) {
+@media screen and (min-width: 65rem) {
 	/*portfolio items on index*/
 	.portfolio-item {
 		width: 30%;

@@ -88,10 +88,12 @@ h5 {
   font-size: 0.875rem; }
 
 #name {
-  font-family: "adelle", serif; }
+  font-family: "adelle", serif;
+  font-size: 1.25rem; }
 
 #title {
-  font-style: italic; }
+  font-style: italic;
+  font-size: 1rem; }
 
 .colophon h5, .recently h5 {
   font-weight: 600; }
@@ -234,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
 /*general*/
 .wrapper, .head-wrapper {
   width: 90%;
-  max-width: 1140px;
+  max-width: 71.25rem;
   margin-right: auto;
   margin-left: auto;
   clear: both;
@@ -242,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
   width: 100%;
-  max-width: 650px; }
+  max-width: 40.625rem; }
 
 /*header*/
 header {
@@ -250,7 +252,8 @@ header {
   margin-bottom: 2rem; }
 
 #logo {
-  max-width: 50px; }
+  width: 2.2rem;
+  max-width: 2.2rem; }
 
 .logo, .name {
   float: left; }
@@ -259,14 +262,14 @@ header {
   margin-right: 1rem; }
 
 .name {
-  margin-top: 24px; }
+  margin-top: 1.375rem; }
 
 .logo-and-name {
   overflow: hidden; }
 
 /*footer*/
 footer {
-  border-top: 5px solid #346699;
+  border-top: 4px solid #346699;
   margin-bottom: 2rem;
   margin-top: 4rem;
   overflow: hidden; }
@@ -277,7 +280,7 @@ footer {
     overflow: hidden; }
 
 .footericon {
-  width: 30px;
+  width: 1.875rem;
   float: left;
   margin-right: 1rem; }
 
@@ -298,7 +301,7 @@ footer {
 /*blog index*/
 .post-float {
   margin-bottom: 2rem;
-  max-width: 650px; }
+  max-width: 40.625rem; }
 
 .older-posts, .newer-posts {
   display: block;
@@ -309,7 +312,7 @@ footer {
 
 /*blog post*/
 .post-header, .post-content {
-  max-width: 650px;
+  max-width: 40.625rem;
   margin-right: auto;
   margin-left: auto; }
 
@@ -336,12 +339,12 @@ footer {
 
 /*about*/
 .about-content {
-  max-width: 650px;
+  max-width: 40.625rem;
   margin-right: auto;
   margin-left: auto; }
 
 .prof-pic {
-  max-width: 300px;
+  max-width: 18.75rem;
   display: block;
   margin: 0 auto 2rem auto; }
 
@@ -363,7 +366,7 @@ footer {
 
 /*portfolio page*/
 .project-content, .project-image {
-  max-width: 650px;
+  max-width: 40.625rem;
   margin-right: auto;
   margin-left: auto; }
 
@@ -398,11 +401,11 @@ footer {
 
 .day {
   margin-bottom: 2rem;
-  max-width: 650px; }
+  max-width: 40.625rem; }
   .day h3 {
     margin-bottom: 0.5rem; }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 41.25rem) {
   /*portfolio items on index*/
   .portfolio-item {
     width: 47.5%;
@@ -416,7 +419,7 @@ footer {
   .post-float {
     width: 47.5%;
     float: left;
-    min-height: 250px; }
+    min-height: 15.625rem; }
 
   .post-float:nth-of-type(odd) {
     margin-right: 5%; }
@@ -438,7 +441,7 @@ footer {
 
   .day:nth-of-type(even) {
     margin-right: 5%; } }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 43.75rem) {
   .footer-social, .colophon, .recently {
     width: 30%;
     float: left; }
@@ -449,7 +452,7 @@ footer {
 
   .footer-social {
     margin-top: 1rem; } }
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 47.5rem) {
   /*about*/
   .prof-pic {
     float: left;
@@ -469,7 +472,7 @@ footer {
   .project-image {
     width: 40%;
     float: right; } }
-@media screen and (min-width: 1040px) {
+@media screen and (min-width: 65rem) {
   /*portfolio items on index*/
   .portfolio-item {
     width: 30%;
