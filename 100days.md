@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 100 Days Project
+title: Jesse Crow | 100 Days Project
 category: 100-Days
 ---
 <div class="wrapper">

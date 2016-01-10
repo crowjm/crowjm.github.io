@@ -1,6 +1,6 @@
 ---
 layout: default
-title: about
+title: Jesse Crow | About
 category: about
 ---
 <div class="wrapper">
