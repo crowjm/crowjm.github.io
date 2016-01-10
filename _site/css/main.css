@@ -105,6 +105,11 @@ h5 {
 .project-links {
   text-align: center; }
 
+.day h2 {
+  font-size: 1.3rem; }
+.day h3 {
+  font-size: 0.875rem; }
+
 /*grey*/
 /*peach*/
 /*blue*/
@@ -370,6 +375,17 @@ footer {
 .project-page-header {
   margin-top: 1.5rem; }
 
+/*100 days project*/
+.intro-text {
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.day {
+  margin-bottom: 2rem;
+  max-width: 650px; }
+  .day h3 {
+    margin-bottom: 0.5rem; }
+
 @media screen and (min-width: 660px) {
   /*portfolio items on index*/
   .portfolio-item {
@@ -397,7 +413,15 @@ footer {
   .post-float-image {
     width: 50%;
     float: left;
-    margin-bottom: 1rem; } }
+    margin-bottom: 1rem; }
+
+  /*100 days project*/
+  .day {
+    width: 47.5%;
+    float: left; }
+
+  .day:nth-of-type(even) {
+    margin-right: 5%; } }
 @media screen and (min-width: 700px) {
   .footer-social, .colophon, .recently {
     width: 30%;
@@ -418,8 +442,8 @@ footer {
 
   .about-content {
     float: right;
-    width: 65%; } }
-@media screen and (min-width: 760px) {
+    width: 65%; }
+
   /*portfolio page*/
   .project-content {
     width: 55%;

@@ -33,6 +33,16 @@
 	margin-bottom: 1rem;
 }
 
+/*100 days project*/
+.day {
+	width: 47.5%;
+	float: left;
+}
+
+.day:nth-of-type(even) {
+	margin-right: 5%;
+}
+
 }
 
 @media screen and (min-width: 700px) {
@@ -62,10 +72,7 @@
 		float: right;
 		width: 65%;
 	}
-}
 
-
-@media screen and (min-width: 760px) {
 	/*portfolio page*/
 	.project-content {
 		width: 55%;
