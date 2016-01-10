@@ -182,7 +182,9 @@ footer {
 }
 
 .project-image {
-	margin-bottom: 1rem;
+	img {
+		margin-bottom: 1rem;
+	}
 }
 
 .project-image:first-of-type {
