@@ -23,6 +23,12 @@ h1, h2, h3, h4, h5, h6 {
 	color: $primary;
 }
 
+.portfolio-item {
+	h3 {
+		color: $links;
+	}
+}
+
 /*nav*/
 .nav-collapse, .nav-toggle {
   background-color: $primary;
