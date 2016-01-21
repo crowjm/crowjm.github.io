@@ -6,9 +6,41 @@
 </description>
     <link>http://www.jessecrow.com/blog/</link>
     <atom:link href="http://www.jessecrow.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Jan 2016 16:32:46 -0600</pubDate>
-    <lastBuildDate>Sun, 10 Jan 2016 16:32:46 -0600</lastBuildDate>
+    <pubDate>Thu, 21 Jan 2016 07:13:39 -0600</pubDate>
+    <lastBuildDate>Thu, 21 Jan 2016 07:13:39 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Teaching Kids to Code</title>
+        <description>&lt;p&gt;I’ve been thinking a lot recently about one of my favorite experiences I had last year and something I hope to do more of this year: teaching kids coding classes. &lt;/p&gt;
+
+&lt;p&gt;Last fall, I spent four Tuesday afternoons teaching 5th graders from a local elementary school basic HTML and CSS. They caught on really quickly and were endlessly curious. It was so fun for me to see them have “click moments” and put their newly learned skills to use. &lt;/p&gt;
+
+&lt;p&gt;We created one &lt;a href=&quot;http://codepen.io/theironyardatxkids/&quot;&gt;CodePen account&lt;/a&gt; that all the students had access to, and from there they each created their own pens. Using CodePen worked out really well as we were able to focus more time on coding skills instead of learning a software. I was also able to create demo pens on things like animation and making shapes using code for the students to reference and have a pen for questions and answers that they could use after the classes ended.&lt;/p&gt;
+
+&lt;p&gt;I think kids learning how to code is important, but not just because of the skill itself. Learning to code is so much more–it teaches skills that are useful in any subject, from language arts, to social studies, to science. Learning to code improves problem solving and critical thinking skills. I encouraged the students who understood a concept to help teach their peers who didn’t understand it yet, which helped promote teamwork. We also talked a lot about frustrations: there’s a lot of frustrations that come along with coding, but learning how to manage them and channel the frustration into solving the problem is an invaluable skill. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Jan 2016 00:00:00 -0600</pubDate>
+        <link>http://www.jessecrow.com/blog/2016/01/20/kids-classes.html</link>
+        <guid isPermaLink="true">http://www.jessecrow.com/blog/2016/01/20/kids-classes.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2016 Dev/Design Goals</title>
+        <description>&lt;p&gt;I can’t believe it’s already 2016! Time has flown by, especially because I’ve been getting acclimated to a new job, new workflow, and learning so many new things. &lt;/p&gt;
+
+&lt;p&gt;2016 will be my first full year as a developer/designer, and I want to make sure I make the most of it. I’m only starting to scatch the surface of things to learn and I’m in awe of all the things I don’t know that I don’t know (and very excited to learn about them!). &lt;/p&gt;
+
+&lt;p&gt;To stay on track, I made a list of goals I want to accomplish this year. You can find them over on my GitHub &lt;a href=&quot;https://github.com/crowjm/2016-goals&quot;&gt;here&lt;/a&gt;. I’ve started breaking things down into managable steps and I think hosting my goals on GitHub will be a good way to easily edit and add things, stay on track/be held accountable, and get feedback on resources, etc. &lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Jan 2016 00:00:00 -0600</pubDate>
+        <link>http://www.jessecrow.com/blog/2016/01/11/goals.html</link>
+        <guid isPermaLink="true">http://www.jessecrow.com/blog/2016/01/11/goals.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Desk Dancin&#39; Vol 1</title>
@@ -170,45 +202,6 @@
         <pubDate>Sat, 18 Apr 2015 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2015/04/18/demo-day.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/04/18/demo-day.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Designing For Myself</title>
-        <description>&lt;p&gt;In the midst of final projects, our class also worked on our personal logos and business cards. Designing something for myself is one of the most challenging things I’ve done so far in this class. &lt;/p&gt;
-
-&lt;p&gt;I’ve put so much additional (and probably unnecessary) pressure on myself for my logo to be perfect. Not just design wise, but I’ve also felt like it has to be the perfect representation of myself. This, coupled with just turning twenty-five a couple weeks ago, has led me to feel like I’m in the thick of a quarter life crisis. &lt;/p&gt;
-
-&lt;p&gt;I started by asking family, friends, and Sam what five words and a color they associate with me to get an idea as to how others perceive me. Then our class doing a timed logo challenge like we did earlier in the cohort. From there, I sketched and iterated ideas, brought them into Illustrator, and iterated and iterated and iterated and fussed with pen tool points until I was satisfied.&lt;/p&gt;
-
-&lt;p&gt;My two main concepts were a bird and a mason jar. I ultimately decided to go with the mason jar because it has more depth and goes past the obvious (my last name is Crow, afterall). We got our business cards today and I’m over the moon with how they turned out and still can’t believe I’m getting into a world where I get to have business cards.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/blog/personal-logos-1.jpg&quot; alt=&quot;mason jar and bird logo iterations&quot; /&gt;
-&lt;img src=&quot;/img/blog/personal-logos-v2.jpg&quot; alt=&quot;mason jar and bird logo iterations&quot; /&gt;
-&lt;img src=&quot;/img/blog/bizcards.jpg&quot; alt=&quot;business cards&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 Apr 2015 00:00:00 -0500</pubDate>
-        <link>http://www.jessecrow.com/blog/2015/04/10/personal-logo-design.html</link>
-        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/04/10/personal-logo-design.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Starting Final Projects</title>
-        <description>&lt;p&gt;Y’all, somehow the time has flown by and I’m starting my final project. This is not a drill.&lt;/p&gt;
-
-&lt;p&gt;I’m feeling excited and inspired and a little overwhelmed about just how much work I have to get done in the next two weeks. I know I’m capable and armed with a fantastic schedule to stick with, but sometimes the size and importance of this project gets the best of me. Mostly I’m trying to shush the thoughts of “you only have ___ days left here” that have become more frequent.&lt;/p&gt;
-
-&lt;p&gt;For my final project, I’m going to redesign the home page of the National Park Service website and four pages from Great Smoky Mountains National Park’s website. So far I’ve done my research, created a word list, done brand/reputation, competitor, and SWOT analyses, considered the audience, come up with a list of potential concepts, and done sketches based on the strongest three concepts. Seems like a lot (and it is), but it’s only a small drop compared to what’s to come. &lt;/p&gt;
-
-&lt;p&gt;I just need to keep in mind this mantra from Leslie Knope:
-&lt;img src=&quot;/img/blog/doit.gif&quot; alt=&quot;Inspirational Leslie Knope gif&quot; class=&quot;blog-gif&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Apr 2015 00:00:00 -0500</pubDate>
-        <link>http://www.jessecrow.com/blog/2015/04/01/starting-final-projects.html</link>
-        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/04/01/starting-final-projects.html</guid>
         
         
       </item>
