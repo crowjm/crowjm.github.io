@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tutorial: Make a Sassy Guessing Game</title>
+  <meta name="description" content="Learning to code is so much more–it teaches skills that are useful in any subject, from language arts, to social studies, to science.">
+  <script src="/js/responsive-nav.js"></script>
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="//use.typekit.net/ndy5gmv.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  <link rel="canonical" href="http://www.jessecrow.com/blog/2016/10/31/sassy-guessing-game.html">
+  <link rel="alternate" type="application/rss+xml" title="Jesse Crow" href="http://www.jessecrow.com/blog/feed.xml" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/favicon.ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/favicon.ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/favicon.ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/favicon.ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/favicon.ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/favicon.ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon.ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon.ico/favicon-16x16.png">
+<link rel="manifest" href="/img/favicon.ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+	<body>
+		<header class="site-header">
+  <div class="head-wrapper">
+    <div class="logo-and-name">
+      <div class="logo">
+        <img src="http://jessecrow.com/img/bluejarlogo.png" alt="logo of a mason jar with a subtle j in it" id="logo">
+      </div>
+      <div class="name">
+        <h2 id="name">Jesse Crow</h2>
+        <h3 id="title">designer &amp; developer</h3>
+      </div>
+    </div>
+  </div>
+  <nav class="nav-collapse">
+    <ul>
+      <li ><a href="/index.html">portfolio</a></li>
+      <li  class="nav-current" ><a href="/blog/">blog</a></li>
+      <li ><a href="/about.html">about</a></li>
+      <li ><a href="/100days.html">100 days project</a></li>
+    </ul>
+  </nav>
+</header>
+		<div class="wrapper">
+<div class="post-header">
+		<h1 class="post-title">Tutorial: Make a Sassy Guessing Game</h1>
+		<h3 class="blog-post-meta">Oct 31, 2016</h3>
+	</div>
+	<article class="post-content">
+		<p>A couple months ago, I gave my first technical talk outside of a classroom setting (!), but forgot to blog about it until now. Let’s learn how to use Sass to make a number guessing game! </p>
+
+<p data-height="265" data-theme-id="dark" data-slug-hash="Eygoao" data-default-tab="css,result" data-user="crowjm" data-embed-version="2" data-pen-title="Sass Number Guess Game-Final" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/crowjm/pen/Eygoao/">Sass Number Guess Game-Final</a> by Jesse Crow (<a href="http://codepen.io/crowjm">@crowjm</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+<p>The final game.</p>
+
+<p>The guessing game works as such: there are five choices, numbers 1 through 5, that you can guess by clicking on or selecting with your keyboard. The goal is to guess the same number that the computer “thought” of. If your guess is correct, one set of styles will render. If your guess is incorrect, a different set of styles will render.</p>
+
+<p>To build our guessing game, the first thing we’ll need to do is get a random number. There are two Sass number functions that we’ll use to get our random number.</p>
+
+<p>The first is <code class="language-css">random($number)</code>. This returns a random number with 0 as the lowest possible value and $number (the value we pass into the function) as the highest possible value. For example, if I write random(5), the computer will generate a number anywhere between 0 and 5.</p>
+
+<p>The random number the computer generates isn’t necessarily going to be a whole number, which is what we need for the game. We’ll also use round($number), which rounds the number we pass into it to the closest whole number, whether that’s higher or lower. For example, if I write random(4.25), the computer will round it to 4.</p>
+
+<p>To make sure we’re using the same number in every part of the logic in the same session, we’ll store our random number in a variable called random-number. We can also pass that variable of random-number into the round number function, so that we will have a nice, whole number to work with.</p>
+
+<p>//code here of random number var and round random number.</p>
+
+<p>The next tool we’ll need in our toolbox are equality operators. This way we can see if the random number is equal to one of the numbers that can be guessed. There are two equality operators in Sass: != is not equal to and == is equal to. We’ll use ==.</p>
+
+<p>The next piece of Sass magic we’ll use are control directives, which “provide flow and logic and give you a finite level of decision making.” In the game, we want one set of styles to run if the correct number is chosen, and other set of styles to run if the correct number is not chosen. This is a perfect use case for Sass’ @if and @else control directives. </p>
+
+<p>In our @if directive, we’ll first set the styles that should render if the user guesses the correct matching number. We’ll do so by saying @if round($random-number) == 1 {styles in here}. Then we’ll use @else {styles here} to set the styles that render if the user guesses incorrectly. We’ll have to write this same code out using each number 1 through 5 in the @if control directive.</p>
+
+<p>//show code here, long form</p>
+
+<p>Now, we’ve got our random number, our logic, and our styles and they will all be consistently applied to each number. Try it out! (You will need to refresh though to get another random number). </p>
+
+<p>However, with the help of a little more Sass magic, we can DRY our code out and make it reusable. :sparkles:Refactoring time!:sparkles:</p>
+
+<p>Since we want to reuse the same if/else logic and corresponding styles, we can place the code inside a mixin. We’ll call our mixin game-logic, and pass in $number. Then, in our @if control directive, instead of writing @if round($random-number) == 1, 2, 3, 4, 5, we can write @if round($random-number) == $number. Much simpler and reusable!</p>
+
+<p>//if else code here, in mixin
+//show show it would be included with numbers 1-5</p>
+
+<p>We can DRY out our code even more using interpolation and the @each control directive. </p>
+
+<p>The @each control directive allows us to apply particular styles to each item in a list. We have a list of IDs, #number1 all the way to #number5 that we want to apply the same mixin to. The first thing we do in our control directive is create our list. We’re going to write each $number in 1, 2, 3, 4, 5, so that we can access all those numbers as $number in our mixin. </p>
+
+<p>Next, using interpolation and @each’s looping ability, we can write a line that targets each of our ID names #number1-#number5. #number is the start to all our IDs, then #{$number} interpolates all of the numbers that we set in the first line of code, outputting #number1 all the way to #number5. Then we set the rest of what we want to target, and include the mixin, passing it $number, so that the correct number and ID name will be used at the same time.</p>
+
+<p>//code here</p>
+
+<p>There are more things that went into building this game other than the Sass logic and refactoring. However, those were the most important things to cover in this talk. This game also uses a version of the checkbox hack (you can read more about that here and here), and I spent time ensuring that it could be played if a user could only use their keyboard.</p>
+
+<p>I learned a lot about refactoring and some Sass super powers making this demo and crafting the corresponding talk. And it let me get out of my comfort zone and practice my public speaking skills. Thanks for having me, ATXSass!</p>
+
+		<!-- <h5>Tags: </h5> -->
+	</article>
+</div>
+
+<div class="blog-nav">
+	<div class="wrapper">
+		<a class="next-entry" href="">Next Entry &raquo;</a>
+		<a class="previous-entry" href="/2016/01/20/kids-classes.html">&laquo; Previous Entry</a>
+	</div>
+</div>
+		<footer>
+  <div class="wrapper">
+    <div class="footer-social">
+      <ul>
+        
+          <li>
+            <a href="https://twitter.com/crowjm">
+              <img src="http://jessecrow.com/img/footer-icons/twitter-icon.png" alt="twitter icon" class="footericon">
+            </a>
+          </li>
+        
+        
+          <li>
+            <a href="https://github.com/crowjm">
+              <img src="http://jessecrow.com/img/footer-icons/github-icon.png" alt="github icon" class="footericon">
+            </a>
+          </li>
+        
+        <li><a href="https://dribbble.com/crowjm">
+          <img src="http://jessecrow.com/img/footer-icons/dribbble-icon.png" alt="dribbble icon" class="footericon">
+        </a>
+      </li>
+      <li><a href="https://codepen.io/crowjm">
+        <img src="http://jessecrow.com/img/footer-icons/codepen-icon.png" alt="codepen icon" class="footericon">
+      </a>
+    </li>
+  </ul>
+<p class="contact">Interested in working together or just want to say hello? <a href="mailto:hello@jessecrow.com">Get in touch!</a></p>
+</div>
+<div class="colophon">
+  <h5>colophon</h5>
+  <p>Made with care by Jesse Crow deep in the heart of Texas. Powered by <a href="http://www.jekyllrb.com/">Jekyll</a>, <a href="http://www.typekit.com/">Typekit</a>, and lots of tea. Typeset in Adelle and Proxima Nova.</p> 
+</div>
+<div class="recently">
+  <h5>recently</h5>
+  <ul>
+    <li><p>On heavy rotation: 1989 by Ryan Adams</p></li>
+    <li><p>Reading: Hunger Makes Me A Modern Girl by Carrie Brownstein</p></li>
+    <li><p>Cooking: Breakfast tacos</p></li>
+    <li><p>Watching: The Mindy Project</p></li>
+    <li><p>Making: Woven wall hangings</p></li>
+  </ul>
+</div>
+</div>
+</div>
+</footer>
+		<script>
+		var nav = responsiveNav(".nav-collapse");
+		</script>
+		<script src="prism.js"></script>
+	</body>
+</html>
