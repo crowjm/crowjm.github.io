@@ -6,9 +6,26 @@
 </description>
     <link>http://www.jessecrow.com/blog/</link>
     <atom:link href="http://www.jessecrow.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Jan 2016 07:13:39 -0600</pubDate>
-    <lastBuildDate>Thu, 21 Jan 2016 07:13:39 -0600</lastBuildDate>
+    <pubDate>Mon, 31 Oct 2016 09:11:40 -0500</pubDate>
+    <lastBuildDate>Mon, 31 Oct 2016 09:11:40 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Teaching Kids to Code</title>
+        <description>&lt;p&gt;I’ve been thinking a lot recently about one of my favorite experiences I had last year and something I hope to do more of this year: teaching kids coding classes. &lt;/p&gt;
+
+&lt;p&gt;Last fall, I spent four Tuesday afternoons teaching 5th graders from a local elementary school basic HTML and CSS. They caught on really quickly and were endlessly curious. It was so fun for me to see them have “click moments” and put their newly learned skills to use. &lt;/p&gt;
+
+&lt;p&gt;We created one &lt;a href=&quot;http://codepen.io/theironyardatxkids/&quot;&gt;CodePen account&lt;/a&gt; that all the students had access to, and from there they each created their own pens. Using CodePen worked out really well as we were able to focus more time on coding skills instead of learning a software. I was also able to create demo pens on things like animation and making shapes using code for the students to reference and have a pen for questions and answers that they could use after the classes ended.&lt;/p&gt;
+
+&lt;p&gt;I think kids learning how to code is important, but not just because of the skill itself. Learning to code is so much more–it teaches skills that are useful in any subject, from language arts, to social studies, to science. Learning to code improves problem solving and critical thinking skills. I encouraged the students who understood a concept to help teach their peers who didn’t understand it yet, which helped promote teamwork. We also talked a lot about frustrations: there’s a lot of frustrations that come along with coding, but learning how to manage them and channel the frustration into solving the problem is an invaluable skill. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Jan 2016 00:00:00 -0600</pubDate>
+        <link>http://www.jessecrow.com/blog/2016/01/20/sassy-guessing-game.html</link>
+        <guid isPermaLink="true">http://www.jessecrow.com/blog/2016/01/20/sassy-guessing-game.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Teaching Kids to Code</title>
@@ -183,25 +200,6 @@
         <pubDate>Thu, 30 Apr 2015 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2015/04/30/meeting-my-hero.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/04/30/meeting-my-hero.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Demo Day</title>
-        <description>&lt;p&gt;Yesterday was Demo Day and the end of my Iron Yard experience. Demo Day (and being at The Iron Yard in general) went by in the blink of an eye and it all feels like a blur. I can’t believe it’s over.&lt;/p&gt;
-
-&lt;p&gt;Our Demo Day was set up science fair style, meaning it was conversation based, not pitch based, which took a lot of the pressure off.  I was so excited to share my final project (which you can find &lt;a href=&quot;http://jessecrow.com/projects/nationalparks.html&quot;&gt;here&lt;/a&gt;) and talk about all I learned. I’m also very thankful to have a supportive fella, friends, and former co-workers who all came by to see my work.&lt;/p&gt;
-
-&lt;p&gt;Talking about my final projects with others and seeing it in the wild was such a rewarding experience. It’s my capstone project that I’ve worked on for 14-16 hours a day for almost two weeks, that I’ve poured my heart into, that is an extension of me and everything I know as a designer and developer. I’m proud of the work I’ve done and all that I’ve learned.&lt;/p&gt;
-
-&lt;p&gt;After Demo Day wrapped up, my cohort, our plus ones, and the teachers and staff went out to eat pizza and drink beer (treat yo’self) and then I went to see Sleater-Kinney with one of my dear friends and classmates. I don’t know what’s going to happen next, but I’m so excited for what’s to come.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/blog/demoday.jpg&quot; alt=&quot;my booth setup at demo day&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Apr 2015 00:00:00 -0500</pubDate>
-        <link>http://www.jessecrow.com/blog/2015/04/18/demo-day.html</link>
-        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/04/18/demo-day.html</guid>
         
         
       </item>
