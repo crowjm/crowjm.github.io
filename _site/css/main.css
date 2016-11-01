@@ -496,7 +496,7 @@ footer {
   .post-float:nth-of-type(3n+2) {
     margin-right: 5%;
     margin-left: 5%; } }
-/* http://prismjs.com/download.html?themes=prism&languages=markup+css */
+/* http://prismjs.com/download.html?themes=prism&languages=css+sass */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
