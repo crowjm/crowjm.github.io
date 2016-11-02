@@ -6,9 +6,50 @@
 </description>
     <link>http://www.jessecrow.com/blog/</link>
     <atom:link href="http://www.jessecrow.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Oct 2016 19:00:40 -0500</pubDate>
-    <lastBuildDate>Mon, 31 Oct 2016 19:00:40 -0500</lastBuildDate>
+    <pubDate>Wed, 02 Nov 2016 07:31:29 -0500</pubDate>
+    <lastBuildDate>Wed, 02 Nov 2016 07:31:29 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>How My Liberal Arts Education Helps Me as a Developer</title>
+        <description>&lt;p&gt;Today is my one year workaversary, which also happens to be my one year anniversary of being a professional developer. (“Professional developer” still feels weird to say/write.) It’s been a year full of professional challenges and victories, and I’ve felt prepared every step of the way. &lt;/p&gt;
+
+&lt;p&gt;I accomplished my first year as a developer because of my family and friends. Because of my instructors, classmates, community, and training at The Iron Yard. And more and more over the past year I’ve realized that I accomplished my first year as a developer in some part because of my liberal arts education and humanities background.&lt;/p&gt;
+
+&lt;p&gt;But…a humanities degree from a liberal arts college…applicable to front end development? I know, I’ve heard the skeptics’ sounds before. Writing a thesis on media coverage of major oil spills through the lens of Ulrich Beck’s Risk Society and architecting and documenting a pattern library are different. However, the core skills and competencies I learned in undergrad have been invaluable to my work as a front end developer. Here are four of the biggest lessons from my liberal arts education I’ve carried with me: &lt;/p&gt;
+
+&lt;h5&gt;Appreciating Interconnectedness&lt;/h5&gt;
+
+&lt;p&gt;During my time in undergrad, I got the most of my education when I took time to think about how my classes related to each other. I took a class that combined film theory, communication studies, and history. Sometimes I would walk out of a comm ethics class thinking about what I learned in environmental studies earlier that week. My studies were enriched because of the parallels I could draw between courses.&lt;/p&gt;
+
+&lt;p&gt;At work, specifically, there’s a way for all four disciplines (research, UX, visual design, and front end development) to work together. The work that is produced from an interdisciplinary approach is undeniably better than work produced if everyone worked in a bubble. We can all learn from each other, grow, and better our own work because of that knowledge.&lt;/p&gt;
+
+&lt;h5&gt;Critical and Creative Thinking&lt;/h5&gt;
+
+&lt;p&gt;When I was exposed to a different or unorthodox perspective in a reading assignment or class discussion, I had to reconcile how it fit with my own worldview. I had to really think and have solid reasoning as to why or why not I held a certain view. “Because I’ve always felt this way” was never an acceptable answer.&lt;/p&gt;
+
+&lt;p&gt;As a front end developer, I solve problems daily. Whether it’s thinking about the structure of the project, the structure and architecture of the code itself, debugging, or working with the designers on the team—there are always challenges to solve and learn from. “Because this is the way it’s always been done” is never an acceptable answer.&lt;/p&gt;
+
+&lt;h5&gt;Writing&lt;/h5&gt;
+
+&lt;p&gt;In undergrad, I wrote papers in all of my classes, including science and math. Writing helped the ideas I was learning make more sense. Writing allowed me to put the theories that I learned into practice and helped me understand what I learned. Writing also helped me make sure that I could communicate my ideas to my peers and professors in a way they could understand. Writing is how I grew.&lt;/p&gt;
+
+&lt;p&gt;Writing is a critical skill for developers. Whether it’s documenting code, documenting your process/product (in a way that doesn’t assume a certain level of familiarity so that everyone can understand), or sharing something you know on your blog or in a response to a question on StackOverflow, developers need to know how to write. I think it’s a huge part of how we grow.&lt;/p&gt;
+
+&lt;h5&gt;How, Not What, to Learn&lt;/h5&gt;
+
+&lt;p&gt;The most valuable skill I learned in my liberal arts education was how to learn. I was never spoon fed what I need to learn in order to pass some test. Instead, I learned how to search for what information was missing in my understanding of a topic and make the most of a resource. It was a critical mindset to have.&lt;/p&gt;
+
+&lt;p&gt;Being a front end dev requires this skill. Whether it’s learning a new language or (another) JS framework, a new naming convention, etc. There is always something new to learn, and it’s up to me to find the resources and learn.&lt;/p&gt;
+
+&lt;p&gt;So, Mama Millsaps, here’s to you for preparing me for a career I never thought I would have. Go Majors.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Nov 2016 00:00:00 -0500</pubDate>
+        <link>http://www.jessecrow.com/blog/2016/11/02/libarts-in-tech.html</link>
+        <guid isPermaLink="true">http://www.jessecrow.com/blog/2016/11/02/libarts-in-tech.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tutorial: Make a Sassy Guessing Game</title>
@@ -271,37 +312,6 @@ round($random-number)&lt;/code&gt;&lt;/pre&gt;
         <pubDate>Sun, 05 Jul 2015 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2015/07/05/on-change.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/07/05/on-change.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Meeting My Design Hero</title>
-        <description>&lt;p&gt;Today was a great day because I got to meet my design hero, &lt;a href=&quot;http://draplin.com/&quot;&gt;Aaron Draplin&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;I love Draplin’s work because it’s bold and timeless. It’s something to aspire to. My work isn’t all #thicklines like Draplin’s, but I want to make things that won’t fade as trends change.&lt;/p&gt;
-
-&lt;p&gt;With encouragement from a dear friend and a rush of adrenalin, I walked up to Draplin while he was setting up the merch booth before his talk, introduced myself, and asked him if he had any advice for new designers. Highlights include: don’t move to Portland, do work you love, and people are going to try to make design not fun—avoid them.&lt;/p&gt;
-
-&lt;p&gt;I also got to sit front row for his talk with my teacher, Sam. It was hilarious and inspiring and so good to hear, especially as a new designer. Highlights from the talk include: &lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;show the things you love&lt;/li&gt;
-	&lt;li&gt;it takes work to make good design&lt;/li&gt;
-	&lt;li&gt;document your process&lt;/li&gt;
-	&lt;li&gt;&lt;em&gt;think about how much time we throw away and invent your life with that time&lt;/em&gt;&lt;/li&gt;
-	&lt;li&gt;you don&#39;t have to take the carrot&lt;/li&gt;
-	&lt;li&gt;get out there and get dirty&lt;/li&gt;
-	&lt;li&gt;there&#39;s beauty in restraint&lt;/li&gt;
-	&lt;li&gt;Illustrator won&#39;t teach you anything&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It all boils down to one thing: “work hard and love this shit.”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/blog/draplin.jpg&quot; alt=&quot;with my design hero, Aaron Draplin&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 30 Apr 2015 00:00:00 -0500</pubDate>
-        <link>http://www.jessecrow.com/blog/2015/04/30/meeting-my-hero.html</link>
-        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/04/30/meeting-my-hero.html</guid>
         
         
       </item>

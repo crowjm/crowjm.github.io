@@ -1,115 +1,38 @@
 ---
 layout: post
-title:  "Tutorial: Make a Sassy Guessing Game"
-date:   2016-10-31
-excerpt: Learning to code is so much more–it teaches skills that are useful in any subject, from language arts, to social studies, to science.
+title:  "How My Liberal Arts Education Helps Me as a Developer"
+date:   2016-11-02
+excerpt: The core skills and competencies I learned in undergrad have been invaluable to my work as a front end developer
 ---
 
-A couple months ago, I gave my first technical talk outside of a classroom setting (!), but forgot to blog about it until now. Let’s learn how to use Sass to make a number guessing game! 
+Today is my one year workaversary, which also happens to be my one year anniversary of being a professional developer. (“Professional developer” still feels weird to say/write.) It’s been a year full of professional challenges and victories, and I’ve felt prepared every step of the way. 
 
-<p data-height="265" data-theme-id="dark" data-slug-hash="Eygoao" data-default-tab="css,result" data-user="crowjm" data-embed-version="2" data-pen-title="Sass Number Guess Game-Final" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/crowjm/pen/Eygoao/">Sass Number Guess Game-Final</a> by Jesse Crow (<a href="http://codepen.io/crowjm">@crowjm</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-The final game.
+I accomplished my first year as a developer because of my family and friends. Because of my instructors, classmates, community, and training at The Iron Yard. And more and more over the past year I’ve realized that I accomplished my first year as a developer in some part because of my liberal arts education and humanities background.
 
-The guessing game works as such: there are five choices, numbers 1 through 5, that you can guess by clicking on or selecting with your keyboard. The goal is to guess the same number that the computer “thought” of. If your guess is correct, one set of styles will render. If your guess is incorrect, a different set of styles will render.
+But…a humanities degree from a liberal arts college…applicable to front end development? I know, I’ve heard the skeptics’ sounds before. Writing a thesis on media coverage of major oil spills through the lens of Ulrich Beck’s Risk Society and architecting and documenting a pattern library are different. However, the core skills and competencies I learned in undergrad have been invaluable to my work as a front end developer. Here are four of the biggest lessons from my liberal arts education I’ve carried with me: 
 
-To build our guessing game, the first thing we’ll need to do is get a random number. There are two Sass number functions that we’ll use to get our random number.
+<h5>Appreciating Interconnectedness</h5>
 
-The first is <code class="language-sass">random($number)</code>. This returns a random number with 0 as the lowest possible value and $number (the value we pass into the function) as the highest possible value. For example, if I write random(5), the computer will generate a number anywhere between 0 and 5.
+During my time in undergrad, I got the most of my education when I took time to think about how my classes related to each other. I took a class that combined film theory, communication studies, and history. Sometimes I would walk out of a comm ethics class thinking about what I learned in environmental studies earlier that week. My studies were enriched because of the parallels I could draw between courses.
 
-The random number the computer generates isn’t necessarily going to be a whole number, which is what we need for the game. We’ll also use <code class="language-css">round($number)</code>, which rounds the number we pass into it to the closest whole number, whether that’s higher or lower. For example, if I write <code class="language-sass">random(4.25)</code>, the computer will round it to 4.
+At work, specifically, there’s a way for all four disciplines (research, UX, visual design, and front end development) to work together. The work that is produced from an interdisciplinary approach is undeniably better than work produced if everyone worked in a bubble. We can all learn from each other, grow, and better our own work because of that knowledge.
 
-To make sure we’re using the same number in every part of the logic in the same session, we’ll store our random number in a variable called random-number. We can also pass that variable of random-number into the round number function, so that we will have a nice, whole number to work with.
+<h5>Critical and Creative Thinking</h5>
 
-<pre class="language-sass"><code class="language-sass">$random-number: random(5);
-round($random-number)</code></pre>
+When I was exposed to a different or unorthodox perspective in a reading assignment or class discussion, I had to reconcile how it fit with my own worldview. I had to really think and have solid reasoning as to why or why not I held a certain view. “Because I’ve always felt this way” was never an acceptable answer.
 
-The next tool we’ll need in our toolbox are equality operators. This way we can see if the random number is equal to one of the numbers that can be guessed. There are two equality operators in Sass: <code class="language-sass">!=</code> is not equal to and <code class="language-sass">==</code> is equal to. We’ll use <code class="language-sass">==</code>.
+As a front end developer, I solve problems daily. Whether it’s thinking about the structure of the project, the structure and architecture of the code itself, debugging, or working with the designers on the team—there are always challenges to solve and learn from. “Because this is the way it’s always been done” is never an acceptable answer.
 
-The next piece of Sass magic we’ll use are control directives, which <a href="http://thesassway.com/intermediate/if-for-each-while">The Sass Way</a> summarizes well as “provide flow and logic and give you a finite level of decision making.” In the game, we want one set of styles to run if the correct number is chosen, and other set of styles to run if the correct number is not chosen. This is a perfect use case for Sass’ <code class="language-sass">@if</code> and <code class="language-sass">@else</code> control directives. 
+<h5>Writing</h5>
 
-In our <code class="language-sass">@if</code> directive, we’ll first set the styles that should render if the user guesses the correct matching number. We’ll do so by saying <code class="language-sass">@if round($random-number) == 1 {styles in here}</code>. Then we’ll use <code class="language-sass">@else {styles here}</code> to set the styles that render if the user guesses incorrectly. We’ll have to write this same code out using each number 1 through 5 in the <code class="language-sass">@if</code> control directive (but I'm only going to show it for the number 1 for the sake of brevity).
+In undergrad, I wrote papers in all of my classes, including science and math. Writing helped the ideas I was learning make more sense. Writing allowed me to put the theories that I learned into practice and helped me understand what I learned. Writing also helped me make sure that I could communicate my ideas to my peers and professors in a way they could understand. Writing is how I grew.
 
-<pre class="language-sass">
-	<code class="language-sass">
-		@if round($random-number) == 1 {
-		    background-color: pink;
-		    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/229892/ice-cream-parrot.gif);
-		    background-repeat: no-repeat;
-		    background-size: cover;
-		    transition: background-color 1s ease;
-		  }
-		  @else {
-		    background-color: #000;
-		    transition: background-color 1s ease;
-		  }
-		}
-		/*write out again, changing the number in the first line to 2, 3, 4, and 5*/
-	</code>
-</pre>
+Writing is a critical skill for developers. Whether it’s documenting code, documenting your process/product (in a way that doesn’t assume a certain level of familiarity so that everyone can understand), or sharing something you know on your blog or in a response to a question on StackOverflow, developers need to know how to write. I think it’s a huge part of how we grow.
 
-Now, we’ve got our random number, our logic, and our styles and they will all be consistently applied to each number. Try it out! (You will need to refresh though to get another random number). 
+<h5>How, Not What, to Learn</h5>
 
-However, with the help of a little more Sass magic, we can DRY our code out and make it reusable. ✨✨✨Refactoring time!✨✨✨
+The most valuable skill I learned in my liberal arts education was how to learn. I was never spoon fed what I need to learn in order to pass some test. Instead, I learned how to search for what information was missing in my understanding of a topic and make the most of a resource. It was a critical mindset to have.
 
-Since we want to reuse the same if/else logic and corresponding styles, we can place the code inside a mixin. We’ll call our mixin game-logic, and pass it $number. Then, in our <code class="language-sass">@if</code> control directive, instead of writing <code class="language-sass">@if round($random-number) == 1, 2, 3, 4, 5</code>, we can write <code class="language-sass">@if round($random-number) == $number</code>. Much simpler and reusable!
+Being a front end dev requires this skill. Whether it’s learning a new language or (another) JS framework, a new naming convention, etc. There is always something new to learn, and it’s up to me to find the resources and learn.
 
-<pre class="language-sass">
-	<code class="language-sass">
-		@mixin logic ($number) {
-		  @if round($random-number) == $number {
-		    background-color: pink;
-		    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/229892/ice-cream-parrot.gif);
-		    background-repeat: no-repeat;
-		    background-size: cover;
-		    transition: background-color 1s ease;
-		  }
-		  @else {
-		    background-color: #000;
-		    transition: background-color 1s ease;
-		  }
-		}
-
-		#number1:checked + span::before {
-		  @include logic(1);
-		}
-
-		#number2:checked + span::before {
-		  @include logic(2);
-		}
-
-		#number3:checked + span::before {
-		  @include logic(3);
-		}
-
-		#number4:checked + span::before {
-		  @include logic(4);
-		}
-
-		#number5:checked + span::before {
-		  @include logic(5);
-		}
-	</code>
-</pre>
-
-We can DRY out our code even more using interpolation and the <code class="language-sass">@each</code> control directive. 
-
-The <code class="language-sass">@each</code> control directive allows us to apply particular styles to each item in a list. We have a list of IDs, #number1 all the way to #number5 that we want to apply the same mixin to. The first thing we do in our control directive is create our list. We’re going to write each $number in 1, 2, 3, 4, 5, so that we can access all those numbers as $number in our mixin. 
-
-<code class="language-sass">@each $number in 1, 2, 3, 4, 5</code>
-
-Next, using interpolation and <code class="language-sass">@each</code>’s looping ability, we can write a line that targets each of our ID names #number1-#number5. #number is the start to all our IDs, then #{$number} interpolates all of the numbers that we set in the first line of code, outputting #number1 all the way to #number5. Then we set the rest of what we want to target, and include the mixin, passing it $number, so that the correct number and ID name will be used at the same time. The final code block for this will look like: 
-
-<pre class="language-sass">
-	<code class="language-sass">
-		@each $number in 1, 2, 3, 4, 5 {
-		  #number#{$number}:checked + span::before {
-		    @include game-logic($number);
-		  }
-		}
-	</code>
-</pre>
-
-There are more things that went into building this game other than the Sass logic and refactoring. However, those were the most important things to cover in this talk. This game also uses a version of the checkbox hack (you can read more about that here and here), and I spent time ensuring that it could be played if a user could only use their keyboard.
-
-I learned a lot about refactoring and some Sass super powers making this demo and crafting the corresponding talk. And it let me get out of my comfort zone and practice my public speaking skills. Thanks for having me, ATXSass!
+So, Mama Millsaps, here’s to you for preparing me for a career I never thought I would have. Go Majors.
