@@ -2,7 +2,7 @@
 layout: post
 title:  "Tutorial: Make a Sassy Guessing Game"
 date:   2016-10-31
-excerpt: Learning to code is so much more–it teaches skills that are useful in any subject, from language arts, to social studies, to science.
+excerpt: Let’s learn how to use Sass to make a number guessing game!
 ---
 
 A couple months ago, I gave my first technical talk outside of a classroom setting (!), but forgot to blog about it until now. Let’s learn how to use Sass to make a number guessing game! 
