@@ -59,7 +59,7 @@ q {
   font-style: italic;
   font-size: 1.1rem; }
 
-h1, h2, h3, h4, h5, .post-link {
+h1, h2, h3, h4, h5, .post-link, .project-page-header {
   font-family: "proxima-nova", sans-serif;
   line-height: 1.2; }
 
@@ -78,7 +78,7 @@ h1 {
 h2 {
   font-size: 1.5rem; }
 
-h3, .post-link {
+h3, .post-link, .project-page-header {
   font-size: 1.4rem; }
 
 h4 {
@@ -141,8 +141,11 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   color: #346699; }
 
-.post-title, .blog-post-meta {
+.post-title, .blog-post-meta, .project-page-header {
   color: #346699; }
+
+.post-link {
+  color: #043e2b; }
 
 .portfolio-item h3 {
   color: #043e2b;
@@ -382,8 +385,11 @@ footer {
 .project-links {
   margin-bottom: 2rem; }
 
-.project-content p {
+.project-content p:not(.project-page-header) {
   margin-bottom: 1rem; }
+
+.project-page-header {
+  margin-bottom: 0; }
 
 .project-content ul {
   list-style: circle;

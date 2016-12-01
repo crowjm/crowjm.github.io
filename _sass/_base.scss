@@ -174,8 +174,12 @@ footer {
 	margin-bottom: 2rem;
 }
 
-.project-content p {
+.project-content p:not(.project-page-header) {
 	margin-bottom: 1rem;
+}
+
+.project-page-header {
+	margin-bottom: 0;
 }
 
 .project-content ul {

@@ -9,7 +9,7 @@ category: portfolio
 			<div class="portfolio-snippet">
 				<img src="../img/portfolio-pages/smokies-hero.jpg">
 			</div>
-			<h3>National Park Service Redesign</h3>
+			<p class="post-link">National Park Service Redesign</p>
 		</a>
 	</div>
 	<div class="portfolio-item">
@@ -17,7 +17,7 @@ category: portfolio
 			<div class="portfolio-snippet">
 				<img src="../img/portfolio-pages/hetre85.png">
 			</div>
-			<h3>hetre85</h3>
+			<p class="post-link">hetre85</p>
 		</a>
 	</div>
 	<div class="portfolio-item">
@@ -25,7 +25,7 @@ category: portfolio
 			<div class="portfolio-snippet">
 				<img src="../img/portfolio-pages/goodreads.jpg">
 			</div>
-			<h3>GoodReads</h3>
+			<p class="post-link">GoodReads</p>
 		</a>
 	</div>
 	<div class="portfolio-item">
@@ -33,7 +33,7 @@ category: portfolio
 			<div class="portfolio-snippet">
 				<img src="../img/portfolio-pages/greenthumb.jpg">
 			</div>
-			<h3>GreenThumb</h3>
+			<p class="post-link">GreenThumb</p>
 		</a>
 	</div>
 	<div class="portfolio-item">
@@ -41,7 +41,7 @@ category: portfolio
 			<div class="portfolio-snippet">
 				<img src="../img/portfolio-pages/css-zen.jpg">
 			</div>
-			<h3>CSS Zen Garden</h3>
+			<p class="post-link">CSS Zen Garden</p>
 		</a>
 	</div>
 	<div class="portfolio-item">
@@ -49,7 +49,7 @@ category: portfolio
 			<div class="portfolio-snippet">
 				<img src="../img/portfolio-pages/pitbull.jpg">
 			</div>
-			<h3>Precious Pit Bulls</h3>
+			<p class="post-link">Precious Pit Bulls</p>
 		</a>
 	</div>
 	<script>

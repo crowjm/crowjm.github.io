@@ -28,8 +28,12 @@ h1, h2, h3, h4, h5, h6 {
 	color: $primary;
 }
 
-.post-title, .blog-post-meta {
+.post-title, .blog-post-meta, .project-page-header {
 	color: $primary;
+}
+
+.post-link {
+	color: $links;
 }
 
 .portfolio-item {
