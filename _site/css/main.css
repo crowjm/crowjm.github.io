@@ -68,8 +68,12 @@ h1 {
   font-weight: bold; }
 
 .post-title {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
   text-align: center;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+  line-height: 1.2; }
 
 h2 {
   font-size: 1.5rem; }
@@ -85,7 +89,9 @@ h5 {
   font-size: 1.2rem; }
 
 .blog-post-meta {
-  font-size: 0.875rem; }
+  font-size: 0.875rem;
+  font-family: "proxima-nova", sans-serif;
+  line-height: 1.2; }
 
 #name {
   font-family: "adelle", serif;
@@ -133,6 +139,9 @@ a:hover {
   color: #010e0a; }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #346699; }
+
+.post-title, .blog-post-meta {
   color: #346699; }
 
 .portfolio-item h3 {

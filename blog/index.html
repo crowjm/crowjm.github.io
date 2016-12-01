@@ -8,9 +8,7 @@ category: blog
     {% for post in paginator.posts %}
       <div class="post-float"> <!--individual blog post-->
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <h3>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
         <p>{{ post.excerpt }}</p>
       </div>
     {% endfor %}

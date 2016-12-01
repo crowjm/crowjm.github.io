@@ -29,8 +29,12 @@ h1 {
 }
 
 .post-title {
+	font-family: $header-type;
+	font-size: 1.6rem;
+	font-weight: bold;
 	text-align: center;
 	margin-bottom: 1.5rem;
+	line-height: 1.2;
 }
 
 h2 {
@@ -52,6 +56,8 @@ h5 {
 
 .blog-post-meta {
 	font-size: 0.875rem;
+	font-family: $header-type;
+	line-height: 1.2;
 }
 
 #name {
