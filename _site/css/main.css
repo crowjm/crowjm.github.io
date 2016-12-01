@@ -113,9 +113,9 @@ h5 {
   font-size: 0.875rem; }
 
 /*grey*/
-/*peach*/
+/*green*/
 /*blue*/
-/*peach*/
+/*green*/
 /*off white*/
 /*general*/
 body {
@@ -126,20 +126,20 @@ p, li, q {
   color: #6c757d; }
 
 a {
-  color: #db6962;
+  color: #043e2b;
   transition: color 0.3s ease; }
 
 a:hover {
-  color: #d14139; }
+  color: #010e0a; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #346699; }
 
 .portfolio-item h3 {
-  color: #db6962;
+  color: #043e2b;
   transition: color 0.3s ease; }
 .portfolio-item h3:hover {
-  color: #d14139; }
+  color: #010e0a; }
 
 /*nav*/
 .nav-collapse, .nav-toggle {
@@ -152,10 +152,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: background-color 0.3s ease; }
 
 .nav-collapse li:hover {
-  background-color: #db6962; }
+  background-color: #043e2b; }
 
 .nav-current {
-  background-color: #e38983; }
+  background-color: #066446; }
 
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .nav-collapse ul {
