@@ -6,7 +6,7 @@ category: about
 <div class="wrapper">
 	<img src="/img/jesse.jpg" alt="photo of Jesse Crow" class="prof-pic">
 	<div class="about-content">
-		<h1>Howdy, y'all.</h1>
+		<p class="post-title">Howdy, y'all.</p>
 		<div class="about-main-text">
 			<p>I'm Jesse. I'm a front end developer at <a href="http://www.ibm.com/design/">IBM Design</a> and a graduate of <a href="https://www.theironyard.com/courses/user-interface-design.html">The Iron Yard</a>'s UI design program.</p>
 			<p>I was born and raised in the Deep South&mdash;Mississippi, humid summer nights, and "y'all" have a special place in my heart. I currently live in beautiful Austin, Texas.</p>
@@ -15,7 +15,7 @@ category: about
 		</div>
 		<div class="about-lists">
 			<div class="skills">
-				<h3>Skills</h3>
+				<p class="project-page-header">Skills</p>
 				<ul>
 					<li>HTML</li>
 					<li>CSS</li>
@@ -32,7 +32,7 @@ category: about
 				</ul>
 			</div>
 			<div class="workingon">
-				<h3>Workin' On</h3>
+				<p class="project-page-header">Workin' On</p>
 				<ul>
 					<li>Hand Lettering</li>
 					<li>Spanish</li>
