@@ -59,7 +59,7 @@ q {
   font-style: italic;
   font-size: 1.1rem; }
 
-h1, h2, h3, h4, h5, .post-link, .project-page-header {
+h1, h2, h3, h4, h5, .post-link, .project-page-header, .footer-section-title {
   font-family: "proxima-nova", sans-serif;
   line-height: 1.2; }
 
@@ -95,14 +95,18 @@ h5 {
 
 #name {
   font-family: "adelle", serif;
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+  line-height: 1.2; }
 
 #title {
   font-style: italic;
-  font-size: 1rem; }
+  font-size: 1rem;
+  line-height: 1.2;
+  font-family: "proxima-nova", sans-serif; }
 
-.colophon h5, .recently h5 {
-  font-weight: 600; }
+.footer-section-title {
+  font-weight: 600;
+  font-size: 1.2rem; }
 
 .older-posts, .newer-posts {
   font-size: 1.1rem; }
@@ -138,7 +142,7 @@ a {
 a:hover {
   color: #010e0a; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
   color: #346699; }
 
 .post-title, .blog-post-meta, .project-page-header {

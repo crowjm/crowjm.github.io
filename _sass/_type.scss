@@ -18,7 +18,7 @@ q {
 	font-size: 1.1rem;
 }
 
-h1, h2, h3, h4, h5, .post-link, .project-page-header {
+h1, h2, h3, h4, h5, .post-link, .project-page-header, .footer-section-title {
 	font-family: $header-type;
 	line-height: 1.2;
 }
@@ -63,15 +63,19 @@ h5 {
 #name {
 	font-family: $body-type;
 	font-size: 1.25rem;
+	line-height: 1.2;
 }
 
 #title {
 	font-style: italic;
 	font-size: 1rem;
+	line-height: 1.2;
+	font-family: $header-type;
 }
 
-.colophon h5, .recently h5 {
+.footer-section-title {
 	font-weight: 600;
+	font-size: 1.2rem;
 }
 
 .older-posts, .newer-posts {
