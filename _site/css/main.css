@@ -62,14 +62,6 @@ h2, h3, h4, h5, .project-page-header, .footer-section-title {
   font-family: "proxima-nova", sans-serif;
   line-height: 1.2; }
 
-.post-title {
-  font-family: "proxima-nova", sans-serif;
-  font-size: 1.6rem;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 1.5rem;
-  line-height: 1.2; }
-
 h2 {
   font-size: 1.5rem; }
 
@@ -348,31 +340,31 @@ a {
   margin-bottom: 1rem; }
 
 /*blog post*/
-.post-header, .post-content {
+.header--post, .post__content {
   max-width: 40.625rem;
   margin-right: auto;
   margin-left: auto; }
 
-.post-content p, .post-content ul {
+.post__content p, .post__content ul {
   margin-bottom: 1rem; }
 
-.post-content ul {
+.post__content ul {
   list-style: circle; }
 
-.post-content ul li {
+.post__content ul li {
   margin-bottom: 0.25rem; }
 
-.blog-post-meta {
-  text-align: center;
-  margin-bottom: 2rem;
-  margin-top: -1.25rem; }
+.post__title {
+  color: #346699;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  line-height: 1.2; }
 
-.previous-entry, .next-entry {
-  display: block;
-  text-align: center; }
-
-.blog-nav {
-  margin-top: 2rem; }
+.post__meta--individual {
+  margin-top: -1rem;
+  margin-bottom: 2rem; }
 
 /*about*/
 .about-content {

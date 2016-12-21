@@ -3,19 +3,15 @@ layout: default
 category: blog
 ---
 <div class="wrapper">
-<div class="post-header">
-		<p class="post-title">{{ page.title }}</p>
-		<p class="blog-post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-	</div>
-	<article class="post-content">
+	<header class="header--post">
+		<p class="post__title">{{ page.title }}</p>
+		<p class="post__meta post__meta--individual">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	</header>
+	<article class="post__content">
 		{{ content }}
-		<!-- <h5>Tags: {{ page.tags | join: ', ' }}</h5> -->
 	</article>
 </div>
-
-<div class="blog-nav">
-	<div class="wrapper">
-		<a class="next-entry" href="{{ page.next.url }}">Next Entry &raquo;</a>
-		<a class="previous-entry" href="{{ page.previous.url }}">&laquo; Previous Entry</a>
-	</div>
-</div>
+<nav class="pagination" role="pagination">
+	<a class="pagination__newer" href="{{ page.next.url }}">Next Entry &raquo;</a>
+	<a class="pagination__older" href="{{ page.previous.url }}">&laquo; Previous Entry</a>
+</nav>
