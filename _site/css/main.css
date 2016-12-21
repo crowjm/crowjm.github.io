@@ -136,11 +136,11 @@ p, li, q {
   color: #6c757d; }
 
 a {
-  color: #043e2b;
+  color: #066446;
   transition: color 0.3s ease; }
 
 a:hover {
-  color: #010e0a; }
+  color: #033424; }
 
 h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
   color: #346699; }
@@ -149,13 +149,13 @@ h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
   color: #346699; }
 
 .post-link {
-  color: #043e2b; }
+  color: #066446; }
 
 .portfolio-item h3 {
-  color: #043e2b;
+  color: #066446;
   transition: color 0.3s ease; }
 .portfolio-item h3:hover {
-  color: #010e0a; }
+  color: #033424; }
 
 /*nav*/
 .nav-collapse, .nav-toggle {
@@ -168,10 +168,10 @@ h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
   transition: background-color 0.3s ease; }
 
 .nav-collapse li:hover {
-  background-color: #043e2b; }
+  background-color: #066446; }
 
 .nav-current {
-  background-color: #066446; }
+  background-color: #088a61; }
 
 /*! responsive-nav.js 1.0.34 by @viljamis */
 .nav-collapse ul {
