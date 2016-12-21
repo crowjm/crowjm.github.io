@@ -22,21 +22,11 @@
 	}
 }
 
-/*override default closed state*/#nav--main[data-state="closed"] {
+/*override default closed state*/
+#nav--main[data-state="closed"] {
 	max-height: 100%;
 	opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*portfolio items on index*/
 .portfolio__item {
@@ -46,6 +36,11 @@
 .portfolio__item:nth-of-type(odd) {
 	margin-right: 5%;
 }
+
+
+
+
+
 
 
 /*blog index*/
@@ -98,7 +93,7 @@
 
 
 
-@media screen and (min-width: 47.5rem){
+@media screen and (min-width: 46rem){
 	/*about*/
 	.prof-pic {
 		float: left;
@@ -111,12 +106,12 @@
 	}
 
 	/*portfolio page*/
-	.project-content {
+	.project__content {
 		width: 55%;
 		margin-right: 5%;
 		float: left;
 	}
-	.project-image {
+	.project__image {
 		width: 40%;
 		float: right;
 	}
