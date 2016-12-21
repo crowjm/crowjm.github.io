@@ -50,10 +50,21 @@
 }
 
 
-
-
-
 /*general*/
+.wrapper {
+	width: 90%;
+	max-width: 71.25rem;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+	max-width: 40.625rem;
+}
+
 a {
 	color: $primary;
 	position: relative;
@@ -84,20 +95,6 @@ a {
 
 
 
-/*general*/
-.wrapper, .head-wrapper {
-	width: 90%;
-	max-width: 71.25rem;
-	margin-right: auto;
-	margin-left: auto;
-	clear: both;
-	overflow: hidden;
-}
-
-img {
-	width: 100%;
-	max-width: 40.625rem;
-}
 
 /*footer*/
 footer {

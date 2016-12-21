@@ -217,6 +217,18 @@ h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
   opacity: 1; }
 
 /*general*/
+.wrapper {
+  width: 90%;
+  max-width: 71.25rem;
+  margin-right: auto;
+  margin-left: auto;
+  clear: both;
+  overflow: hidden; }
+
+img {
+  width: 100%;
+  max-width: 40.625rem; }
+
 a {
   color: #346699;
   position: relative; }
@@ -230,19 +242,6 @@ a {
     top: .75rem;
     width: 100%;
     z-index: -1; }
-
-/*general*/
-.wrapper, .head-wrapper {
-  width: 90%;
-  max-width: 71.25rem;
-  margin-right: auto;
-  margin-left: auto;
-  clear: both;
-  overflow: hidden; }
-
-img {
-  width: 100%;
-  max-width: 40.625rem; }
 
 /*footer*/
 footer {
@@ -386,6 +385,25 @@ footer {
     margin-bottom: 0.5rem; }
 
 @media screen and (min-width: 41.25rem) {
+  /*header*/
+  .header--main {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between; }
+
+  #menu {
+    display: none; }
+
+  #nav--main ul {
+    display: flex; }
+    #nav--main ul li:not(:first-of-type) {
+      margin-left: 1rem; }
+
+  /*override default closed state*/
+  #nav--main[data-state="closed"] {
+    max-height: 100%;
+    opacity: 1; }
+
   /*portfolio items on index*/
   .portfolio-item {
     width: 47.5%;
