@@ -4,25 +4,24 @@ title: Jesse Crow | Blog
 category: blog
 ---
 <div class="wrapper">
-  <section class="post-list"> <!--list of all blog posts with titles and excerpts-->
+  <section class="post__list"> <!--list of all blog posts with titles and excerpts-->
     {% for post in paginator.posts %}
-      <div class="post-float"> <!--individual blog post-->
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <div class="post__individual"> <!--individual blog post-->
+        <p class="post__meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <a class="post__link" href="{{ post.url | prepend: site.baseurl }}"><span>{{ post.title }}</span></a>
         <p>{{ post.excerpt }}</p>
       </div>
     {% endfor %}
   </section>
-  <!--   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 </div>
 
 <nav class="pagination" role="pagination">
   <div class="wrapper">
    {% if paginator.previous_page %}
        {% if paginator.previous_page == 1 %}
-           <a class="newer-posts" href="/blog/" title="Previous Page">Newer Posts &raquo;</a>
+           <a class="newer-posts" href="/blog/" title="Previous Page"><span>Newer Posts &raquo;</span></a>
        {% else %}
-           <a class="newer-posts" href="/blog/page{{ paginator.previous_page }}/" title="Previous Page">Newer Posts &raquo; </a>
+           <a class="newer-posts" href="/blog/page{{ paginator.previous_page }}/" title="Previous Page"><span>Newer Posts &raquo;</span></a>
      {% endif %}
    {% endif %}
    <!-- <span class="page-number"> Page {{paginator.page}} of {{paginator.total_pages}} </span> -->

@@ -144,62 +144,6 @@ h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
 .nav-current {
   background-color: #088a61; }
 
-/*header*/
-.header--main {
-  border-bottom: 0.25rem double rgba(52, 102, 153, 0.25);
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-  padding-bottom: 0.5rem; }
-
-.header__container {
-  align-items: baseline;
-  display: flex;
-  justify-content: space-between; }
-
-.logo {
-  width: 2.5rem; }
-
-#menu {
-  color: #346699;
-  font-size: 1.25rem;
-  position: relative; }
-  #menu:hover {
-    cursor: pointer; }
-  #menu::after {
-    background-color: rgba(119, 205, 177, 0.4);
-    content: '';
-    display: inline-block;
-    height: .75rem;
-    left: 0;
-    position: absolute;
-    top: 1.25rem;
-    width: 100%;
-    z-index: -1; }
-
-#nav--main {
-  transition: max-height .4s ease, opacity .4s ease; }
-  #nav--main[data-state="closed"] {
-    max-height: 0rem;
-    opacity: 0; }
-  #nav--main[data-state="open"] {
-    max-height: 6rem;
-    /*100% won't work bc it can't transition*/
-    opacity: 1; }
-  #nav--main li {
-    border-bottom: .25rem solid transparent;
-    /*add so that transition isn't choppy*/
-    transition: border-bottom .3s ease;
-    width: 4.125rem;
-    /*width of largest li, so border doesn't span 100%*/ }
-    #nav--main li:hover {
-      border-bottom: 0.25rem solid #77CDB1; }
-  #nav--main a::after {
-    display: none; }
-
-.navitem--current {
-  border-bottom: 0.25rem solid #77CDB1 !important;
-  /*!important needed so that it will override the transparent border on line 50*/ }
-
 /*general*/
 .wrapper {
   width: 90%;
@@ -221,23 +165,82 @@ h1 {
   margin-bottom: 1rem; }
 
 a {
+  border-bottom: 0.25rem solid rgba(119, 205, 177, 0.4);
   color: #346699;
   font-family: "adelle", serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.8;
   position: relative;
-  text-decoration: none; }
-  a::after {
-    background-color: rgba(119, 205, 177, 0.4);
-    content: '';
-    display: inline-block;
-    height: .5rem;
-    left: 0;
-    position: absolute;
-    top: .75rem;
-    width: 100%;
-    z-index: -1; }
+  text-decoration: none;
+  /*	&::after {
+  		background-color: rgba($callout, .4);
+  		content: '';
+  		display: inline-block;
+  		height: .5rem;
+  		left: 0;
+  		position: absolute;
+  		top: .75rem;
+  		width: 100%;
+  		z-index: -1;
+  	}*/ }
+
+/*header*/
+.header--main {
+  border-bottom: 0.25rem double rgba(52, 102, 153, 0.25);
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem; }
+
+.header__container {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between; }
+
+.logo {
+  width: 2.5rem; }
+
+#menu {
+  color: #346699;
+  font-size: 1.25rem;
+  position: relative;
+  /*	&::after {
+  		background-color: rgba($callout, .4);
+  		content: '';
+  		display: inline-block;
+  		height: .75rem;
+  		left: 0;
+  		position: absolute;
+  		top: 1.25rem;
+  		width: 100%;
+  		z-index: -1;
+  	}*/ }
+  #menu:hover {
+    cursor: pointer; }
+
+#nav--main {
+  transition: max-height .4s ease, opacity .4s ease; }
+  #nav--main[data-state="closed"] {
+    max-height: 0rem;
+    opacity: 0; }
+  #nav--main[data-state="open"] {
+    max-height: 6rem;
+    /*100% won't work bc it can't transition*/
+    opacity: 1; }
+  #nav--main li {
+    border-bottom: .25rem solid transparent;
+    /*add so that transition isn't choppy*/
+    transition: border-bottom .3s ease;
+    width: 4.125rem;
+    /*width of largest li, so border doesn't span 100%*/ }
+    #nav--main li:hover {
+      border-bottom: 0.25rem solid #77CDB1; }
+  #nav--main a {
+    border-bottom: none; }
+
+.navitem--current {
+  border-bottom: 0.25rem solid #77CDB1 !important;
+  /*!important needed so that it will override the transparent border on line 50*/ }
 
 /*portfolio index*/
 .index__intro {
@@ -245,17 +248,7 @@ a {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  position: relative;
-  /*	&::after {
-  		background-color: $primary;
-  		bottom: -2rem;
-  		content: '';
-  		display: block;
-  		height: 4rem;
-  		position: absolute;
-  		transform: skewY(-2deg);
-  		width: 100%;
-  	}*/ }
+  position: relative; }
   .index__intro p {
     color: #fafaff;
     font-size: 1.2rem;
@@ -327,9 +320,15 @@ a {
     margin-bottom: 0; }
 
 /*blog index*/
-.post-float {
+.post__individual {
   margin-bottom: 2rem;
   max-width: 40.625rem; }
+
+.post__meta {
+  font-size: 0.875rem; }
+
+.post__link {
+  font-size: 1.2rem; }
 
 .older-posts, .newer-posts {
   display: block;
@@ -434,12 +433,12 @@ a {
     margin-right: 5%; }
 
   /*blog index*/
-  .post-float {
+  .post__individual {
     width: 47.5%;
     float: left;
     min-height: 17.625rem; }
 
-  .post-float:nth-of-type(odd) {
+  .post__individual:nth-of-type(odd) {
     margin-right: 5%; }
 
   /*blog post*/
@@ -500,14 +499,14 @@ a {
     margin-left: 5%; }
 
   /*blog index*/
-  .post-float {
+  .post__individual {
     width: 30%;
     float: left; }
 
-  .post-float:nth-of-type(odd) {
+  .post__individual:nth-of-type(odd) {
     margin-right: 0%; }
 
-  .post-float:nth-of-type(3n+2) {
+  .post__individual:nth-of-type(3n+2) {
     margin-right: 5%;
     margin-left: 5%; } }
 /* http://prismjs.com/download.html?themes=prism&languages=css+sass */

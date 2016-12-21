@@ -1,3 +1,49 @@
+/*general*/
+.wrapper {
+	width: 90%;
+	max-width: 71.25rem;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+	max-width: 40.625rem;
+}
+
+h1 {
+	font-size: $fontsize--double;
+	font-family: $header-type;
+	font-weight: bold;
+	line-height: $lineheight--small;
+	margin-bottom: $space--main;
+}
+
+a {
+	border-bottom: .25rem solid rgba($callout, .4);
+	color: $primary;
+	font-family: $body-type;
+	font-size: $fontsize--main;
+	font-weight: 500;
+	line-height: $lineheight--main;
+	position: relative;
+	text-decoration: none;
+/*	&::after {
+		background-color: rgba($callout, .4);
+		content: '';
+		display: inline-block;
+		height: .5rem;
+		left: 0;
+		position: absolute;
+		top: .75rem;
+		width: 100%;
+		z-index: -1;
+	}*/
+}
+
+
 /*header*/
 .header--main {
 	border-bottom: .25rem double rgba($primary, .25);
@@ -23,7 +69,7 @@
 	&:hover {
 		cursor: pointer;
 	}
-	&::after {
+/*	&::after {
 		background-color: rgba($callout, .4);
 		content: '';
 		display: inline-block;
@@ -33,7 +79,7 @@
 		top: 1.25rem;
 		width: 100%;
 		z-index: -1;
-	}
+	}*/
 }
 
 #nav--main {
@@ -55,59 +101,12 @@
 		}
 	}
 	a {
-		&::after {
-			display: none;
-		}
+		border-bottom: none;
 	}
 }
 
 .navitem--current {
 	border-bottom: .25rem solid $callout !important; /*!important needed so that it will override the transparent border on line 50*/
-}
-
-
-/*general*/
-.wrapper {
-	width: 90%;
-	max-width: 71.25rem;
-	margin-right: auto;
-	margin-left: auto;
-	clear: both;
-	overflow: hidden;
-}
-
-img {
-	width: 100%;
-	max-width: 40.625rem;
-}
-
-h1 {
-	font-size: $fontsize--double;
-	font-family: $header-type;
-	font-weight: bold;
-	line-height: $lineheight--small;
-	margin-bottom: $space--main;
-}
-
-a {
-	color: $primary;
-	font-family: $body-type;
-	font-size: $fontsize--main;
-	font-weight: 500;
-	line-height: $lineheight--main;
-	position: relative;
-	text-decoration: none;
-	&::after {
-		background-color: rgba($callout, .4);
-		content: '';
-		display: inline-block;
-		height: .5rem;
-		left: 0;
-		position: absolute;
-		top: .75rem;
-		width: 100%;
-		z-index: -1;
-	}
 }
 
 
@@ -118,16 +117,6 @@ a {
 	padding-bottom: $space--double;
 	padding-top: $space--double;
 	position: relative;
-/*	&::after {
-		background-color: $primary;
-		bottom: -2rem;
-		content: '';
-		display: block;
-		height: 4rem;
-		position: absolute;
-		transform: skewY(-2deg);
-		width: 100%;
-	}*/
 	p {
 		color: $bg;
 		font-size: $fontsize--medium;
@@ -168,11 +157,6 @@ a {
 	font-size: 1.2rem;
 	line-height: $lineheight--small;
 }
-
-
-
-
-
 
 
 /*portfolio page*/
@@ -227,24 +211,25 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*blog index*/
-.post-float {
+.post__individual {
 	margin-bottom: 2rem;
 	max-width: 40.625rem;
 }
+
+.post__meta {
+	font-size: $font-size--small;
+}
+
+.post__link {
+	font-size: $fontsize--medium;
+}
+
+
+
+
+
+
 
 .older-posts, .newer-posts {
 	display: block;
@@ -254,6 +239,16 @@ a {
 .pagination {
 	margin-top: 2rem;
 }
+
+
+
+
+
+
+
+
+
+
 
 /*blog post*/
 .post-header, .post-content {

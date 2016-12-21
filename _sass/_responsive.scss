@@ -38,20 +38,21 @@
 }
 
 
-
-
-
-
-
 /*blog index*/
-.post-float {
+.post__individual {
 	width: 47.5%;
 	float: left;
 	min-height: 17.625rem;
 }
-.post-float:nth-of-type(odd) {
+.post__individual:nth-of-type(odd) {
 	margin-right: 5%;
 }
+
+
+
+
+
+
 
 
 /*blog post*/
@@ -133,14 +134,14 @@
 	}
 
 	/*blog index*/
-	.post-float {
+	.post__individual {
 		width: 30%;
 		float: left;
 	}
-	.post-float:nth-of-type(odd) {
+	.post__individual:nth-of-type(odd) {
 		margin-right: 0%;
 	}
-	.post-float:nth-of-type(3n+2) {
+	.post__individual:nth-of-type(3n+2) {
 		margin-right: 5%;
 		margin-left: 5%;
 	}
