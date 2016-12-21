@@ -2,7 +2,7 @@
 layout: post
 title:  "How My Liberal Arts Education Helps Me as a Developer"
 date:   2016-11-02
-excerpt: The core skills and competencies I learned in undergrad have been invaluable to my work as a front end developer
+excerpt: The core skills I learned in undergrad have been invaluable to my work as a front end developer.
 ---
 
 Today is my one year workaversary, which also happens to be my one year anniversary of being a professional developer. (“Professional developer” still feels weird to say/write.) It’s been a year full of professional challenges and victories, and I’ve felt prepared every step of the way. 

@@ -3,7 +3,7 @@ layout: post
 title:  "Logos and Iteration"
 date:   2015-03-10
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: Iteration helps you move past the obvious, explore ideas fully, and craft the best work possible. Because of iteration, I felt like I was getting to put all of my effort into the best concepts, and that's a satisfying feeling.
+excerpt: Because of iteration, I felt like I was getting to put all of my effort into the best concepts, and that's a satisfying feeling.
 ---
 
 <p>The past couple of days, we've learned about logo design. We've spent time discussing what make a logo successful or unsuccessful and have jumped in to making a logo for our restaurant redesign project.</p>

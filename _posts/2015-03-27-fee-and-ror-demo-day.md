@@ -3,7 +3,7 @@ layout: post
 title:  "Front End &amp; Rails Demo Day"
 date:   2015-03-27
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: I'm so amazed and impressed with what my classmates and friends created in two weeks and how much they've learned in twelve! If they're the future of engineering, it's in <em>very</em> good hands.
+excerpt: I'm so amazed and impressed with what my classmates and friends created in two weeks and how much they've learned in twelve!
 ---
 
 Today the Front End and Rails classes had their demo day&mdash;I can't believe 12 weeks has already gone by!

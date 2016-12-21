@@ -3,7 +3,7 @@ layout: post
 title:  "Exploring Typography"
 date:   2015-02-22
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: Our big homework assignment over the weekend was to create ten different typographical concepts for our restaurant project. I'm very excited about this project because we're finally designing!
+excerpt: Our big homework assignment over the weekend was to create ten different typographical concepts for our restaurant project.
 ---
 
 <p>Our big homework assignment over the weekend was to create ten different typographical concepts for our restaurant project. I'm very excited about this project because the restaurant I'm working on, <a href="http://www.bouldincreek.com/start.asp">Bouldin Creek Cafe</a>, is my favorite spot in Austin. And, we're finally designing!</p>

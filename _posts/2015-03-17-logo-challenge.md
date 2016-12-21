@@ -3,7 +3,7 @@ layout: post
 title:  "Logo Challenge"
 date:   2015-03-17
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: I had a blast with this assignment. It very much felt like a summer camp activity and it was a really fun way to get comfortable with not editing in my head. I learned that putting down the obvious, just getting it out of my system, helps me move past it and onto better design.
+excerpt: I learned that putting down the obvious, just getting it out of my system, helps me move past it and onto better design.
 ---
 
 Today we spent class time talking about logos. We watched <a href="https://vimeo.com/113751583">this</a> video where the incredible &amp; inspirational Aaron Draplin designs a logo in 15 minutes. Our take away was "see how much you can do if you don't edit in your head and put every idea down?!".

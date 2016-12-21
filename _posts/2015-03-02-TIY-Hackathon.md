@@ -3,7 +3,7 @@ layout: post
 title:  "TIY Hackathon"
 date:   2015-03-02
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: Today marked the end of the TIY Austin Hackathon. The past four days have been some of the most demanding and challenging yet. It was our first big project to design everything on our own (and our first group project).
+excerpt: Today marked the end of the TIY Austin Hackathon. It was our first big project to design everything on our own (and our first group project).
 ---
 
 Today marked the end of the TIY Austin Hackathon. The past four days have been some of the most demanding and challenging yet. It was our first big project to design everything on our own (and our first group project). I can't believe we're finally at this point!

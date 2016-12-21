@@ -2,7 +2,7 @@
 layout: post
 title:  "For Grandpa"
 date:   2015-08-15
-excerpt: I love design because it creates order in chaos. I love design because good design mandates empathy and inclusiveness. And new to my list of why I love design is that it's a way to feel closer to people I've lost.
+excerpt: New to my list of why I love design is that it's a way to feel closer to people I've lost.
 ---
 
 When I started my blog, I wanted its sole purpose to be documenting my journey as a designer. I was very adamant that I would keep my personal life out of it. But life shows up and the line between the two gets blurred and here we are.

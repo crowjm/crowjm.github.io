@@ -3,7 +3,7 @@ layout: post
 title:  "Basic Responsive Codepens"
 date:   2015-02-15
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: We had our first Responsive Web Design (RWD) lecture on Friday. RWD means designing for all sorts of devices and screens. RWD means being inclusive and inclusiveness is my jam.
+excerpt: RWD means designing for all sorts of devices and screens. RWD means being inclusive and inclusiveness is my jam.
 ---
 
 We had our first Responsive Web Design (RWD) lecture on Friday. RWD means designing for all sorts of devices and screens. RWD means being inclusive and inclusiveness is my jam.

@@ -2,7 +2,7 @@
 layout: post
 title:  "100 Days Reflections: Part 1"
 date:   2015-09-03
-excerpt: I've learned that if I don't have a clear plan of action, my designs end up all over the place and less successful than designs that I've thought out. I'm starting to hone in on that by having one theme that I work off of.
+excerpt: I've learned that if I don't have a clear plan of action, my designs end up all over the place and less successful than designs that I've thought out.
 ---
 I'm almost halfway done with my 100 Days challenge. Where has the time gone?! I'm more thankful that I'm doing this sort of challenge every day that passes.
 

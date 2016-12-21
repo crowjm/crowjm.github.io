@@ -3,7 +3,7 @@ layout: post
 title:  "Designing For Myself"
 date:   2015-04-10
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: Designing something for myself is one of the most challenging things I've done so far in this class. I've put so much additional (and probably unnecessary) pressure on myself for my logo to be perfect.
+excerpt: Designing something for myself is one of the most challenging things I've done so far in this class.
 ---
 
 In the midst of final projects, our class also worked on our personal logos and business cards. Designing something for myself is one of the most challenging things I've done so far in this class. 

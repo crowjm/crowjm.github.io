@@ -3,7 +3,7 @@ layout: post
 title:  "100 Days of Making"
 date:   2015-07-22
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: Spoiler alert, self, the only way I'm going to get better at anything is to do the thing, make the thing, pick up the tools and create and revise and create some more. 
+excerpt: The only way I'm going to get better at anything is to do the thing, make the thing, pick up the tools and create and revise and create some more. 
 ---
 
 There is so much that I want to learn and try and do and make. I have a running list of projects I want to start, skills I want to learn, meals I want to cook, etc. — and it's extensive. Why aren't I making something every day?

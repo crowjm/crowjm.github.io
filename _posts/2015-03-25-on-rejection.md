@@ -3,7 +3,7 @@ layout: post
 title:  "On Rejection"
 date:   2015-03-25
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: Rejection isn't the important part. How you handle rejection is what's important. Rejection is awful and it can really drag you down-but you don't have to let it. It's okay to be sad for a little while, but then channel that sadness into something bigger and better.
+excerpt: Rejection isn't the important part. How you handle rejection is what's important.
 ---
 
 Yesterday I turned twenty-five. Yesterday I also got a rejection letter from a conference I applied to speak at. Needless to say, I'm feeling a little blue.

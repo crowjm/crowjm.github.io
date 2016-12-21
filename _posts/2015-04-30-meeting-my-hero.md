@@ -3,7 +3,7 @@ layout: post
 title:  "Meeting My Design Hero"
 date:   2015-04-30
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: Today was a great day because I got to meet my design hero, Aaron Draplin. I love his work because it's bold and timeless. It's something to aspire to.
+excerpt: Today was a great day because I got to meet my design hero, Aaron Draplin. I love his work because it's bold and timeless.
 ---
 
 Today was a great day because I got to meet my design hero, <a href="http://draplin.com/">Aaron Draplin</a>. 

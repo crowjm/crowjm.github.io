@@ -3,7 +3,7 @@ layout: post
 title:  "Restaurant Redesign"
 date:   2015-03-08
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: It sounds like a ton of work (and it was), but we kept a steady pace. Breaking it into smaller assignments to accomplish each day made the project seem much less overwhelming. As my Mama says, "the best way to eat an elephant is one bite at a time."
+excerpt: Breaking it into smaller assignments to accomplish each day made the project seem much less overwhelming.
 ---
 
 We're moving full steam ahead with our restaurant redesign projects! We've gotten a lot done since I last [blogged about it](http://crowjm.github.io/2015/02/22/exploring-typography.html). Since we've hit the halfway point (!!!) we're going to be working on at least one project a week for rest of the semester.

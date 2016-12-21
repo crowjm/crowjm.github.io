@@ -3,7 +3,7 @@ layout: post
 title:  "Starting Final Projects"
 date:   2015-04-01
 <!-- tags: tiydesign Iron-Yard design perfectionism -->
-excerpt: Somehow the time has flown by and I'm starting my final project. This is not a drill. I'm feeling excited and inspired and a little overwhelmed about just how much work I have to get done in the next two weeks.
+excerpt: I'm feeling excited and inspired and a little overwhelmed about just how much work I have to get done in the next two weeks.
 ---
 
 Y'all, somehow the time has flown by and I'm starting my final project. This is not a drill.

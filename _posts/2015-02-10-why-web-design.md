@@ -3,7 +3,7 @@ layout: post
 title:  "Why Web Design?"
 date:   2015-02-10
 <!-- tags: design communication-studies -->
-excerpt: I moved to Austin in search of new opportunities. I was very lost in terms of job direction and itching to find something I enjoy doing that I could turn into a career. 
+excerpt: I moved to Austin in search of new opportunities. I was itching to find something I enjoy doing that I could turn into a career. 
 ---
 
 I moved to Austin in search of new opportunities. I worked in retail, office management, and social media marketing before and couldn't see myself making a career in any of those fields. I was very lost in terms of job direction and itching to find something I enjoy doing that I could turn into a career.  

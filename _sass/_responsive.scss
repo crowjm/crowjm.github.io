@@ -33,6 +33,7 @@
 	width: 47.5%;
 	float: left;
 }
+
 .portfolio__item:nth-of-type(odd) {
 	margin-right: 5%;
 }
@@ -42,8 +43,9 @@
 .post__individual {
 	width: 47.5%;
 	float: left;
-	min-height: 17.625rem;
+	min-height: 11.1rem;
 }
+
 .post__individual:nth-of-type(odd) {
 	margin-right: 5%;
 }
