@@ -83,7 +83,12 @@ img {
 
 a {
 	color: $primary;
+	font-family: $body-type;
+	font-size: $fontsize--main;
+	font-weight: 500;
+	line-height: $lineheight-main;
 	position: relative;
+	text-decoration: none;
 	&::after {
 		background-color: rgba($callout, .4);
 		content: '';
@@ -98,7 +103,17 @@ a {
 }
 
 
+/*portfolio index*/
+.portfolio__item {
+	margin-bottom: $space--double;
+}
 
+.portfolio__title {
+	font-size: $fontsize--medium;
+	&::after {
+		top: .875rem;
+	}
+}
 
 
 
@@ -146,10 +161,7 @@ footer {
 	margin-bottom: 0.5rem;
 }
 
-/*portfolio index*/
-.portfolio-item {
-	margin-bottom: 2rem;
-}
+
 
 /*blog index*/
 .post-float {

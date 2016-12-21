@@ -1,15 +1,18 @@
+/*change var names to primary and secondary?*/
+/*add vars for typescale*/
+
 $body-type: "adelle", serif;
 $header-type: "proxima-nova", sans-serif;
+$lineheight-main: 1.8;
+$lineheight-small: 1.2;
 
 
-
-a {
-	font-family: $body-type;
-	font-size: 1rem;
-	font-weight: 500;
-	line-height: 1.8;
-	text-decoration: none;
-}
+$fontsize--half: .5rem;
+$font-size--small: .75rem;
+$fontsize--main: 1rem;
+$fontsize--medium: 1.2rem;
+$fontsize--large: 1.5rem;
+$fontsize--double: 2rem;
 
 
 
@@ -24,7 +27,7 @@ a {
 
 p, li {
 	font-family: $body-type;
-	line-height: 1.8;
+	line-height: $lineheight-main;
 	font-size: 1rem;
 }
 
@@ -32,14 +35,14 @@ p, li {
 
 q {
 	font-family: $body-type;
-	line-height: 1.8;
+	line-height: $lineheight-main;
 	font-style: italic;
 	font-size: 1.1rem;
 }
 
-h1, h2, h3, h4, h5, .post-link, .project-page-header, .footer-section-title {
+h1, h2, h3, h4, h5, .project-page-header, .footer-section-title {
 	font-family: $header-type;
-	line-height: 1.2;
+	line-height: $lineheight-small;
 }
 
 h1 {
@@ -53,7 +56,7 @@ h1 {
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 1.5rem;
-	line-height: 1.2;
+	line-height: $lineheight-small;
 }
 
 h2 {
@@ -76,21 +79,10 @@ h5 {
 .blog-post-meta {
 	font-size: 0.875rem;
 	font-family: $header-type;
-	line-height: 1.2;
+	line-height: $lineheight-small;
 }
 
-#name {
-	font-family: $body-type;
-	font-size: 1.25rem;
-	line-height: 1.2;
-}
 
-#title {
-	font-style: italic;
-	font-size: 1rem;
-	line-height: 1.2;
-	font-family: $header-type;
-}
 
 .footer-section-title {
 	font-weight: 600;

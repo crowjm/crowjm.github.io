@@ -4,53 +4,29 @@ title: Jesse Crow | Designer &amp; Developer | Austin, Texas
 category: portfolio
 ---
 <div class="wrapper">
-	<div class="portfolio-item">
-		<a href="/projects/nationalparks.html">
-			<div class="portfolio-snippet">
-				<img src="../img/portfolio-pages/smokies-hero.jpg">
-			</div>
-			<p class="post-link">National Park Service Redesign</p>
-		</a>
+	<div class="portfolio__item">
+		<img src="../img/portfolio-pages/smokies-hero.jpg">
+		<a href="/projects/nationalparks.html" class="portfolio__title">National Park Service Redesign</a>
 	</div>
-	<div class="portfolio-item">
-		<a href="/projects/hetre85.html">
-			<div class="portfolio-snippet">
-				<img src="../img/portfolio-pages/hetre85.png">
-			</div>
-			<p class="post-link">hetre85</p>
-		</a>
+	<div class="portfolio__item">
+		<img src="../img/portfolio-pages/hetre85.png">
+		<a href="/projects/hetre85.html" class="portfolio__title">hetre85</a>
 	</div>
-	<div class="portfolio-item">
-		<a href="/projects/goodreads.html">
-			<div class="portfolio-snippet">
-				<img src="../img/portfolio-pages/goodreads.jpg">
-			</div>
-			<p class="post-link">GoodReads</p>
-		</a>
+	<div class="portfolio__item">
+		<img src="../img/portfolio-pages/goodreads.jpg">
+		<a href="/projects/goodreads.html" class="portfolio__title">GoodReads</a>
 	</div>
-	<div class="portfolio-item">
-		<a href="/projects/greenthumb.html">
-			<div class="portfolio-snippet">
-				<img src="../img/portfolio-pages/greenthumb.jpg">
-			</div>
-			<p class="post-link">GreenThumb</p>
-		</a>
+	<div class="portfolio__item">
+		<img src="../img/portfolio-pages/greenthumb.jpg">
+		<a href="/projects/greenthumb.html" class="portfolio__title">GreenThumb</a>
 	</div>
-	<div class="portfolio-item">
-		<a href="/projects/css-zen.html">
-			<div class="portfolio-snippet">
-				<img src="../img/portfolio-pages/css-zen.jpg">
-			</div>
-			<p class="post-link">CSS Zen Garden</p>
-		</a>
+	<div class="portfolio__item">
+		<img src="../img/portfolio-pages/css-zen.jpg">
+		<a href="/projects/css-zen.html" class="portfolio__title">CSS Zen Garden</a>
 	</div>
-	<div class="portfolio-item">
-		<a href="/projects/precious-pitbulls.html">
-			<div class="portfolio-snippet">
-				<img src="../img/portfolio-pages/pitbull.jpg">
-			</div>
-			<p class="post-link">Precious Pit Bulls</p>
-		</a>
+	<div class="portfolio__item">
+		<img src="../img/portfolio-pages/pitbull.jpg">
+		<a href="/projects/precious-pitbulls.html" class="portfolio__title">Precious Pit Bulls</a>
 	</div>
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
