@@ -3,6 +3,16 @@ $links: #066446; /*green*/
 $primary: #346699; /*blue*/
 $secondary: #066446; /*green*/
 $bg: #fafaff; /*off white*/
+$callout: #77CDB1; /*light teal*/
+
+
+
+
+
+
+
+
+
 
 
 /*general*/
@@ -15,14 +25,7 @@ p, li, q {
 	color: $type;
 }
 
-a {
-	color: $links;
-	transition: color 0.3s ease;
-}
 
-a:hover {
-	color: darken($links, 10%);
-}
 
 h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
 	color: $primary;

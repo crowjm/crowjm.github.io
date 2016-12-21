@@ -9,8 +9,23 @@
 	width: 2.5rem;
 }
 
-#menu:hover {
-	cursor: pointer;
+#menu {
+	color: $primary;
+	position: relative;
+	&:hover {
+		cursor: pointer;
+	}
+	&::after {
+		background-color: rgba($callout, .4);
+		content: '';
+		display: inline-block;
+		height: .75rem;
+		left: 0;
+		position: absolute;
+		top: 1.25rem;
+		width: 100%;
+		z-index: -1;
+	}
 }
 
 #nav--main {
@@ -29,8 +44,22 @@
 
 
 
-
-
+/*general*/
+a {
+	color: $primary;
+	position: relative;
+	&::after {
+		background-color: rgba($callout, .4);
+		content: '';
+		display: inline-block;
+		height: .5rem;
+		left: 0;
+		position: absolute;
+		top: .75rem;
+		width: 100%;
+		z-index: -1;
+	}
+}
 
 
 

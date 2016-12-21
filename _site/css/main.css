@@ -45,13 +45,20 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-a, p, li {
+#menu {
+  font-size: 1.25rem; }
+
+a {
+  font-family: "adelle", serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.8;
+  text-decoration: none; }
+
+p, li {
   font-family: "adelle", serif;
   line-height: 1.8;
   font-size: 1rem; }
-
-a {
-  text-decoration: none; }
 
 q {
   font-family: "adelle", serif;
@@ -127,6 +134,7 @@ h5 {
 /*blue*/
 /*green*/
 /*off white*/
+/*light teal*/
 /*general*/
 body {
   background-color: #fafaff; }
@@ -134,13 +142,6 @@ body {
 /*type*/
 p, li, q {
   color: #6c757d; }
-
-a {
-  color: #066446;
-  transition: color 0.3s ease; }
-
-a:hover {
-  color: #033424; }
 
 h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
   color: #346699; }
@@ -182,8 +183,21 @@ h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
 .logo {
   width: 2.5rem; }
 
-#menu:hover {
-  cursor: pointer; }
+#menu {
+  color: #346699;
+  position: relative; }
+  #menu:hover {
+    cursor: pointer; }
+  #menu::after {
+    background-color: rgba(119, 205, 177, 0.4);
+    content: '';
+    display: inline-block;
+    height: .75rem;
+    left: 0;
+    position: absolute;
+    top: 1.25rem;
+    width: 100%;
+    z-index: -1; }
 
 #nav--main {
   transition: max-height 0.4s ease; }
@@ -193,6 +207,21 @@ h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
 
 #nav--main[data-state="open"] {
   max-height: 5rem; }
+
+/*general*/
+a {
+  color: #346699;
+  position: relative; }
+  a::after {
+    background-color: rgba(119, 205, 177, 0.4);
+    content: '';
+    display: inline-block;
+    height: .5rem;
+    left: 0;
+    position: absolute;
+    top: .75rem;
+    width: 100%;
+    z-index: -1; }
 
 /*general*/
 .wrapper, .head-wrapper {

@@ -1,15 +1,36 @@
 $body-type: "adelle", serif;
 $header-type: "proxima-nova", sans-serif;
 
-a, p, li {
+#menu {
+	font-size: 1.25rem;
+}
+
+a {
+	font-family: $body-type;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 1.8;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+p, li {
 	font-family: $body-type;
 	line-height: 1.8;
 	font-size: 1rem;
 }
 
-a {
-	text-decoration: none;
-}
+
 
 q {
 	font-family: $body-type;
