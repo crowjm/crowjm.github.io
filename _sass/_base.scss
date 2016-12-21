@@ -81,12 +81,20 @@ img {
 	max-width: 40.625rem;
 }
 
+h1 {
+	font-size: $fontsize--double;
+	font-family: $header-type;
+	font-weight: bold;
+	line-height: $lineheight--small;
+	margin-bottom: $space--main;
+}
+
 a {
 	color: $primary;
 	font-family: $body-type;
 	font-size: $fontsize--main;
 	font-weight: 500;
-	line-height: $lineheight-main;
+	line-height: $lineheight--main;
 	position: relative;
 	text-decoration: none;
 	&::after {

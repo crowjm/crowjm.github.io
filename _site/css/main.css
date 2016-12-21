@@ -58,13 +58,9 @@ q {
   font-style: italic;
   font-size: 1.1rem; }
 
-h1, h2, h3, h4, h5, .project-page-header, .footer-section-title {
+h2, h3, h4, h5, .project-page-header, .footer-section-title {
   font-family: "proxima-nova", sans-serif;
   line-height: 1.2; }
-
-h1 {
-  font-size: 1.6rem;
-  font-weight: bold; }
 
 .post-title {
   font-family: "proxima-nova", sans-serif;
@@ -220,6 +216,13 @@ h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
 img {
   width: 100%;
   max-width: 40.625rem; }
+
+h1 {
+  font-size: 2rem;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1rem; }
 
 a {
   color: #346699;

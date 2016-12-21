@@ -3,8 +3,8 @@
 
 $body-type: "adelle", serif;
 $header-type: "proxima-nova", sans-serif;
-$lineheight-main: 1.8;
-$lineheight-small: 1.2;
+$lineheight--main: 1.8;
+$lineheight--small: 1.2;
 
 
 $fontsize--half: .5rem;
@@ -27,7 +27,7 @@ $fontsize--double: 2rem;
 
 p, li {
 	font-family: $body-type;
-	line-height: $lineheight-main;
+	line-height: $lineheight--main;
 	font-size: 1rem;
 }
 
@@ -35,20 +35,17 @@ p, li {
 
 q {
 	font-family: $body-type;
-	line-height: $lineheight-main;
+	line-height: $lineheight--main;
 	font-style: italic;
 	font-size: 1.1rem;
 }
 
-h1, h2, h3, h4, h5, .project-page-header, .footer-section-title {
+h2, h3, h4, h5, .project-page-header, .footer-section-title {
 	font-family: $header-type;
-	line-height: $lineheight-small;
+	line-height: $lineheight--small;
 }
 
-h1 {
-	font-size: 1.6rem;
-	font-weight: bold;
-}
+
 
 .post-title {
 	font-family: $header-type;
@@ -56,7 +53,7 @@ h1 {
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 1.5rem;
-	line-height: $lineheight-small;
+	line-height: $lineheight--small;
 }
 
 h2 {
@@ -79,7 +76,7 @@ h5 {
 .blog-post-meta {
 	font-size: 0.875rem;
 	font-family: $header-type;
-	line-height: $lineheight-small;
+	line-height: $lineheight--small;
 }
 
 
