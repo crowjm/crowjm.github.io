@@ -85,17 +85,16 @@
 }
 
 @media screen and (min-width: 43.75rem) {
-	.footer-social, .colophon, .recently {
+	.footer__group {
 		width: 30%;
 		float: left;
+		&:nth-of-type(2) {
+			margin-right: 5%;
+			margin-left: 5%;
+		}
 	}
-	.colophon {
-		margin-right: 5%;
-		margin-left: 5%;
-	}
-	.footer-social {
-		margin-top: 1rem;
-	}
+
+
 }
 
 

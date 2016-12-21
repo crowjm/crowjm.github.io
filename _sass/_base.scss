@@ -149,49 +149,31 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*footer*/
-footer {
-	border-top: 4px solid $primary;
-	margin-bottom: 2rem;
-	margin-top: 4rem;
+.footer--main {
+	border-top: .25rem double rgba($primary, .25);
+	margin-bottom: $space--double;
+	padding-top: $space--main;
 	overflow: hidden;
 }
 
-.footer-social {
-	margin-top: 2rem;
-	ul {
-		overflow: hidden;
-	}
+.footer__group:not(:last-of-type) {
+	margin-bottom: $space--main;
 }
 
-.footericon {
-	width: 1.875rem;
-	float: left;
-	margin-right: 1rem;
+.footer__title {
+	color: $primary;
+	font-family: $header-type;
+	font-weight: 600;
+	font-size: 1.2rem;
+	line-height: $lineheight--small;
 }
 
-.colophon, .recently {
-	margin-top: 1rem;
-}
 
-.contact {
-	margin-top: 0.5rem;
-	display: block;
-}
 
-.recently li {
-	margin-bottom: 0.5rem;
-}
+
+
+
 
 
 

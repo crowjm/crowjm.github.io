@@ -88,10 +88,6 @@ h5 {
   font-family: "proxima-nova", sans-serif;
   line-height: 1.2; }
 
-.footer-section-title {
-  font-weight: 600;
-  font-size: 1.2rem; }
-
 .older-posts, .newer-posts {
   font-size: 1.1rem; }
 
@@ -276,31 +272,21 @@ a {
     top: .875rem; }
 
 /*footer*/
-footer {
-  border-top: 4px solid #346699;
+.footer--main {
+  border-top: 0.25rem double rgba(52, 102, 153, 0.25);
   margin-bottom: 2rem;
-  margin-top: 4rem;
+  padding-top: 1rem;
   overflow: hidden; }
 
-.footer-social {
-  margin-top: 2rem; }
-  .footer-social ul {
-    overflow: hidden; }
+.footer__group:not(:last-of-type) {
+  margin-bottom: 1rem; }
 
-.footericon {
-  width: 1.875rem;
-  float: left;
-  margin-right: 1rem; }
-
-.colophon, .recently {
-  margin-top: 1rem; }
-
-.contact {
-  margin-top: 0.5rem;
-  display: block; }
-
-.recently li {
-  margin-bottom: 0.5rem; }
+.footer__title {
+  color: #346699;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.2; }
 
 /*blog index*/
 .post-float {
@@ -470,16 +456,12 @@ footer {
   .day:nth-of-type(even) {
     margin-right: 5%; } }
 @media screen and (min-width: 43.75rem) {
-  .footer-social, .colophon, .recently {
+  .footer__group {
     width: 30%;
     float: left; }
-
-  .colophon {
-    margin-right: 5%;
-    margin-left: 5%; }
-
-  .footer-social {
-    margin-top: 1rem; } }
+    .footer__group:nth-of-type(2) {
+      margin-right: 5%;
+      margin-left: 5%; } }
 @media screen and (min-width: 47.5rem) {
   /*about*/
   .prof-pic {
