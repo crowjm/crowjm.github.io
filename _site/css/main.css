@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
 /*header*/
 .header--main {
   border-bottom: 0.25rem double rgba(52, 102, 153, 0.25);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   margin-top: 1rem;
   padding-bottom: 0.5rem; }
 
@@ -241,6 +241,29 @@ a {
     z-index: -1; }
 
 /*portfolio index*/
+.index__intro {
+  background-color: #346699;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  position: relative;
+  /*	&::after {
+  		background-color: $primary;
+  		bottom: -2rem;
+  		content: '';
+  		display: block;
+  		height: 4rem;
+  		position: absolute;
+  		transform: skewY(-2deg);
+  		width: 100%;
+  	}*/ }
+  .index__intro p {
+    color: #fafaff;
+    font-size: 1.2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 40.625rem; }
+
 .portfolio__item {
   margin-bottom: 2rem; }
 

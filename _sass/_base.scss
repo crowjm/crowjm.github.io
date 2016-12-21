@@ -1,7 +1,7 @@
 /*header*/
 .header--main {
 	border-bottom: .25rem double rgba($primary, .25);
-	margin-bottom: $space--main;
+	margin-bottom: $space--double;
 	margin-top: $space--main;	
 	padding-bottom: $space--half;
 }
@@ -104,6 +104,31 @@ a {
 
 
 /*portfolio index*/
+.index__intro {
+	background-color: $primary;
+	margin-bottom: $space--double;
+	padding-bottom: $space--double;
+	padding-top: $space--double;
+	position: relative;
+/*	&::after {
+		background-color: $primary;
+		bottom: -2rem;
+		content: '';
+		display: block;
+		height: 4rem;
+		position: absolute;
+		transform: skewY(-2deg);
+		width: 100%;
+	}*/
+	p {
+		color: $bg;
+		font-size: $fontsize--medium;
+		margin-left: 5%;
+		margin-right: 5%;
+		max-width: 40.625rem;
+	}
+}
+
 .portfolio__item {
 	margin-bottom: $space--double;
 }
@@ -114,7 +139,6 @@ a {
 		top: .875rem;
 	}
 }
-
 
 
 
