@@ -423,8 +423,7 @@ a {
   /*portfolio items on index*/
   .portfolio__item {
     width: 47.5%;
-    float: left;
-    min-height: 250px; }
+    float: left; }
 
   .portfolio__item:nth-of-type(odd) {
     margin-right: 5%; }
