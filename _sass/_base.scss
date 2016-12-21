@@ -30,6 +30,10 @@ a {
 	line-height: $lineheight--main;
 	position: relative;
 	text-decoration: none;
+	transition: border-bottom .3s ease;
+	&:hover {
+		border-bottom: .25rem solid rgba($callout, 1);
+	}
 /*	&::after {
 		background-color: rgba($callout, .4);
 		content: '';
