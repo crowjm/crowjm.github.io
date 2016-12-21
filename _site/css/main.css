@@ -333,12 +333,19 @@ a {
 .post__link {
   font-size: 1.2rem; }
 
-.older-posts, .newer-posts {
-  display: block;
-  text-align: center; }
-
 .pagination {
-  margin-top: 2rem; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2rem; }
+
+.pagination__older, .pagination__newer {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.pagination__newer {
+  margin-bottom: 1rem; }
 
 /*blog post*/
 .post-header, .post-content {
