@@ -18,6 +18,7 @@
 
 #menu {
 	color: $primary;
+	font-size: 1.25rem;
 	position: relative;
 	&:hover {
 		cursor: pointer;
@@ -37,16 +38,31 @@
 
 #nav--main {
 	transition: max-height .4s ease, opacity .4s ease;
+	&[data-state="closed"] {
+		max-height: 0rem;
+		opacity: 0;
+	}
+	&[data-state="open"] {
+		max-height: 6rem; /*100% won't work bc it can't transition*/
+		opacity: 1;
+	}
+	li {
+		border-bottom: .25rem solid transparent; /*add so that transition isn't choppy*/
+		transition: border-bottom .3s ease;
+		width: 4.125rem; /*width of largest li, so border doesn't span 100%*/
+		&:hover {
+			border-bottom: .25rem solid $callout;
+		}
+	}
+	a {
+		&::after {
+			display: none;
+		}
+	}
 }
 
-#nav--main[data-state="closed"] {
-	max-height: 0rem;
-	opacity: 0;
-}
-
-#nav--main[data-state="open"] {
-	max-height: 5rem;
-	opacity: 1;
+.navitem--current {
+	border-bottom: .25rem solid $callout !important; /*!important needed so that it will override the transparent border on line 50*/
 }
 
 

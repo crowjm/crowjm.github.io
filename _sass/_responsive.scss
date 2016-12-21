@@ -12,10 +12,13 @@
 
 #nav--main {
 	ul {
-		display: flex;
+		display: flex;		
 		li:not(:first-of-type) {
 			margin-left: $space--main;
 		}
+	}
+	li /*to override styles in base, needs to be outside ul to be same selector*/ {
+		width: 100%;
 	}
 }
 
