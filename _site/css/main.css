@@ -328,10 +328,14 @@ a {
 .pagination__older, .pagination__newer {
   display: inline-block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  width: 6.0625rem;
+  /*have to set explicit width for safari*/ }
 
 .pagination__newer {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  width: 6.6rem;
+  /*have to set explicit width for safari*/ }
 
 /*blog post*/
 .header--post, .post__content {
