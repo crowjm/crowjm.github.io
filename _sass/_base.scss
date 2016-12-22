@@ -247,16 +247,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*blog post*/
 .header--post, .post__content {
 	max-width: 40.625rem;
@@ -291,48 +281,111 @@ a {
 }
 
 
-
-
-
-
 /*about*/
-.about-content {
-	max-width: 40.625rem;
-	margin-right: auto;
-	margin-left: auto;
+.about__intro {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: $space--main;
 }
 
-.prof-pic {
-	max-width: 18.75rem;
+.svg--heyyall {
+  animation: wave 3s ease-in-out;
+  animation-delay: 3s;
+  transform-origin: center 75%;
+  width: 10rem;
+}
+
+@keyframes wave {
+  20% {transform: rotate(-7deg);}
+  40% {transform: rotate(7deg);}
+  60% {transform: rotate(-7deg);}
+  80% {transform: rotate(7deg);}
+  100% {transform: rotate(0deg);}
+}
+
+.hey, .yall {
+  stroke: #346699;
+}
+
+.hey {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+}
+
+.yall--word {
+  animation: offset 2s linear forwards;
+  animation-delay: 1.5s;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+}
+
+.yall--apostrophe {
+  animation: offset .5s linear forwards;
+  animation-delay: 2.1s;
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+}
+
+@keyframes offset {
+  100% { stroke-dashoffset: 0; }
+}
+
+.about__photo {
 	display: block;
-	margin: 0 auto 2rem auto;
+	height: 40%;
+	width: 40%;
 }
 
-.about-main-text {
-	margin-bottom: 2rem;
-	p, q {
-		margin-bottom: 1rem;
+.about__maintext {
+	p {
+		margin-bottom: $space--main;
+		max-width: 40.625rem;
+		&:last-of-type {
+			margin-bottom: $space--double;
+		}
 	}
+}
+
+.about__quotewrapper {
+	background-color: $primary;
+	margin-bottom: $space--main;
+	margin-top: $space--double;
+	padding: $space--double 5%;
 	q {
-		display: block;	
+		color: $bg;
+		display: inline-block;
+		font-family: $body-type;
+		font-size: $fontsize--medium;
+		line-height: $lineheight--main;
+		max-width: 40.625rem;
 	}
 }
 
-.about-lists {
-	overflow: hidden;
-	margin-top: 2rem;
-	.skills, .workingon {
-		width: 47.5%;
-		float: left;
-	}
-	.skills {
-		margin-right: 5%;
-	}
+.about__header {
+	color: $primary;
+	font-family: $header-type;
+	font-size: $fontsize--medium;
+	line-height: $lineheight--small;
+}
+
+.about__skills, .about__workingon {
+	float: left;
+}
+
+.about__skills {
+	margin-right: $space--double;
 }
 
 
 
-/*100 days project*/
+
+
+
+
+
+
+/*100 days project--needs refactoring*/
 .intro-text {
 	text-align: center;
 	margin-bottom: 2rem;

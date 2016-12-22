@@ -1,84 +1,79 @@
 @media screen and (min-width: 41.25rem) {
-/*header*/
-.header--main {
-	align-items: baseline;
-	display: flex;
-	justify-content: space-between;
-}
+	/*header*/
+	.header--main {
+		align-items: baseline;
+		display: flex;
+		justify-content: space-between;
+	}
 
-#menu {
-	display: none;
-}
+	#menu {
+		display: none;
+	}
 
-#nav--main {
-	ul {
-		display: flex;		
-		li:not(:first-of-type) {
-			margin-left: $space--main;
+	#nav--main {
+		ul {
+			display: flex;		
+			li:not(:first-of-type) {
+				margin-left: $space--main;
+			}
+		}
+		li /*to override styles in base, needs to be outside ul to be same selector*/ {
+			width: 100%;
 		}
 	}
-	li /*to override styles in base, needs to be outside ul to be same selector*/ {
-		width: 100%;
+
+	/*override default closed state*/
+	#nav--main[data-state="closed"] {
+		max-height: 100%;
+		opacity: 1;
 	}
-}
-
-/*override default closed state*/
-#nav--main[data-state="closed"] {
-	max-height: 100%;
-	opacity: 1;
-}
-
-/*portfolio items on index*/
-.portfolio__item {
-	width: 47.5%;
-	float: left;
-}
-
-.portfolio__item:nth-of-type(odd) {
-	margin-right: 5%;
-}
 
 
-/*blog index*/
-.post__individual {
-	width: 47.5%;
-	float: left;
-	min-height: 11.1rem;
-}
+	/*portfolio items on index*/
+	.portfolio__item {
+		width: 47.5%;
+		float: left;
+	}
 
-.post__individual:nth-of-type(odd) {
-	margin-right: 5%;
-}
-
+	.portfolio__item:nth-of-type(odd) {
+		margin-right: 5%;
+	}
 
 
+	/*blog index*/
+	.post__individual {
+		width: 47.5%;
+		float: left;
+		min-height: 11.1rem;
+	}
+
+	.post__individual:nth-of-type(odd) {
+		margin-right: 5%;
+	}
 
 
+	/*blog post--needs refactoring*/
+	.post-float-container {
+		overflow: hidden;
+		clear: both;
+	}
+
+	.post-float-image {
+		width: 50%;
+		float: left;
+		margin-bottom: 1rem;
+	}
 
 
+	/*100 days project--needs refactoring*/
+	.day {
+		width: 47.5%;
+		float: left;
+	}
 
-/*blog post*/
-.post-float-container {
-	overflow: hidden;
-	clear: both;
-}
-
-.post-float-image {
-	width: 50%;
-	float: left;
-	margin-bottom: 1rem;
-}
-
-/*100 days project*/
-.day {
-	width: 47.5%;
-	float: left;
-}
-
-.day:nth-of-type(even) {
-	margin-right: 5%;
-}
-
+	.day:nth-of-type(even) {
+		margin-right: 5%;
+	}
 }
 
 @media screen and (min-width: 43.75rem) {
@@ -90,23 +85,30 @@
 			margin-left: 5%;
 		}
 	}
-
-
 }
 
 
 
 @media screen and (min-width: 46rem){
 	/*about*/
-	.prof-pic {
-		float: left;
-		width: 30%;
-		margin-right: 5%;
+	.about__photo {
+		margin-top: $space--main;
+		width: 60%;
 	}
-	.about-content {
+
+	.about__intro {
+		flex-direction: column;
+		float: left;
+		justify-content: flex-start;
+		margin-right: 5%;
+		width: 30%;
+	}
+
+	.about__maincontent {
 		float: right;
 		width: 65%;
 	}
+
 
 	/*portfolio page*/
 	.project__content {
@@ -114,6 +116,7 @@
 		margin-right: 5%;
 		float: left;
 	}
+
 	.project__image {
 		width: 40%;
 		float: right;
@@ -127,22 +130,27 @@
 		width: 30%;
 		float: left;
 	}
+
 	.portfolio__item:nth-of-type(odd) {
 		margin-right: 0%;
 	}
+
 	.portfolio__item:nth-of-type(3n+2) {
 		margin-right: 5%;
 		margin-left: 5%;
 	}
+
 
 	/*blog index*/
 	.post__individual {
 		width: 30%;
 		float: left;
 	}
+
 	.post__individual:nth-of-type(odd) {
 		margin-right: 0%;
 	}
+
 	.post__individual:nth-of-type(3n+2) {
 		margin-right: 5%;
 		margin-left: 5%;

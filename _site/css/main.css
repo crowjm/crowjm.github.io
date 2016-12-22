@@ -52,12 +52,6 @@ p, li {
   line-height: 1.8;
   font-size: 1rem; }
 
-q {
-  font-family: "adelle", serif;
-  line-height: 1.8;
-  font-style: italic;
-  font-size: 1.1rem; }
-
 h2, h3, h4, h5, .project-page-header, .footer-section-title {
   font-family: "proxima-nova", sans-serif;
   line-height: 1.2; }
@@ -367,33 +361,88 @@ a {
   margin-bottom: 2rem; }
 
 /*about*/
-.about-content {
-  max-width: 40.625rem;
-  margin-right: auto;
-  margin-left: auto; }
+.about__intro {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem; }
 
-.prof-pic {
-  max-width: 18.75rem;
+.svg--heyyall {
+  animation: wave 3s ease-in-out;
+  animation-delay: 3s;
+  transform-origin: center 75%;
+  width: 10rem; }
+
+@keyframes wave {
+  20% {
+    transform: rotate(-7deg); }
+  40% {
+    transform: rotate(7deg); }
+  60% {
+    transform: rotate(-7deg); }
+  80% {
+    transform: rotate(7deg); }
+  100% {
+    transform: rotate(0deg); } }
+.hey, .yall {
+  stroke: #346699; }
+
+.hey {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500; }
+
+.yall--word {
+  animation: offset 2s linear forwards;
+  animation-delay: 1.5s;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500; }
+
+.yall--apostrophe {
+  animation: offset .5s linear forwards;
+  animation-delay: 2.1s;
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50; }
+
+@keyframes offset {
+  100% {
+    stroke-dashoffset: 0; } }
+.about__photo {
   display: block;
-  margin: 0 auto 2rem auto; }
+  height: 40%;
+  width: 40%; }
 
-.about-main-text {
-  margin-bottom: 2rem; }
-  .about-main-text p, .about-main-text q {
-    margin-bottom: 1rem; }
-  .about-main-text q {
-    display: block; }
+.about__maintext p {
+  margin-bottom: 1rem;
+  max-width: 40.625rem; }
+  .about__maintext p:last-of-type {
+    margin-bottom: 2rem; }
 
-.about-lists {
-  overflow: hidden;
-  margin-top: 2rem; }
-  .about-lists .skills, .about-lists .workingon {
-    width: 47.5%;
-    float: left; }
-  .about-lists .skills {
-    margin-right: 5%; }
+.about__quotewrapper {
+  background-color: #346699;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  padding: 2rem 5%; }
+  .about__quotewrapper q {
+    color: #fafaff;
+    display: inline-block;
+    font-family: "adelle", serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 40.625rem; }
 
-/*100 days project*/
+.about__header {
+  color: #346699;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2; }
+
+.about__skills, .about__workingon {
+  float: left; }
+
+.about__skills {
+  margin-right: 2rem; }
+
+/*100 days project--needs refactoring*/
 .intro-text {
   text-align: center;
   margin-bottom: 2rem; }
@@ -443,7 +492,7 @@ a {
   .post__individual:nth-of-type(odd) {
     margin-right: 5%; }
 
-  /*blog post*/
+  /*blog post--needs refactoring*/
   .post-float-container {
     overflow: hidden;
     clear: both; }
@@ -453,7 +502,7 @@ a {
     float: left;
     margin-bottom: 1rem; }
 
-  /*100 days project*/
+  /*100 days project--needs refactoring*/
   .day {
     width: 47.5%;
     float: left; }
@@ -469,12 +518,18 @@ a {
       margin-left: 5%; } }
 @media screen and (min-width: 46rem) {
   /*about*/
-  .prof-pic {
-    float: left;
-    width: 30%;
-    margin-right: 5%; }
+  .about__photo {
+    margin-top: 1rem;
+    width: 60%; }
 
-  .about-content {
+  .about__intro {
+    flex-direction: column;
+    float: left;
+    justify-content: flex-start;
+    margin-right: 5%;
+    width: 30%; }
+
+  .about__maincontent {
     float: right;
     width: 65%; }
 
