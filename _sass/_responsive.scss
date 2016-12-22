@@ -18,7 +18,7 @@
 			}
 		}
 		li /*to override styles in base, needs to be outside ul to be same selector*/ {
-			width: 100%;
+			width: auto; /*set to auto, not 100%, for safari*/
 		}
 	}
 
