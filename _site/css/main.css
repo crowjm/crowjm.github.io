@@ -364,6 +364,12 @@ a {
   margin-top: -1rem;
   margin-bottom: 2rem; }
 
+.pagination__older--post {
+  width: 7.75rem; }
+
+.pagination__newer--post {
+  width: 6rem; }
+
 /*about*/
 .about__intro {
   display: flex;
