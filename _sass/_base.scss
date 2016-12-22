@@ -47,6 +47,13 @@ a {
 	}*/
 }
 
+.a--nounderline {
+	border-bottom: none;
+	&:hover {
+		border-bottom: none;
+	}
+}
+
 
 /*header*/
 .header--main {
