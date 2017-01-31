@@ -13,12 +13,12 @@ category: portfolio
 		<a href="/projects/nationalparks.html" class="portfolio__title">NPS Redesign</a>
 	</div>
 	<div class="portfolio__item">
-		<img src="../img/portfolio-pages/greenthumb.jpg">
-		<a href="/projects/greenthumb.html" class="portfolio__title">GreenThumb</a>
-	</div>
-	<div class="portfolio__item">
 		<img src="../img/portfolio-pages/parks.jpg">
 		<a href="/projects/parks-and-rec.html" class="portfolio__title">Parks &amp; Rec Illustrations</a>
+	</div>
+	<div class="portfolio__item">
+		<img src="../img/portfolio-pages/greenthumb.jpg">
+		<a href="/projects/greenthumb.html" class="portfolio__title">GreenThumb</a>
 	</div>
 	<div class="portfolio__item">
 		<img src="../img/portfolio-pages/hetre85.png">
