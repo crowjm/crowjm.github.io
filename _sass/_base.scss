@@ -221,6 +221,17 @@ a {
 	}
 }
 
+.project__image__row {
+	img {
+		float: left;
+		width: 48%;
+		&:nth-of-type(odd) {
+			margin-right: 4%;
+		}
+	}
+}
+
+
 
 /*blog index*/
 .post__individual {

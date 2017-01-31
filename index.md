@@ -13,6 +13,14 @@ category: portfolio
 		<a href="/projects/nationalparks.html" class="portfolio__title">NPS Redesign</a>
 	</div>
 	<div class="portfolio__item">
+		<img src="../img/portfolio-pages/greenthumb.jpg">
+		<a href="/projects/greenthumb.html" class="portfolio__title">GreenThumb</a>
+	</div>
+	<div class="portfolio__item">
+		<img src="../img/portfolio-pages/parks.jpg">
+		<a href="/projects/parks-and-rec.html" class="portfolio__title">Parks &amp; Rec Illustrations</a>
+	</div>
+	<div class="portfolio__item">
 		<img src="../img/portfolio-pages/hetre85.png">
 		<a href="/projects/hetre85.html" class="portfolio__title">hetre85</a>
 	</div>
@@ -21,15 +29,7 @@ category: portfolio
 		<a href="/projects/goodreads.html" class="portfolio__title">GoodReads</a>
 	</div>
 	<div class="portfolio__item">
-		<img src="../img/portfolio-pages/greenthumb.jpg">
-		<a href="/projects/greenthumb.html" class="portfolio__title">GreenThumb</a>
-	</div>
-	<div class="portfolio__item">
 		<img src="../img/portfolio-pages/css-zen.jpg">
 		<a href="/projects/css-zen.html" class="portfolio__title">CSS Zen Garden</a>
-	</div>
-	<div class="portfolio__item">
-		<img src="../img/portfolio-pages/pitbull.jpg">
-		<a href="/projects/precious-pitbulls.html" class="portfolio__title">Precious Pit Bulls</a>
 	</div>
 </section>

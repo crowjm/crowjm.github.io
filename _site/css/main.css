@@ -313,6 +313,12 @@ a {
   .project__image img:last-of-type {
     margin-bottom: 0; }
 
+.project__image__row img {
+  float: left;
+  width: 48%; }
+  .project__image__row img:nth-of-type(odd) {
+    margin-right: 4%; }
+
 /*blog index*/
 .post__individual {
   margin-bottom: 2rem;
