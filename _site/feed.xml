@@ -6,9 +6,34 @@
 </description>
     <link>http://www.jessecrow.com/blog/</link>
     <atom:link href="http://www.jessecrow.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Jan 2017 21:04:06 -0600</pubDate>
-    <lastBuildDate>Mon, 30 Jan 2017 21:04:06 -0600</lastBuildDate>
+    <pubDate>Sun, 12 Feb 2017 17:26:41 -0600</pubDate>
+    <lastBuildDate>Sun, 12 Feb 2017 17:26:41 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Learn by Recreating</title>
+        <description>&lt;p&gt;There are so many things that are possible with design and front end development. One of the best ways I’ve found to learn a new skill is to recreate.&lt;/p&gt;
+
+&lt;p&gt;What this looks like for me (most of the times) is scrolling through CodePen, finding myself in awe of a Pen, and setting out to make something similar on my own.&lt;/p&gt;
+
+&lt;p&gt;Earlier this week, I found &lt;a href=&quot;http://codepen.io/made-on-mars/pen/JROYzo&quot;&gt;this Pen by Made on Mars.&lt;/a&gt; Isn’t it gorgeous?! I’m working on upping my animation skills, and having an SVG appear drawn on the page as you scroll down is something I hadn’t thought of. After a few minutes of scrolling up and down I knew this was something I wanted to learn how to do. &lt;/p&gt;
+
+&lt;p&gt;The HTML and CSS were straightforward. I used an SVG I made of a bouquet of flowers and made sure I had classes attached to the correct elements. I’ve worked with animating this SVG before, so I had stroke-dashoffset values for all the components. For this Pen, I wanted to keep the CSS simple, so I used the largest stroke-dashoffset value for all of the elements.&lt;/p&gt;
+
+&lt;p&gt;I focused mostly on the JS for this Pen. The original Pen by Made on Mars uses jQuery. Since I usually work with vanilla JS at work, I knew I wanted to rewrite the JS accordingly. This is where things got tricky—and where I learned the most! The Pen I used for inspiration didn’t have any comments, so I had to figure the logic on my own. The main things I learned about are clientHeight, innerHeight, scrollHeight, scrollY.&lt;/p&gt;
+
+&lt;p&gt;I had a lot of fun making this pen and can’t wait to put the skills I improved to use again.&lt;/p&gt;
+
+&lt;p data-height=&quot;265&quot; data-theme-id=&quot;light&quot; data-slug-hash=&quot;ygRQmK&quot; data-default-tab=&quot;html,result&quot; data-user=&quot;crowjm&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;draw svg as scroll&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/ygRQmK/&quot;&gt;draw svg as scroll&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 12 Feb 2017 00:00:00 -0600</pubDate>
+        <link>http://www.jessecrow.com/blog/2017/02/12/learn-by-recreating.html</link>
+        <guid isPermaLink="true">http://www.jessecrow.com/blog/2017/02/12/learn-by-recreating.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Blogging and Branding Basics</title>
@@ -321,24 +346,6 @@ round($random-number)&lt;/code&gt;&lt;/pre&gt;
         <pubDate>Sat, 15 Aug 2015 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2015/08/15/for-grandpa.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/08/15/for-grandpa.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>100 Days of Making</title>
-        <description>&lt;p&gt;There is so much that I want to learn and try and do and make. I have a running list of projects I want to start, skills I want to learn, meals I want to cook, etc. — and it’s extensive. Why aren’t I making something every day?&lt;/p&gt;
-
-&lt;p&gt;I’ve been making excuses. I’m too tired from work, I need to find the right tutorial, maybe once I’m better at Illustrator I can get into more illustration-heavy projects, and so on. Yesterday, when I sat down with Illustrator and made an illustrated portrait of one of my dogs (which I am so proud of, y’all), I realized all of these excuses are complete nonsense. So what if I’m tired? Make a cup of tea and go for a little walk. Who says I need a tutorial, I’ve got a brain and can figure this out! And spoiler alert, self, the only way I’m going to get better at anything is to do the thing, make the thing, pick up the tools and create and revise and create some more.&lt;/p&gt;
-
-&lt;p&gt;Being a new designer is hard, but it’s not a reason to not try. &lt;/p&gt;
-
-&lt;p&gt;I’m feeling inspired and empowered, and I’m starting the 100 Days Project! You can read more about the 100 Days Project &lt;a href=&quot;https://thegreatdiscontent.com/100days&quot;&gt;here&lt;/a&gt;. I’m &lt;em&gt;so&lt;/em&gt; excited to make and create and do and learn and grow. I’ve added a section to this site where you can &lt;a href=&quot;http://jessecrow.com/100days&quot;&gt;follow along&lt;/a&gt; and see what I’m making. &lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 22 Jul 2015 00:00:00 -0500</pubDate>
-        <link>http://www.jessecrow.com/blog/2015/07/22/starting-100-days.html</link>
-        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/07/22/starting-100-days.html</guid>
         
         
       </item>
