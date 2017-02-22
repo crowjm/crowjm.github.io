@@ -4,14 +4,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jesse Crow | Blog</title>
-  <meta name="description" content="Portfolio site for Austin-based designer and developer, Jesse Crow.
-">
+  <title>Wayfinding with Animation</title>
+  <meta name="description" content="Animation is a wonderful way to help your users find their way in your product. 🎉">
   <script src="/js/main.js"></script>
   <link rel="stylesheet" href="/css/main.css">
   <script src="//use.typekit.net/ndy5gmv.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
-  <link rel="canonical" href="http://www.jessecrow.com/blog/blog/page3/">
+  <link rel="canonical" href="http://www.jessecrow.com/blog/2017/02/21/wayfinding-with-animation.html">
   <link rel="alternate" type="application/rss+xml" title="Jesse Crow" href="http://www.jessecrow.com/blog/feed.xml" />
   <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon.ico/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon.ico/apple-icon-60x60.png">
@@ -61,75 +60,43 @@
   </nav>
 </header>
 		<div class="wrapper">
-  <section class="post__list"> <!--list of all blog posts with titles and excerpts-->
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Mar 25, 2015</p>
-        <a class="post__link" href="/2015/03/25/on-rejection.html">On Rejection</a>
-        <p>Rejection isn't the important part. How you handle rejection is what's important.</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Mar 17, 2015</p>
-        <a class="post__link" href="/2015/03/17/logo-challenge.html">Logo Challenge</a>
-        <p>I learned that putting down the obvious, just getting it out of my system, helps me move past it and onto better design.</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Mar 10, 2015</p>
-        <a class="post__link" href="/2015/03/10/on-iteration.html">Logos and Iteration</a>
-        <p>Because of iteration, I felt like I was getting to put all of my effort into the best concepts, and that's a satisfying feeling.</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Mar 8, 2015</p>
-        <a class="post__link" href="/2015/03/08/restaurant-redesign.html">Restaurant Redesign</a>
-        <p>Breaking it into smaller assignments to accomplish each day made the project seem much less overwhelming.</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Mar 2, 2015</p>
-        <a class="post__link" href="/2015/03/02/TIY-Hackathon.html">TIY Hackathon</a>
-        <p>Today marked the end of the TIY Austin Hackathon. It was our first big project to design everything on our own (and our first group project).</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Feb 22, 2015</p>
-        <a class="post__link" href="/2015/02/22/exploring-typography.html">Exploring Typography</a>
-        <p>Our big homework assignment over the weekend was to create ten different typographical concepts for our restaurant project.</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Feb 19, 2015</p>
-        <a class="post__link" href="/2015/02/19/web-typography-codepens.html">Web Typography Codepens</a>
-        <p>Today we started talking about typography and I loved every second of it.</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Feb 18, 2015</p>
-        <a class="post__link" href="/2015/02/18/responsive-sketches.html">Responsive Sketches</a>
-        <p>I think it's brilliant that there is a design approach that requires us as designers to think about accessibility and inclusiveness from the get go.</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Feb 15, 2015</p>
-        <a class="post__link" href="/2015/02/15/basic-responsive-codepens.html">Basic Responsive Codepens</a>
-        <p>RWD means designing for all sorts of devices and screens. RWD means being inclusive and inclusiveness is my jam.</p>
-      </div>
-    
-  </section>
-</div>
+	<header class="header--post">
+		<p class="post__title">Wayfinding with Animation</p>
+		<p class="post__meta post__meta--individual">Feb 21, 2017</p>
+	</header>
+	<article class="post__content">
+		<p>Last week I worked on ways to draw the user’s attention to a hamburger menu. I thought back to Val Head and Sarah Drasner’s <a href="https://webanimationworkshops.com/">animation workshop</a>, which I was lucky enough to attend last year and thought, “animation can help me with this.” I wanted to get the user’s attention to the hamburger menu, but not in an obnoxious “LOOK AT ME HEY HI HELLO!!!” way. I prototyped three possible solutions.</p>
 
+<ul>
+	<li>
+		<span class="list__title">Draw and Bounce</span>
+		<p data-height="300" data-theme-id="12329" data-slug-hash="WpeeQB" data-default-tab="css,result" data-user="crowjm" data-embed-version="2" data-pen-title="header animation prototype - draw &amp; bounce" class="codepen">See the Pen <a href="http://codepen.io/crowjm/pen/WpeeQB/">header animation prototype - draw &amp; bounce</a> by Jesse Crow (<a href="http://codepen.io/crowjm">@crowjm</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	    <p>The draw and bounce animation consists of two parts: the draw and the bounce.</p>
+	    <p>The lines of the hamburger menu are drawn in from the left to the right, which hints at the direction the content will come into view when the hamburger menu is opened. I wanted to portray to the user that something will come in from the left when you click the burger icon.</p>
+	    <p>Since the draw part of the animation is very subtle, I added in a little bounce after all parts of the hamburger menu are on the screen. If the user misses the draw, they are likely to see the bounce and know to click the hamburger to see more.</p>
+	</li>
+	<li>
+		<span class="list__title">Grow and Wave</span>
+		<p data-height="300" data-theme-id="12329" data-slug-hash="wJwwaN" data-default-tab="css,result" data-user="crowjm" data-embed-version="2" data-pen-title="header animation prototype - grow &amp; wave" class="codepen">See the Pen <a href="http://codepen.io/crowjm/pen/wJwwaN/">header animation prototype - grow &amp; wave</a> by Jesse Crow (<a href="http://codepen.io/crowjm">@crowjm</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    	<p>I wanted this animation to be friendly without being overbearing, inviting the user’s attention to the hamburger menu. I explored versions of this without the hamburger menu growing, but just the wave could be missed with everything else happening on the product’s home page. In this case, scaling the hamburger menu up made sure the wave would be seen.</p>
+	</li>
+	<li>
+		<span class="list__title">Glow</span>
+		<p data-height="300" data-theme-id="12329" data-slug-hash="KaEJJx" data-default-tab="css,result" data-user="crowjm" data-embed-version="2" data-pen-title="header animation prototype - glow" class="codepen">See the Pen <a href="http://codepen.io/crowjm/pen/KaEJJx/">header animation prototype - glow</a> by Jesse Crow (<a href="http://codepen.io/crowjm">@crowjm</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    	<p>This animation was inspired by something I've seen a lot on mobile: when you touch a part of the screen, the background around what you touched has a colored circle around it. I wanted to explore a version of this since it seems to be a common wayfinding pattern.</p>
+	</li>
+</ul>
+
+<p>Getting to prototype different animation-based solutions to solve a problem for users was a really fun experience and I hope I get to do more of it in the future! Animation is a wonderful way to help your users find their way in your product. 🎉</p>
+
+	</article>
+</div>
 <nav class="pagination" role="pagination">
-   
-       
-           <a class="pagination__newer" href="/blog/page2/" title="Previous Page">Newer Posts &raquo;</a>
-     
-   
-   <!-- <span class="page-number"> Page 3 of 4 </span> -->
-    
-       <a class="pagination__older" href="/blog/page4/" title="Next Page">&laquo; Older Posts</a>
-    
+	<a class="pagination__newer pagination__newer--post" href="">Next Entry &raquo;</a>
+	<a class="pagination__older pagination__older--post" href="/2017/02/12/learn-by-recreating.html">&laquo; Previous Entry</a>
 </nav>
 		<footer class="footer--main wrapper">
   <div class="footer__group">

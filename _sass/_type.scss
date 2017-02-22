@@ -14,17 +14,6 @@ $fontsize--medium: 1.2rem;
 $fontsize--large: 1.5rem;
 $fontsize--double: 2rem;
 
-
-
-
-
-
-
-
-
-
-
-
 p, li {
 	font-family: $body-type;
 	line-height: $lineheight--main;
@@ -33,7 +22,7 @@ p, li {
 
 
 
-h2, h3, h4, h5, .project-page-header, .footer-section-title {
+h2, h3, h4, h5, .project-page-header, .footer-section-title, .list__title {
 	font-family: $header-type;
 	line-height: $lineheight--small;
 }
@@ -54,7 +43,7 @@ h4 {
 	margin-bottom: 0.5rem;
 }
 
-h5 {
+h5, .list__title {
 	font-size: 1.2rem;
 }
 

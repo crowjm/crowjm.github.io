@@ -6,15 +6,6 @@ $bg: #fafaff; /*off white*/
 $callout: #77CDB1; /*light teal*/
 
 
-
-
-
-
-
-
-
-
-
 /*general*/
 body {
 	background-color: $bg;
@@ -27,7 +18,7 @@ p, li, q {
 
 
 
-h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
+h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title, .list__title {
 	color: $primary;
 }
 

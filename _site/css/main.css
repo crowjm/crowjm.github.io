@@ -52,7 +52,7 @@ p, li {
   line-height: 1.8;
   font-size: 1rem; }
 
-h2, h3, h4, h5, .project-page-header, .footer-section-title {
+h2, h3, h4, h5, .project-page-header, .footer-section-title, .list__title {
   font-family: "proxima-nova", sans-serif;
   line-height: 1.2; }
 
@@ -66,7 +66,7 @@ h4 {
   font-size: 1.3rem;
   margin-bottom: 0.5rem; }
 
-h5 {
+h5, .list__title {
   font-size: 1.2rem; }
 
 .blog-post-meta {
@@ -102,7 +102,7 @@ body {
 p, li, q {
   color: #6c757d; }
 
-h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title {
+h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title, .list__title {
   color: #346699; }
 
 .post-title, .blog-post-meta, .project-page-header {
@@ -357,11 +357,14 @@ a {
 .post__content p, .post__content ul {
   margin-bottom: 1rem; }
 
+.post__content ul p {
+  margin-bottom: 0.5rem; }
+
 .post__content ul {
   list-style: circle; }
 
 .post__content ul li {
-  margin-bottom: 0.25rem; }
+  margin-bottom: 1rem; }
 
 .post__title {
   color: #346699;

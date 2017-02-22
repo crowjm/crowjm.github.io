@@ -6,9 +6,45 @@
 </description>
     <link>http://www.jessecrow.com/blog/</link>
     <atom:link href="http://www.jessecrow.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Feb 2017 17:26:41 -0600</pubDate>
-    <lastBuildDate>Sun, 12 Feb 2017 17:26:41 -0600</lastBuildDate>
+    <pubDate>Tue, 21 Feb 2017 20:10:54 -0600</pubDate>
+    <lastBuildDate>Tue, 21 Feb 2017 20:10:54 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Wayfinding with Animation</title>
+        <description>&lt;p&gt;Last week I worked on ways to draw the user’s attention to a hamburger menu. I thought back to Val Head and Sarah Drasner’s &lt;a href=&quot;https://webanimationworkshops.com/&quot;&gt;animation workshop&lt;/a&gt;, which I was lucky enough to attend last year and thought, “animation can help me with this.” I wanted to get the user’s attention to the hamburger menu, but not in an obnoxious “LOOK AT ME HEY HI HELLO!!!” way. I prototyped three possible solutions.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;span class=&quot;list__title&quot;&gt;Draw and Bounce&lt;/span&gt;
+		&lt;p data-height=&quot;300&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;WpeeQB&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;crowjm&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;header animation prototype - draw &amp;amp; bounce&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/WpeeQB/&quot;&gt;header animation prototype - draw &amp;amp; bounce&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+		&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+	    &lt;p&gt;The draw and bounce animation consists of two parts: the draw and the bounce.&lt;/p&gt;
+	    &lt;p&gt;The lines of the hamburger menu are drawn in from the left to the right, which hints at the direction the content will come into view when the hamburger menu is opened. I wanted to portray to the user that something will come in from the left when you click the burger icon.&lt;/p&gt;
+	    &lt;p&gt;Since the draw part of the animation is very subtle, I added in a little bounce after all parts of the hamburger menu are on the screen. If the user misses the draw, they are likely to see the bounce and know to click the hamburger to see more.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span class=&quot;list__title&quot;&gt;Grow and Wave&lt;/span&gt;
+		&lt;p data-height=&quot;300&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;wJwwaN&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;crowjm&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;header animation prototype - grow &amp;amp; wave&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/wJwwaN/&quot;&gt;header animation prototype - grow &amp;amp; wave&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+		&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+    	&lt;p&gt;I wanted this animation to be friendly without being overbearing, inviting the user’s attention to the hamburger menu. I explored versions of this without the hamburger menu growing, but just the wave could be missed with everything else happening on the product’s home page. In this case, scaling the hamburger menu up made sure the wave would be seen.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span class=&quot;list__title&quot;&gt;Glow&lt;/span&gt;
+		&lt;p data-height=&quot;300&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;KaEJJx&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;crowjm&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;header animation prototype - glow&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/KaEJJx/&quot;&gt;header animation prototype - glow&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+		&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+    	&lt;p&gt;This animation was inspired by something I&#39;ve seen a lot on mobile: when you touch a part of the screen, the background around what you touched has a colored circle around it. I wanted to explore a version of this since it seems to be a common wayfinding pattern.&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Getting to prototype different animation-based solutions to solve a problem for users was a really fun experience and I hope I get to do more of it in the future! Animation is a wonderful way to help your users find their way in your product. 🎉&lt;/p&gt;
+</description>
+        <pubDate>Tue, 21 Feb 2017 00:00:00 -0600</pubDate>
+        <link>http://www.jessecrow.com/blog/2017/02/21/wayfinding-with-animation.html</link>
+        <guid isPermaLink="true">http://www.jessecrow.com/blog/2017/02/21/wayfinding-with-animation.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Learn by Recreating</title>
@@ -323,29 +359,6 @@ round($random-number)&lt;/code&gt;&lt;/pre&gt;
         <pubDate>Thu, 03 Sep 2015 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2015/09/03/first-100-day-reflections.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/09/03/first-100-day-reflections.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>For Grandpa</title>
-        <description>&lt;p&gt;When I started my blog, I wanted its sole purpose to be documenting my journey as a designer. I was very adamant that I would keep my personal life out of it. But life shows up and the line between the two gets blurred and here we are.&lt;/p&gt;
-
-&lt;p&gt;I love design because it creates order in chaos. I love design because good design mandates empathy and inclusiveness. And new to my list of reasons why I love design is that it’s a way to feel closer to people I’ve lost.&lt;/p&gt;
-
-&lt;p&gt;Yesterday marked six weeks since my Grandpa passed away. I’d been keeping busy, trying to not think about things, but lately I’ve started to unpack everything. I’ll have flashbacks to the call I got from my Dad telling me that if I wanted to see Grandpa I needed to come now. Back to the VA Hospital in Little Rock—the glow and noises of all the machines, the complete silence and eerie, unsettling feeling of the common areas of the hospital at 3am.&lt;/p&gt;
-
-&lt;p&gt;When we were sorting through belongings the weekend of the funeral, my Mama gave me two albums of photos that Grandpa took in the Blue Ridge Mountains. She told me she thought I would be able to use them and they are the absolute best thing I could have inherited. They’ve been tucked away until today.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/blog/blueridge.jpg&quot; alt=&quot;photos of the Blue Ridge Mountains&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I sorted through the photos and there was one that I kept going back to. I knew the perfect quote to go with it, so I lettered it, brought it into Illustrator and cleaned it up, and added it to the photo. It’s comforting to be able to make things with the photos and have a sense of connection. I’m excited for all the other projects I can use them in and to keep making, keep remembering. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/100days/day26-muir.jpg&quot; alt=&quot;photos of the Blue Ridge Mountains with a John Muir quote&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 15 Aug 2015 00:00:00 -0500</pubDate>
-        <link>http://www.jessecrow.com/blog/2015/08/15/for-grandpa.html</link>
-        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/08/15/for-grandpa.html</guid>
         
         
       </item>

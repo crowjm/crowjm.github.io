@@ -278,12 +278,16 @@ a {
 	margin-bottom: $space--main;
 }
 
+.post__content ul p {
+	margin-bottom: $space--half;
+}
+
 .post__content ul {
 	list-style: circle;
 }
 
 .post__content ul li {
-	margin-bottom: $space--quarter;
+	margin-bottom: $space--main;
 }
 
 .post__title {
