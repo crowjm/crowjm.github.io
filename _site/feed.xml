@@ -6,9 +6,29 @@
 </description>
     <link>http://www.jessecrow.com/blog/</link>
     <atom:link href="http://www.jessecrow.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Feb 2017 20:10:54 -0600</pubDate>
-    <lastBuildDate>Tue, 21 Feb 2017 20:10:54 -0600</lastBuildDate>
+    <pubDate>Tue, 28 Feb 2017 21:45:26 -0600</pubDate>
+    <lastBuildDate>Tue, 28 Feb 2017 21:45:26 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Learning CSS Grid</title>
+        <description>&lt;p&gt;Today I made my first layout with CSS Grid and I am SO sad I waited this long to start learning how to use it! Layout possiblities are endless and I’m excited about how creative CSS Grid empowers designers and developers to be. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/grid.jpg&quot; alt=&quot;CSS grid layout in the browser with visualizer tool in use&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For my first layout, I followed along with &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout&quot;&gt;MDN’s CSS Grid Basics Documentation&lt;/a&gt;, using CodePen and Firefox Developer Edition (the grid visualizer helped me truly understand the grid I made). &lt;/p&gt;
+
+&lt;p data-height=&quot;300&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;evprbV&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;crowjm&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;First CSS Grid 🎉&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/evprbV/&quot;&gt;First CSS Grid 🎉&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;If you have a &lt;a href=&quot;http://caniuse.com/#search=grid&quot;&gt;supported browser&lt;/a&gt;, you can see the grid in the CodePen above. I commented everything in the CSS to use as reference in future grid layouts. I can’t wait to build more.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Feb 2017 00:00:00 -0600</pubDate>
+        <link>http://www.jessecrow.com/blog/2017/02/28/learning-css-grid.html</link>
+        <guid isPermaLink="true">http://www.jessecrow.com/blog/2017/02/28/learning-css-grid.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Wayfinding with Animation</title>
@@ -336,29 +356,6 @@ round($random-number)&lt;/code&gt;&lt;/pre&gt;
         <pubDate>Sat, 10 Oct 2015 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2015/10/10/em-sketchnotes.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/10/10/em-sketchnotes.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>100 Days Reflections: Part 1</title>
-        <description>&lt;p&gt;I’m almost halfway done with my 100 Days challenge. Where has the time gone?! I’m more thankful that I’m doing this sort of challenge every day that passes.&lt;/p&gt;
-
-&lt;p&gt;Here’s some of what I’ve learned from this challenge so far:&lt;/p&gt;
-
-&lt;ul class=&quot;blog-list&quot;&gt;
-	&lt;li&gt;It&#39;s much easier to make something when I have a clear plan of what I want to make (big surprise). I&#39;ve learned that if I don&#39;t have a clear plan of action, my designs end up all over the place and less successful than designs that I&#39;ve thought out. I&#39;m starting to hone in on that by having one theme that I work off of. Currently I&#39;m working on a series of Austin icons, focusing on using shapes and shading.&lt;/li&gt;
-	&lt;li&gt;I need to have a notebook with me at all times to keep track of ideas, sketch, and practice lettering. On my desk, in my purse, on my bedside table.&lt;/li&gt;
-	&lt;li&gt;On days when I&#39;m exhausted and/or stressed, I&#39;m more likely to bake something than design something.&lt;/li&gt;
-	&lt;li&gt;I do my best work in the morning, before the pups wake up. No distractions and not having anything else from the day to worry about means that I can focus better on the task at hand.&lt;/li&gt;
-	&lt;li&gt;There are ways to get out of a rut. Early in the challenge when I would get stumped, I would give myself a hard time. Now I look through my notebooks for ideas or pick a course to complete on &lt;a href=&quot;https://www.skillshare.com/classes&quot;&gt;Skillshare&lt;/a&gt;.&lt;/li&gt;
-	&lt;li&gt;I have more fun working on something that pushes what I know, not projects that play it safe.&lt;/li&gt;
-	&lt;li&gt;I stay more in my zone when listening to music. And the music is important! I&#39;ll share a playlist of what&#39;s been on heavy rotation on the blog soon.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 03 Sep 2015 00:00:00 -0500</pubDate>
-        <link>http://www.jessecrow.com/blog/2015/09/03/first-100-day-reflections.html</link>
-        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/09/03/first-100-day-reflections.html</guid>
         
         
       </item>
