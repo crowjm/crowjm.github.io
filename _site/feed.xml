@@ -6,9 +6,44 @@
 </description>
     <link>http://www.jessecrow.com/blog/</link>
     <atom:link href="http://www.jessecrow.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Feb 2017 21:45:26 -0600</pubDate>
-    <lastBuildDate>Tue, 28 Feb 2017 21:45:26 -0600</lastBuildDate>
+    <pubDate>Mon, 13 Mar 2017 17:05:30 -0500</pubDate>
+    <lastBuildDate>Mon, 13 Mar 2017 17:05:30 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Animating Height</title>
+        <description>&lt;p&gt;I’ve recently worked on a couple of projects where I’ve needed to animate the height of an element. Due to varying markup structures and project requirements, I used different techniques to accomplish this animation. I experimented with animating the height, max-height, and scale(Y) of and element. &lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;span class=&quot;list__title&quot;&gt;Scale(Y)&lt;/span&gt;
+		&lt;p data-height=&quot;300&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;b73dd3f9cfcea509294c5050ea87fe94&quot; data-default-tab=&quot;js,result&quot; data-user=&quot;crowjm&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;animate height with scaleY()&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/b73dd3f9cfcea509294c5050ea87fe94/&quot;&gt;animate height with scaleY()&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+		&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+	    &lt;p&gt;There are two pros to animating height with scale(Y). The first is that you don&#39;t need to know what the height of the element will be. This is because you can animate scale(Y) to 1, which is the full height of an element. The second is that it works if you are animating multiple elements that have different heights.&lt;/p&gt;
+	    &lt;p&gt;The con to animating height with scale(Y) is that the element will always take up its full height, even when scale(Y) is set to 0. Scale(Y) doesn&#39;t affect the flow of surrounding elements, so they won&#39;t adjust to take up the apparent empty space of an element with a scale(Y) value of less than 1. &lt;a href=&quot;https://tympanus.net/codrops/css_reference/transform/&quot;&gt;Tympanus&lt;/a&gt; has an article that goes more in depth about transforms and how content does or doesn&#39;t reflow.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span class=&quot;list__title&quot;&gt;Height&lt;/span&gt;
+		&lt;p data-height=&quot;300&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;9c0b3c38d1599a9436a8c92ab63045c7&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;crowjm&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;animate height with height&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/9c0b3c38d1599a9436a8c92ab63045c7/&quot;&gt;animate height with height&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+		&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+    	&lt;p&gt;The pro to animating an element&#39;s height using height is that the elements around what&#39;s being animated reflow while its height is less than its full height.&lt;/p&gt;
+    	&lt;p&gt;The con to animating with height is that you need to know the exact height of the element being animated. If the height value you animate to is smaller than the element&#39;s actual height, part of the element will be cut off. If it&#39;s larger, there will be extra space between the element that&#39;s being animated and the element below it.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span class=&quot;list__title&quot;&gt;Max-Height&lt;/span&gt;
+		&lt;p data-height=&quot;300&quot; data-theme-id=&quot;12329&quot; data-slug-hash=&quot;38d55ec6b7a83ad7506a31ca8b6344ee&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;crowjm&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;animate height with max-height&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/crowjm/pen/38d55ec6b7a83ad7506a31ca8b6344ee/&quot;&gt;animate height with max-height&lt;/a&gt; by Jesse Crow (&lt;a href=&quot;http://codepen.io/crowjm&quot;&gt;@crowjm&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+		&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+    	&lt;p&gt;There are two pros to animating the height of an element with max-height. The first is that the elements around what&#39;s being animated reflow when it&#39;s smaller than its full height. The second is that you don&#39;t need to know the exact height of what&#39;s being animated. Max-height is especially useful when working with dynamic content.&lt;/p&gt;
+    	&lt;p&gt;The con to animating with max-height is the possibility of a jarring animation. If the max-height you animate to is a lot larger than the actual height of the element, the animation will run very quickly.&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 13 Mar 2017 00:00:00 -0500</pubDate>
+        <link>http://www.jessecrow.com/blog/2017/03/13/animating-height.html</link>
+        <guid isPermaLink="true">http://www.jessecrow.com/blog/2017/03/13/animating-height.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Learning CSS Grid</title>
@@ -343,19 +378,6 @@ round($random-number)&lt;/code&gt;&lt;/pre&gt;
         <pubDate>Mon, 12 Oct 2015 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2015/10/12/desk-dancing-playlist.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/10/12/desk-dancing-playlist.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Sketchnotes: Q&amp;amp;A With Ethan Marcotte</title>
-        <description>&lt;p&gt;Yesterday I sat in on a Q&amp;amp;A session with &lt;a href=&quot;http://ethanmarcotte.com/&quot;&gt;Ethan Marcotte&lt;/a&gt; at The Iron Yard. Ethan is the creator of responsive web design(!), which is the methodology I learned to design websites. I feel very lucky to have been there and to learn first-hand from someone who’s had such an impact on web design. Thanks, Ethan!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/blog/EM-10915-sketchnotes.jpg&quot; alt=&quot;sketchnotes from Ethan Marcotte&#39;s Q&amp;amp;A at The Iron Yard&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 10 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://www.jessecrow.com/blog/2015/10/10/em-sketchnotes.html</link>
-        <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/10/10/em-sketchnotes.html</guid>
         
         
       </item>

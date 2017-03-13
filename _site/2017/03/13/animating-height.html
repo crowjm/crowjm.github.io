@@ -4,14 +4,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jesse Crow | Blog</title>
-  <meta name="description" content="Portfolio site for Austin-based designer and developer, Jesse Crow.
-">
+  <title>Animating Height</title>
+  <meta name="description" content="A reference for animating the height of an element using height, max-height, and scale(Y).">
   <script src="/js/main.js"></script>
   <link rel="stylesheet" href="/css/main.css">
   <script src="//use.typekit.net/ndy5gmv.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
-  <link rel="canonical" href="http://www.jessecrow.com/blog/blog/">
+  <link rel="canonical" href="http://www.jessecrow.com/blog/2017/03/13/animating-height.html">
   <link rel="alternate" type="application/rss+xml" title="Jesse Crow" href="http://www.jessecrow.com/blog/feed.xml" />
   <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon.ico/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon.ico/apple-icon-60x60.png">
@@ -61,71 +60,42 @@
   </nav>
 </header>
 		<div class="wrapper">
-  <section class="post__list"> <!--list of all blog posts with titles and excerpts-->
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Mar 13, 2017</p>
-        <a class="post__link" href="/2017/03/13/animating-height.html">Animating Height</a>
-        <p>A reference for animating the height of an element using height, max-height, and scale(Y).</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Feb 28, 2017</p>
-        <a class="post__link" href="/2017/02/28/learning-css-grid.html">Learning CSS Grid</a>
-        <p>Layout possiblities are endless and I'm excited about how creative CSS Grid empowers us to be.</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Feb 21, 2017</p>
-        <a class="post__link" href="/2017/02/21/wayfinding-with-animation.html">Wayfinding with Animation</a>
-        <p>Animation is a wonderful way to help your users find their way in your product. 🎉</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Feb 12, 2017</p>
-        <a class="post__link" href="/2017/02/12/learn-by-recreating.html">Learn by Recreating</a>
-        <p>One of the best ways I've found to learn a new skill is to recreate.</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Dec 28, 2016</p>
-        <a class="post__link" href="/2016/12/28/blogging-and-branding-basics.html">Blogging and Branding Basics</a>
-        <p>Branding and blogging tips, tricks, and pitfalls I’ve encountered over the past couple of years, as told to TIY students.</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Nov 2, 2016</p>
-        <a class="post__link" href="/2016/11/02/libarts-in-tech.html">How My Liberal Arts Education Helps Me as a Developer</a>
-        <p>The core skills I learned in undergrad have been invaluable to my work as a front end developer.</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Oct 31, 2016</p>
-        <a class="post__link" href="/2016/10/31/sassy-guessing-game.html">Tutorial: Make a Sassy Guessing Game</a>
-        <p>Let’s learn how to use Sass to make a number guessing game!</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Jan 20, 2016</p>
-        <a class="post__link" href="/2016/01/20/kids-classes.html">Teaching Kids to Code</a>
-        <p>Learning to code is so much more–it teaches skills that are useful in any subject, from language arts, to social studies, to science.</p>
-      </div>
-    
-      <div class="post__individual"> <!--individual blog post-->
-        <p class="post__meta">Jan 11, 2016</p>
-        <a class="post__link" href="/2016/01/11/goals.html">2016 Dev/Design Goals</a>
-        <p>I'm only starting to scatch the surface of things to learn and I'm in awe of all the things I don't know that I don't know.</p>
-      </div>
-    
-  </section>
-</div>
+	<header class="header--post">
+		<p class="post__title">Animating Height</p>
+		<p class="post__meta post__meta--individual">Mar 13, 2017</p>
+	</header>
+	<article class="post__content">
+		<p>I’ve recently worked on a couple of projects where I’ve needed to animate the height of an element. Due to varying markup structures and project requirements, I used different techniques to accomplish this animation. I experimented with animating the height, max-height, and scale(Y) of and element. </p>
 
+<ul>
+	<li>
+		<span class="list__title">Scale(Y)</span>
+		<p data-height="300" data-theme-id="12329" data-slug-hash="b73dd3f9cfcea509294c5050ea87fe94" data-default-tab="js,result" data-user="crowjm" data-embed-version="2" data-pen-title="animate height with scaleY()" class="codepen">See the Pen <a href="http://codepen.io/crowjm/pen/b73dd3f9cfcea509294c5050ea87fe94/">animate height with scaleY()</a> by Jesse Crow (<a href="http://codepen.io/crowjm">@crowjm</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	    <p>There are two pros to animating height with scale(Y). The first is that you don't need to know what the height of the element will be. This is because you can animate scale(Y) to 1, which is the full height of an element. The second is that it works if you are animating multiple elements that have different heights.</p>
+	    <p>The con to animating height with scale(Y) is that the element will always take up its full height, even when scale(Y) is set to 0. Scale(Y) doesn't affect the flow of surrounding elements, so they won't adjust to take up the apparent empty space of an element with a scale(Y) value of less than 1. <a href="https://tympanus.net/codrops/css_reference/transform/">Tympanus</a> has an article that goes more in depth about transforms and how content does or doesn't reflow.</p>
+	</li>
+	<li>
+		<span class="list__title">Height</span>
+		<p data-height="300" data-theme-id="12329" data-slug-hash="9c0b3c38d1599a9436a8c92ab63045c7" data-default-tab="css,result" data-user="crowjm" data-embed-version="2" data-pen-title="animate height with height" class="codepen">See the Pen <a href="http://codepen.io/crowjm/pen/9c0b3c38d1599a9436a8c92ab63045c7/">animate height with height</a> by Jesse Crow (<a href="http://codepen.io/crowjm">@crowjm</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    	<p>The pro to animating an element's height using height is that the elements around what's being animated reflow while its height is less than its full height.</p>
+    	<p>The con to animating with height is that you need to know the exact height of the element being animated. If the height value you animate to is smaller than the element's actual height, part of the element will be cut off. If it's larger, there will be extra space between the element that's being animated and the element below it.</p>
+	</li>
+	<li>
+		<span class="list__title">Max-Height</span>
+		<p data-height="300" data-theme-id="12329" data-slug-hash="38d55ec6b7a83ad7506a31ca8b6344ee" data-default-tab="css,result" data-user="crowjm" data-embed-version="2" data-pen-title="animate height with max-height" class="codepen">See the Pen <a href="http://codepen.io/crowjm/pen/38d55ec6b7a83ad7506a31ca8b6344ee/">animate height with max-height</a> by Jesse Crow (<a href="http://codepen.io/crowjm">@crowjm</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    	<p>There are two pros to animating the height of an element with max-height. The first is that the elements around what's being animated reflow when it's smaller than its full height. The second is that you don't need to know the exact height of what's being animated. Max-height is especially useful when working with dynamic content.</p>
+    	<p>The con to animating with max-height is the possibility of a jarring animation. If the max-height you animate to is a lot larger than the actual height of the element, the animation will run very quickly.</p>
+	</li>
+</ul>
+
+	</article>
+</div>
 <nav class="pagination" role="pagination">
-   
-   <!-- <span class="page-number"> Page 1 of 4 </span> -->
-    
-       <a class="pagination__older" href="/blog/page2/" title="Next Page">&laquo; Older Posts</a>
-    
+	<a class="pagination__newer pagination__newer--post" href="">Next Entry &raquo;</a>
+	<a class="pagination__older pagination__older--post" href="/2017/02/28/learning-css-grid.html">&laquo; Previous Entry</a>
 </nav>
 		<footer class="footer--main wrapper">
   <div class="footer__group">
