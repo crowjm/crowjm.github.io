@@ -4,7 +4,7 @@ title: Jesse Crow | Designer &amp; Developer | Austin, Texas
 category: portfolio
 ---
 <section class="index__intro">
-	<p>Jesse Crow is a designer and front end developer. She is endlessly curious, wants to make the web a more inclusive place, and has a penchant for the word "y'all".</p>
+	<p>Jesse Crow is a front end designer. She is endlessly curious, wants to make the web a more inclusive and delightful place, and has a penchant for the word "y'all".</p>
 </section>
 <section class="wrapper">
 	<h1>Selected Work</h1>
