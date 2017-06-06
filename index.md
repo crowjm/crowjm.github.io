@@ -20,16 +20,4 @@ category: portfolio
 		<img src="../img/portfolio-pages/greenthumb.jpg">
 		<a href="/projects/greenthumb.html" class="portfolio__title">GreenThumb</a>
 	</div>
-	<div class="portfolio__item">
-		<img src="../img/portfolio-pages/hetre85.png">
-		<a href="/projects/hetre85.html" class="portfolio__title">hetre85</a>
-	</div>
-	<div class="portfolio__item">
-		<img src="../img/portfolio-pages/goodreads.jpg">
-		<a href="/projects/goodreads.html" class="portfolio__title">GoodReads</a>
-	</div>
-	<div class="portfolio__item">
-		<img src="../img/portfolio-pages/css-zen.jpg">
-		<a href="/projects/css-zen.html" class="portfolio__title">CSS Zen Garden</a>
-	</div>
 </section>
