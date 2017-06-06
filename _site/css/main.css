@@ -391,22 +391,8 @@ a {
   margin-bottom: 1rem; }
 
 .svg--heyyall {
-  animation: wave 3s ease-in-out;
-  animation-delay: 3s;
-  transform-origin: center 75%;
   width: 10rem; }
 
-@keyframes wave {
-  20% {
-    transform: rotate(-7deg); }
-  40% {
-    transform: rotate(7deg); }
-  60% {
-    transform: rotate(-7deg); }
-  80% {
-    transform: rotate(7deg); }
-  100% {
-    transform: rotate(0deg); } }
 .hey, .yall {
   stroke: #346699; }
 
