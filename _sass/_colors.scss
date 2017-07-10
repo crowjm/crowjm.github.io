@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6, #name, #title, .footer-section-title, .list__title {
 	color: $primary;
 }
 
+.heading--inverse {
+	color: $bg;
+}
+
 .post-title, .blog-post-meta, .project-page-header {
 	color: $primary;
 }
