@@ -56,7 +56,7 @@ a {
 /*header*/
 .header--main {
 	border-bottom: .25rem double rgba($primary, .25);
-	margin-bottom: $space--double;
+	margin-bottom: $space--main;
 	margin-top: $space--main;	
 	padding-bottom: $space--half;
 }
@@ -158,7 +158,7 @@ a {
 /*footer*/
 .footer--main {
 	border-top: .25rem double rgba($primary, .25);
-	margin-bottom: $space--double;
+	margin-bottom: $space--main;
 	padding-top: $space--main;
 	overflow: hidden;
 }
@@ -178,7 +178,7 @@ a {
 
 /*portfolio page*/
 .project {
-	margin-bottom: $space--double;
+	margin-bottom: $space--medium;
 }
 
 .project__content, .project__image {
@@ -188,7 +188,7 @@ a {
 }
 
 .project__links {
-	margin-bottom: $space--double;
+	margin-bottom: $space--medium;
 }
 
 .project__content p:not(.project__sectionheader) {
@@ -242,7 +242,7 @@ a {
 
 /*blog index*/
 .post__individual {
-	margin-bottom: $space--double;
+	margin-bottom: $space--medium;
 	max-width: 40.625rem;
 }
 
@@ -258,7 +258,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-bottom: $space--double;
+	margin-bottom: $space--medium;
 }
 
 .pagination__older, .pagination__newer {
@@ -307,8 +307,8 @@ a {
 }
 
 .post__meta--individual {
-	margin-top: $space--negmain;
-	margin-bottom: $space--double
+	margin-top: $space--negmedium;
+	margin-bottom: $space--medium;
 }
 
 .pagination__older--post {
@@ -369,7 +369,7 @@ a {
 		margin-bottom: $space--main;
 		max-width: 40.625rem;
 		&:last-of-type {
-			margin-bottom: $space--double;
+			margin-bottom: 3rem;
 		}
 	}
 }
