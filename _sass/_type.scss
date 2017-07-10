@@ -21,6 +21,10 @@ p, li, a {
 	font-weight: 400;
 }
 
+footer p, footer a {
+	font-size: 1rem;
+}
+
 h1, h2, h3, h4, h5, .project-page-header, .footer-section-title, .list__title, .p--callout {
 	font-family: $type--main;
 	font-weight: 500;
