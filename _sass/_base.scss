@@ -15,8 +15,7 @@ img {
 
 h1 {
 	font-size: $fontsize--double;
-	font-family: $header-type;
-	font-weight: bold;
+	font-weight: 700;
 	line-height: $lineheight--small;
 	margin-bottom: $space--main;
 }
@@ -24,7 +23,6 @@ h1 {
 a {
 	border-bottom: .25rem solid rgba($callout, .4);
 	color: $primary;
-	font-family: $body-type;
 	font-size: $fontsize--main;
 	font-weight: 500;
 	line-height: $lineheight--main;
@@ -130,9 +128,12 @@ a {
 	position: relative;
 	p {
 		color: $bg;
-		font-size: $fontsize--medium;
 		margin-top: $space--main;
 		max-width: 45rem;
+	}
+	.p--callout {
+		margin-top: 0;
+		font-size: $fontsize--medium;
 	}
 }
 
@@ -145,6 +146,12 @@ a {
 	&::after {
 		top: .875rem;
 	}
+}
+
+.sectionheader--large {
+	font-size: 1.75rem;
+	font-weight: 700;
+	margin-bottom: $space--main;
 }
 
 
@@ -162,8 +169,8 @@ a {
 
 .footer__title {
 	color: $primary;
-	font-family: $header-type;
-	font-weight: 600;
+	font-family: $type--main;
+	font-weight: 500;
 	font-size: 1.2rem;
 	line-height: $lineheight--small;
 }
@@ -190,8 +197,9 @@ a {
 
 .project__sectionheader {
 	color: $primary;
-	font-family: $header-type;
+	font-family: $type--main;
 	font-size: $fontsize--large;
+	font-weight: 500;
 	line-height: $lineheight--small;
 	margin-bottom: 0;
 	margin-top: $space--medium;
@@ -239,7 +247,7 @@ a {
 }
 
 .post__meta {
-	font-size: $font-size--small;
+	font-size: $fontsize--small;
 }
 
 .post__link {
@@ -291,7 +299,7 @@ a {
 
 .post__title {
 	color: $primary;
-	font-family: $header-type;
+	font-family: $type--main;
 	font-size: $fontsize--large;
 	font-weight: 500;
 	margin-bottom: $space--medium;
@@ -374,7 +382,7 @@ a {
 	q {
 		color: $bg;
 		display: inline-block;
-		font-family: $body-type;
+		font-family: $type--main;
 		font-size: $fontsize--medium;
 		line-height: $lineheight--main;
 		max-width: 40.625rem;
@@ -383,7 +391,7 @@ a {
 
 .about__header {
 	color: $primary;
-	font-family: $header-type;
+	font-family: $type--main;
 	font-size: $fontsize--medium;
 	line-height: $lineheight--small;
 }
