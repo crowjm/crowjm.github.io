@@ -17,8 +17,7 @@ category: about
 		</div>
 		<div class="about__maincontent">
 			<div class="about__maintext">
-				<p>I'm a front end developer &amp; visual designer at <a href="http://www.ibm.com/design/">IBM Design</a>, where I work on enterprise level software. I spend most of my time at work conducting user research, designing, coding prototypes, and iterating.</p>
-				<p>I'm also a design mentor at <a href="https://www.bloc.io/">Bloc</a>. I meet 1:1 with students weekly to work through concepts, pair program, and run design critiques.</p>
+				<p>I'm a user experience developer at <a href="https://dockyard.com/">DockYard</a>.</p>
 				<p>I graduated from The Iron Yard's UI design program and have a degree in Communication Studies. While I come to design and development from a "non-traditional" background, <a href="http://www.jessecrow.com/2016/11/02/libarts-in-tech.html">my liberal arts education</a> helps me immensely.</p>
 				<p>Design and front end development are a perfect outlet for my analytical brain and love of making and communication. I enjoy thinking critically and creatively about how to best solve problems for users and designing, testing, and coding the solutions.</p>
 				<p>When not in front of the computer, you can find me crafting, practicing the banjo, reading, hiking, or eating tacos.</p>

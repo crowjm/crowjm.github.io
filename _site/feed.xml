@@ -6,8 +6,8 @@
 </description>
     <link>http://www.jessecrow.com/blog/</link>
     <atom:link href="http://www.jessecrow.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Jul 2017 08:22:43 -0500</pubDate>
-    <lastBuildDate>Tue, 11 Jul 2017 08:22:43 -0500</lastBuildDate>
+    <pubDate>Thu, 05 Oct 2017 22:09:11 -0400</pubDate>
+    <lastBuildDate>Thu, 05 Oct 2017 22:09:11 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -38,7 +38,7 @@
 	&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 13 Mar 2017 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 13 Mar 2017 00:00:00 -0400</pubDate>
         <link>http://www.jessecrow.com/blog/2017/03/13/animating-height.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2017/03/13/animating-height.html</guid>
         
@@ -58,7 +58,7 @@
 
 &lt;p&gt;If you have a &lt;a href=&quot;http://caniuse.com/#search=grid&quot;&gt;supported browser&lt;/a&gt;, you can see the grid in the CodePen above. I commented everything in the CSS to use as reference in future grid layouts. I can’t wait to build more.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 28 Feb 2017 00:00:00 -0600</pubDate>
+        <pubDate>Tue, 28 Feb 2017 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2017/02/28/learning-css-grid.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2017/02/28/learning-css-grid.html</guid>
         
@@ -94,7 +94,7 @@
 
 &lt;p&gt;Getting to prototype different animation-based solutions to solve a problem for users was a really fun experience and I hope I get to do more of it in the future! Animation is a wonderful way to help your users find their way in your product. 🎉&lt;/p&gt;
 </description>
-        <pubDate>Tue, 21 Feb 2017 00:00:00 -0600</pubDate>
+        <pubDate>Tue, 21 Feb 2017 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2017/02/21/wayfinding-with-animation.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2017/02/21/wayfinding-with-animation.html</guid>
         
@@ -119,7 +119,7 @@
 &lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
 </description>
-        <pubDate>Sun, 12 Feb 2017 00:00:00 -0600</pubDate>
+        <pubDate>Sun, 12 Feb 2017 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2017/02/12/learn-by-recreating.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2017/02/12/learn-by-recreating.html</guid>
         
@@ -168,7 +168,7 @@
 
 &lt;p&gt;Put thought into the colors, type, and projects you use in your portfolio. Dedicate time to blog. If you do so, your personal site will be an accurate representation of who you are and you’ll be well prepared for the post-graduation job search.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+        <pubDate>Wed, 28 Dec 2016 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2016/12/28/blogging-and-branding-basics.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2016/12/28/blogging-and-branding-basics.html</guid>
         
@@ -209,7 +209,7 @@
 
 &lt;p&gt;So, Mama Millsaps, here’s to you for preparing me for a career I never thought I would have. Go Majors.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 02 Nov 2016 00:00:00 -0500</pubDate>
+        <pubDate>Wed, 02 Nov 2016 00:00:00 -0400</pubDate>
         <link>http://www.jessecrow.com/blog/2016/11/02/libarts-in-tech.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2016/11/02/libarts-in-tech.html</guid>
         
@@ -328,7 +328,7 @@ round($random-number)&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;I learned a lot about refactoring and some Sass super powers making this demo and crafting the corresponding talk. And it let me get out of my comfort zone and practice my public speaking skills. Thanks for having me, ATXSass!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 31 Oct 2016 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 31 Oct 2016 00:00:00 -0400</pubDate>
         <link>http://www.jessecrow.com/blog/2016/10/31/sassy-guessing-game.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2016/10/31/sassy-guessing-game.html</guid>
         
@@ -345,7 +345,7 @@ round($random-number)&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;I think kids learning how to code is important, but not just because of the skill itself. Learning to code is so much more–it teaches skills that are useful in any subject, from language arts, to social studies, to science. Learning to code improves problem solving and critical thinking skills. I encouraged the students who understood a concept to help teach their peers who didn’t understand it yet, which helped promote teamwork. We also talked a lot about frustrations: there’s a lot of frustrations that come along with coding, but learning how to manage them and channel the frustration into solving the problem is an invaluable skill. &lt;/p&gt;
 </description>
-        <pubDate>Wed, 20 Jan 2016 00:00:00 -0600</pubDate>
+        <pubDate>Wed, 20 Jan 2016 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2016/01/20/kids-classes.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2016/01/20/kids-classes.html</guid>
         
@@ -360,7 +360,7 @@ round($random-number)&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;To stay on track, I made a list of goals I want to accomplish this year. You can find them over on my GitHub &lt;a href=&quot;https://github.com/crowjm/2016-goals&quot;&gt;here&lt;/a&gt;. I’ve started breaking things down into managable steps and I think hosting my goals on GitHub will be a good way to easily edit and add things, stay on track/be held accountable, and get feedback on resources, etc. &lt;/p&gt;
 </description>
-        <pubDate>Mon, 11 Jan 2016 00:00:00 -0600</pubDate>
+        <pubDate>Mon, 11 Jan 2016 00:00:00 -0500</pubDate>
         <link>http://www.jessecrow.com/blog/2016/01/11/goals.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2016/01/11/goals.html</guid>
         
@@ -375,7 +375,7 @@ round($random-number)&lt;/code&gt;&lt;/pre&gt;
 
 &lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify%3Auser%3Ajessecrow%3Aplaylist%3A5hc63AvAHoiSAQ71AolWNg&quot; width=&quot;300&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Mon, 12 Oct 2015 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 12 Oct 2015 00:00:00 -0400</pubDate>
         <link>http://www.jessecrow.com/blog/2015/10/12/desk-dancing-playlist.html</link>
         <guid isPermaLink="true">http://www.jessecrow.com/blog/2015/10/12/desk-dancing-playlist.html</guid>
         
